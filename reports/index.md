@@ -4,9 +4,7 @@
 
 <!-- AUTO-GENERATED LIST START -->
 
-<!-- 示例条目（Routine 自动维护）：
-- [2026-05-13 周三](./2026-05-13.md) — 32 篇 — 关键词：Anthropic blackmail / Google zero-day / Ilya $70亿 / SAP Sapphire
--->
+- [2026-05-13 周三](./2026-05-13.md) — 35 篇 — 关键词：Anthropic $950B估值 / Claude for Legal / Project Glasswing / SAP Autonomous Enterprise / Isomorphic Labs $2.1B / OpenAI Deployment Company
 
 <!-- AUTO-GENERATED LIST END -->
 
