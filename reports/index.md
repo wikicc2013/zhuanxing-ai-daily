@@ -4,9 +4,7 @@
 
 <!-- AUTO-GENERATED LIST START -->
 
-<!-- 示例条目（Routine 自动维护）：
-- [2026-05-13 周三](./2026-05-13.md) — 32 篇 — 关键词：Anthropic blackmail / Google zero-day / Ilya $70亿 / SAP Sapphire
--->
+- [2026-05-14 周四](./2026-05-14.md) — 37 篇 — 关键词：Anthropic超越OpenAI企业客户 / EU AI Act延期 / xAI燃气轮机诉讼 / Claude for Legal / OpenAI DeployCo
 
 <!-- AUTO-GENERATED LIST END -->
 
