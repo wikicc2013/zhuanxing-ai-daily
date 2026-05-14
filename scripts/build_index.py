@@ -225,6 +225,22 @@ def parse_articles(content: str, date_str: str) -> list:
     )
     for m in top5_pattern.finditer(top5_section):
         rank, title, summary, meaning = m.groups()
+        summary_text = (summary or "").strip()
+
+        # ⭐ 修复 #1:Top 5 也提取链接(多种格式)
+        url = ""
+        url_match = re.search(r'\*\*链接\*\*\s*[\|｜]\s*(https?://\S+)', summary_text)
+        if url_match:
+            url = url_match.group(1).rstrip('.,)]')
+        else:
+            md_link = re.search(r'\[([^\]]+)\]\((https?://[^\)]+)\)', summary_text)
+            if md_link:
+                url = md_link.group(2)
+            else:
+                bare_url = re.search(r'https?://[^\s)）】」\]"\'<>]+', summary_text)
+                if bare_url:
+                    url = bare_url.group(0).rstrip('.,)]》。、，；;')
+
         article = {
             "id": f"{date_str.replace('-', '')}-T{rank.zfill(2)}",
             "date": date_str,
@@ -232,11 +248,12 @@ def parse_articles(content: str, date_str: str) -> list:
             "is_tier0": False,
             "dimension": "🌟 Top 5",
             "title": title.strip(),
-            "summary": (summary or "").strip()[:300],
-            "meaning": (meaning or "").strip()[:200] if meaning else "",
+            # ⭐ 修复 #2:摘要从 300 字符增加到 600 字符(扩大 1 倍)
+            "summary": summary_text[:600],
+            "meaning": (meaning or "").strip()[:400] if meaning else "",  # meaning 也从 200 加到 400
             "source": "",
             "quality_score": 8,
-            "url": "",
+            "url": url,
             "companies": extract_companies(title + " " + (summary or "")),
             "keywords": [],
         }
@@ -291,24 +308,38 @@ def parse_articles(content: str, date_str: str) -> list:
                 r'📌\s*\*?\*?这意味着[::]?\*?\*?\s*[::]?\s*([^📌\n#]+?)(?=\n|---|$)',
                 chunk
             )
+            # ⭐ meaning 也保留完整,不截断
             meaning = meaning_match.group(1).strip().rstrip('*。.') if meaning_match else ""
 
             # 提取主要内容(去除元数据行,留正文)
             body = chunk.split('\n')
             content_lines = []
-            in_content = False
             for line in body[1:]:  # 跳过标题行
-                if re.match(r'^[-*]\s*\*\*[来源时间质量分维度]', line):
+                if re.match(r'^[-*]\s*\*\*[来源时间质量分维度链接]', line):
                     continue
                 if line.startswith('📌'):
                     break
                 if line.strip():
                     content_lines.append(line.strip())
-            summary = ' '.join(content_lines)[:400]
+            # ⭐ 修复 #2:摘要从 400 字符增加到 800 字符(扩大 1 倍)
+            summary = ' '.join(content_lines)[:800]
 
-            # 提取链接
+            # ⭐ 修复 #1:提取链接——支持多种格式
+            # 优先级 1: **链接** | URL 这种显式标注
+            url = ""
             url_match = re.search(r'\*\*链接\*\*\s*[\|｜]\s*(https?://\S+)', chunk)
-            url = url_match.group(1) if url_match else ""
+            if url_match:
+                url = url_match.group(1).rstrip('.,)]')
+            else:
+                # 优先级 2: markdown 链接格式 [text](url)
+                md_link = re.search(r'\[([^\]]+)\]\((https?://[^\)]+)\)', chunk)
+                if md_link:
+                    url = md_link.group(2)
+                else:
+                    # 优先级 3: 裸 URL 直接出现
+                    bare_url = re.search(r'https?://[^\s)）】」\]"\'<>]+', chunk)
+                    if bare_url:
+                        url = bare_url.group(0).rstrip('.,)]》。、，；;')
 
             article = {
                 "id": f"{date_str.replace('-', '')}-{str(counter).zfill(3)}",
