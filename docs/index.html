@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>转型有术 · 企业 AI 阅读库</title>
+<title>响哥 AI 早报</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -949,6 +949,83 @@ mark {
   color: var(--ink-3);
 }
 
+/* 🆕 收藏视图的标签快速筛选行 */
+.fav-tags-bar {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  padding: 10px 16px;
+  margin-top: -1px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.fav-tags-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+
+.fav-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 1;
+}
+
+.fav-tag-chip {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  padding: 3px 11px;
+  border-radius: 13px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.12s ease;
+  white-space: nowrap;
+}
+
+.fav-tag-chip:hover {
+  background: var(--bg-3);
+  border-color: var(--accent-2);
+  color: var(--ink);
+}
+
+.fav-tag-chip.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.fav-tag-chip .chip-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65em;
+  opacity: 0.6;
+}
+
+.fav-tag-chip.fav-tag-clear {
+  background: transparent;
+  color: var(--ink-3);
+  border-color: var(--line);
+  font-size: 0.72rem;
+}
+
+.fav-tag-chip.fav-tag-clear:hover {
+  background: var(--sig-weak);
+  color: white;
+  border-color: var(--sig-weak);
+}
+
 /* 按"早报日期"分组 */
 .fav-day-group {
   margin-bottom: 24px;
@@ -1059,8 +1136,8 @@ mark {
 <header>
   <div class="topbar">
     <div class="brand">
-      <span class="logo">转型有术</span>
-      <span class="tag">企业 AI 阅读库</span>
+      <span class="logo">响哥</span>
+      <span class="tag">AI 早报</span>
     </div>
     <div class="searchbox">
       <input type="text" id="search-input" placeholder="搜索 公司 / 关键词 / 主题...">
@@ -1591,6 +1668,9 @@ function renderFavoritesView() {
     collected = collected.filter(a => a._collectedAt >= monthAgo);
   }
 
+  // 🆕 在按 myTag 筛之前, 保存一份用于计算 chip 计数
+  const collectedBeforeTagFilter = [...collected];
+
   // 按个人标签筛选
   if (activeFilters.myTag) {
     collected = collected.filter(a => (a._fav.tags || []).includes(activeFilters.myTag));
@@ -1621,6 +1701,39 @@ function renderFavoritesView() {
 
   // 工具栏 HTML
   const rangeLabel = {today: '今天', week: '本周(7 天)', month: '本月(30 天)', all: '全部'}[activeFilters.favRange];
+
+  // 🆕 计算"当前所选 favRange 范围内"的所有可见标签
+  // 用按 myTag 筛之前的列表算计数(否则只能看到当前选的标签)
+  const visibleTagCounter = {};
+  for (const a of collectedBeforeTagFilter) {
+    for (const t of (a._fav && a._fav.tags) || []) {
+      visibleTagCounter[t] = (visibleTagCounter[t] || 0) + 1;
+    }
+  }
+  // 如果当前正在按某 myTag 筛选,即使这个标签在当前范围 0 次,也要显示
+  if (activeFilters.myTag && !visibleTagCounter[activeFilters.myTag]) {
+    visibleTagCounter[activeFilters.myTag] = 0;
+  }
+  const visibleTags = Object.entries(visibleTagCounter).sort((a, b) => b[1] - a[1]);
+
+  // 渲染标签 chip 行(如果当前范围内有标签)
+  let tagsBarHtml = '';
+  if (visibleTags.length > 0) {
+    const chips = visibleTags.map(([tag, count]) => {
+      const isActive = activeFilters.myTag === tag;
+      return `<button class="fav-tag-chip ${isActive ? 'active' : ''}" data-favtag="${escapeHtml(tag)}">#${escapeHtml(tag)} <span class="chip-count">${count}</span></button>`;
+    }).join('');
+    const clearBtn = activeFilters.myTag
+      ? `<button class="fav-tag-chip fav-tag-clear" data-favtag="">✕ 清除筛选</button>`
+      : '';
+    tagsBarHtml = `
+      <div class="fav-tags-bar">
+        <span class="fav-tags-label">按标签:</span>
+        <div class="fav-tags-list">${chips}${clearBtn}</div>
+      </div>
+    `;
+  }
+
   const toolbarHtml = `
     <div class="favorites-toolbar">
       <span class="fav-summary">${rangeLabel}收藏:</span>
@@ -1634,6 +1747,7 @@ function renderFavoritesView() {
         📥 导出 Markdown
       </button>
     </div>
+    ${tagsBarHtml}
   `;
 
   // 空状态
@@ -1649,6 +1763,7 @@ function renderFavoritesView() {
       </div>
     `;
     bindFavRangeTabs();
+    bindFavTagChips();
     bindExportBtn(collected, sortedDates, groups);
     renderActiveFiltersBar();
     return;
@@ -1702,6 +1817,7 @@ function renderFavoritesView() {
   });
 
   bindFavRangeTabs();
+  bindFavTagChips();
   bindExportBtn(collected, sortedDates, groups);
   renderActiveFiltersBar();
 }
@@ -1710,6 +1826,25 @@ function bindFavRangeTabs() {
   document.querySelectorAll('.fav-range-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       activeFilters.favRange = tab.dataset.favrange;
+      renderArticles();
+    });
+  });
+}
+
+function bindFavTagChips() {
+  document.querySelectorAll('.fav-tag-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const tag = chip.dataset.favtag;
+      if (!tag) {
+        // 清除筛选
+        activeFilters.myTag = null;
+      } else if (activeFilters.myTag === tag) {
+        // 已选 → 取消
+        activeFilters.myTag = null;
+      } else {
+        activeFilters.myTag = tag;
+      }
+      renderActiveFilterStates();
       renderArticles();
     });
   });
@@ -1912,7 +2047,7 @@ function exportToMarkdown(articles, sortedDates, groups) {
     });
   }
 
-  md += `\n*由「转型有术 · 企业 AI 阅读库」自动生成 · ${exportDate}*\n`;
+  md += `\n*由「响哥 AI 早报」自动生成 · ${exportDate}*\n`;
 
   // 触发下载
   const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
