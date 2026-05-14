@@ -4,7 +4,7 @@
 
 <!-- AUTO-GENERATED LIST START -->
 
-- [2026-05-14 周四](./2026-05-14.md) — 37 篇 — 关键词：Anthropic超越OpenAI企业客户 / EU AI Act延期 / xAI燃气轮机诉讼 / Claude for Legal / OpenAI DeployCo
+- [2026-05-14 周四](./2026-05-14.md) — 41 篇 — 关键词：SAP Sapphire自主企业 / Anthropic超越OpenAI企业客户 / Deloitte仅21%成熟Agent治理 / OpenAI DeployCo驻场模式 / EU AI Act 8月截止仍有效
 
 <!-- AUTO-GENERATED LIST END -->
 
