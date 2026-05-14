@@ -768,6 +768,75 @@ mark {
   font-style: italic;
 }
 
+/* 🆕 已有标签快速选择区 */
+.existing-tags-area {
+  margin-top: 14px;
+  padding: 10px 12px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.existing-tags-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  margin-bottom: 8px;
+  letter-spacing: 0.05em;
+}
+
+.existing-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.existing-tag-chip {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: all 0.12s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  user-select: none;
+}
+
+.existing-tag-chip::before {
+  content: "#";
+  color: var(--ink-4);
+  font-size: 0.85em;
+}
+
+.existing-tag-chip:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.existing-tag-chip:hover::before { color: white; opacity: 0.6; }
+
+.existing-tag-chip.selected {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.existing-tag-chip.selected::before { color: white; opacity: 0.6; }
+
+.existing-tag-chip .count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65em;
+  opacity: 0.6;
+}
+
 .bookmark-modal-actions {
   display: flex;
   gap: 8px;
@@ -1092,6 +1161,12 @@ mark {
     <label for="bm-tags">个人标签(可选,逗号分隔)</label>
     <input type="text" id="bm-tags" placeholder="客户A, 竞品观察, 重点关注">
     <div class="tag-hint">不需要写 # 号,直接写标签名</div>
+
+    <!-- 🆕 已有标签快速选择区(自动列出你以前用过的) -->
+    <div class="existing-tags-area" id="existing-tags-area" style="display:none;">
+      <div class="existing-tags-label">点击下方标签快速添加:</div>
+      <div class="existing-tags-list" id="existing-tags-list"></div>
+    </div>
 
     <div class="bookmark-modal-actions">
       <button class="danger" id="bm-remove" style="display:none;">取消收藏</button>
@@ -1673,8 +1748,60 @@ function openBookmarkModal(articleId) {
   document.getElementById('bm-tags').value = fav ? (fav.tags || []).join(', ') : '';
   document.getElementById('bm-remove').style.display = fav ? 'inline-block' : 'none';
   document.getElementById('bm-save').textContent = fav ? '更新' : '保存收藏';
+
+  // 🆕 渲染历史标签区(从所有已收藏文章里提取过去用过的标签)
+  renderExistingTagsInModal(fav ? (fav.tags || []) : []);
+
   document.getElementById('bm-overlay').classList.add('open');
   setTimeout(() => document.getElementById('bm-note').focus(), 50);
+}
+
+// 🆕 渲染收藏面板里的"已有标签快速选择"区
+function renderExistingTagsInModal(currentSelectedTags) {
+  const allTags = getAllMyTags();  // 已有的全部个人标签 + 出现次数
+  const area = document.getElementById('existing-tags-area');
+  const list = document.getElementById('existing-tags-list');
+
+  if (allTags.length === 0) {
+    // 没有任何历史标签 → 隐藏整个区域
+    area.style.display = 'none';
+    return;
+  }
+
+  area.style.display = 'block';
+  list.innerHTML = '';
+
+  // 当前已经在 input 里的标签
+  const selectedSet = new Set(currentSelectedTags.map(t => t.toLowerCase()));
+
+  for (const [tag, count] of allTags) {
+    const chip = document.createElement('span');
+    chip.className = 'existing-tag-chip';
+    if (selectedSet.has(tag.toLowerCase())) chip.classList.add('selected');
+    chip.innerHTML = `${escapeHtml(tag)} <span class="count">${count}</span>`;
+    chip.dataset.tag = tag;
+
+    chip.addEventListener('click', () => {
+      const input = document.getElementById('bm-tags');
+      const current = input.value.split(/[,，]/).map(t => t.trim()).filter(Boolean);
+      const tagLower = tag.toLowerCase();
+      const idx = current.findIndex(t => t.toLowerCase() === tagLower);
+
+      if (idx >= 0) {
+        // 已选 → 移除
+        current.splice(idx, 1);
+        chip.classList.remove('selected');
+      } else {
+        // 未选 → 添加
+        current.push(tag);
+        chip.classList.add('selected');
+      }
+
+      input.value = current.join(', ');
+    });
+
+    list.appendChild(chip);
+  }
 }
 
 function closeBookmarkModal() {
@@ -2014,6 +2141,15 @@ function setupEvents() {
       e.preventDefault();
       saveBookmarkFromModal();
     }
+  });
+  // 🆕 用户手动输入标签时,实时刷新历史标签 chip 的选中状态
+  document.getElementById('bm-tags').addEventListener('input', () => {
+    const currentTags = document.getElementById('bm-tags').value
+      .split(/[,，]/).map(t => t.trim().toLowerCase()).filter(Boolean);
+    document.querySelectorAll('.existing-tag-chip').forEach(chip => {
+      const tag = chip.dataset.tag.toLowerCase();
+      chip.classList.toggle('selected', currentTags.includes(tag));
+    });
   });
 }
 
