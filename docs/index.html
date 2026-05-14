@@ -651,6 +651,338 @@ mark {
 ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--ink-4); }
 
+/* ═════ 收藏按钮 ═════ */
+.bookmark-btn {
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--ink-3);
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.bookmark-btn:hover {
+  background: var(--bg-2);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.bookmark-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.bookmark-btn.active:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+/* ═════ 收藏 modal 面板 ═════ */
+.bookmark-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 17, 13, 0.45);
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  backdrop-filter: blur(3px);
+}
+
+.bookmark-modal-overlay.open { display: flex; }
+
+.bookmark-modal {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  max-width: 480px;
+  width: 100%;
+  padding: 24px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.bookmark-modal h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.bookmark-modal .bm-target {
+  font-size: 0.83rem;
+  color: var(--ink-3);
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line-2);
+  line-height: 1.4;
+}
+
+.bookmark-modal label {
+  display: block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  margin-bottom: 6px;
+  margin-top: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.bookmark-modal textarea,
+.bookmark-modal input[type="text"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  color: var(--ink);
+  background: var(--bg);
+  outline: none;
+  resize: vertical;
+}
+
+.bookmark-modal textarea:focus,
+.bookmark-modal input[type="text"]:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.1);
+}
+
+.bookmark-modal textarea {
+  min-height: 60px;
+  font-family: 'Noto Serif SC', serif;
+  line-height: 1.55;
+}
+
+.bookmark-modal .tag-hint {
+  font-size: 0.7rem;
+  color: var(--ink-4);
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.bookmark-modal-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 22px;
+  justify-content: flex-end;
+}
+
+.bookmark-modal-actions button {
+  padding: 7px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  color: var(--ink-2);
+  transition: all 0.15s ease;
+}
+
+.bookmark-modal-actions button:hover { background: var(--bg-3); }
+
+.bookmark-modal-actions .primary {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+.bookmark-modal-actions .primary:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.bookmark-modal-actions .danger {
+  color: var(--sig-weak);
+  border-color: var(--sig-weak);
+  background: transparent;
+}
+
+.bookmark-modal-actions .danger:hover {
+  background: var(--sig-weak);
+  color: white;
+}
+
+/* ═════ 收藏视图的按日分组 ═════ */
+.favorites-toolbar {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.83rem;
+}
+
+.fav-range-tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.fav-range-tab {
+  background: transparent;
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-2);
+}
+
+.fav-range-tab.active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+.fav-range-tab:hover:not(.active) { background: var(--bg-3); }
+
+.fav-export-btn {
+  margin-left: auto;
+  background: var(--accent);
+  color: white;
+  border: 1px solid var(--accent);
+  padding: 5px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fav-export-btn:hover { background: var(--accent-2); border-color: var(--accent-2); }
+
+.fav-export-btn:disabled {
+  background: var(--bg-3);
+  color: var(--ink-4);
+  border-color: var(--line);
+  cursor: not-allowed;
+}
+
+.fav-summary {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-3);
+}
+
+/* 按"早报日期"分组 */
+.fav-day-group {
+  margin-bottom: 24px;
+}
+
+.fav-day-header {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 8px 0 6px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid var(--line);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.fav-day-header .day-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-3);
+  font-weight: 400;
+}
+
+/* 收藏卡片上的备注 + 标签显示 */
+.article-card .my-note {
+  background: rgba(184, 134, 11, 0.08);
+  border-left: 3px solid var(--accent-2);
+  padding: 6px 12px;
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+
+.article-card .my-note::before {
+  content: "💭 ";
+}
+
+.article-card .my-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.article-card .my-tag {
+  background: var(--bg-3);
+  border: 1px solid var(--line);
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.article-card .my-tag::before { content: "#"; opacity: 0.5; }
+.article-card .my-tag:hover { background: var(--accent); color: white; border-color: var(--accent); }
+
+.fav-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-3);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}
+
+.fav-empty::before {
+  content: "🔖";
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.fav-empty .tip {
+  margin-top: 12px;
+  color: var(--ink-4);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+/* Toast 提示 */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: var(--bg);
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  z-index: 3000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.toast.show { opacity: 1; }
+
 </style>
 </head>
 <body>
@@ -682,6 +1014,10 @@ mark {
         <span class="filter-label">📚 全部</span>
         <span class="filter-count" id="count-all">-</span>
       </li>
+      <li class="filter-item" data-view="favorites">
+        <span class="filter-label">🔖 我的收藏</span>
+        <span class="filter-count" id="count-favorites">0</span>
+      </li>
       <li class="filter-item" data-view="top5">
         <span class="filter-label">⭐ Top 5(每日重磅)</span>
         <span class="filter-count" id="count-top5">-</span>
@@ -694,6 +1030,11 @@ mark {
         <span class="filter-label">🗓 最近 7 天</span>
         <span class="filter-count" id="count-recent7">-</span>
       </li>
+    </ul>
+
+    <h4>我的标签</h4>
+    <ul class="filter-list" id="mytag-list">
+      <li class="fav-empty" style="padding: 16px 8px; font-size: 0.75rem;">尚无个人标签<br><span style="opacity:0.7;">收藏时加 #标签 就会出现在这里</span></li>
     </ul>
 
     <h4>按维度</h4>
@@ -739,18 +1080,108 @@ mark {
   </div>
 </div>
 
+<!-- 🔖 收藏面板 modal -->
+<div class="bookmark-modal-overlay" id="bm-overlay">
+  <div class="bookmark-modal" id="bm-modal">
+    <h3>🔖 加入收藏</h3>
+    <div class="bm-target" id="bm-target">--</div>
+
+    <label for="bm-note">备注(可选)</label>
+    <textarea id="bm-note" placeholder="为什么收藏这条?用一句话写下你的想法..."></textarea>
+
+    <label for="bm-tags">个人标签(可选,逗号分隔)</label>
+    <input type="text" id="bm-tags" placeholder="客户A, 竞品观察, 重点关注">
+    <div class="tag-hint">不需要写 # 号,直接写标签名</div>
+
+    <div class="bookmark-modal-actions">
+      <button class="danger" id="bm-remove" style="display:none;">取消收藏</button>
+      <button id="bm-cancel">关闭</button>
+      <button class="primary" id="bm-save">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast 提示 -->
+<div class="toast" id="toast"></div>
+
 <script>
 // ═══════════════════════════════════════════════════════════════════
 // 数据加载
 // ═══════════════════════════════════════════════════════════════════
 let DATA = null;
 let activeFilters = {
-  view: 'all',           // all / top5 / tier0 / recent7
+  view: 'all',           // all / favorites / top5 / tier0 / recent7
   dimension: null,
   company: null,
+  myTag: null,           // 个人标签筛选
   searchTerm: '',
   sort: 'date-desc',
+  favRange: 'all',       // 收藏视图的时间范围: today / week / month / all
 };
+
+// ═══════════════════════════════════════════════════════════════════
+// 收藏管理(localStorage)
+// ═══════════════════════════════════════════════════════════════════
+const FAV_STORAGE_KEY = 'zhuanxing-favorites';
+
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAV_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) {
+    console.error('加载收藏失败:', e);
+    return {};
+  }
+}
+
+function saveFavorites(favorites) {
+  try {
+    localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(favorites));
+    return true;
+  } catch (e) {
+    console.error('保存收藏失败:', e);
+    showToast('保存失败:存储空间已满');
+    return false;
+  }
+}
+
+let FAVORITES = loadFavorites();
+
+function isFavorited(articleId) {
+  return !!FAVORITES[articleId];
+}
+
+function addFavorite(articleId, note = '', tags = []) {
+  FAVORITES[articleId] = {
+    collected_at: new Date().toISOString(),
+    note: note.trim(),
+    tags: tags.map(t => t.trim()).filter(Boolean),
+  };
+  saveFavorites(FAVORITES);
+}
+
+function updateFavorite(articleId, note, tags) {
+  if (FAVORITES[articleId]) {
+    FAVORITES[articleId].note = note.trim();
+    FAVORITES[articleId].tags = tags.map(t => t.trim()).filter(Boolean);
+    saveFavorites(FAVORITES);
+  }
+}
+
+function removeFavorite(articleId) {
+  delete FAVORITES[articleId];
+  saveFavorites(FAVORITES);
+}
+
+function getAllMyTags() {
+  const counter = {};
+  for (const id in FAVORITES) {
+    for (const t of FAVORITES[id].tags || []) {
+      counter[t] = (counter[t] || 0) + 1;
+    }
+  }
+  return Object.entries(counter).sort((a, b) => b[1] - a[1]);
+}
 
 const DIM_COLOR_MAP = {
   '🚀 产品':      'product',
@@ -793,6 +1224,7 @@ function init() {
   renderViewCounts();
   renderDimensionList();
   renderCompanyList();
+  renderMyTagList();
   renderArticles();
   setupEvents();
 }
@@ -805,6 +1237,7 @@ function renderViewCounts() {
   document.getElementById('count-all').textContent = DATA.articles.length;
   document.getElementById('count-top5').textContent = DATA.articles.filter(a => a.is_top5).length;
   document.getElementById('count-tier0').textContent = DATA.articles.filter(a => a.is_tier0).length;
+  document.getElementById('count-favorites').textContent = Object.keys(FAVORITES).length;
 
   // 最近 7 天
   if (DATA.reports.length > 0) {
@@ -813,6 +1246,37 @@ function renderViewCounts() {
     const recent7 = DATA.articles.filter(a => new Date(a.date) >= cutoff).length;
     document.getElementById('count-recent7').textContent = recent7;
   }
+}
+
+function renderMyTagList() {
+  const list = document.getElementById('mytag-list');
+  const tags = getAllMyTags();
+  if (tags.length === 0) {
+    list.innerHTML = '<li class="fav-empty" style="padding: 16px 8px; font-size: 0.75rem;">尚无个人标签<br><span style="opacity:0.7;">收藏时加 #标签 就会出现在这里</span></li>';
+    return;
+  }
+  list.innerHTML = '';
+  for (const [tag, count] of tags) {
+    const li = document.createElement('li');
+    li.className = 'filter-item';
+    li.dataset.mytag = tag;
+    if (activeFilters.myTag === tag) li.classList.add('active');
+    li.innerHTML = `
+      <span class="filter-label">#${tag}</span>
+      <span class="filter-count">${count}</span>
+    `;
+    list.appendChild(li);
+  }
+  // 绑事件
+  list.querySelectorAll('[data-mytag]').forEach(el => {
+    el.addEventListener('click', () => {
+      const t = el.dataset.mytag;
+      activeFilters.myTag = (activeFilters.myTag === t) ? null : t;
+      activeFilters.view = 'favorites';  // 点 myTag 自动切到收藏视图
+      renderActiveFilterStates();
+      renderArticles();
+    });
+  });
 }
 
 function renderDimensionList() {
@@ -855,6 +1319,12 @@ function renderCompanyList() {
 // 主要的文章列表渲染逻辑
 // ═══════════════════════════════════════════════════════════════════
 function renderArticles() {
+  // ⭐ 特殊路径:收藏视图(独立分支,带按日聚合 + 时间范围)
+  if (activeFilters.view === 'favorites') {
+    renderFavoritesView();
+    return;
+  }
+
   let articles = [...DATA.articles];
 
   // 视图筛选
@@ -918,6 +1388,24 @@ function renderArticles() {
   // 卡片点击事件
   listEl.querySelectorAll('.article-card').forEach((el, idx) => {
     el.addEventListener('click', (e) => {
+      // 点收藏按钮 → 打开收藏面板
+      if (e.target.classList.contains('bookmark-btn') || e.target.closest('.bookmark-btn')) {
+        e.stopPropagation();
+        const btn = e.target.classList.contains('bookmark-btn') ? e.target : e.target.closest('.bookmark-btn');
+        const id = btn.dataset.bookmarkId;
+        openBookmarkModal(id);
+        return;
+      }
+      // 点我的标签 → 切换到收藏视图 + 该标签筛选
+      if (e.target.classList.contains('my-tag')) {
+        e.stopPropagation();
+        const tag = e.target.dataset.mytag;
+        activeFilters.view = 'favorites';
+        activeFilters.myTag = tag;
+        renderActiveFilterStates();
+        renderArticles();
+        return;
+      }
       // 如果点的是公司 chip,改成筛选
       if (e.target.classList.contains('company-chip')) {
         e.stopPropagation();
@@ -941,10 +1429,24 @@ function renderCard(a) {
   const isTop5 = a.is_top5;
   const isTier0 = a.is_tier0;
   const hl = (s) => highlight(s, activeFilters.searchTerm);
+  const fav = FAVORITES[a.id];
+  const isFav = !!fav;
 
   let companyChips = (a.companies || []).slice(0, 6).map(c =>
     `<span class="company-chip">${c}</span>`
   ).join('');
+
+  // 个人备注 + 标签(仅已收藏的文章显示)
+  let myNoteHtml = '';
+  if (isFav && fav.note) {
+    myNoteHtml = `<div class="my-note">${escapeHtml(fav.note)}</div>`;
+  }
+  let myTagsHtml = '';
+  if (isFav && fav.tags && fav.tags.length > 0) {
+    myTagsHtml = '<div class="my-tags">' +
+      fav.tags.map(t => `<span class="my-tag" data-mytag="${escapeHtml(t)}">${escapeHtml(t)}</span>`).join('') +
+      '</div>';
+  }
 
   return `
     <article class="article-card" data-id="${a.id}">
@@ -954,10 +1456,13 @@ function renderCard(a) {
         ${isTier0 ? '<span class="tier0-flag">TIER 0</span>' : ''}
         <span class="dim-tag dim-${dimClass}">${a.dimension || ''}</span>
         <span class="quality">${a.quality_score}/8</span>
+        <button class="bookmark-btn ${isFav ? 'active' : ''}" data-bookmark-id="${a.id}" title="${isFav ? '已收藏(点击编辑)' : '加入收藏'}">${isFav ? '🔖' : '🔖'}</button>
       </div>
       <h3 class="article-title">${hl(a.title)}</h3>
       ${a.summary ? `<div class="article-summary">${hl(a.summary)}</div>` : ''}
       ${a.meaning ? `<div class="article-meaning">${hl(a.meaning)}</div>` : ''}
+      ${myNoteHtml}
+      ${myTagsHtml}
       <div class="article-footer">
         ${companyChips}
         ${a.source ? `<span class="source-line">来源:${a.source}</span>` : ''}
@@ -965,6 +1470,347 @@ function renderCard(a) {
       </div>
     </article>
   `;
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 🔖 收藏视图(按"收藏日期"+"原文早报日期"双维度组织)
+// ═══════════════════════════════════════════════════════════════════
+function renderFavoritesView() {
+  const listEl = document.getElementById('article-list');
+  const titleEl = document.getElementById('content-title');
+  const metaEl = document.getElementById('content-meta');
+
+  titleEl.textContent = '🔖 我的收藏';
+
+  // 把所有收藏的 article 取出来,附加收藏元数据
+  let collected = [];
+  for (const id in FAVORITES) {
+    const article = DATA.articles.find(a => a.id === id);
+    if (article) {
+      collected.push({
+        ...article,
+        _fav: FAVORITES[id],
+        _collectedAt: new Date(FAVORITES[id].collected_at),
+      });
+    }
+  }
+
+  // 按"收藏时间"范围筛选
+  const now = new Date();
+  const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const weekAgo = new Date(todayStart.getTime() - 6 * 86400000);
+  const monthAgo = new Date(todayStart.getTime() - 29 * 86400000);
+
+  if (activeFilters.favRange === 'today') {
+    collected = collected.filter(a => a._collectedAt >= todayStart);
+  } else if (activeFilters.favRange === 'week') {
+    collected = collected.filter(a => a._collectedAt >= weekAgo);
+  } else if (activeFilters.favRange === 'month') {
+    collected = collected.filter(a => a._collectedAt >= monthAgo);
+  }
+
+  // 按个人标签筛选
+  if (activeFilters.myTag) {
+    collected = collected.filter(a => (a._fav.tags || []).includes(activeFilters.myTag));
+  }
+
+  // 搜索过滤
+  if (activeFilters.searchTerm) {
+    const term = activeFilters.searchTerm.toLowerCase();
+    collected = collected.filter(a =>
+      a.title.toLowerCase().includes(term) ||
+      (a.summary || '').toLowerCase().includes(term) ||
+      (a.meaning || '').toLowerCase().includes(term) ||
+      (a._fav.note || '').toLowerCase().includes(term) ||
+      (a._fav.tags || []).some(t => t.toLowerCase().includes(term)) ||
+      a.companies.some(c => c.toLowerCase().includes(term))
+    );
+  }
+
+  // 按"原文早报日期"分组(降序)
+  const groups = {};
+  for (const a of collected) {
+    if (!groups[a.date]) groups[a.date] = [];
+    groups[a.date].push(a);
+  }
+  const sortedDates = Object.keys(groups).sort((a, b) => b.localeCompare(a));
+
+  metaEl.textContent = `共 ${collected.length} 篇 · 来自 ${sortedDates.length} 份早报`;
+
+  // 工具栏 HTML
+  const rangeLabel = {today: '今天', week: '本周(7 天)', month: '本月(30 天)', all: '全部'}[activeFilters.favRange];
+  const toolbarHtml = `
+    <div class="favorites-toolbar">
+      <span class="fav-summary">${rangeLabel}收藏:</span>
+      <div class="fav-range-tabs">
+        <button class="fav-range-tab ${activeFilters.favRange === 'today' ? 'active' : ''}" data-favrange="today">今天</button>
+        <button class="fav-range-tab ${activeFilters.favRange === 'week' ? 'active' : ''}" data-favrange="week">本周</button>
+        <button class="fav-range-tab ${activeFilters.favRange === 'month' ? 'active' : ''}" data-favrange="month">本月</button>
+        <button class="fav-range-tab ${activeFilters.favRange === 'all' ? 'active' : ''}" data-favrange="all">全部</button>
+      </div>
+      <button class="fav-export-btn" id="export-md-btn" ${collected.length === 0 ? 'disabled' : ''}>
+        📥 导出 Markdown
+      </button>
+    </div>
+  `;
+
+  // 空状态
+  if (collected.length === 0) {
+    listEl.innerHTML = toolbarHtml + `
+      <div class="fav-empty">
+        ${activeFilters.favRange === 'all' ? '尚未收藏任何文章' : '该时间范围内无收藏'}
+        <div class="tip">
+          ${Object.keys(FAVORITES).length === 0
+            ? '在文章卡片右上角点 🔖 加入收藏<br>收藏时可加备注 + 个人标签<br>之后随时回到这里浏览 / 导出'
+            : `已有 ${Object.keys(FAVORITES).length} 篇收藏,切换其他时间范围查看`}
+        </div>
+      </div>
+    `;
+    bindFavRangeTabs();
+    bindExportBtn(collected, sortedDates, groups);
+    renderActiveFiltersBar();
+    return;
+  }
+
+  // 渲染分组卡片
+  let html = toolbarHtml;
+  for (const date of sortedDates) {
+    const dayArticles = groups[date];
+    const weekday = getWeekday(date);
+    html += `
+      <div class="fav-day-group">
+        <div class="fav-day-header">
+          📅 ${date} · ${weekday}
+          <span class="day-meta">${dayArticles.length} 篇收藏</span>
+        </div>
+        <div class="article-list">
+          ${dayArticles.map(a => renderCard(a)).join('')}
+        </div>
+      </div>
+    `;
+  }
+  listEl.innerHTML = html;
+
+  // 绑卡片事件(收藏按钮 / 公司 chip / 展开)
+  listEl.querySelectorAll('.article-card').forEach(el => {
+    el.addEventListener('click', (e) => {
+      if (e.target.classList.contains('bookmark-btn') || e.target.closest('.bookmark-btn')) {
+        e.stopPropagation();
+        const btn = e.target.classList.contains('bookmark-btn') ? e.target : e.target.closest('.bookmark-btn');
+        openBookmarkModal(btn.dataset.bookmarkId);
+        return;
+      }
+      if (e.target.classList.contains('my-tag')) {
+        e.stopPropagation();
+        activeFilters.myTag = e.target.dataset.mytag;
+        renderActiveFilterStates();
+        renderArticles();
+        return;
+      }
+      if (e.target.classList.contains('company-chip')) {
+        e.stopPropagation();
+        activeFilters.company = e.target.textContent;
+        activeFilters.view = 'all';  // 点公司chip 自动跳出收藏视图
+        renderActiveFilterStates();
+        renderArticles();
+        return;
+      }
+      el.classList.toggle('expanded');
+    });
+  });
+
+  bindFavRangeTabs();
+  bindExportBtn(collected, sortedDates, groups);
+  renderActiveFiltersBar();
+}
+
+function bindFavRangeTabs() {
+  document.querySelectorAll('.fav-range-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      activeFilters.favRange = tab.dataset.favrange;
+      renderArticles();
+    });
+  });
+}
+
+function bindExportBtn(articles, sortedDates, groups) {
+  const btn = document.getElementById('export-md-btn');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    exportToMarkdown(articles, sortedDates, groups);
+  });
+}
+
+function getWeekday(dateStr) {
+  const d = new Date(dateStr);
+  return ['周日', '周一', '周二', '周三', '周四', '周五', '周六'][d.getDay()];
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 🔖 收藏 modal(添加 / 编辑 / 删除)
+// ═══════════════════════════════════════════════════════════════════
+let currentBookmarkId = null;
+
+function openBookmarkModal(articleId) {
+  currentBookmarkId = articleId;
+  const article = DATA.articles.find(a => a.id === articleId);
+  if (!article) return;
+
+  const fav = FAVORITES[articleId];
+
+  document.getElementById('bm-target').innerHTML = `
+    <strong>${escapeHtml(article.title)}</strong><br>
+    <span style="color: var(--ink-3); font-size: 0.78rem;">${article.date} · ${article.dimension || ''}</span>
+  `;
+  document.getElementById('bm-note').value = fav ? (fav.note || '') : '';
+  document.getElementById('bm-tags').value = fav ? (fav.tags || []).join(', ') : '';
+  document.getElementById('bm-remove').style.display = fav ? 'inline-block' : 'none';
+  document.getElementById('bm-save').textContent = fav ? '更新' : '保存收藏';
+  document.getElementById('bm-overlay').classList.add('open');
+  setTimeout(() => document.getElementById('bm-note').focus(), 50);
+}
+
+function closeBookmarkModal() {
+  document.getElementById('bm-overlay').classList.remove('open');
+  currentBookmarkId = null;
+}
+
+function saveBookmarkFromModal() {
+  if (!currentBookmarkId) return;
+  const note = document.getElementById('bm-note').value;
+  const tagsRaw = document.getElementById('bm-tags').value;
+  const tags = tagsRaw.split(/[,，]/).map(t => t.trim().replace(/^#/, '')).filter(Boolean);
+  const isUpdate = !!FAVORITES[currentBookmarkId];
+
+  if (isUpdate) {
+    updateFavorite(currentBookmarkId, note, tags);
+    showToast('✓ 收藏已更新');
+  } else {
+    addFavorite(currentBookmarkId, note, tags);
+    showToast('✓ 已收藏');
+  }
+  closeBookmarkModal();
+  renderViewCounts();
+  renderMyTagList();
+  renderArticles();
+}
+
+function removeBookmarkFromModal() {
+  if (!currentBookmarkId) return;
+  removeFavorite(currentBookmarkId);
+  showToast('已取消收藏');
+  closeBookmarkModal();
+  renderViewCounts();
+  renderMyTagList();
+  renderArticles();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 📥 导出 Markdown
+// ═══════════════════════════════════════════════════════════════════
+function exportToMarkdown(articles, sortedDates, groups) {
+  const now = new Date();
+  const exportDate = now.toISOString().slice(0, 10);
+  const exportTime = now.toLocaleString('zh-CN', { hour12: false });
+  const rangeLabel = {today: '今天', week: '本周(过去 7 天)', month: '本月(过去 30 天)', all: '全部'}[activeFilters.favRange];
+
+  let md = `# 我的 AI 早报精选\n\n`;
+  md += `> **导出时间**:${exportTime}\n`;
+  md += `> **范围**:${rangeLabel}收藏\n`;
+  md += `> **共 ${articles.length} 篇文章 · 来自 ${sortedDates.length} 份早报**\n`;
+  if (activeFilters.myTag) {
+    md += `> **标签筛选**:#${activeFilters.myTag}\n`;
+  }
+  md += `\n---\n\n`;
+
+  for (const date of sortedDates) {
+    const weekday = getWeekday(date);
+    const dayArticles = groups[date];
+
+    md += `## 📅 ${date} · ${weekday}\n\n`;
+    md += `*${dayArticles.length} 篇收藏来自这份早报*\n\n`;
+
+    dayArticles.forEach((a, idx) => {
+      md += `### ${idx + 1}. ${a.title}\n\n`;
+
+      // 元数据行
+      const metaItems = [];
+      if (a.dimension) metaItems.push(a.dimension);
+      if (a.is_top5) metaItems.push('⭐ Top 5');
+      if (a.is_tier0) metaItems.push('🧠 Tier 0');
+      if (a.source) metaItems.push(`来源:${a.source}`);
+      if (a.quality_score) metaItems.push(`质量 ${a.quality_score}/8`);
+      if (metaItems.length > 0) {
+        md += `> ${metaItems.join(' · ')}\n\n`;
+      }
+
+      // 摘要
+      if (a.summary) {
+        md += `${a.summary}\n\n`;
+      }
+
+      // 这意味着
+      if (a.meaning) {
+        md += `**📌 这意味着**:${a.meaning}\n\n`;
+      }
+
+      // 个人备注
+      if (a._fav && a._fav.note) {
+        md += `**💭 我的备注**:${a._fav.note}\n\n`;
+      }
+
+      // 个人标签
+      if (a._fav && a._fav.tags && a._fav.tags.length > 0) {
+        md += `**🏷️ 标签**:${a._fav.tags.map(t => `#${t}`).join(' ')}\n\n`;
+      }
+
+      // 公司
+      if (a.companies && a.companies.length > 0) {
+        md += `**🏢 涉及公司**:${a.companies.join('、')}\n\n`;
+      }
+
+      // 原文链接
+      if (a.url) {
+        md += `🔗 [原文链接](${a.url})\n\n`;
+      }
+
+      md += `---\n\n`;
+    });
+  }
+
+  md += `\n*由「转型有术 · 企业 AI 阅读库」自动生成 · ${exportDate}*\n`;
+
+  // 触发下载
+  const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `AI早报精选-${exportDate}-${activeFilters.favRange}.md`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+
+  showToast(`✓ 已导出 ${articles.length} 篇收藏`);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// Toast 提示
+// ═══════════════════════════════════════════════════════════════════
+let toastTimer = null;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
 }
 
 function highlight(text, term) {
@@ -981,6 +1827,9 @@ function renderActiveFiltersBar() {
   const bar = document.getElementById('active-filters-bar');
   const filters = [];
 
+  if (activeFilters.myTag) {
+    filters.push({ label: '#' + activeFilters.myTag, key: 'myTag' });
+  }
   if (activeFilters.dimension) {
     filters.push({ label: activeFilters.dimension, key: 'dimension' });
   }
@@ -991,7 +1840,7 @@ function renderActiveFiltersBar() {
     filters.push({ label: '🔍 ' + activeFilters.searchTerm, key: 'searchTerm' });
   }
   if (activeFilters.view !== 'all') {
-    const viewLabel = { top5: '⭐ Top 5', tier0: '🧠 Tier 0', recent7: '🗓 最近 7 天' }[activeFilters.view];
+    const viewLabel = { favorites: '🔖 我的收藏', top5: '⭐ Top 5', tier0: '🧠 Tier 0', recent7: '🗓 最近 7 天' }[activeFilters.view];
     if (viewLabel) filters.push({ label: viewLabel, key: 'view' });
   }
 
@@ -1031,11 +1880,19 @@ function renderActiveFilterStates() {
   document.querySelectorAll('#company-list .filter-item').forEach(el => {
     el.classList.toggle('active', el.dataset.company === activeFilters.company);
   });
+  // 我的标签
+  document.querySelectorAll('#mytag-list .filter-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.mytag === activeFilters.myTag);
+  });
 }
 
 function updateContentTitle() {
   const titleEl = document.getElementById('content-title');
-  if (activeFilters.dimension) {
+  if (activeFilters.view === 'favorites') {
+    titleEl.textContent = '🔖 我的收藏';
+  } else if (activeFilters.myTag) {
+    titleEl.textContent = '#' + activeFilters.myTag;
+  } else if (activeFilters.dimension) {
     titleEl.textContent = activeFilters.dimension;
   } else if (activeFilters.company) {
     titleEl.textContent = '🏢 ' + activeFilters.company;
@@ -1125,14 +1982,38 @@ function setupEvents() {
       view: 'all',
       dimension: null,
       company: null,
+      myTag: null,
       searchTerm: '',
       sort: 'date-desc',
+      favRange: 'all',
     };
     document.getElementById('search-input').value = '';
     document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
     document.querySelector('.view-tab[data-sort="date-desc"]').classList.add('active');
     renderActiveFilterStates();
     renderArticles();
+  });
+
+  // 🔖 收藏 modal 按钮绑定
+  document.getElementById('bm-save').addEventListener('click', saveBookmarkFromModal);
+  document.getElementById('bm-cancel').addEventListener('click', closeBookmarkModal);
+  document.getElementById('bm-remove').addEventListener('click', removeBookmarkFromModal);
+  document.getElementById('bm-overlay').addEventListener('click', (e) => {
+    // 点 overlay 背景关闭(但不点 modal 本身)
+    if (e.target.id === 'bm-overlay') closeBookmarkModal();
+  });
+  // Esc 关闭收藏 modal
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.getElementById('bm-overlay').classList.contains('open')) {
+      closeBookmarkModal();
+    }
+  });
+  // Ctrl+Enter 保存收藏
+  document.getElementById('bm-note').addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+      e.preventDefault();
+      saveBookmarkFromModal();
+    }
   });
 }
 
