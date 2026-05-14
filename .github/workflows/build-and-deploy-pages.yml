@@ -1,15 +1,15 @@
 name: 构建并部署阅读库到 GitHub Pages
 
-# 当 reports/ 下有新文件 commit 到 main 时触发
+# 触发条件:任何 main 上的 commit 涉及内容文件就触发
 on:
   push:
     branches: [main]
     paths:
-      - 'reports/*.md'
-      - 'scripts/build_index.py'
-      - 'docs/index.html'
+      - 'reports/**'         # 匹配 reports 下所有文件(含子目录)
+      - 'scripts/**'          # 匹配 scripts 下所有
+      - 'docs/**'             # 匹配 docs 下所有(含 data/、子文件)
       - '.github/workflows/build-and-deploy-pages.yml'
-  workflow_dispatch:  # 手动触发选项
+  workflow_dispatch:          # 手动触发选项
 
 permissions:
   contents: write
