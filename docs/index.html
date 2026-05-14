@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>转型有术 · 企业 AI 阅读库</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ═════════════════════════════════════════════════════════════
+   设计语言: 「阅读库」(Reading Library) 风
+   - 灵感: Readwise + Are.na + Notion 数据库
+   - 信息密度: 高(单屏可见多卡片)
+   - 主色: 米白纸 + 墨黑 + 信号色编码
+   ═════════════════════════════════════════════════════════════ */
+:root {
+  --bg:          #fafaf7;
+  --bg-2:        #f0eee8;
+  --bg-3:        #e6e2d6;
+  --ink:         #1a1714;
+  --ink-2:       #4a463e;
+  --ink-3:       #7a7466;
+  --ink-4:       #a09a8a;
+  --accent:      #c2410c;
+  --accent-2:    #b8860b;
+  --line:        #d4cebd;
+  --line-2:      #e8e3d2;
+
+  --sig-strong:  #2d5016;
+  --sig-medium:  #7a5e1c;
+  --sig-weak:    #8b3a3a;
+
+  --dim-product:    #0369a1;
+  --dim-case:       #16a34a;
+  --dim-money:      #ca8a04;
+  --dim-org:        #9333ea;
+  --dim-infra:      #475569;
+  --dim-research:   #0891b2;
+  --dim-regulation: #b91c1c;
+  --dim-china:      #be123c;
+  --dim-tools:      #047857;
+  --dim-tier0:      #7c2d12;
+  --dim-top5:       #c2410c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:    #14110d;
+    --bg-2:  #1c1813;
+    --bg-3:  #24201a;
+    --ink:   #f5f1e8;
+    --ink-2: #d4cdb8;
+    --ink-3: #9b9381;
+    --ink-4: #6a6457;
+    --line:   #36312a;
+    --line-2: #2a2620;
+    --accent:  #fb923c;
+    --accent-2: #fbbf24;
+  }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ═════ 顶栏 ═════ */
+header {
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.topbar {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 1fr auto;
+  align-items: center;
+  padding: 14px 32px;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.brand .logo {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+.brand .logo::before {
+  content: "◆ ";
+  color: var(--accent);
+  font-size: 0.6em;
+  vertical-align: 0.5em;
+}
+
+.brand .tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--ink-3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.searchbox {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+}
+
+.searchbox input {
+  width: 100%;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 14px 9px 38px;
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  outline: none;
+  transition: all 0.15s ease;
+}
+
+.searchbox input::placeholder { color: var(--ink-4); }
+.searchbox input:focus {
+  border-color: var(--accent);
+  background: var(--bg);
+  box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.1);
+}
+
+.searchbox::before {
+  content: "⌕";
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-3);
+  font-size: 1.1rem;
+}
+
+.searchbox .kbd {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--ink-4);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+.utility {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-3);
+}
+
+.utility .meta-pill {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+/* ═════ 主体 ═════ */
+.main {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 0;
+  min-height: calc(100vh - 64px);
+}
+
+@media (max-width: 1100px) {
+  .topbar { grid-template-columns: 1fr; padding: 12px 16px; gap: 12px; }
+  .main { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .sidebar.mobile-open { display: block; }
+}
+
+/* ═════ 左侧:标签筛选器 ═════ */
+.sidebar {
+  border-right: 1px solid var(--line);
+  padding: 24px 20px;
+  position: sticky;
+  top: 64px;
+  align-self: start;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+
+.sidebar h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--ink-3);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+.sidebar h4:first-child { margin-top: 0; }
+
+.filter-list {
+  list-style: none;
+  font-size: 0.83rem;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+  margin: 1px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.1s ease;
+  color: var(--ink-2);
+}
+
+.filter-item:hover { background: var(--bg-2); color: var(--ink); }
+
+.filter-item.active {
+  background: var(--ink);
+  color: var(--bg);
+}
+.filter-item.active .filter-count { color: var(--bg); opacity: 0.7; }
+
+.filter-item .filter-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.filter-item .dim-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.filter-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+.clear-filters {
+  margin-top: 12px;
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+.clear-filters:hover { background: var(--bg-2); color: var(--ink); }
+
+/* ═════ 右侧:文章列表 ═════ */
+.content {
+  padding: 24px 32px;
+  min-width: 0;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.content-title {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.content-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-3);
+  letter-spacing: 0.05em;
+}
+
+.view-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.view-tab {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  cursor: pointer;
+  color: var(--ink-2);
+  transition: all 0.1s ease;
+}
+
+.view-tab:hover { background: var(--bg-3); }
+.view-tab.active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* ═════ 文章卡片 ═════ */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--line-2);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.article-card {
+  background: var(--bg);
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: background 0.1s ease;
+}
+
+.article-card:hover { background: var(--bg-2); }
+
+.article-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  color: var(--ink-3);
+  letter-spacing: 0.04em;
+}
+
+.article-card-header .date {
+  font-weight: 500;
+  color: var(--ink-2);
+}
+
+.article-card-header .dim-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+}
+
+.article-card-header .dim-tag::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.article-card-header .top5-flag,
+.article-card-header .tier0-flag {
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--accent);
+  color: white;
+  font-size: 0.6rem;
+}
+.article-card-header .tier0-flag { background: var(--dim-tier0); }
+
+.article-card-header .quality {
+  margin-left: auto;
+  color: var(--ink-4);
+}
+
+.article-title {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 2px 0 4px;
+}
+
+.article-summary {
+  font-size: 0.83rem;
+  color: var(--ink-2);
+  line-height: 1.55;
+  margin-bottom: 6px;
+  max-height: 3em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.article-card.expanded .article-summary {
+  max-height: none;
+  display: block;
+  -webkit-line-clamp: unset;
+}
+
+.article-meaning {
+  background: var(--bg-2);
+  border-left: 3px solid var(--accent-2);
+  padding: 6px 12px;
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  margin-top: 6px;
+  font-family: 'Noto Serif SC', serif;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.article-meaning::before {
+  content: "📌 ";
+  font-style: normal;
+}
+
+.article-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  color: var(--ink-3);
+}
+
+.company-chip {
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: var(--bg-3);
+  color: var(--ink-2);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border: 1px solid var(--line-2);
+}
+
+.company-chip:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.article-footer .source-line {
+  color: var(--ink-3);
+}
+
+.article-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.article-footer a:hover { text-decoration: underline; }
+
+/* 维度颜色 */
+.dim-product   { color: var(--dim-product); border-color: var(--dim-product); }
+.dim-case      { color: var(--dim-case); border-color: var(--dim-case); }
+.dim-money     { color: var(--dim-money); border-color: var(--dim-money); }
+.dim-org       { color: var(--dim-org); border-color: var(--dim-org); }
+.dim-infra     { color: var(--dim-infra); border-color: var(--dim-infra); }
+.dim-research  { color: var(--dim-research); border-color: var(--dim-research); }
+.dim-regulation{ color: var(--dim-regulation); border-color: var(--dim-regulation); }
+.dim-china     { color: var(--dim-china); border-color: var(--dim-china); }
+.dim-tools     { color: var(--dim-tools); border-color: var(--dim-tools); }
+.dim-tier0     { color: var(--dim-tier0); border-color: var(--dim-tier0); }
+.dim-top5      { color: var(--dim-top5); border-color: var(--dim-top5); }
+
+.dim-product   ~ .dim-dot, .dot-product   { background: var(--dim-product); }
+.dim-case      ~ .dim-dot, .dot-case      { background: var(--dim-case); }
+.dim-money     ~ .dim-dot, .dot-money     { background: var(--dim-money); }
+.dim-org       ~ .dim-dot, .dot-org       { background: var(--dim-org); }
+.dim-infra     ~ .dim-dot, .dot-infra     { background: var(--dim-infra); }
+.dim-research  ~ .dim-dot, .dot-research  { background: var(--dim-research); }
+.dim-regulation~ .dim-dot, .dot-regulation{ background: var(--dim-regulation); }
+.dim-china     ~ .dim-dot, .dot-china     { background: var(--dim-china); }
+.dim-tools     ~ .dim-dot, .dot-tools     { background: var(--dim-tools); }
+.dim-tier0     ~ .dim-dot, .dot-tier0     { background: var(--dim-tier0); }
+.dim-top5      ~ .dim-dot, .dot-top5      { background: var(--dim-top5); }
+
+/* ═════ 空状态 ═════ */
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-3);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}
+
+.empty::before {
+  content: "◇";
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+  color: var(--ink-4);
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-3);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.loading::before {
+  content: "◆ ◇ ◆";
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: var(--accent);
+  animation: pulse 1.4s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* ═════ 搜索高亮 ═════ */
+mark {
+  background: rgba(194, 65, 12, 0.2);
+  color: var(--ink);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ═════ 顶部 active filter 提示 ═════ */
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.active-filter {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.active-filter .remove {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.active-filter .remove:hover { opacity: 1; }
+
+/* ═════ 详情查看 (modal-style) ═════ */
+.detail-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 17, 13, 0.6);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  backdrop-filter: blur(4px);
+}
+
+.detail-overlay.open { display: flex; }
+
+.detail-panel {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 32px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.detail-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-2);
+}
+
+.detail-close:hover { background: var(--bg-3); color: var(--ink); }
+
+/* ═════ 滚动条美化 ═════ */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-2); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-4); }
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="brand">
+      <span class="logo">转型有术</span>
+      <span class="tag">企业 AI 阅读库</span>
+    </div>
+    <div class="searchbox">
+      <input type="text" id="search-input" placeholder="搜索 公司 / 关键词 / 主题...">
+      <span class="kbd">/</span>
+    </div>
+    <div class="utility">
+      <a href="./stats.html" style="font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; padding: 5px 12px; border-radius: 6px; text-decoration: none; color: var(--ink-2); border: 1px solid var(--line); background: var(--bg-2); margin-right: 4px;">📊 趋势</a>
+      <span class="meta-pill" id="stat-total-reports">-- 份早报</span>
+      <span class="meta-pill" id="stat-total-articles">-- 篇文章</span>
+    </div>
+  </div>
+</header>
+
+<div class="main">
+
+  <aside class="sidebar">
+    <h4>视图</h4>
+    <ul class="filter-list" id="view-list">
+      <li class="filter-item active" data-view="all">
+        <span class="filter-label">📚 全部</span>
+        <span class="filter-count" id="count-all">-</span>
+      </li>
+      <li class="filter-item" data-view="top5">
+        <span class="filter-label">⭐ Top 5(每日重磅)</span>
+        <span class="filter-count" id="count-top5">-</span>
+      </li>
+      <li class="filter-item" data-view="tier0">
+        <span class="filter-label">🧠 Tier 0 深度</span>
+        <span class="filter-count" id="count-tier0">-</span>
+      </li>
+      <li class="filter-item" data-view="recent7">
+        <span class="filter-label">🗓 最近 7 天</span>
+        <span class="filter-count" id="count-recent7">-</span>
+      </li>
+    </ul>
+
+    <h4>按维度</h4>
+    <ul class="filter-list" id="dimension-list">
+      <li class="loading">加载中...</li>
+    </ul>
+
+    <h4>按公司 / 主题</h4>
+    <ul class="filter-list" id="company-list">
+      <li class="loading">加载中...</li>
+    </ul>
+
+    <button class="clear-filters" id="clear-btn">清空筛选</button>
+  </aside>
+
+  <main class="content">
+    <div class="content-header">
+      <h2 class="content-title" id="content-title">📚 全部早报</h2>
+      <div class="content-meta" id="content-meta">--</div>
+    </div>
+
+    <div class="view-tabs">
+      <button class="view-tab active" data-sort="date-desc">📅 最新 ↓</button>
+      <button class="view-tab" data-sort="date-asc">📅 最早 ↑</button>
+      <button class="view-tab" data-sort="quality-desc">⭐ 质量 ↓</button>
+      <button class="view-tab" data-sort="dimension">📂 按维度</button>
+    </div>
+
+    <div id="active-filters-bar"></div>
+
+    <div class="article-list" id="article-list">
+      <div class="loading">加载中...</div>
+    </div>
+  </main>
+
+</div>
+
+<!-- 文章详情 modal -->
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-panel" id="detail-panel" style="position:relative;">
+    <button class="detail-close" id="detail-close">×</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════
+// 数据加载
+// ═══════════════════════════════════════════════════════════════════
+let DATA = null;
+let activeFilters = {
+  view: 'all',           // all / top5 / tier0 / recent7
+  dimension: null,
+  company: null,
+  searchTerm: '',
+  sort: 'date-desc',
+};
+
+const DIM_COLOR_MAP = {
+  '🚀 产品':      'product',
+  '🏢 案例':      'case',
+  '💰 商业':      'money',
+  '👥 组织':      'org',
+  '⚙️ 基础设施':   'infra',
+  '📊 咨询':      'research',
+  '⚖️ 监管':      'regulation',
+  '🇨🇳 国内':     'china',
+  '🛠 工具与开源': 'tools',
+  '🧠 Tier 0':   'tier0',
+  '🌟 Top 5':    'top5',
+};
+
+function getDimClass(dim) {
+  return DIM_COLOR_MAP[dim] || 'product';
+}
+
+async function load() {
+  try {
+    const res = await fetch('./data/index.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    DATA = await res.json();
+    init();
+  } catch (e) {
+    document.getElementById('article-list').innerHTML = `
+      <div class="empty">
+        加载索引失败: ${e.message}<br>
+        请检查 docs/data/index.json 是否存在。<br>
+        本地预览需先运行 python scripts/build_index.py
+      </div>`;
+  }
+}
+
+function init() {
+  document.getElementById('stat-total-reports').textContent = DATA.meta.total_reports + ' 份早报';
+  document.getElementById('stat-total-articles').textContent = DATA.meta.total_articles + ' 篇';
+
+  renderViewCounts();
+  renderDimensionList();
+  renderCompanyList();
+  renderArticles();
+  setupEvents();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 渲染左侧侧边栏
+// ═══════════════════════════════════════════════════════════════════
+
+function renderViewCounts() {
+  document.getElementById('count-all').textContent = DATA.articles.length;
+  document.getElementById('count-top5').textContent = DATA.articles.filter(a => a.is_top5).length;
+  document.getElementById('count-tier0').textContent = DATA.articles.filter(a => a.is_tier0).length;
+
+  // 最近 7 天
+  if (DATA.reports.length > 0) {
+    const latest = new Date(DATA.reports[0].date);
+    const cutoff = new Date(latest.getTime() - 6 * 86400000);
+    const recent7 = DATA.articles.filter(a => new Date(a.date) >= cutoff).length;
+    document.getElementById('count-recent7').textContent = recent7;
+  }
+}
+
+function renderDimensionList() {
+  const list = document.getElementById('dimension-list');
+  list.innerHTML = '';
+  for (const [dim, count] of Object.entries(DATA.tag_index.dimensions)) {
+    const cls = getDimClass(dim);
+    const li = document.createElement('li');
+    li.className = 'filter-item';
+    li.dataset.dimension = dim;
+    li.innerHTML = `
+      <span class="filter-label">
+        <span class="dim-dot dot-${cls}"></span>
+        ${dim}
+      </span>
+      <span class="filter-count">${count}</span>
+    `;
+    list.appendChild(li);
+  }
+}
+
+function renderCompanyList() {
+  const list = document.getElementById('company-list');
+  list.innerHTML = '';
+  // 取前 25 家
+  const top = Object.entries(DATA.tag_index.companies).slice(0, 25);
+  for (const [company, count] of top) {
+    const li = document.createElement('li');
+    li.className = 'filter-item';
+    li.dataset.company = company;
+    li.innerHTML = `
+      <span class="filter-label">${company}</span>
+      <span class="filter-count">${count}</span>
+    `;
+    list.appendChild(li);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 主要的文章列表渲染逻辑
+// ═══════════════════════════════════════════════════════════════════
+function renderArticles() {
+  let articles = [...DATA.articles];
+
+  // 视图筛选
+  if (activeFilters.view === 'top5') {
+    articles = articles.filter(a => a.is_top5);
+  } else if (activeFilters.view === 'tier0') {
+    articles = articles.filter(a => a.is_tier0);
+  } else if (activeFilters.view === 'recent7') {
+    const latest = new Date(DATA.reports[0].date);
+    const cutoff = new Date(latest.getTime() - 6 * 86400000);
+    articles = articles.filter(a => new Date(a.date) >= cutoff);
+  }
+
+  // 维度筛选
+  if (activeFilters.dimension) {
+    articles = articles.filter(a => a.dimension === activeFilters.dimension);
+  }
+
+  // 公司筛选
+  if (activeFilters.company) {
+    articles = articles.filter(a => a.companies.includes(activeFilters.company));
+  }
+
+  // 搜索
+  if (activeFilters.searchTerm) {
+    const term = activeFilters.searchTerm.toLowerCase();
+    articles = articles.filter(a =>
+      a.title.toLowerCase().includes(term) ||
+      a.summary.toLowerCase().includes(term) ||
+      a.meaning.toLowerCase().includes(term) ||
+      a.companies.some(c => c.toLowerCase().includes(term))
+    );
+  }
+
+  // 排序
+  if (activeFilters.sort === 'date-desc') {
+    articles.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
+  } else if (activeFilters.sort === 'date-asc') {
+    articles.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  } else if (activeFilters.sort === 'quality-desc') {
+    articles.sort((a, b) => b.quality_score - a.quality_score);
+  } else if (activeFilters.sort === 'dimension') {
+    articles.sort((a, b) => (a.dimension || '').localeCompare(b.dimension || ''));
+  }
+
+  // 更新计数
+  document.getElementById('content-meta').textContent = `${articles.length} 篇 · ${DATA.meta.total_reports} 份早报`;
+
+  // 渲染 active filter 标签
+  renderActiveFiltersBar();
+
+  // 渲染卡片
+  const listEl = document.getElementById('article-list');
+  if (articles.length === 0) {
+    listEl.innerHTML = '<div class="empty">无匹配文章<br>试试清空筛选,或换个关键词</div>';
+    return;
+  }
+
+  listEl.innerHTML = articles.map(a => renderCard(a)).join('');
+
+  // 卡片点击事件
+  listEl.querySelectorAll('.article-card').forEach((el, idx) => {
+    el.addEventListener('click', (e) => {
+      // 如果点的是公司 chip,改成筛选
+      if (e.target.classList.contains('company-chip')) {
+        e.stopPropagation();
+        const company = e.target.textContent;
+        activeFilters.company = company;
+        renderActiveFilterStates();
+        renderArticles();
+        return;
+      }
+      // 否则展开/收起
+      el.classList.toggle('expanded');
+    });
+  });
+
+  // 更新标题
+  updateContentTitle();
+}
+
+function renderCard(a) {
+  const dimClass = getDimClass(a.dimension);
+  const isTop5 = a.is_top5;
+  const isTier0 = a.is_tier0;
+  const hl = (s) => highlight(s, activeFilters.searchTerm);
+
+  let companyChips = (a.companies || []).slice(0, 6).map(c =>
+    `<span class="company-chip">${c}</span>`
+  ).join('');
+
+  return `
+    <article class="article-card" data-id="${a.id}">
+      <div class="article-card-header">
+        <span class="date">${a.date}</span>
+        ${isTop5 ? '<span class="top5-flag">TOP 5</span>' : ''}
+        ${isTier0 ? '<span class="tier0-flag">TIER 0</span>' : ''}
+        <span class="dim-tag dim-${dimClass}">${a.dimension || ''}</span>
+        <span class="quality">${a.quality_score}/8</span>
+      </div>
+      <h3 class="article-title">${hl(a.title)}</h3>
+      ${a.summary ? `<div class="article-summary">${hl(a.summary)}</div>` : ''}
+      ${a.meaning ? `<div class="article-meaning">${hl(a.meaning)}</div>` : ''}
+      <div class="article-footer">
+        ${companyChips}
+        ${a.source ? `<span class="source-line">来源:${a.source}</span>` : ''}
+        ${a.url ? `<a href="${a.url}" target="_blank" rel="noopener">原文 ↗</a>` : ''}
+      </div>
+    </article>
+  `;
+}
+
+function highlight(text, term) {
+  if (!text || !term) return text || '';
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(${escaped})`, 'gi');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// active filter 标签栏
+// ═══════════════════════════════════════════════════════════════════
+function renderActiveFiltersBar() {
+  const bar = document.getElementById('active-filters-bar');
+  const filters = [];
+
+  if (activeFilters.dimension) {
+    filters.push({ label: activeFilters.dimension, key: 'dimension' });
+  }
+  if (activeFilters.company) {
+    filters.push({ label: '🏢 ' + activeFilters.company, key: 'company' });
+  }
+  if (activeFilters.searchTerm) {
+    filters.push({ label: '🔍 ' + activeFilters.searchTerm, key: 'searchTerm' });
+  }
+  if (activeFilters.view !== 'all') {
+    const viewLabel = { top5: '⭐ Top 5', tier0: '🧠 Tier 0', recent7: '🗓 最近 7 天' }[activeFilters.view];
+    if (viewLabel) filters.push({ label: viewLabel, key: 'view' });
+  }
+
+  if (filters.length === 0) {
+    bar.classList.remove('active-filters');
+    bar.innerHTML = '';
+    return;
+  }
+
+  bar.className = 'active-filters';
+  bar.innerHTML = filters.map(f =>
+    `<span class="active-filter">${f.label}<span class="remove" data-key="${f.key}">×</span></span>`
+  ).join('');
+
+  bar.querySelectorAll('.remove').forEach(el => {
+    el.addEventListener('click', () => {
+      const key = el.dataset.key;
+      if (key === 'view') activeFilters.view = 'all';
+      else activeFilters[key] = null;
+      if (key === 'searchTerm') document.getElementById('search-input').value = '';
+      renderActiveFilterStates();
+      renderArticles();
+    });
+  });
+}
+
+function renderActiveFilterStates() {
+  // 视图
+  document.querySelectorAll('#view-list .filter-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.view === activeFilters.view);
+  });
+  // 维度
+  document.querySelectorAll('#dimension-list .filter-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.dimension === activeFilters.dimension);
+  });
+  // 公司
+  document.querySelectorAll('#company-list .filter-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.company === activeFilters.company);
+  });
+}
+
+function updateContentTitle() {
+  const titleEl = document.getElementById('content-title');
+  if (activeFilters.dimension) {
+    titleEl.textContent = activeFilters.dimension;
+  } else if (activeFilters.company) {
+    titleEl.textContent = '🏢 ' + activeFilters.company;
+  } else if (activeFilters.searchTerm) {
+    titleEl.textContent = '🔍 ' + activeFilters.searchTerm;
+  } else if (activeFilters.view === 'top5') {
+    titleEl.textContent = '⭐ Top 5(每日重磅)';
+  } else if (activeFilters.view === 'tier0') {
+    titleEl.textContent = '🧠 Tier 0 深度参考';
+  } else if (activeFilters.view === 'recent7') {
+    titleEl.textContent = '🗓 最近 7 天';
+  } else {
+    titleEl.textContent = '📚 全部早报';
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 事件绑定
+// ═══════════════════════════════════════════════════════════════════
+function setupEvents() {
+  // 视图筛选
+  document.querySelectorAll('#view-list .filter-item').forEach(el => {
+    el.addEventListener('click', () => {
+      activeFilters.view = el.dataset.view;
+      renderActiveFilterStates();
+      renderArticles();
+    });
+  });
+
+  // 维度筛选
+  document.querySelectorAll('#dimension-list .filter-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const dim = el.dataset.dimension;
+      activeFilters.dimension = (activeFilters.dimension === dim) ? null : dim;
+      renderActiveFilterStates();
+      renderArticles();
+    });
+  });
+
+  // 公司筛选
+  document.querySelectorAll('#company-list .filter-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const c = el.dataset.company;
+      activeFilters.company = (activeFilters.company === c) ? null : c;
+      renderActiveFilterStates();
+      renderArticles();
+    });
+  });
+
+  // 搜索
+  const searchInput = document.getElementById('search-input');
+  let searchTimer = null;
+  searchInput.addEventListener('input', (e) => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      activeFilters.searchTerm = e.target.value.trim();
+      renderArticles();
+    }, 200);
+  });
+
+  // / 快捷键聚焦搜索框
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== searchInput) {
+      e.preventDefault();
+      searchInput.focus();
+    } else if (e.key === 'Escape' && document.activeElement === searchInput) {
+      searchInput.blur();
+      searchInput.value = '';
+      activeFilters.searchTerm = '';
+      renderArticles();
+    }
+  });
+
+  // 排序
+  document.querySelectorAll('.view-tab').forEach(el => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+      el.classList.add('active');
+      activeFilters.sort = el.dataset.sort;
+      renderArticles();
+    });
+  });
+
+  // 清空筛选
+  document.getElementById('clear-btn').addEventListener('click', () => {
+    activeFilters = {
+      view: 'all',
+      dimension: null,
+      company: null,
+      searchTerm: '',
+      sort: 'date-desc',
+    };
+    document.getElementById('search-input').value = '';
+    document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.view-tab[data-sort="date-desc"]').classList.add('active');
+    renderActiveFilterStates();
+    renderArticles();
+  });
+}
+
+load();
+</script>
+
+</body>
+</html>
