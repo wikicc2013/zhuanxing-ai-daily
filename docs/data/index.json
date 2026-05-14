@@ -1,14 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T12:38:00.407286+00:00",
-    "total_reports": 1,
-    "total_articles": 47,
+    "generated_at": "2026-05-14T22:46:19.456872+00:00",
+    "total_reports": 2,
+    "total_articles": 87,
     "date_range": [
       "2026-05-14",
-      "2026-05-14"
+      "2026-05-15"
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-15",
+      "weekday": "周五",
+      "signal_strength": "medium",
+      "main_count": 36,
+      "tier0_count": 3,
+      "summary": "Anthropic 首次在企业 AI 采用率上超过 OpenAI",
+      "url": "reports/2026-05-15.md",
+      "article_count": 40
+    },
     {
       "date": "2026-05-14",
       "weekday": "周四",
@@ -21,6 +31,715 @@
     }
   ],
   "articles": [
+    {
+      "id": "20260515-T01",
+      "date": "2026-05-15",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "Anthropic 首次在企业 AI 采用率上超过 OpenAI",
+      "summary": "Ramp 对 5 万家美国企业的跟踪数据显示，Anthropic 四月份采用率升至 34.4%，OpenAI 跌至 32.3%。驱动力是 Claude Code——过去一个月已占全球 GitHub 公开 commits 的 4%。\n🔗 https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "meaning": "：采购 AI 编程工具的 CTO，现在必须把 Claude Code 写入 RFP，过去只问\"OpenAI 还是自研\"的单选题变了；同时卖 OpenAI 企业方案的销售需重新定位差异化。",
+      "source": "",
+      "quality_score": 8,
+      "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "MIT"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-T02",
+      "date": "2026-05-15",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "Musk-OpenAI 大审判迎来最终陈词，微软 $1000 亿投资意外曝光",
+      "summary": "五月 14 日是审判最后一天，Musk 律师称 OpenAI \"欺骗公众\"；微软高管庭上披露截至今年已投入逾 1000 亿美元（含基础设施及托管）。Musk 本人因中国之行缺席，律师当庭道歉。\n🔗 https://www.axios.com/2026/05/14/musk-closing-arguments-openai-altman",
+      "meaning": "：判决将直接决定 OpenAI 能否完成 IPO 及 DeployCo 扩张；正在与 OpenAI 签大合同的企业应将\"诉讼风险\"作为供应商评估的新变量。",
+      "source": "",
+      "quality_score": 8,
+      "url": "https://www.axios.com/2026/05/14/musk-closing-arguments-openai-altman",
+      "companies": [
+        "OpenAI"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-T03",
+      "date": "2026-05-15",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "Anthropic 估值谈判至 $9500 亿，$300 亿 ARR 曝光",
+      "summary": "彭博报道 Anthropic 正与投资者谈判，拟以最高 $9500 亿估值融资 $300-500 亿，若成功将首次超越 OpenAI。Dario Amodei 同期披露 Q1 2026 收入同比增长 80 倍，远超计划中的 10 倍。\n🔗 https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "meaning": "：企业评估 AI 供应商时\"稳定性与议价能力\"权重需调整——两家头部 AI 公司都正在进行巨额融资，这实际上是增强了各自的持续投入能力，对企业客户是利好。",
+      "source": "",
+      "quality_score": 8,
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Bloomberg",
+        "Dario Amodei"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-T04",
+      "date": "2026-05-15",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "EU AI 法案 8 月 2 日高风险截止期迫近，多数企业还没准备好",
+      "summary": "欧盟 AI 法案高风险 AI 系统（Annex III）的合规强制日期为 2026 年 8 月 2 日，违规上限为全球年营收 3% 或 1500 万欧元。调查显示，超过半数组织尚未建立系统性的 AI 系统目录。\n🔗 https://www.fusefy.ai/aivibes/eu-ai-act-august-2026-deadline-enterprise-compliance/",
+      "meaning": "：在欧盟有业务的企业 CDO，必须在 6 月底前完成 AI 系统盘点并提交初步合规证据，否则 8 月即面临执法风险；HR、金融、医疗场景的 AI 系统是高风险的重灾区。",
+      "source": "",
+      "quality_score": 8,
+      "url": "https://www.fusefy.ai/aivibes/eu-ai-act-august-2026-deadline-enterprise-compliance/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-T05",
+      "date": "2026-05-15",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "SAP Sapphire 发布\"自主企业\"，OpenAI DeployCo 同周落地",
+      "summary": "SAP 宣布自主企业战略，部署 50+ Joule AI 助手、200+ 专项 Agent，配套 €1 亿合作伙伴基金；与此同时，OpenAI DeployCo 本周正式运营，$40 亿初始资金，19 家全球合作伙伴，直接在客户内部驻场。两件事叠加，企业级 AI 落地出现新商业模式。\n🔗 https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/",
+      "meaning": "：传统 SI（SAP 实施商、麦肯锡、Accenture）在 AI 落地领域正面临 DeployCo 的直接竞争，当前拿 SAP 项目的企业需重新评估 AI 集成的最优交付模式。",
+      "source": "",
+      "quality_score": 8,
+      "url": "https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/",
+      "companies": [
+        "OpenAI",
+        "SAP",
+        "Joule",
+        "DeployCo",
+        "Sapphire"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-006",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Simon Willison「Shopify's River：在公开 Slack 跑的 AI 编程 Agent」（2026-05-11）",
+      "summary": "River 是 Shopify 的内部 AI 编程 Agent，**5,938 名员工**上月与它协作，跨越 4,450 个 Slack 频道。上周它在主 monorepo 提交了 **1,870 个 Pull Request**，其中每 8 个被合并的 PR 就有 1 个来自 River。River 最特别的设计：**不接受私信，只在公开频道工作**，所有 AI 与人类的协作过程对全公司可搜索，实现\"渗透式学习\"。 🔗 https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/",
+      "meaning": "",
+      "source": "",
+      "quality_score": 6,
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/",
+      "companies": [
+        "Shopify",
+        "Simon Willison"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-007",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Simon Willison「GitLab Act 2：为 Agentic 工程重构组织」（2026-05-11）",
+      "summary": "GitLab 正在执行一套假设 Agentic 工程将重塑软件需求的组织重构：移除 3 层管理、将独立团队数量从 30 翻倍到 60、撤出 30% 国家的小团队。Simon 指出背后的自利逻辑：GitLab 的生意依赖软件工程量增长，但其股价同比下跌 50%，市场仍在质疑 AI Agent 是否真能扩大开发者平台的市场规模。 🔗 https://simonwillison.net/2026/May/11/gitlab-act-2/",
+      "meaning": "",
+      "source": "",
+      "quality_score": 6,
+      "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/",
+      "companies": [
+        "Simon Willison",
+        "GitLab"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-008",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Simon Willison「Firefox 用 Claude Mythos 找到 423 个安全漏洞」（2026-05-07）",
+      "summary": "Mozilla 用 Anthropic Claude Mythos 的预览版在 4 月对 Firefox 做了安全扫描，找到 **423 个安全漏洞**，而历史上每月人工审计通常只发现 **20-30 个**。Willison 分析这是 AI 在安全研究上真正\"突破阈值\"的证据：不是\"辅助\"人类，而是独立完成以前需要数十人月的工作。 🔗 https://simonwillison.net/2026/May/7/firefox-claude-mythos/",
+      "meaning": "",
+      "source": "",
+      "quality_score": 6,
+      "url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/",
+      "companies": [
+        "Anthropic",
+        "Simon Willison",
+        "Mythos"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-009",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Anthropic 推出 Claude for Small Business：15 个预制工作流，直插 8 个主流工具",
+      "summary": "Claude for Small Business 是 Anthropic 面向中小企业的打包产品，通过一键安装即可将 Claude 接入 Intuit QuickBooks、PayPal、HubSpot、Canva、DocuSign、Google Workspace 和 Microsoft 365。产品内含 **15 个预制 Agentic 工作流**、15 个可复用 AI 技能。小企业占美国 GDP 的 44%，但其 AI 采用通常止步于聊天框。从 5 月 14 日芝加哥开始，Anthropic 将举办 10 城免费半日培训，每站 100 名小企业主手把手实操，路过达拉斯、盐湖城、巴尔的摩等城市。",
+      "meaning": "：Anthropic 在打赢企业大客户的同时，开辟 SMB 新战场；对于卖 AI 工具给小企业的 SaaS 厂商，Anthropic 带着生态接口直接下场，渠道策略需要应对",
+      "source": "TechCrunch",
+      "quality_score": 8,
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "companies": [
+        "Anthropic",
+        "Google",
+        "Microsoft",
+        "FT"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-010",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "SAP 发布\"自主企业\"：50+ Joule AI 助手 + 200+ 专项 Agent + €1 亿伙伴基金",
+      "summary": "SAP Sapphire 大会发布自主企业战略核心是三层架构：统一 AI 平台（Business AI Platform 整合 BTP、Business Data Cloud 和 AI 能力），自主运营套件（财务自动过账、供应链自动调度），以及新用户体验 Joule Work（基于意图的动态工作界面）。50+ 域专属 Joule 助手将调用 200+ 专项 Agent 完成端到端流程，例如\"自主关账助手\"可将财务关账从数周压缩至数天。生态伙伴包括 Anthropic（Claude 驱动 HR/采购/供应链 Joule Agent）、AWS、Google Cloud、Mistral、NVIDIA 等。",
+      "meaning": "：正在做 SAP 升级规划的企业，需将 AI Agent 架构纳入新项目立项，不只是\"用 Copilot 辅助界面\"，而是端到端的 Agentic 流程重设计；SAP 合作伙伴生态迎来新的集成商机",
+      "source": "SAP News Center",
+      "quality_score": 8,
+      "url": "https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/",
+      "companies": [
+        "Anthropic",
+        "Google",
+        "AWS",
+        "NVIDIA",
+        "Mistral",
+        "SAP",
+        "Joule",
+        "Sapphire"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-011",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Red Hat AI 3.4 发布：AgentOps 工具链 + 模型即服务（MaaS）+ 主权 AI 框架",
+      "summary": "Red Hat AI 3.4 主打三大企业级新能力：AgentOps 工具链（从开发到生产的全生命周期追踪、可观测性、加密身份和生命周期管理）、MaaS 模型即服务（统一治理接口，管理员可追踪消费和执行策略），以及基于 NVIDIA OpenShell 的沙盒化 Agent 运行时——控制 Agent 能访问哪些工具、在哪里推理。针对国防、金融、公共部门，Red Hat 将\"运营主权\"作为横切属性，提供可审计的模型来源和推理边界证明。",
+      "meaning": "：准备将 AI Agent 推进生产环境的企业，Red Hat 3.4 提供了一套\"从 staging 到生产\"的完整治理工具链；金融和政府客户的采购清单中应增加\"Agent 可审计性\"这个维度",
+      "source": "Red Hat",
+      "quality_score": 7,
+      "url": "https://www.redhat.com/en/about/press-releases/red-hat-unites-builders-and-operators-agentic-future-major-advancements-red-hat-ai",
+      "companies": [
+        "NVIDIA"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-012",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Writer 发布事件触发型 Agent：Gmail/Slack 里自动触发，无需人工唤起",
+      "summary": "Writer 此次发布的 Event Triggers 将 AI Agent 从\"被动响应\"升级为\"主动行动\"：系统监听业务事件（如 Gong 里通话结束、Google Calendar 会议完成），自动调用预设 Playbook 执行后续动作，无需人工触发。当前支持 Gmail、Gong、Google Calendar、Google Drive、SharePoint 和 Slack。同步发布 Adobe Experience Manager 连接器，以及 bring-your-own 加密密钥和 Datadog 可观测插件，强化企业级治理。",
+      "meaning": "：购买了 Writer 的企业，应立即评估哪些业务流程有清晰的\"触发事件→后续动作\"结构，率先试点的可能回报最高；竞争信号上，这直接挑战 Salesforce Agentforce 和 Microsoft Copilot 的 Studio 触发器",
+      "source": "VentureBeat",
+      "quality_score": 7,
+      "url": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce",
+      "companies": [
+        "Google",
+        "Adobe",
+        "Datadog",
+        "Ring"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-013",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Xactly 发布 Fleet of Agents + Intelligence Studio：面向营收运营的专项 Agent",
+      "summary": "在年度用户大会 Upside 2026（加利福尼亚阿纳海姆）发布，Fleet 分三类预制 Agent：Builder Agents（搭建配置），Workflow Agents（跨流程自动化），Optimization Agents（优化建议），专注销售激励计划、营收规划和补偿运营。Intelligence Studio 是可组合层，支持客户和合作伙伴基于业务规则自建 Agent。",
+      "meaning": "：RevOps（营收运营）正成为企业 AI Agent 的下一个高密度落地场——销售激励和计划这类规则复杂但逻辑清晰的场景，是 Agent 替代手工 Excel 的理想切入点",
+      "source": "Enterprise Times",
+      "quality_score": 6,
+      "url": "https://www.enterprisetimes.co.uk/2026/05/14/upside-2026-sees-xactly-launch-a-fleet-of-ai-agents/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-014",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "OpenAI Codex 登陆手机：iPhone/Android 可远程指挥 Mac 上的 Codex Agent",
+      "summary": "ChatGPT iOS/Android 应用更新，支持远程访问并控制运行在 Mac 上的 Codex Agent。用户的文件、凭据、权限和本地开发环境保留在原始机器上，手机端实时接收截图、终端输出、代码差异、测试结果并执行审批动作。所有计划用户（包括 Free 和 Go）均可使用，Windows 版支持即将上线。",
+      "meaning": "：使用 Codex 的开发者离开工作站时 Agent 不再需要暂停，有助于提升 Agent 的持续运行时间；对于 CIO，这也意味着\"员工随时随地批准 AI 操作\"的审计轨迹管理需要专门设计",
+      "source": "TechCrunch",
+      "quality_score": 7,
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "companies": [
+        "OpenAI"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-015",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "ServiceNow 知识大会：Autonomous Workforce 扩展至全业务职能，AI Control Tower 全系标配",
+      "summary": "ServiceNow Knowledge 2026（5 月 5-7 日，拉斯维加斯）发布核心更新：Autonomous Workforce 扩展到 IT、CRM、员工服务、安全与风险等主要职能；AI Control Tower（统一治理面板）从付费附加转为**全产品标配**；同时开放 Action Fabric MCP Server，允许任何 Agent（包括 Claude、Copilot 或自研 Agent）通过 ServiceNow 安全调用企业行动。ServiceNow 与 Accenture 宣布联合前沿部署工程（FDE）项目，加速 Agentic AI 从 Pilot 到生产。",
+      "meaning": "：已购买 ServiceNow 的企业，AI Control Tower 现在不用额外付费，这是降低 Agent 治理成本的实质利好；多 Agent 生态中\"谁是编排层\"的争夺，ServiceNow 借助 Action Fabric 提前占位",
+      "source": "Fortune",
+      "quality_score": 7,
+      "url": "https://fortune.com/2026/05/05/servicenow-knowledge-2026-autonomous-workforce-microsoft-nvidia-ai-announcements/",
+      "companies": [
+        "ServiceNow",
+        "Accenture",
+        "Fabric"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-016",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Google Cloud Gemini Enterprise Agent Platform：成为企业 Agentic 基础设施的\"任务控制中心\"",
+      "summary": "Google Cloud Next 2026 发布 Gemini Enterprise Agent Platform，定位为安全全栈的企业 Agent 编排中枢，涵盖构建、扩缩、治理和优化。配套发布第八代 TPU（首次包含两款专为 Agentic 时代设计的芯片），以及跨云 Agentic Data Cloud（零拷贝访问 AWS/Azure 数据、Knowledge Catalog 语义上下文、Deep Research Agent）。目前 75% 的 Google Cloud 客户已使用其 AI 产品，330 家客户过去 12 个月各自处理逾 1 万亿 Token。",
+      "meaning": "：使用 GCP 的企业 AI 团队应将 Gemini Enterprise Agent Platform 纳入 2026 下半年的基础设施评估；跨云访问能力使其成为混合多云 AI 战略的潜在粘合剂",
+      "source": "Google Cloud Blog",
+      "quality_score": 7,
+      "url": "https://cloud.google.com/blog/topics/google-cloud-next/welcome-to-google-cloud-next26",
+      "companies": [
+        "Google",
+        "AWS"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-017",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "Shopify River Agent：5,938 名员工上线，每周提交 1,870 个 PR，1/8 合并 PR 来自 AI",
+      "summary": "Shopify 公开披露内部 AI 编程 Agent River 的最新运营数据：上月跨越 4,450 个 Slack 频道有 5,938 名员工使用，上周在主代码仓库提交 1,870 个 Pull Request，其中每 8 个被合并的 PR 中就有 1 个出自 River。这一比例正在以月度为单位持续上升。River 只在公开频道工作（不接受私信），整个 AI 协作过程对全公司可搜索，形成自然的组织级学习环境。",
+      "meaning": "：正在部署 AI 编程工具的工程团队，\"全程可见、默认公开\"的 Agent 设计能将 AI 渗透率从个别早期采用者扩展至全工程组织，Shopify 数据是可供直接借鉴的参考基线",
+      "source": "Simon Willison 转引 Shopify 内部数据",
+      "quality_score": 8,
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/",
+      "companies": [
+        "Shopify"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-018",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "Mozilla Firefox 用 Claude Mythos 找到 423 个安全漏洞，历史人工平均只有 20-30 个",
+      "summary": "Mozilla 使用 Anthropic Mythos 预览版在 4 月对 Firefox 做了安全扫描，共发现 **423 个安全漏洞**。相比之下，历史上每月人工安全审计通常仅发现 20-30 个。这不是边际提升，而是量级跃升。Mythos 目前仅向少数合作伙伴（部分科技公司、银行、网络安全公司）开放，且受美国政府地缘限制。",
+      "meaning": "：CISO 应立即将\"LLM 辅助安全扫描\"列入下一个财年预算；对于无法访问 Mythos 的欧洲金融机构，Mistral 正在填补这一空缺（见今日⚖️板块）",
+      "source": "Simon Willison 博客",
+      "quality_score": 8,
+      "url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/",
+      "companies": [
+        "Anthropic",
+        "Mythos"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-019",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "Uber 花光 2026 年全年 AI 预算：4 个月用完，Claude Code + Cursor 是主要开销",
+      "summary": "VentureBeat 报道 Uber CTO 透露，公司用了仅四个月就花光了 2026 年全年的 AI 工具预算，主要开支集中在 Claude Code 和 Cursor。工程师个人的 API 月成本在 $500-$2,000 之间，且随着工具使用深度增加还在上升。这一案例折射出一个更大的行业现象：企业 AI 预算规划普遍低估了 AI 编程工具被深度采用后的实际消耗。",
+      "meaning": "：CFO 和 CTO 需要重新审视 AI 工具预算的规划方法——不能按\"人头费\"模式估算，AI 工具的消耗随使用深度非线性增长；建议按季度设置消耗预警线",
+      "source": "VentureBeat",
+      "quality_score": 7,
+      "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-020",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "Wirestock：$40M ARR，700,000 名创作者，为全球六大基础模型厂商供应训练数据",
+      "summary": "Wirestock 本轮融资同期披露了令人印象深刻的运营数据：年化收入 $4000 万、在册创作者 70 万、已向创作者支付 $1500 万、为全球最大的六家基础模型公司供应数据（具体名称保密）。公司已从创作者社区平台完成向 AI 数据供应商的战略转型，同时在建立企业级软件工具，让 AI 实验室能在平台上协作管理数据集。",
+      "meaning": "：AI 训练数据供应正成为一个独立的企业级基础设施赛道；对于依赖创意内容的行业，Licensed Creative Data 是未来 AI 训练合规化的关键方向",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-021",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "Anthropic 估值谈判至 $9500 亿：拟融 $300-500 亿，$300 亿 ARR，超越 OpenAI",
+      "summary": "Anthropic 正与投资者谈判新一轮融资，目标估值最高 $9500 亿，融资规模 $300-500 亿。若完成，将首次超过 OpenAI 的 $8500 亿估值成为全球最高价值 AI 公司。Dario Amodei 同期披露，Q1 2026 收入同比实现 80 倍增长（计划仅 10 倍），年化收入已超 $300 亿。Anthropic 此前最后一轮融资估值为 $3800 亿（2026 年 2 月）。",
+      "meaning": "：AI 头部公司估值以季度为单位翻倍，正在评估 AI 厂商长期合作的企业，需将\"资本结构稳定性与 IPO 进程\"纳入供应商尽调框架——融资阶段越晚，条款越复杂",
+      "source": "Bloomberg / NYT",
+      "quality_score": 8,
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Dario Amodei"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-022",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "OpenAI DeployCo 正式运营：$40 亿资金，19 家合作伙伴，驻场工程师模式",
+      "summary": "OpenAI Deployment Company（DeployCo）本周正式运营，初始资金逾 $40 亿，OpenAI 占多数股权。运营模式：派遣专业 AI 工程师（Forward Deployed Engineers）直接嵌入客户组织，识别并落地 AI 应用场景，同时收购咨询公司 Tomoro（约 150 名 AI 工程师）作为起点。19 家全球合作伙伴包括 TPG（主导）、Bain Capital、Brookfield，以及咨询类的 Bain & Company、麦肯锡、Capgemini。",
+      "meaning": "：麦肯锡和 Accenture 对 OpenAI 既是合作伙伴又是竞争对手——DeployCo 直接在客户侧驻场，压缩了传统咨询公司的 AI 实施空间；企业 CIO 选择 AI 落地合作伙伴时，需评估与 OpenAI 直接合作 vs 通过 SI 的成本差异",
+      "source": "OpenAI / Axios",
+      "quality_score": 8,
+      "url": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "companies": [
+        "OpenAI",
+        "Tomoro",
+        "Bain",
+        "DeployCo"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-023",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "Anthropic 洽购 Stainless：$3 亿+ 收购 SDK 生成初创，OpenAI/Google 也是其客户",
+      "summary": "据 The Information 报道，Anthropic 已进入收购 Stainless 的高级谈判阶段，出价至少 $3 亿，尚未签署条款清单。Stainless 通过 AI 驱动的编译器从 OpenAPI 规范自动生成跨语言 SDK，同时构建 MCP Server。其客户涵盖 Anthropic、OpenAI、Google、Cloudflare、Cerebras，位于模型公司与开发者之间的\"SDK 基础设施层\"。若成功，Anthropic 将控制该层级，影响竞争对手开发者接入速度。",
+      "meaning": "：这是一笔具有战略意义的基础设施收购——控制 SDK 层意味着 Anthropic 可以率先将新特性推送给自家开发者生态；对正在构建多模型 API 策略的企业，SDK 标准化的控制权归属值得关注",
+      "source": "The Information",
+      "quality_score": 7,
+      "url": "https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-openai-google",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Cerebras"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-024",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "微软投入 OpenAI 逾 $1000 亿：审判庭上意外披露，含基础设施和托管成本",
+      "summary": "Musk-OpenAI 审判中，微软企业发展高管 Michael Wetter 作证：截至 2026 年 6 月，微软对 OpenAI 的投入将超过 $1000 亿，包括直接投资、Azure 基础设施和模型托管成本。此前已知的约 $130 亿直接投资只是冰山一角。与此同时，微软 CEO Satya Nadella 作证表示，Musk 从未就合规问题直接联系过他。",
+      "meaning": "：$1000 亿的深度绑定意味着微软在 OpenAI 的战略地位难以被替代，即使双方 4 月修改了收益分成协议；正在评估 Azure OpenAI vs 其他云 AI 服务的企业，微软长期押注 OpenAI 的信号依然清晰",
+      "source": "Bloomberg / CNBC",
+      "quality_score": 7,
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/microsoft-spent-over-100-billion-on-openai-partnership-to-date",
+      "companies": [
+        "OpenAI"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-025",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "Wirestock 完成 $2300 万 A 轮：Nava Ventures 领投，专注 Licensed 多模态训练数据",
+      "summary": "Nava Ventures 领投，SBVF、Formula VC、I2BF Global Ventures 参投，总融资额约 $2600 万。Wirestock 的核心价值主张是 **Licensed**（授权）数据：所有图像、视频、设计资产、3D 内容均来自注册创作者，解决 AI 训练数据版权合规问题。公司将用新资金扩充研究、工程团队并开发企业协作平台。",
+      "meaning": "：AI 训练数据版权合规正推动一批 Licensed Data 公司获得资本青睐；企业自建 AI 模型时，应评估\"自行采集数据的法律风险 vs 采购 Licensed 数据集的成本\"",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-026",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "全球 AI 技术投资涌至 $2970 亿，企业 AI 支出即将翻倍至营收 1.7%",
+      "summary": "BCC Research 2026 Q1 AI 产业报告：全球 AI 技术投资 2024 年达 $2970 亿，其中 80-81% 流向 AI 核心公司。报告记录了一个结构性转变：企业正从试点项目切换到全企业范围 AI 部署，AI 支出占营收比预计从 0.8% 翻倍至 1.7%。企业年同比 AI 支出接近翻番。",
+      "meaning": "：AI 支出从\"实验预算\"升为\"运营预算\"，CFO 需要为 AI 成本建立独立的 FinOps 框架，而不是归入 IT 通用支出池管理",
+      "source": "GlobeNewswire / BCC Research",
+      "quality_score": 6,
+      "url": "https://www.globenewswire.com/news-release/2026/05/14/3295186/0/en/AI-Technology-Investment-Surges-to-297-Billion-Globally-as-Enterprise-Deployment-Accelerates-Toward-Production-Scale.html",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-027",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "SpaceXAI 合并后大规模人才流失：50+ 人离职，所有 11 位联合创始人已全部出走",
+      "summary": "SpaceX 2 月完成对 xAI 收购（xAI 估值 $2500 亿，SpaceX $1 万亿）后，50+ 名研究员和工程师已离职，涵盖编程、世界模型、Grok 语音部门。最后两位联合创始人 Manuel Kroiss 和 Ross Nordeen 也在 3 月底离开，至此 11 位原始联创全部出走。最关键的损失：**预训练团队**已缩减到\"仅剩几个人\"——这是开发竞争性基础模型的核心能力。离职人员中至少 11 人加入 Meta，7 人加入 Mira Murati 的 Thinking Machine Labs。",
+      "meaning": "：SpaceXAI 的预训练能力萎缩，其作为基础模型竞争者的可信度大幅下降；企业评估 Grok 作为长期 AI 供应商时，需将研发人才稳定性列为风险因素；Meta 借此大量招入顶级 AI 研究员",
+      "source": "TechCrunch",
+      "quality_score": 8,
+      "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+      "companies": [
+        "Meta",
+        "xAI",
+        "Mira Murati"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-028",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "GitLab 为\"Agentic 工程\"大重构：3 层管理削减，独立团队翻倍至 60 个，撤出 30% 国家",
+      "summary": "GitLab 正在执行一套全面组织重构：削减部分职能中 3 层管理、将 R&D 独立团队从约 30 个重组为约 60 个（各团队有端到端所有权），关闭约 30% 国家的小型团队，同时将核心价值观从 CREDIT 框架替换为\"速度+品质、主人翁精神、客户成果\"。背后假设：AI Agentic 工程将大幅降低开发成本，软件需求将爆炸式增长。然而 GitLab 股价同比下跌 50%，市场对这一假设持保留态度。",
+      "meaning": "：GitLab 是\"Agentic 工程扩大市场\"假设的先行赌注，其重构结果将为整个行业提供一个参照——企业软件部门在做类似假设前，值得等 12 个月看 GitLab 的股价走势",
+      "source": "Simon Willison 分析 / GitLab 内部文件",
+      "quality_score": 7,
+      "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/",
+      "companies": [
+        "GitLab"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-029",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "BCG：未来 2-3 年 50-55% 的美国岗位将被 AI 重塑，但不是消失",
+      "summary": "BCG 新研究：未来 2-3 年 50-55% 的美国岗位将被 AI 重塑，但重点是\"重塑\"而非\"替代\"——多数人将保留相似职位，但工作方式和产出预期会发生根本性变化。对于员工，这意味着需要从\"写每一行代码\"转向\"指导智能系统并评估产出\"。BCG 同期数据：拥有最雄心勃勃再培训计划的企业，往往也是 AI 价值回报最高的企业。",
+      "meaning": "：CHRO 规划 AI 导入时，\"组织再培训投入\"不是成本项而是 ROI 驱动项——BCG 数据表明再培训力度与 AI 价值实现正相关；\"替代叙事\"会阻碍采用，应换成\"协作重塑\"话术",
+      "source": "BCG",
+      "quality_score": 7,
+      "url": "https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces",
+      "companies": [
+        "BCG"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-030",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "Writer 调研：79% 企业面临 AI 采用挑战，54% 高管说 AI 正在\"撕裂公司\"",
+      "summary": "覆盖 2,400 名全球高管的调研显示，79% 的企业面临 AI 落地挑战（较 2025 年调研双位数跳升），54% 的 C 级高管承认 AI 采用正在\"撕裂公司\"——主要矛盾是支持 AI 转型与抵制变革的组织力量之间的冲突。同时 67% 的高管认为公司已因未经授权的 AI 工具遭受数据泄露。拥有强有力变革管理项目的企业，落地到生产的概率是行业平均的 6 倍。",
+      "meaning": "：AI 导入的阻力主要不是技术问题，是变革管理问题；企业在 AI 工具选型上花 80% 时间，但真正决定成败的是另外那 20% 的组织变革规划",
+      "source": "Writer",
+      "quality_score": 7,
+      "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-031",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "Deloitte《2026 企业 AI 现状》：60% 员工获得 AI 工具，66% 报告生产力提升",
+      "summary": "Deloitte 年度企业 AI 报告：一年内获得正式 AI 工具授权的员工比例从不到 40% 跃升至约 60%（提升 50%）。实际效果方面，66% 的企业报告生产力提升，但企业层面的 ROI 转化仍是最大挑战。企业 AI 人才战略三大优先级：提升整体 AI 素养（53%）、设计再培训计划（48%）、招募 AI 专项人才（36%）。",
+      "meaning": "：AI 素养培训投入应优先于工具采购，53% 的企业将其列为首要任务——对于还在\"先采购后培训\"的公司，这个顺序值得反思",
+      "source": "Deloitte",
+      "quality_score": 7,
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+      "companies": [
+        "Deloitte"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-032",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "5% GPU 利用率：企业浪费了 $4010 亿 AI 基础设施投入",
+      "summary": "VentureBeat 基于多家企业审计数据的分析：企业 GPU 基础设施实际利用率平均只有 **5%**，意味着 95% 的算力在闲置。当按实际有用 Token 计量时，推理成本急剧上升，成为\"成本爆炸\"的核心来源。一个季度内，\"推理成本/TCO\"从 34% 跃升至 41% 成为企业 AI 支出的首要优化目标。成本优化平台预算增速超过所有 AI 工具类别。",
+      "meaning": "：企业 AI 基础设施评估标准需要从\"算力规模\"转移到\"有效利用率\"；CIO 应在 Q3 启动 GPU FinOps 审计，5% 利用率意味着同样的 AI 效果可能用 1/5 的预算实现",
+      "source": "VentureBeat",
+      "quality_score": 8,
+      "url": "https://venturebeat.com/infrastructure/5-gpu-utilization-the-401-billion-ai-infrastructure-problem-enterprises-cant-keep-ignoring",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-033",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "上云还是自建？高利用率工作负载下自建 GPU 4 个月内回本",
+      "summary": "对比研究显示：当 GPU 利用率超过 20% 时，自建/托管基础设施在 4-6 个月内即可回本，且相比 MaaS API 每百万 Token 成本可低至 **1/18**。但关键前提是\"高持续利用率\"——单台 8×H100 SXM5 服务器三年 TCO 在 $71-95 万之间（含 0.5 FTE 基础设施工程师 $22-30 万人力成本），低利用率下云 API 反而更经济。",
+      "meaning": "：AI 基础设施决策应按工作负载特征分类：高频持续推理（客服、代码审查、文档处理）→ 自建/托管有优势；间歇性探索实验 → API 更灵活。CFO 和 CIO 需联合制定 AI 成本架构决策框架",
+      "source": "VentureBeat / DataBank",
+      "quality_score": 6,
+      "url": "https://venturebeat.com/infrastructure/5-gpu-utilization-the-401-billion-ai-infrastructure-problem-enterprises-cant-keep-ignoring",
+      "companies": [
+        "FT"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-034",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "Anthropic Q1 收入 80 倍增长，计划 10 倍却实现 80 倍：Claude Code 是主驱动",
+      "summary": "Anthropic CEO Dario Amodei 披露 Q1 2026 数据：计划中的增长是 10 倍，实际实现了 **80 倍**。驱动增长的核心产品是 Claude Code，已成为 Anthropic 历史上增速最快的产品，同期 4% 的全球 GitHub 公开提交由 Claude Code 完成（一个月前还是 2%）。Anthropic 的企业采用率在 4 月达到 34.4%，首次超越 OpenAI 的 32.3%。",
+      "meaning": "：Claude Code 的爆发式增长驱动了 Anthropic 整体收入，这对 AI 编程工具市场的所有参与者（GitHub Copilot、Cursor、Windsurf）都是直接竞争压力；企业 CTO 需重新评估 AI 编程工具预算充足性",
+      "source": "Ramp / VentureBeat",
+      "quality_score": 7,
+      "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Dario Amodei"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-035",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "本地部署 vs 云 API：算力价格战重塑企业 AI 基础设施决策",
+      "summary": "随着推理优化（量化、蒸馏、批处理）不断进步，每百万 Token 的 API 价格在过去一年下降了 70-90%，使得\"什么时候自建比用 API 划算\"的决策点持续右移。NVIDIA 最新研究指出，Cost per Token 是衡量 AI 工厂经济性的核心指标，硬件性能、软件优化、真实利用率三者共同决定实际 TCO。",
+      "meaning": "：每季度重新评估\"自建 vs 云 API\"的经济账是必要的，因为市场在快速变化；正在签长期算力采购合同的企业，需考虑模型蒸馏进步对单位成本的颠覆性影响",
+      "source": "VentureBeat / Spheron",
+      "quality_score": 5,
+      "url": "https://venturebeat.com/infrastructure/5-gpu-utilization-the-401-billion-ai-infrastructure-problem-enterprises-cant-keep-ignoring",
+      "companies": [
+        "NVIDIA"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-036",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "EU AI Act 8 月 2 日高风险截止：HR/金融/医疗 AI 系统合规大考，违规最高年营收 3%",
+      "summary": "2026 年 8 月 2 日，欧盟 AI 法案附件 III 高风险 AI 系统强制合规期限到来。涵盖用于就业决策（简历筛选、绩效评估）、信贷审批、教育评估、执法的 AI 系统，违规最高处罚为 **€1500 万或全球年营收 3%**（禁止类 AI 违规则高达 €3500 万或营收 7%）。调查显示超过 50% 的组织尚未建立 AI 系统目录，CDO 需在 6 月底前完成初步盘点。",
+      "meaning": "：在欧盟有运营的跨国企业，AI 合规不再是\"最佳实践\"而是\"法律义务\"；HR 系统中使用 AI 进行候选人评分或员工绩效分析的企业，是第一批合规审查的高危对象",
+      "source": "Kennedy's Law / Fusefy",
+      "quality_score": 8,
+      "url": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-037",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "欧盟议会 5 月 7 日协议：简化 AI 法案规则，为企业降低部分合规负担",
+      "summary": "欧盟理事会和议会 5 月 7 日就简化 AI 法案规则达成协议，重点是为高风险 AI 的两大主要类别设置独立截止日期（给予技术标准和监管指引更多时间），并对部分中小型企业提供豁免。总体方向是在不削减核心保护的前提下降低合规复杂度。8 月 2 日高风险截止期不受影响。",
+      "meaning": "：欧盟正在试图平衡\"监管有效性\"和\"不扼杀创新\"的矛盾，协议对大型跨国企业影响有限（核心义务不变），对中小型企业部署 AI 是实质利好",
+      "source": "EU Council",
+      "quality_score": 7,
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260515-038",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "Musk-OpenAI 审判最终陈词：Musk 律师指控\"欺骗公众\"，判决将决定 AI 行业格局",
+      "summary": "5 月 14 日最终陈词日，Musk 律师 Steven Molo 重点攻击 OpenAI 放弃非营利使命转向商业化的合法性，并援引前 CTO Mira Murati 和前董事会成员 Helen Toner、Tasha McCauley 的证词质疑 Altman 诚信。Musk 本人因赴华出访缺席审判，律师当庭向陪审团道歉。判决结果将直接影响 OpenAI 的 IPO 路径、DeployCo 扩张和企业合同执行力。",
+      "meaning": "：OpenAI 企业客户在签署新的大型合同前，应将诉讼判决结果作为合同里程碑挂钩——最坏情况下的结构性变化可能影响 API 服务条款和定价稳定性",
+      "source": "Axios",
+      "quality_score": 8,
+      "url": "https://www.axios.com/2026/05/14/musk-closing-arguments-openai-altman",
+      "companies": [
+        "OpenAI",
+        "Mira Murati",
+        "DeployCo"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-039",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "OpenAI 拟对苹果提起法律诉讼：ChatGPT 集成收益远低于预期，苹果\"要求信任\"未兑现",
+      "summary": "OpenAI 正评估对苹果的法律行动，核心争议是 2024 年 6 月 WWDC 宣布的 ChatGPT-Siri 集成未能带来预期的订阅增长和收入。OpenAI 高管称功能被\"埋进\"系统深处，苹果要求 OpenAI\"跳信任的飞跃\"，结果失败。苹果则对 OpenAI 的隐私标准和 Jony Ive 领导的硬件推进表示不满。TechCrunch 指出这是苹果惯性地得罪合作伙伴（Google Maps、Adobe Flash、Spotify）的延续。",
+      "meaning": "：AI 企业与平台级科技公司的整合合同需明确\"曝光度保障\"条款，否则\"嵌入\"可能沦为流量的终点；正在评估通过 Apple Business 集成 AI 的企业，应将集成可见性作为 KPI 前置谈判",
+      "source": "TechCrunch",
+      "quality_score": 7,
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "companies": [
+        "OpenAI",
+        "Google",
+        "Adobe",
+        "TechCrunch"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260515-040",
+      "date": "2026-05-15",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "Mistral AI 为欧洲银行开发 Mythos 替代品：欧盟金融机构被地缘限制挡在墙外",
+      "summary": "Mistral AI 正在与欧洲银行讨论部署其网络安全 AI 模型，作为受访问限制的 Anthropic Mythos 的替代方案。Mythos 因美国政府管控仅向少数合作伙伴开放，欧洲银行（含 Mistral 已有客户 HSBC、BNP Paribas）被排除在外。Mistral 此前已在 Mozilla 量级的安全漏洞发现能力挑战下加快了开发节奏，正在打磨可批量商用的产品版本。",
+      "meaning": "：AI 在网络安全场景的地缘政治分裂已经开始——欧洲金融机构不得不寻找\"主权 AI\"替代方案；AI 供应商在全球销售策略中，地缘合规性正成为与性能同等重要的维度",
+      "source": "Bloomberg",
+      "quality_score": 7,
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/mistral-developing-new-ai-model-for-banks-lacking-mythos-access",
+      "companies": [
+        "Anthropic",
+        "Mistral",
+        "Mythos"
+      ],
+      "keywords": []
+    },
     {
       "id": "20260514-T01",
       "date": "2026-05-14",
@@ -900,40 +1619,49 @@
   ],
   "tag_index": {
     "dimensions": {
-      "🚀 产品": 10,
-      "🏢 案例": 7,
-      "💰 商业": 7,
-      "🌟 Top 5": 5,
-      "👥 组织": 5,
-      "⚙️ 基础设施": 5,
-      "🧠 Tier 0": 4,
-      "⚖️ 监管": 4
+      "🚀 产品": 18,
+      "💰 商业": 13,
+      "🏢 案例": 11,
+      "🌟 Top 5": 10,
+      "👥 组织": 10,
+      "⚙️ 基础设施": 9,
+      "⚖️ 监管": 9,
+      "🧠 Tier 0": 7
     },
     "companies": {
-      "Anthropic": 14,
-      "OpenAI": 10,
-      "Google": 8,
-      "AWS": 6,
-      "xAI": 5,
-      "Deloitte": 4,
-      "DeployCo": 4,
-      "Microsoft": 4,
+      "Anthropic": 24,
+      "OpenAI": 22,
+      "Google": 14,
+      "AWS": 8,
+      "DeployCo": 7,
+      "Mythos": 7,
+      "Dario Amodei": 6,
+      "Simon Willison": 6,
+      "FT": 6,
+      "xAI": 6,
+      "SAP": 5,
+      "Microsoft": 5,
+      "NVIDIA": 5,
+      "Deloitte": 5,
+      "Joule": 4,
+      "Sapphire": 4,
+      "Ring": 4,
       "Amazon": 4,
-      "FT": 4,
-      "Mythos": 4,
-      "SAP": 3,
-      "Dario Amodei": 3,
+      "MIT": 3,
+      "Adobe": 3,
+      "Tomoro": 3,
+      "Bain": 3,
+      "TechCrunch": 3,
       "McKinsey": 3,
-      "Simon Willison": 3,
-      "Ring": 3,
       "Salesforce": 3,
-      "Joule": 2,
-      "Sapphire": 2,
-      "TechCrunch": 2,
-      "Tomoro": 2,
-      "Bain": 2,
-      "MIT": 2,
-      "NVIDIA": 2,
+      "Shopify": 2,
+      "GitLab": 2,
+      "Mistral": 2,
+      "Datadog": 2,
+      "ServiceNow": 2,
+      "Accenture": 2,
+      "Mira Murati": 2,
+      "BCG": 2,
       "Reuters": 2,
       "Apple": 2,
       "Bedrock": 2,
@@ -942,30 +1670,22 @@
       "Glasswing": 2,
       "Project Glasswing": 2,
       "DeepMind": 2,
+      "Bloomberg": 1,
+      "Fabric": 1,
+      "Cerebras": 1,
+      "Meta": 1,
       "IBM": 1,
       "Snowflake": 1,
       "Perplexity": 1,
-      "Adobe": 1,
-      "Datadog": 1,
       "DeepSeek": 1,
-      "文心": 1,
-      "Cisco": 1,
-      "Workday": 1,
-      "ServiceNow": 1,
-      "Isomorphic Labs": 1,
-      "BCG": 1,
-      "Accenture": 1
+      "文心": 1
     },
     "signal_days": {
-      "medium": 1
+      "medium": 2
     }
   },
   "trends": {
     "timeline_30d": [
-      {
-        "date": "2026-04-15",
-        "count": 0
-      },
       {
         "date": "2026-04-16",
         "count": 0
@@ -1081,38 +1801,52 @@
       {
         "date": "2026-05-14",
         "count": 45
+      },
+      {
+        "date": "2026-05-15",
+        "count": 39
       }
     ],
     "top_companies_timeline": {
       "Anthropic": {
+        "2026-05-15": 10,
         "2026-05-14": 14
       },
       "OpenAI": {
+        "2026-05-15": 12,
         "2026-05-14": 10
       },
       "Google": {
+        "2026-05-15": 6,
         "2026-05-14": 8
       },
       "AWS": {
+        "2026-05-15": 2,
         "2026-05-14": 6
       },
-      "xAI": {
-        "2026-05-14": 5
-      },
-      "Deloitte": {
-        "2026-05-14": 4
-      },
       "DeployCo": {
+        "2026-05-15": 3,
         "2026-05-14": 4
       },
-      "Microsoft": {
+      "Mythos": {
+        "2026-05-15": 3,
         "2026-05-14": 4
       },
-      "Amazon": {
-        "2026-05-14": 4
+      "Dario Amodei": {
+        "2026-05-15": 3,
+        "2026-05-14": 3
+      },
+      "Simon Willison": {
+        "2026-05-15": 3,
+        "2026-05-14": 3
       },
       "FT": {
+        "2026-05-15": 2,
         "2026-05-14": 4
+      },
+      "xAI": {
+        "2026-05-15": 1,
+        "2026-05-14": 5
       }
     },
     "top10_companies": [
@@ -1120,12 +1854,12 @@
       "OpenAI",
       "Google",
       "AWS",
-      "xAI",
-      "Deloitte",
       "DeployCo",
-      "Microsoft",
-      "Amazon",
-      "FT"
+      "Mythos",
+      "Dario Amodei",
+      "Simon Willison",
+      "FT",
+      "xAI"
     ]
   }
 }
