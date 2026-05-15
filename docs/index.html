@@ -2038,9 +2038,18 @@ function exportToMarkdown(articles, sortedDates, groups) {
         md += `**🏢 涉及公司**:${a.companies.join('、')}\n\n`;
       }
 
-      // 原文链接
+      // 原文链接(优先)+ 来源回链(兜底)
       if (a.url) {
-        md += `🔗 [原文链接](${a.url})\n\n`;
+        md += `🔗 [原文链接](${a.url})`;
+        // 同时附带 GitHub 早报回链(方便溯源)
+        md += ` · 📄 [所在早报](https://github.com/wikicc2013/zhuanxing-ai-daily/blob/main/reports/${a.date}.md)\n\n`;
+      } else {
+        // 无原文链接时, 至少提供 GitHub 早报文件回链, 方便用户查找
+        md += `📄 [所在早报: ${a.date}.md](https://github.com/wikicc2013/zhuanxing-ai-daily/blob/main/reports/${a.date}.md)`;
+        if (a.source) {
+          md += ` · 可在 ${a.source} 网站搜索此标题`;
+        }
+        md += `\n\n`;
       }
 
       md += `---\n\n`;
