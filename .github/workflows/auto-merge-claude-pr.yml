@@ -96,9 +96,9 @@ jobs:
             SKIP_REASON="分支不是 claude/* 格式 (当前: ${{ steps.meta.outputs.branch }})"
           fi
 
-          # 护栏 3: 标题必须含 daily-briefing
-          if [ -z "$SKIP_REASON" ] && [[ ! "${{ steps.meta.outputs.title }}" =~ daily-briefing ]]; then
-            SKIP_REASON="PR 标题不含 'daily-briefing' (当前: ${{ steps.meta.outputs.title }})"
+          # 护栏 3: 标题必须是合法批次前缀(5 种)
+          if [ -z "$SKIP_REASON" ] && [[ ! "${{ steps.meta.outputs.title }}" =~ ^(daily-briefing|authority-batch|industry-batch|china-batch|research-batch): ]]; then
+            SKIP_REASON="PR 标题不符合规范 (期望以 daily-briefing/authority-batch/industry-batch/china-batch/research-batch 开头, 当前: ${{ steps.meta.outputs.title }})"
           fi
 
           # 护栏 4: 文件数 1-5 (早报通常只改 reports/YYYY-MM-DD.md + reports/index.md)
