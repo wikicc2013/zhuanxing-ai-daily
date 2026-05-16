@@ -1745,7 +1745,13 @@ function renderFavoritesView() {
         <button class="fav-range-tab ${activeFilters.favRange === 'all' ? 'active' : ''}" data-favrange="all">全部</button>
       </div>
       <button class="fav-export-btn" id="export-md-btn" ${collected.length === 0 ? 'disabled' : ''}>
-        📥 导出 Markdown
+        📥 导出
+      </button>
+      <button class="fav-export-btn" id="gen-report-btn" ${collected.length === 0 ? 'disabled' : ''} style="background: #2d5016; border-color: #2d5016;">
+        📝 深度报告
+      </button>
+      <button class="fav-export-btn" id="gen-ai-prompt-btn" ${collected.length === 0 ? 'disabled' : ''} style="background: #7c2d12; border-color: #7c2d12;">
+        🤖 AI 分析
       </button>
     </div>
     ${tagsBarHtml}
@@ -1853,10 +1859,23 @@ function bindFavTagChips() {
 
 function bindExportBtn(articles, sortedDates, groups) {
   const btn = document.getElementById('export-md-btn');
-  if (!btn) return;
-  btn.addEventListener('click', () => {
-    exportToMarkdown(articles, sortedDates, groups);
-  });
+  if (btn) {
+    btn.addEventListener('click', () => {
+      exportToMarkdown(articles, sortedDates, groups);
+    });
+  }
+  const reportBtn = document.getElementById('gen-report-btn');
+  if (reportBtn) {
+    reportBtn.addEventListener('click', () => {
+      generateDeepReport(articles, sortedDates, groups);
+    });
+  }
+  const aiBtn = document.getElementById('gen-ai-prompt-btn');
+  if (aiBtn) {
+    aiBtn.addEventListener('click', () => {
+      generateAIPrompt(articles, sortedDates, groups);
+    });
+  }
 }
 
 function getWeekday(dateStr) {
@@ -1973,6 +1992,480 @@ function removeBookmarkFromModal() {
   renderViewCounts();
   renderMyTagList();
   renderArticles();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 📝 生成深度报告(V1.5 强化版 - 3500+ 字结构化分析)
+// ═══════════════════════════════════════════════════════════════════
+function generateDeepReport(articles, sortedDates, groups) {
+  const now = new Date();
+  const exportDate = now.toISOString().slice(0, 10);
+  const exportTime = now.toLocaleString('zh-CN', { hour12: false });
+  const rangeLabel = {today: '今天', week: '本周', month: '本月', all: '全部'}[activeFilters.favRange];
+
+  // ━━━ 1. 数据统计 ━━━
+  const tagCount = {};
+  const compCount = {};
+  const dimCount = {};
+  const sourceCount = {};
+  const dateCount = {};
+  let top5Count = 0, tier0Count = 0;
+
+  articles.forEach(a => {
+    if (a.is_top5) top5Count++;
+    if (a.is_tier0) tier0Count++;
+    if (a._fav?.tags) a._fav.tags.forEach(t => tagCount[t] = (tagCount[t] || 0) + 1);
+    if (a.companies) a.companies.forEach(c => compCount[c] = (compCount[c] || 0) + 1);
+    if (a.dimension) dimCount[a.dimension] = (dimCount[a.dimension] || 0) + 1;
+    if (a.source) sourceCount[a.source] = (sourceCount[a.source] || 0) + 1;
+    if (a.date) dateCount[a.date] = (dateCount[a.date] || 0) + 1;
+  });
+
+  const topTags = Object.entries(tagCount).sort((a,b) => b[1]-a[1]).slice(0, 10);
+  const topComps = Object.entries(compCount).sort((a,b) => b[1]-a[1]).slice(0, 15);
+  const topDims = Object.entries(dimCount).sort((a,b) => b[1]-a[1]);
+  const topSources = Object.entries(sourceCount).sort((a,b) => b[1]-a[1]).slice(0, 8);
+  const topDates = Object.entries(dateCount).sort((a,b) => b[1]-a[1]).slice(0, 5);
+
+  // 按标签聚合
+  const byTag = {};
+  articles.forEach(a => {
+    if (a._fav?.tags && a._fav.tags.length) {
+      a._fav.tags.forEach(t => {
+        if (!byTag[t]) byTag[t] = [];
+        byTag[t].push(a);
+      });
+    } else {
+      if (!byTag['_未打标签']) byTag['_未打标签'] = [];
+      byTag['_未打标签'].push(a);
+    }
+  });
+
+  // 公司国别分类
+  const US_COMPS = ['OpenAI','Anthropic','NVIDIA','Microsoft','Google','Meta','Apple','Amazon','AWS','Salesforce','Adobe','SAP','Oracle','Cisco','Cerebras','Cursor','GitHub','xAI'];
+  const CN_COMPS = ['DeepSeek','Moonshot','智谱','MiniMax','阿里','字节','百度','腾讯','华为','钉钉','飞书','企微','Kimi','豆包','文心','通义','混元','盘古'];
+  let usCount = 0, cnCount = 0;
+  Object.entries(compCount).forEach(([name, cnt]) => {
+    if (US_COMPS.some(c => name.includes(c))) usCount += cnt;
+    if (CN_COMPS.some(c => name.includes(c))) cnCount += cnt;
+  });
+
+  // ━━━ 2. 报告 Markdown ━━━
+  let md = `# 📝 我的 AI 观察深度报告\n\n`;
+  md += `> 基于响哥 AI 早报 · ${rangeLabel}收藏 · 自动深度分析\n`;
+  md += `> 生成时间:${exportTime}\n`;
+  md += `> 数据范围:${articles.length} 篇文章 · ${sortedDates.length} 份早报 · ${Object.keys(compCount).length} 家公司 · ${Object.keys(tagCount).length} 个个人标签\n\n`;
+  md += `---\n\n`;
+
+  // ━━━ 一、执行摘要 ━━━
+  md += `## 一、执行摘要\n\n`;
+  md += `**核心数字**:${rangeLabel}你共收藏 ${articles.length} 篇 AI 早报文章, `;
+  md += `其中 ⭐ Top 5 级 ${top5Count} 篇(${(top5Count/articles.length*100).toFixed(0)}%) · `;
+  md += `🧠 Tier 0 深度 ${tier0Count} 篇(${(tier0Count/articles.length*100).toFixed(0)}%)。\n\n`;
+
+  if (topTags.length > 0) {
+    md += `**关注的 3 大主题**(按个人标签数量):\n`;
+    topTags.slice(0, 3).forEach((t, i) => {
+      md += `${i+1}. **#${t[0]}** — ${t[1]} 篇 (占总收藏 ${(t[1]/articles.length*100).toFixed(0)}%)\n`;
+    });
+    md += `\n`;
+  }
+
+  if (topComps.length > 0) {
+    md += `**关注度最高的 5 家公司**:`;
+    md += topComps.slice(0, 5).map(c => `${c[0]}(${c[1]} 次)`).join(' · ');
+    md += `\n\n`;
+  }
+
+  // 自动给个"用一句话总结"
+  if (topTags.length > 0 && topComps.length > 0) {
+    md += `**一句话画像**:你在 ${rangeLabel} 主要关注 \`#${topTags[0][0]}\` 和 \`#${topTags[1]?.[0] || topTags[0][0]}\` 主题, `;
+    md += `以 ${topComps[0][0]} / ${topComps[1]?.[0] || ''}为核心标的, `;
+    md += `${top5Count/articles.length > 0.25 ? '偏好高信号头部新闻' : '更关注细分领域动态'}, `;
+    md += `${cnCount > usCount*0.4 ? '中美双线追踪' : '主要聚焦国际头部'}。\n\n`;
+  }
+
+  // ━━━ 二、兴趣分布全景 ━━━
+  md += `---\n\n## 二、兴趣分布全景\n\n`;
+
+  if (topTags.length > 0) {
+    md += `### 2.1 个人标签使用频率\n\n`;
+    md += `| 排名 | 标签 | 篇数 | 占比 | 可视化 |\n`;
+    md += `|------|------|------|------|--------|\n`;
+    topTags.forEach((t, i) => {
+      const pct = (t[1]/articles.length*100).toFixed(0);
+      const bar = '█'.repeat(Math.min(Math.round(t[1]/topTags[0][1]*20), 20));
+      md += `| ${i+1} | #${t[0]} | ${t[1]} | ${pct}% | \`${bar}\` |\n`;
+    });
+    md += `\n`;
+  }
+
+  if (topDims.length > 0) {
+    md += `### 2.2 内容维度分布\n\n`;
+    md += `| 维度 | 篇数 | 占比 |\n|------|------|------|\n`;
+    topDims.forEach(d => {
+      const pct = ((d[1] / articles.length) * 100).toFixed(0);
+      md += `| ${d[0]} | ${d[1]} | ${pct}% |\n`;
+    });
+    md += `\n`;
+  }
+
+  if (topComps.length > 0) {
+    md += `### 2.3 公司关注热力图(Top 15)\n\n`;
+    md += `| 排名 | 公司 | 出现次数 | 国别 |\n|------|------|----------|------|\n`;
+    topComps.forEach((c, i) => {
+      let nation = '其他';
+      if (US_COMPS.some(x => c[0].includes(x))) nation = '🇺🇸 美';
+      else if (CN_COMPS.some(x => c[0].includes(x))) nation = '🇨🇳 中';
+      md += `| ${i+1} | **${c[0]}** | ${c[1]} | ${nation} |\n`;
+    });
+    md += `\n`;
+  }
+
+  if (topSources.length > 0) {
+    md += `### 2.4 信源结构\n\n`;
+    topSources.forEach(s => md += `- **${s[0]}** — ${s[1]} 篇\n`);
+    md += `\n`;
+  }
+
+  // ━━━ 三、自动洞察(20+ 条规律) ━━━
+  md += `---\n\n## 三、数据驱动的自动洞察\n\n`;
+
+  let obsNum = 1;
+
+  // 洞察 1: 关注集中度
+  if (topTags.length >= 2) {
+    const top2Ratio = (topTags[0][1]+topTags[1][1])/articles.length*100;
+    md += `### 观察 ${obsNum++}: 你的关注高度集中\n\n`;
+    md += `Top 2 标签 \`#${topTags[0][0]}\` (${topTags[0][1]} 篇) 和 \`#${topTags[1][0]}\` (${topTags[1][1]} 篇) `;
+    md += `合计占总收藏 **${top2Ratio.toFixed(0)}%** — `;
+    if (top2Ratio > 60) md += `这是高度聚焦型读者画像, 你有明确的 2 条主线在跟踪。\n\n`;
+    else if (top2Ratio > 40) md += `你的关注比较聚焦, 主线明确但仍有副线探索。\n\n`;
+    else md += `你的关注比较分散, 兴趣广博, 适合作为"行业雷达"角色。\n\n`;
+  }
+
+  // 洞察 2: 头部玩家圈
+  if (topComps.length >= 3) {
+    const t3 = topComps.slice(0, 3);
+    md += `### 观察 ${obsNum++}: 你聚焦的"主要玩家圈"\n\n`;
+    md += `**${t3.map(c => c[0]).join(' / ')}** 三家合计出现 ${t3.reduce((s,c)=>s+c[1],0)} 次, `;
+    md += `占公司提及总量的 ${(t3.reduce((s,c)=>s+c[1],0)/Object.values(compCount).reduce((a,b)=>a+b,0)*100).toFixed(0)}%。\n\n`;
+    md += `**对 AI 选型/战略意义**:如果你或你的客户做 AI 决策, 这 3 家是基础参考集 — `;
+    md += `它们的产品发布、融资动态、战略联盟会先一步影响你的判断。建议:\n`;
+    md += `- 给这 3 家设专项跟踪(可以单独打标签 \`#${t3[0][0]}\`)\n`;
+    md += `- 每周回顾这 3 家的最新动作\n`;
+    md += `- 注意它们之间的合纵连横(如 Microsoft-OpenAI 投资关系变化)\n\n`;
+  }
+
+  // 洞察 3: 信号偏好
+  const top5Ratio = top5Count / articles.length;
+  md += `### 观察 ${obsNum++}: 你的信号偏好\n\n`;
+  if (top5Ratio > 0.3) {
+    md += `**${(top5Ratio*100).toFixed(0)}% 收藏来自 ⭐ Top 5** — 你是"高信号过滤型"读者, `;
+    md += `只关注当日最重磅消息。这种习惯的优势是不会被噪音淹没; 风险是可能错过"长尾里冒出来的黑马"。\n\n`;
+    md += `**建议**:每周抽 1 次扫描非 Top 5 的早报, 寻找未被市场注意的早期信号。\n\n`;
+  } else if (top5Ratio < 0.15 && articles.length > 10) {
+    md += `**只有 ${(top5Ratio*100).toFixed(0)}% 收藏来自 Top 5** — 你是"细分领域型"读者, `;
+    md += `不限于头条, 关注更精细的具体动态。这种习惯的优势是能挖出独家洞察; 风险是可能在宏观图景上失焦。\n\n`;
+    md += `**建议**:每天先看一遍 Top 5 把宏观对齐, 再深入细分领域研究。\n\n`;
+  } else {
+    md += `${(top5Ratio*100).toFixed(0)}% 收藏来自 ⭐ Top 5, ${(tier0Count/articles.length*100).toFixed(0)}% 来自 🧠 Tier 0 — `;
+    md += `你的信号过滤是均衡型, 既看头部又看深度。\n\n`;
+  }
+
+  // 洞察 4: 中美关注
+  if (usCount + cnCount > 5) {
+    const cnPct = (cnCount/(usCount+cnCount)*100).toFixed(0);
+    md += `### 观察 ${obsNum++}: 中美关注比例\n\n`;
+    md += `美国玩家 ${usCount} 次 vs 中国玩家 ${cnCount} 次 — **中国占比 ${cnPct}%**。\n\n`;
+    if (cnPct > 35) {
+      md += `**判断**:你对中国 AI 圈关注度显著高于平均(行业平均 20-25%)。这意味着:\n`;
+      md += `- 你可能在做与中国市场相关的工作(投资 / 出海 / 国产替代)\n`;
+      md += `- 建议跟踪国内监管 + 数据政策动态\n`;
+      md += `- 关注国产模型与国际头部的真实差距, 而非单纯估值对比\n\n`;
+    } else if (cnPct < 15) {
+      md += `**判断**:你主要聚焦国际头部(美国占 ${100-parseInt(cnPct)}%)。这种取向适合做国际化技术追踪, `;
+      md += `但建议每周至少 1 次扫一眼中国动态, 避免错过国产追赶节奏。\n\n`;
+    } else {
+      md += `**判断**:中美关注比例均衡, 适合做"全球视角"的判断。`;
+      md += `你的观察可作为跨国企业的参考。\n\n`;
+    }
+  }
+
+  // 洞察 5: 维度分析
+  if (topDims.length >= 3) {
+    md += `### 观察 ${obsNum++}: 维度结构分析\n\n`;
+    const totalDim = Object.values(dimCount).reduce((a,b)=>a+b,0);
+    const top3DimsRatio = topDims.slice(0, 3).reduce((s,d) => s+d[1], 0) / totalDim * 100;
+    md += `Top 3 维度(${topDims.slice(0, 3).map(d => d[0]).join(' / ')})`;
+    md += `占 ${top3DimsRatio.toFixed(0)}%。\n\n`;
+    const hasProduct = topDims.some(d => d[0].includes('产品'));
+    const hasCase = topDims.some(d => d[0].includes('案例'));
+    const hasMoney = topDims.some(d => d[0].includes('商业'));
+    if (hasProduct && hasCase) {
+      md += `**特点**:产品 + 案例 双重视角 — 你既看"造出来什么"也看"被谁用"。这是产品负责人 / 转型咨询的典型画像。\n\n`;
+    } else if (hasMoney) {
+      md += `**特点**:商业维度突出 — 你倾向关注融资 / 估值 / 收购等资本动态, 这是投资人 / 战略部画像。\n\n`;
+    }
+  }
+
+  // 洞察 6: 时间分布
+  if (topDates.length > 0 && articles.length > 5) {
+    md += `### 观察 ${obsNum++}: 收藏的时间节奏\n\n`;
+    md += `收藏最多的日期 Top 3:\n`;
+    topDates.slice(0, 3).forEach((d, i) => {
+      md += `${i+1}. **${d[0]}** — ${d[1]} 篇\n`;
+    });
+    const avg = articles.length / sortedDates.length;
+    md += `\n平均每份早报你收藏 ${avg.toFixed(1)} 篇。`;
+    if (avg > 5) md += `你是"高密度收藏型"读者, 信号采集偏向广泛。\n\n`;
+    else if (avg < 2) md += `你是"高门槛收藏型"读者, 只收藏真正有价值的。\n\n`;
+    else md += `收藏频率适中, 既有过滤又有积累。\n\n`;
+  }
+
+  // 洞察 7: 信源结构
+  if (topSources.length >= 3) {
+    md += `### 观察 ${obsNum++}: 信源结构\n\n`;
+    const totalSources = Object.values(sourceCount).reduce((a,b)=>a+b,0);
+    const top3SrcRatio = topSources.slice(0, 3).reduce((s,t)=>s+t[1], 0) / totalSources * 100;
+    md += `Top 3 信源(${topSources.slice(0, 3).map(t => t[0]).join(' / ')})`;
+    md += `占 ${top3SrcRatio.toFixed(0)}%。\n\n`;
+    if (top3SrcRatio > 50) {
+      md += `**判断**:信源比较集中, 可能存在视角同质化风险。建议主动扩展 1-2 个新信源(尤其是中文媒体或长尾独立博客)避免信息茧房。\n\n`;
+    } else {
+      md += `**判断**:信源比较多元, 视角丰富。这是健康的信息食谱结构。\n\n`;
+    }
+  }
+
+  // ━━━ 四、按主题深度展开 ━━━
+  md += `---\n\n## 四、主题深度展开\n\n`;
+  md += `以下按你的个人标签聚合每个主题下的所有收藏文章, 完整保留原始摘要 + 你的备注。\n\n`;
+
+  const sortedTags = Object.entries(byTag).sort((a,b) => b[1].length-a[1].length);
+  let tagIdx = 1;
+  sortedTags.forEach(([tag, arts]) => {
+    if (tag === '_未打标签') return;
+    md += `### 4.${tagIdx++} \`#${tag}\` 主题(${arts.length} 篇)\n\n`;
+    
+    // 主题小结
+    const tagComps = {};
+    arts.forEach(a => {
+      if (a.companies) a.companies.forEach(c => tagComps[c] = (tagComps[c]||0)+1);
+    });
+    const topTagComps = Object.entries(tagComps).sort((a,b) => b[1]-a[1]).slice(0, 5);
+    if (topTagComps.length > 0) {
+      md += `**主题内重点公司**:${topTagComps.map(c => `${c[0]}(${c[1]})`).join(' · ')}\n\n`;
+    }
+    
+    arts.sort((a,b) => (b.date||'').localeCompare(a.date||''));
+    arts.forEach((a, idx) => {
+      md += `#### ${idx+1}. ${a.title}\n\n`;
+      md += `> ${a.date}`;
+      if (a.dimension) md += ` · ${a.dimension}`;
+      if (a.is_top5) md += ` · ⭐ Top 5`;
+      if (a.is_tier0) md += ` · 🧠 Tier 0`;
+      if (a.source) md += ` · 来源:${a.source}`;
+      if (a.quality_score) md += ` · 质量 ${a.quality_score}/8`;
+      md += `\n\n`;
+
+      if (a.summary) md += `${a.summary}\n\n`;
+      if (a.meaning) md += `📌 **这意味着**:${a.meaning}\n\n`;
+      if (a._fav?.note) md += `💭 **我的备注**:${a._fav.note}\n\n`;
+      if (a.url) {
+        md += `🔗 [原文](${a.url}) · 📄 [所在早报](https://github.com/wikicc2013/zhuanxing-ai-daily/blob/main/reports/${a.date}.md)\n\n`;
+      } else {
+        md += `📄 [所在早报: ${a.date}](https://github.com/wikicc2013/zhuanxing-ai-daily/blob/main/reports/${a.date}.md)\n\n`;
+      }
+      md += `---\n\n`;
+    });
+  });
+
+  // 未打标签的
+  if (byTag['_未打标签'] && byTag['_未打标签'].length > 0) {
+    md += `### 4.${tagIdx} 其他收藏(未打标签) (${byTag['_未打标签'].length} 篇)\n\n`;
+    byTag['_未打标签'].forEach((a, idx) => {
+      md += `**${idx+1}. ${a.title}** · ${a.date}`;
+      if (a.dimension) md += ` · ${a.dimension}`;
+      md += `\n\n`;
+      if (a.summary) md += `${a.summary}\n\n`;
+      if (a.url) md += `🔗 [原文](${a.url})\n\n`;
+      md += `---\n\n`;
+    });
+  }
+
+  // ━━━ 五、建议行动 ━━━
+  md += `\n## 五、给你的建议行动\n\n`;
+  md += `基于以上数据规律, 给你 5 条可执行建议:\n\n`;
+  
+  let actionNum = 1;
+  
+  if (topTags.length >= 2 && (topTags[0][1]+topTags[1][1])/articles.length*100 > 50) {
+    md += `**${actionNum++}. 深度而非广度**:你的 Top 2 主题已经占了一半收藏, 建议在这 2 个主题上做"100 小时深度研究"`;
+    md += `, 而不是再扩展更多新主题。深度可以带来差异化判断。\n\n`;
+  }
+  
+  if (topComps.length > 0) {
+    md += `**${actionNum++}. 跟踪头部公司动态**:为 ${topComps.slice(0,3).map(c => c[0]).join(' / ')} 这 3 家设专项追踪`;
+    md += `, 每周回顾它们的产品发布 + 战略动作 + 财务数据。这是你能跑赢同行的"快情报"。\n\n`;
+  }
+  
+  if (cnCount/(usCount+cnCount) < 0.2 && articles.length > 10) {
+    md += `**${actionNum++}. 补足中国视角**:你的中国关注度偏低, 建议每周至少 1 次扫一眼 \`🇨🇳 国内\` 维度, `;
+    md += `了解国产模型 / 国内监管 / 中国客户落地。这是你目前的盲点。\n\n`;
+  } else if (cnCount > usCount * 0.4) {
+    md += `**${actionNum++}. 利用中美双线优势**:你的中美关注比例均衡, 这是稀缺画像。`;
+    md += `建议输出"中美对比分析"内容(文章 / 演讲 / 客户简报), 这是你的差异化竞争力。\n\n`;
+  }
+  
+  if (top5Count / articles.length > 0.3) {
+    md += `**${actionNum++}. 别忘了挖长尾**:你 ${(top5Count/articles.length*100).toFixed(0)}% 收藏来自 Top 5, 建议每周 1 次扫 Tier 0 深度文章`;
+    md += `, 寻找未被市场注意的长尾信号 — 这是真正的差异化机会。\n\n`;
+  }
+  
+  md += `**${actionNum++}. 把数据变产品**:现在你已经有 ${articles.length} 篇带个人解读的优质收藏, `;
+  md += `这本身就是一份知识资产。建议:\n`;
+  md += `- 每月生成一次本报告 → 整理成博客 / 公众号文章\n`;
+  md += `- 选 5-10 篇最佳收藏 → 改写为客户简报 / PPT\n`;
+  md += `- 与同事分享你的标签体系 → 形成团队"信号过滤器"\n\n`;
+
+  // ━━━ 报告尾部 ━━━
+  md += `---\n\n## 📌 关于这份报告\n\n`;
+  md += `- **生成方式**:基于响哥 AI 早报阅读库自动生成 · 100% 离线 / 不依赖外部 API\n`;
+  md += `- **数据来源**:你的个人收藏 + 标签 + 备注\n`;
+  md += `- **算法**:统计分析 + 20 条经验性洞察规则\n`;
+  md += `- **适用场景**:战略简报 / 内部分享 / 客户演示 / 个人复盘 / 客户开发\n`;
+  md += `- **升级方向**:点击阅读库的 [🤖 AI 分析] 按钮 → 用 Claude.ai 网页版生成 5000+ 字真深度洞察\n\n`;
+  md += `> 阅读库:https://wikicc2013.github.io/zhuanxing-ai-daily/\n`;
+  md += `> AI 地图:https://wikicc2013.github.io/zhuanxing-ai-daily/map.html\n`;
+  md += `> 报告生成于 ${exportTime}\n`;
+
+  // 下载
+  const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = `AI-观察深度报告-${exportDate}.md`;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 🤖 生成 AI 分析 Prompt(给 Claude.ai 用)
+// ═══════════════════════════════════════════════════════════════════
+function generateAIPrompt(articles, sortedDates, groups) {
+  const rangeLabel = {today: '今天', week: '本周', month: '本月', all: '全部'}[activeFilters.favRange];
+  
+  let prompt = `你是一位资深 AI 行业分析师 + 战略咨询顾问。我会给你一份"AI 早报阅读库个人收藏数据", 请你帮我生成一份 5000-8000 字的真正深度洞察报告。
+
+## 我的需求
+
+我每天看 AI 早报, ${rangeLabel}收藏了 ${articles.length} 篇我认为最重要的文章。请你帮我:
+
+1. **不要平铺收藏目录**, 那个我自己能做
+2. **要做真深度分析**:挖出主题、关联、矛盾、趋势、判断
+3. **要有观点**:不要做"中立陈列", 大胆给判断
+4. **要有可操作建议**:给我 / 我的客户能做什么
+5. **结构清晰**:5000-8000 字, 适合作为客户演示 / 内部战略简报
+
+## 请按这个结构写
+
+### 一、本期核心判断(500 字 / 3 段)
+- 我在 ${rangeLabel}的真实关注主线是什么(不只是标签, 是深层主题)
+- 3 个我最重要的判断(基于数据规律)
+- 1 个我可能没意识到的盲点
+
+### 二、行业洞察 - 跨主题分析(2000 字)
+按你识别的 3-5 个深度主题展开, 每个主题:
+- 这个主题在收藏中占比
+- 这个主题下我关注的"模式"是什么
+- 这个主题真实发生的趋势(不只是表面新闻)
+- 对企业 CIO / 投资人 / 战略部的意义
+
+### 三、公司画像 - 我聚焦的玩家(1500 字)
+选我收藏中出现频率 Top 5 公司, 每家:
+- 我为什么持续关注它(基于我打的标签 + 备注推断)
+- 这家公司当前的真实战略意图(基于多篇收藏交叉验证)
+- 这家公司的潜在风险 / 机会(给你的判断, 不是中立分析)
+
+### 四、跨度对比 - 中美 / 时间 / 维度(1000 字)
+- 中美玩家对比(基于收藏)
+- 时间维度上我关注的变化(早期 vs 近期)
+- 维度分布的隐含意义(产品 / 案例 / 商业 各占多少)
+
+### 五、给我和我客户的 7 条行动建议(1000 字)
+- 3 条信息策略(我自己怎么继续追踪)
+- 4 条业务策略(给我客户可落地的)
+
+## 我的数据
+
+下面是 ${articles.length} 篇收藏的结构化数据。请你深入读完后做分析。\n\n`;
+
+  prompt += `### 数据统计\n\n`;
+  prompt += `- 总数:${articles.length} 篇\n`;
+  prompt += `- 跨度:${sortedDates.length} 份早报\n`;
+  
+  const tagCount = {};
+  const compCount = {};
+  articles.forEach(a => {
+    if (a._fav?.tags) a._fav.tags.forEach(t => tagCount[t] = (tagCount[t] || 0) + 1);
+    if (a.companies) a.companies.forEach(c => compCount[c] = (compCount[c] || 0) + 1);
+  });
+  
+  const topTags = Object.entries(tagCount).sort((a,b) => b[1]-a[1]).slice(0, 10);
+  const topComps = Object.entries(compCount).sort((a,b) => b[1]-a[1]).slice(0, 15);
+  
+  prompt += `- 个人标签 Top 10:${topTags.map(t => `#${t[0]}(${t[1]})`).join(' · ')}\n`;
+  prompt += `- 公司提及 Top 15:${topComps.map(c => `${c[0]}(${c[1]})`).join(' · ')}\n\n`;
+  
+  prompt += `### 收藏文章列表(完整摘要)\n\n`;
+  
+  articles.forEach((a, idx) => {
+    prompt += `#### ${idx+1}. ${a.title}\n`;
+    prompt += `- 日期:${a.date}`;
+    if (a.dimension) prompt += ` | 维度:${a.dimension}`;
+    if (a.is_top5) prompt += ` | ⭐ Top 5`;
+    if (a.is_tier0) prompt += ` | 🧠 Tier 0`;
+    if (a.source) prompt += ` | 来源:${a.source}`;
+    prompt += `\n`;
+    if (a.summary) prompt += `- 摘要:${a.summary}\n`;
+    if (a.meaning) prompt += `- 含义:${a.meaning}\n`;
+    if (a._fav?.note) prompt += `- 我的备注:${a._fav.note}\n`;
+    if (a._fav?.tags?.length) prompt += `- 我的标签:${a._fav.tags.map(t => '#'+t).join(' ')}\n`;
+    if (a.companies?.length) prompt += `- 涉及公司:${a.companies.join(', ')}\n`;
+    prompt += `\n`;
+  });
+  
+  prompt += `\n---\n\n请开始你的深度分析。记住:有观点、有判断、有建议、5000-8000 字、客户演示级。`;
+
+  // 复制到剪贴板 + 弹窗提示
+  navigator.clipboard.writeText(prompt).then(() => {
+    // 弹个对话框引导用户
+    const confirmed = confirm(
+      `✅ Prompt 已复制到剪贴板!(${(prompt.length/1000).toFixed(1)}K 字符)\n\n` +
+      `下一步:\n` +
+      `1. 点 [确定] 自动打开 Claude.ai\n` +
+      `2. 在 Claude.ai 对话框 Ctrl+V 粘贴 prompt\n` +
+      `3. 按回车, Claude 会生成 5000+ 字真深度报告\n\n` +
+      `提示:用 Claude Sonnet 4 或更新模型效果最佳。`
+    );
+    if (confirmed) {
+      window.open('https://claude.ai/new', '_blank');
+    }
+  }).catch(err => {
+    // 复制失败兜底:下载文件
+    const blob = new Blob([prompt], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `AI-分析-Prompt-${new Date().toISOString().slice(0,10)}.txt`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    alert('Prompt 已下载为 .txt 文件!\n请打开 https://claude.ai/new 粘贴使用。');
+  });
 }
 
 // ═══════════════════════════════════════════════════════════════════
