@@ -388,6 +388,107 @@ body {
 }
 .customer-card .uses strong { color: var(--ink); }
 
+/* 💡 洞察块(每层 layer 顶部) */
+.insight-box {
+  background: rgba(194, 65, 12, 0.05);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 8px 0 14px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+@media (prefers-color-scheme: dark) {
+  .insight-box {
+    background: rgba(251, 146, 60, 0.08);
+  }
+}
+.insight-box .insight-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  align-items: flex-start;
+}
+.insight-box .insight-row:last-child { margin-bottom: 0; }
+.insight-box .insight-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--accent);
+  color: white;
+  flex-shrink: 0;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  margin-top: 1px;
+}
+.insight-box .insight-tag.fact { background: var(--ink-3); }
+.insight-box .insight-tag.trend { background: var(--layer-l3); }
+.insight-box .insight-tag.action { background: var(--accent); }
+.insight-box .insight-text {
+  color: var(--ink);
+  font-size: 13px;
+}
+.insight-box .insight-text strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* 季度趋势条(用于洞察板块) */
+.trend-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+}
+.trend-up { color: #16a34a; font-weight: 600; }
+.trend-down { color: #dc2626; font-weight: 600; }
+.trend-flat { color: var(--ink-3); }
+
+/* 全局洞察板块(每个 view 顶部) */
+.view-insight {
+  background: linear-gradient(180deg, rgba(194, 65, 12, 0.04), transparent);
+  border: 1px solid rgba(194, 65, 12, 0.2);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  .view-insight {
+    background: linear-gradient(180deg, rgba(251, 146, 60, 0.08), transparent);
+    border-color: rgba(251, 146, 60, 0.2);
+  }
+}
+.view-insight h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.view-insight p {
+  font-size: 13px;
+  color: var(--ink-2);
+  line-height: 1.65;
+  margin-bottom: 4px;
+}
+.view-insight p:last-child { margin-bottom: 0; }
+.view-insight .quote {
+  font-family: 'Noto Serif SC', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--ink);
+  border-left: 3px solid var(--accent);
+  padding-left: 10px;
+  margin: 8px 0;
+}
+
 /* Modal */
 .modal-overlay {
   position: fixed;
@@ -535,9 +636,36 @@ footer a { color: var(--accent); text-decoration: none; }
 <!-- View 1: Overview -->
 <div class="view active" id="view-overview">
 
+<div class="view-insight">
+  <h3>💡 全景视图 · 核心洞察(本周)</h3>
+  <p><strong>4 层正在剧烈分化:</strong> 模型层从"百家争鸣"收敛到"美中各 5 家头部" · 基础设施层 NVIDIA 一家通吃 · 应用层垂直工具仍在百花齐放 · 客户层金融/医药跑得最快。</p>
+  <div class="quote">"AI 真正的钱不在炼金子的(模型), 而在卖铲子的(NVIDIA)和挖矿的(企业 SaaS+AI)" — 本周观察</div>
+  <p style="font-size: 12px; color: var(--ink-3); margin-top: 6px;">📊 数据来源:266 篇早报 · 5/14-5/17 跨度</p>
+</div>
+
 <div class="layer layer-l1">
   <div class="layer-title">① 模型层 · Foundation Models</div>
   <div class="layer-subtitle">// 谁在造"大脑"</div>
+
+  <div class="insight-box">
+    <div class="insight-row">
+      <span class="insight-tag fact">📊 数据</span>
+      <span class="insight-text"><strong>全球 22+ 家在竞争, 但本周 90% 资本/报道集中在 5 家头部</strong></span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag">💡 洞察</span>
+      <span class="insight-text">头部 4 家(Anthropic/OpenAI/Google DM/Meta) + 中国 5 家梯队(DeepSeek 领跑) · 其他 15+ 家正在边缘化</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag trend">➡️ 趋势</span>
+      <span class="insight-text">Anthropic 估值 950B 反超 OpenAI 部分企业场景 <span class="trend-bar trend-up">↑</span> · DeepSeek 500B 让中国首次进入第一梯队估值</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag action">🎯 启示</span>
+      <span class="insight-text"><strong>CIO 选型策略:</strong>不押单一供应商, 配置至少 2 家头部 + 1 家中国(防贸易风险)</span>
+    </div>
+  </div>
+
   <div class="row-label">美国头部</div>
   <div class="nodes">
     <div class="node l1 hot" onclick="show('Anthropic')">Anthropic<span class="meta">950B</span></div>
@@ -569,6 +697,26 @@ footer a { color: var(--accent); text-decoration: none; }
 <div class="layer layer-l2">
   <div class="layer-title">② 基础设施层 · Infrastructure</div>
   <div class="layer-subtitle">// 芯片 / 云 / 推理 / 工具链</div>
+
+  <div class="insight-box">
+    <div class="insight-row">
+      <span class="insight-tag fact">📊 数据</span>
+      <span class="insight-text"><strong>NVIDIA 占 90%+ 全球 AI 算力市场, 市值近 6 万亿(占美股约 10%)</strong></span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag">💡 洞察</span>
+      <span class="insight-text">真正的"卖铲人"经济:模型层每融资 1 美元, NVIDIA 拿走 ~0.4 美元 · 集中度风险积累中</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag trend">➡️ 趋势</span>
+      <span class="insight-text">NVIDIA 七日涨 20% <span class="trend-bar trend-up">↑</span> · AMD/Cerebras 追赶但短期难撼动 · 中国国产 GPU(华为昇腾)替代加速</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag action">🎯 启示</span>
+      <span class="insight-text"><strong>采购侧:</strong>GPU 短缺周期延长, 自建 AI 基础设施 ROI 评估周期至少 24 个月以上</span>
+    </div>
+  </div>
+
   <div class="row-label">芯片</div>
   <div class="nodes">
     <div class="node l2 hot" onclick="show('NVIDIA')">NVIDIA<span class="meta">市值近 6T</span></div>
@@ -600,6 +748,26 @@ footer a { color: var(--accent); text-decoration: none; }
 <div class="layer layer-l3">
   <div class="layer-title">③ 应用层 · Applications</div>
   <div class="layer-subtitle">// 通用 Agent / 企业 SaaS+AI / 垂直工具</div>
+
+  <div class="insight-box">
+    <div class="insight-row">
+      <span class="insight-tag fact">📊 数据</span>
+      <span class="insight-text"><strong>100+ 家应用层公司在竞争, 但已分化为 3 梯队</strong></span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag">💡 洞察</span>
+      <span class="insight-text"><strong>通用 Agent</strong>(Claude Code/Cursor)收敛到 3 家头部 · <strong>企业 SaaS+AI</strong>(Salesforce/SAP)护城河深 · <strong>垂直工具</strong>(Clay/HappyRobot)百花齐放</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag trend">➡️ 趋势</span>
+      <span class="insight-text">通用 Agent 5 月开始 ARR 暴涨 <span class="trend-bar trend-up">↑</span> · 平台型 SaaS 加速集成 AI · 垂直工具创业不再像 2024 年那么热</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag action">🎯 启示</span>
+      <span class="insight-text"><strong>CIO 选型策略:</strong>分场景配置 — 通用任务用 Claude Code, 流程任务用 SaaS+AI, 垂直专家场景用单点工具</span>
+    </div>
+  </div>
+
   <div class="row-label">编程 / 通用 Agent</div>
   <div class="nodes">
     <div class="node l3" onclick="show('Claude Code')">Claude Code</div>
@@ -640,6 +808,26 @@ footer a { color: var(--accent); text-decoration: none; }
 <div class="layer layer-l4">
   <div class="layer-title">④ 标杆客户层 · Enterprise Adopters</div>
   <div class="layer-subtitle">// 真在用 AI 落地的大企业</div>
+
+  <div class="insight-box">
+    <div class="insight-row">
+      <span class="insight-tag fact">📊 数据</span>
+      <span class="insight-text"><strong>金融/医药行业 AI 部署最积极, 但 ROI 还在验证期</strong></span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag">💡 洞察</span>
+      <span class="insight-text">头部金融机构(JPMorgan/BoA)已完成"概念证明 → 全员部署"过渡 · 制造业还在试点(Schneider 是少数全球化先锋)</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag trend">➡️ 趋势</span>
+      <span class="insight-text">采购模式从"单家供应商"转向"多模型混合调度" <span class="trend-bar trend-up">↑</span> · 中国企业更倾向"自研+部分国产"组合</span>
+    </div>
+    <div class="insight-row">
+      <span class="insight-tag action">🎯 启示</span>
+      <span class="insight-text"><strong>对标行动:</strong>看你所在行业的头部 3 家在用什么 · 落后超过 12 个月的企业需立即启动 AI 战略</span>
+    </div>
+  </div>
+
   <div class="row-label">金融 / 银行</div>
   <div class="nodes">
     <div class="node l4" onclick="show('JPMorgan')">JPMorgan Chase</div>
@@ -684,6 +872,14 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <!-- View 2: China vs US -->
 <div class="view" id="view-china-us">
+
+<div class="view-insight">
+  <h3>💡 中美对比 · 核心洞察</h3>
+  <p><strong>美国全栈领先, 中国应用层快速本地化:</strong>美国头部模型估值已突破 950B, 但商业化压力大 · 中国 DeepSeek 首次进入第一梯队估值, 但芯片受限是天花板。</p>
+  <p><strong>战略意义:</strong>中美 AI 不会"二选一", 而是会形成"两套技术栈并存"格局 · 跨国企业需要双轨采购策略。</p>
+  <div class="quote">"美国卖大脑(模型), 中国卖手脚(应用) · 但中国大脑也在悄悄追赶"</div>
+</div>
+
 <div class="china-us-grid">
   <div class="country-col us">
     <h3>🇺🇸 美国 · 全栈领先</h3>
@@ -757,6 +953,15 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <!-- View 3: Hot Events -->
 <div class="view" id="view-hot-events">
+
+<div class="view-insight">
+  <h3>💡 本周(5/13-5/19)信号解读</h3>
+  <p><strong>3 个真信号 + 2 个噪音:</strong></p>
+  <p><strong>真信号:</strong> ① Anthropic 估值反超部分 OpenAI 场景 — 长期投入派开始赢 · ② DeepSeek 500B — 中国 AI 投资周期启动 · ③ GPT-5.5 幻觉降 52.5% — 金融/医疗严肃场景将解禁</p>
+  <p><strong>噪音(谨慎):</strong> ① NVIDIA 七日涨 20% — 市场情绪过热, 是否估值合理需观察 · ② 中美对话框架 — 短期不会有政策落地</p>
+  <div class="quote">"区分真信号和噪音:看是否影响 6 个月内的决策, 不影响就是噪音"</div>
+</div>
+
 <h2 style="font-family: 'Noto Serif SC', serif; font-size: 1.3rem; margin-bottom: 18px; color: var(--ink); font-weight: 700;">🔥 本周(2026-05-13 至 2026-05-19)重磅事件</h2>
 
 <div class="event-card">
@@ -811,6 +1016,15 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <!-- View 4: Customer View -->
 <div class="view" id="view-customers">
+
+<div class="view-insight">
+  <h3>💡 客户视角 · 三大规律</h3>
+  <p><strong>规律 1 — 多供应商策略已是标配:</strong> JPMorgan、Pfizer、Walmart 都不押单一供应商, 平均使用 2-3 家 AI 厂商</p>
+  <p><strong>规律 2 — "自研 + 采购"组合化:</strong> 头部企业都在保留核心场景自研能力(如 BoA Erica、JPMorgan LLM Suite), 同时采购通用能力</p>
+  <p><strong>规律 3 — 行业渗透速度差异:</strong> 金融(深) > 医药(中) > 零售(中) > 制造(浅) · 你所在行业的位置决定 AI 战略激进度</p>
+  <div class="quote">"对标头部企业:不是模仿他们做什么, 而是看他们没做什么 — 那才是真壁垒"</div>
+</div>
+
 <h2 style="font-family: 'Noto Serif SC', serif; font-size: 1.3rem; margin-bottom: 6px; color: var(--ink); font-weight: 700;">🏢 标杆客户:他们用了哪些 AI</h2>
 <p style="font-size: 12.5px; color: var(--ink-3); margin-bottom: 18px;">从客户视角看 AI 采购组合(基于早报报道整理)</p>
 
