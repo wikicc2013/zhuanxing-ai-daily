@@ -19,7 +19,9 @@
       "Bash(sed -i *)",
       "Bash(sed -i 's/\"2026-05-14T10:00:44.641831+00:00\"/\"2026-05-14T10:36:31.732349+00:00\"/' docs/data/index.json)",
       "Bash(git rebase *)",
-      "Bash(GIT_EDITOR=true git rebase *)"
+      "Bash(GIT_EDITOR=true git rebase *)",
+      "Bash(python *)",
+      "Bash(git stash *)"
     ]
   }
 }

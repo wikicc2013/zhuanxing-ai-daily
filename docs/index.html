@@ -1340,6 +1340,8 @@ mark {
       <span class="kbd">/</span>
     </div>
     <div class="utility">
+      <button onclick="openGistSetupModal()" id="gist-sync-btn" style="font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; padding: 5px 12px; border-radius: 6px; color: var(--ink-2); border: 1px solid var(--line); background: var(--bg-2); margin-right: 4px; cursor:pointer;">☁️ <span id="gist-status">未连接</span></button>
+      <a href="./weekly.html" style="font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; padding: 5px 12px; border-radius: 6px; text-decoration: none; color: var(--ink-2); border: 1px solid var(--line); background: var(--bg-2); margin-right: 4px;">📅 每周深度</a>
       <a href="./map.html" style="font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; padding: 5px 12px; border-radius: 6px; text-decoration: none; color: var(--ink-2); border: 1px solid var(--line); background: var(--bg-2); margin-right: 4px;">🗺️ AI 地图</a>
       <a href="./stats.html" style="font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; padding: 5px 12px; border-radius: 6px; text-decoration: none; color: var(--ink-2); border: 1px solid var(--line); background: var(--bg-2); margin-right: 4px;">📊 趋势</a>
       <span class="meta-pill" id="stat-total-reports">-- 份早报</span>
@@ -1472,6 +1474,9 @@ let activeFilters = {
 // 收藏管理(localStorage)
 // ═══════════════════════════════════════════════════════════════════
 const FAV_STORAGE_KEY = 'zhuanxing-favorites';
+const GIST_TOKEN_KEY = 'zhuanxing-gist-token';
+const GIST_ID_KEY = 'zhuanxing-gist-id';
+const GIST_LAST_SYNC_KEY = 'zhuanxing-gist-last-sync';
 
 function loadFavorites() {
   try {
@@ -1486,6 +1491,8 @@ function loadFavorites() {
 function saveFavorites(favorites) {
   try {
     localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(favorites));
+    // 自动后台同步到 Gist(防抖, 不阻塞 UI)
+    debouncedSyncToGist();
     return true;
   } catch (e) {
     console.error('保存收藏失败:', e);
@@ -1494,7 +1501,242 @@ function saveFavorites(favorites) {
   }
 }
 
+// ═══════════════════════════════════════════════════════════════════
+// 🔄 GitHub Gist 跨设备同步
+// ═══════════════════════════════════════════════════════════════════
+function getGistToken() { return localStorage.getItem(GIST_TOKEN_KEY) || ''; }
+function getGistId() { return localStorage.getItem(GIST_ID_KEY) || ''; }
+function setGistToken(t) { localStorage.setItem(GIST_TOKEN_KEY, t); }
+function setGistId(id) { localStorage.setItem(GIST_ID_KEY, id); }
+function getGistLastSync() { return localStorage.getItem(GIST_LAST_SYNC_KEY) || ''; }
+function setGistLastSync(t) { localStorage.setItem(GIST_LAST_SYNC_KEY, t); }
+
+// 防抖 - 5 秒内多次保存只触发一次同步
+let syncTimer = null;
+function debouncedSyncToGist() {
+  if (!getGistToken()) return; // 未配置 token 跳过
+  if (syncTimer) clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => { syncToGist(); }, 3000);
+}
+
+async function syncToGist() {
+  const token = getGistToken();
+  if (!token) return { ok: false, msg: '未配置 GitHub Token' };
+  
+  const gistId = getGistId();
+  const payload = {
+    description: '响哥 AI 早报 - 收藏同步',
+    files: {
+      'xianggge-favorites.json': {
+        content: JSON.stringify({
+          favorites: FAVORITES,
+          synced_at: new Date().toISOString(),
+          device: navigator.userAgent.substring(0, 80),
+        }, null, 2)
+      }
+    }
+  };
+  
+  try {
+    const url = gistId
+      ? `https://api.github.com/gists/${gistId}`
+      : 'https://api.github.com/gists';
+    const method = gistId ? 'PATCH' : 'POST';
+    const body = gistId ? payload : { ...payload, public: false };
+    
+    const resp = await fetch(url, {
+      method,
+      headers: {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
+    });
+    
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({}));
+      console.error('Gist 同步失败:', err);
+      return { ok: false, msg: `同步失败: ${resp.status} ${err.message || ''}` };
+    }
+    
+    const data = await resp.json();
+    if (!gistId) setGistId(data.id);
+    setGistLastSync(new Date().toISOString());
+    console.log('✅ Gist 同步成功');
+    updateGistStatusUI();
+    return { ok: true, gistId: data.id };
+  } catch (e) {
+    console.error('Gist 同步异常:', e);
+    return { ok: false, msg: e.message };
+  }
+}
+
+async function pullFromGist() {
+  const token = getGistToken();
+  const gistId = getGistId();
+  if (!token || !gistId) return { ok: false, msg: '未配置 Gist' };
+  
+  try {
+    const resp = await fetch(`https://api.github.com/gists/${gistId}`, {
+      headers: {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github+json',
+      },
+    });
+    if (!resp.ok) return { ok: false, msg: `拉取失败: ${resp.status}` };
+    
+    const data = await resp.json();
+    const file = data.files['xianggge-favorites.json'];
+    if (!file) return { ok: false, msg: 'Gist 里没找到收藏数据' };
+    
+    const parsed = JSON.parse(file.content);
+    const remoteFavs = parsed.favorites || {};
+    
+    // 合并策略:远程为主, 本地额外的也保留
+    const merged = { ...FAVORITES, ...remoteFavs };
+    FAVORITES = merged;
+    localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(merged));
+    setGistLastSync(new Date().toISOString());
+    
+    return { ok: true, count: Object.keys(merged).length, remote: Object.keys(remoteFavs).length };
+  } catch (e) {
+    return { ok: false, msg: e.message };
+  }
+}
+
+function updateGistStatusUI() {
+  const el = document.getElementById('gist-status');
+  if (!el) return;
+  const token = getGistToken();
+  if (!token) {
+    el.textContent = '☁️ 未连接';
+    el.style.color = 'var(--ink-3)';
+    return;
+  }
+  const lastSync = getGistLastSync();
+  if (lastSync) {
+    const d = new Date(lastSync);
+    el.textContent = `☁️ 已同步 ${d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })}`;
+    el.style.color = '#16a34a';
+  } else {
+    el.textContent = '☁️ 待同步';
+    el.style.color = 'var(--ink-3)';
+  }
+}
+
+async function openGistSetupModal() {
+  const token = getGistToken();
+  const gistId = getGistId();
+  const lastSync = getGistLastSync();
+  
+  const html = `
+    <div style="position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:10000;display:flex;align-items:center;justify-content:center;padding:20px;" onclick="if(event.target===this)this.remove()">
+      <div style="background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:28px;max-width:560px;width:100%;max-height:85vh;overflow-y:auto;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+          <h3 style="font-family:'Noto Serif SC',serif;font-size:1.3rem;color:var(--ink);">☁️ 跨设备同步设置</h3>
+          <button onclick="this.closest('div[style*=\\'position:fixed\\']').remove()" style="background:none;border:none;font-size:22px;color:var(--ink-3);cursor:pointer;">×</button>
+        </div>
+        
+        <p style="font-size:13px;color:var(--ink-2);line-height:1.7;margin-bottom:14px;">
+          用你的 GitHub Token 把收藏同步到私有 Gist, 在任何设备 / 浏览器登录后都能恢复。
+        </p>
+        
+        <div style="background:var(--bg-2);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:16px;font-size:12.5px;line-height:1.7;color:var(--ink-2);">
+          <strong style="color:var(--ink);">📋 获取 Token(只做 1 次):</strong><br>
+          1. 打开 <a href="https://github.com/settings/tokens/new?scopes=gist&description=xianggge-ai-favorites" target="_blank" style="color:var(--accent);">github.com/settings/tokens/new</a><br>
+          2. 勾选 <code style="background:var(--bg);padding:1px 6px;border-radius:3px;">gist</code> 权限(只勾这一个)<br>
+          3. Expiration 选 No expiration 或 1 年<br>
+          4. 点 Generate token → 复制 ghp_xxx<br>
+          5. 粘贴到下面输入框
+        </div>
+        
+        <label style="display:block;font-size:12px;color:var(--ink-3);margin-bottom:5px;font-family:'JetBrains Mono',monospace;">GitHub Token</label>
+        <input type="password" id="gist-token-input" placeholder="ghp_..." value="${token}" style="width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg-2);color:var(--ink);font-family:'JetBrains Mono',monospace;font-size:12px;margin-bottom:14px;">
+        
+        ${gistId ? `
+          <div style="font-size:11.5px;color:var(--ink-3);font-family:'JetBrains Mono',monospace;margin-bottom:14px;line-height:1.7;">
+            <div>📝 Gist ID: <a href="https://gist.github.com/${gistId}" target="_blank" style="color:var(--accent);">${gistId.substring(0,12)}...</a></div>
+            ${lastSync ? `<div>⏱️ 上次同步: ${new Date(lastSync).toLocaleString('zh-CN')}</div>` : ''}
+          </div>
+        ` : ''}
+        
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button onclick="saveGistTokenAndSync()" style="flex:1;padding:10px 16px;background:var(--ink);color:var(--bg);border:none;border-radius:6px;font-weight:500;cursor:pointer;font-size:13px;">💾 保存 + 立即同步</button>
+          ${gistId ? `
+            <button onclick="pullFromGistAndRefresh()" style="flex:1;padding:10px 16px;background:var(--bg-2);color:var(--ink);border:1px solid var(--line);border-radius:6px;cursor:pointer;font-size:13px;">⬇️ 从 Gist 拉取</button>
+          ` : ''}
+        </div>
+        
+        <div id="gist-modal-msg" style="margin-top:14px;font-size:12px;color:var(--ink-3);line-height:1.6;"></div>
+        
+        <div style="margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);font-size:11px;color:var(--ink-4);line-height:1.7;">
+          💡 配置后:每次收藏 / 修改自动同步到 Gist(防抖 3 秒)<br>
+          💡 在新设备登录:打开此弹窗 → 填同样 Token → 点"从 Gist 拉取"<br>
+          💡 Token 只存在你浏览器本地, 不上传任何第三方
+        </div>
+      </div>
+    </div>
+  `;
+  
+  const wrap = document.createElement('div');
+  wrap.innerHTML = html;
+  document.body.appendChild(wrap.firstElementChild);
+}
+
+async function saveGistTokenAndSync() {
+  const input = document.getElementById('gist-token-input');
+  const msg = document.getElementById('gist-modal-msg');
+  const token = input.value.trim();
+  if (!token.startsWith('ghp_') && !token.startsWith('github_pat_')) {
+    msg.innerHTML = '⚠️ Token 格式不对, 应该以 ghp_ 或 github_pat_ 开头';
+    msg.style.color = '#dc2626';
+    return;
+  }
+  setGistToken(token);
+  msg.innerHTML = '⏳ 同步中...';
+  msg.style.color = 'var(--ink-3)';
+  const result = await syncToGist();
+  if (result.ok) {
+    msg.innerHTML = `✅ 同步成功! Gist ID: ${result.gistId.substring(0,12)}...<br>以后在新设备打开本站, 用同样 Token 即可恢复收藏。`;
+    msg.style.color = '#16a34a';
+    updateGistStatusUI();
+  } else {
+    msg.innerHTML = '❌ ' + result.msg;
+    msg.style.color = '#dc2626';
+  }
+}
+
+async function pullFromGistAndRefresh() {
+  const msg = document.getElementById('gist-modal-msg');
+  msg.innerHTML = '⏳ 从 Gist 拉取...';
+  msg.style.color = 'var(--ink-3)';
+  const result = await pullFromGist();
+  if (result.ok) {
+    msg.innerHTML = `✅ 拉取成功! 共 ${result.count} 篇收藏(其中 ${result.remote} 篇来自 Gist)<br>页面将在 2 秒后刷新...`;
+    msg.style.color = '#16a34a';
+    setTimeout(() => location.reload(), 2000);
+  } else {
+    msg.innerHTML = '❌ ' + result.msg;
+    msg.style.color = '#dc2626';
+  }
+}
+
+// 自动初始化:页面加载时如果有 token, 后台拉取一次确保最新
+async function initGistSync() {
+  if (getGistToken() && getGistId()) {
+    try {
+      await pullFromGist();
+      console.log('✅ 启动时已从 Gist 拉取最新');
+    } catch (e) {
+      console.log('⚠️ 启动 Gist 拉取跳过', e.message);
+    }
+  }
+  updateGistStatusUI();
+}
+
 let FAVORITES = loadFavorites();
+initGistSync();
 
 function isFavorited(articleId) {
   return !!FAVORITES[articleId];
