@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>响哥 AI 早报</title>
+<title>响哥观澜·AI早报</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -1525,7 +1525,7 @@ async function syncToGist() {
   
   const gistId = getGistId();
   const payload = {
-    description: '响哥 AI 早报 - 收藏同步',
+    description: '响哥观澜·AI早报 - 收藏同步',
     files: {
       'xianggge-favorites.json': {
         content: JSON.stringify({
@@ -2490,7 +2490,7 @@ function generateDeepReport(articles, sortedDates, groups) {
 
   // ━━━ 2. 报告 Markdown ━━━
   let md = `# 📝 我的 AI 观察深度报告\n\n`;
-  md += `> 基于响哥 AI 早报 · ${rangeLabel}收藏 · 自动深度分析\n`;
+  md += `> 基于响哥观澜·AI早报 · ${rangeLabel}收藏 · 自动深度分析\n`;
   md += `> 生成时间:${exportTime}\n`;
   md += `> 数据范围:${articles.length} 篇文章 · ${sortedDates.length} 份早报 · ${Object.keys(compCount).length} 家公司 · ${Object.keys(tagCount).length} 个个人标签\n\n`;
   md += `---\n\n`;
@@ -2768,7 +2768,7 @@ function generateDeepReport(articles, sortedDates, groups) {
 
   // ━━━ 报告尾部 ━━━
   md += `---\n\n## 📌 关于这份报告\n\n`;
-  md += `- **生成方式**:基于响哥 AI 早报阅读库自动生成 · 100% 离线 / 不依赖外部 API\n`;
+  md += `- **生成方式**:基于响哥观澜·AI早报阅读库自动生成 · 100% 离线 / 不依赖外部 API\n`;
   md += `- **数据来源**:你的个人收藏 + 标签 + 备注\n`;
   md += `- **算法**:统计分析 + 20 条经验性洞察规则\n`;
   md += `- **适用场景**:战略简报 / 内部分享 / 客户演示 / 个人复盘 / 客户开发\n`;
@@ -3114,7 +3114,7 @@ function exportToMarkdown(articles, sortedDates, groups) {
     });
   }
 
-  md += `\n*由「响哥 AI 早报」自动生成 · ${exportDate}*\n`;
+  md += `\n*由「响哥观澜·AI早报」自动生成 · ${exportDate}*\n`;
 
   // 触发下载
   const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
