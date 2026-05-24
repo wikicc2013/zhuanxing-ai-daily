@@ -172,6 +172,22 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 3-C. 显式触发 Pages 自动部署(关键!)
+        if: steps.gate.outputs.skip == 'false'
+        run: |
+          echo "🔔 显式触发 build-and-deploy-pages workflow..."
+          echo "(因为 GITHUB_TOKEN 推的 commit 不会自动触发后续 workflow)"
+          
+          gh workflow run build-and-deploy-pages.yml \
+            --repo ${{ github.repository }} \
+            --ref main
+          
+          echo ""
+          echo "✅ 已触发 build-and-deploy-pages workflow"
+          echo "   2-3 分钟后阅读库将自动更新"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: 4. 失败时不删分支(保留供调试)
         if: failure()
         run: |
