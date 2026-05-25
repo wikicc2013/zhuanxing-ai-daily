@@ -1,81 +1,431 @@
 {
-  "generated_at": "2026-05-25T08:38:50.588059+08:00",
+  "generated_at": "2026-05-25T17:05:59.270350+08:00",
   "source_repo": "wikicc2013/my-clips",
-  "source_path": "clips",
-  "total_files": 1,
-  "total_clips": 4,
-  "total_with_images": 1,
+  "source_path": "my-clips/clips",
+  "total_files": 8,
+  "total_clips": 97,
+  "total_with_images": 14,
   "types": {
-    "文字": 3,
-    "图片": 1,
-    "其他": 0
+    "文字": 80,
+    "图片": 14,
+    "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      4
+      87
+    ],
+    [
+      "微信公众号",
+      2
     ]
   ],
   "top_authors": [
+    [
+      "@indigox",
+      15
+    ],
+    [
+      "@wangray",
+      4
+    ],
+    [
+      "@UncleJAI",
+      2
+    ],
+    [
+      "@AYi_AInotes",
+      2
+    ],
+    [
+      "@ddny09",
+      2
+    ],
     [
       "@skyrain888",
       2
     ],
     [
-      "@UncleJAI",
+      "@ReyJudgementOS",
+      2
+    ],
+    [
+      "@yucheng",
+      2
+    ],
+    [
+      "@leolee_101",
+      2
+    ],
+    [
+      "@cryptoxiao",
       1
     ],
     [
-      "@AYi_AInotes",
+      "@chuhaiqu",
+      1
+    ],
+    [
+      "@Tim_Tian_dream",
+      1
+    ],
+    [
+      "@realCaigu",
+      1
+    ],
+    [
+      "@attaalong",
+      1
+    ],
+    [
+      "@dcp164",
       1
     ]
   ],
   "files": [
     [
+      "2026-05-25.md",
+      2
+    ],
+    [
+      "2026-05-24.md",
+      5
+    ],
+    [
       "2026-05-23.md",
-      4
+      9
+    ],
+    [
+      "2026-05-22.md",
+      10
+    ],
+    [
+      "2026-05-21.md",
+      6
+    ],
+    [
+      "2026-05-20.md",
+      9
+    ],
+    [
+      "2026-05-19.md",
+      30
+    ],
+    [
+      "2026-05-18.md",
+      26
     ]
   ],
   "clips": [
     {
-      "id": "2026-05-23_004",
+      "id": "2026-05-25_002",
+      "file": "2026-05-25.md",
+      "date": "2026-05-25",
+      "time": "14:55:04",
+      "type": "文字",
+      "title": "Builders可以理解为AI时代的构建者。他们不只是写代码、做产品、搭流程，而是能够把AI嵌入系统，构建新的工作方式。  System managers可以理",
+      "quote": "Builders可以理解为AI时代的构建者。他们不只是写代码、做产品、搭流程，而是能够把AI嵌入系统，构建新的工作方式。  System managers可以理解为AI系统管理者或Agent管理者。他们不一定亲自完成每个任务，而是负责配置、调度、审核和优化AI系统。  Front-liners则是前线角色，他们直接面对客户、处理复杂关系、建立信任、承担关键判断。  这套角色划分透露出一个趋势：AI组织不是简单减少人，而是重新区分人的价值。有些人会因为AI变得更有价值，因为他们能放大AI；有些人会因为AI变得更普通，因为他们只是完成可被自动化的任务；还有一些人会因为靠近客户、靠近场景、靠近复杂判断而被重新重视。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "微信公众号",
+      "source_page": "",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzU4NTc5NTk1MA==&mid=2247491014&idx=1&sn=616a6a6a48c3133aec09fa49356ccd8f&poc_token=HCLyE2qjMe6PMi72R0Hh2AVT0WSsb3GHpIa-gLvA",
+      "all_urls": [
+        "https://mp.weixin.qq.com/s?__biz=MzU4NTc5NTk1MA==&mid=2247491014&idx=1&sn=616a6a6a48c3133aec09fa49356ccd8f&poc_token=HCLyE2qjMe6PMi72R0Hh2AVT0WSsb3GHpIa-gLvA"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "Builders可以理解为AI时代的构建者。他们不只是写代码、做产品、搭流程，而是能够把AI嵌入系统，构建新的工作方式。  System managers可以理解为AI系统管理者或Agent管理者。他们不一定亲自完成每个任务，而是负责配置、调度、审核和优化AI系统。  Front-liners则是前线角色，他们直接面对客户、处理复杂关系、建立信任、承担关键判断。  这套角色划分透露出一个趋势：AI组织不是简单减少人，而是重新区分人的价值。有些人会因为AI变得更有价值，因为他们...",
+      "raw": "14:55:04 · 文字\n\n> Builders可以理解为AI时代的构建者。他们不只是写代码、做产品、搭流程，而是能够把AI嵌入系统，构建新的工作方式。  System managers可以理解为AI系统管理者或Agent管理者。他们不一定亲自完成每个任务，而是负责配置、调度、审核和优化AI系统。  Front-liners则是前线角色，他们直接面对客户、处理复杂关系、建立信任、承担关键判断。  这套角色划分透露出一个趋势：AI组织不是简单减少人，而是重新区分人的价值。有些人会因为AI变得更有价值，因为他们能放大AI；有些人会因为AI变得更普通，因为他们只是完成可被自动化的任务；还有一些人会因为靠近客户、靠近场景、靠近复杂判断而被重新重视。\n\n来源: [重磅｜业绩好也裁员，还设百万年薪通道：ClickUp给出一个AI组织变革的激进样本](https://mp.weixin.qq.com/s?__biz=MzU4NTc5NTk1MA==&mid=2247491014&idx=1&sn=616a6a6a48c3133aec09fa49356ccd8f&poc_token=HCLyE2qjMe6PMi72R0Hh2AVT0WSsb3GHpIa-gLvA)",
+      "datetime": "2026-05-25T14:55:04+08:00"
+    },
+    {
+      "id": "2026-05-25_001",
+      "file": "2026-05-25.md",
+      "date": "2026-05-25",
+      "time": "14:54:51",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/jkFKgEkASDpk5C9WQaeoMwbEwrPpPjvrmaNNDdrvJNJ0S6tpArL8RjqQ2M5AWXGiaY7PIdH0tSliaaNnceX39zGWFdciaic0IbeTGssuB6w2SIQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "微信公众号",
+      "source_page": "",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzU4NTc5NTk1MA==&mid=2247491014&idx=1&sn=616a6a6a48c3133aec09fa49356ccd8f&poc_token=HCLyE2qjMe6PMi72R0Hh2AVT0WSsb3GHpIa-gLvA",
+      "all_urls": [
+        "https://mmbiz.qpic.cn/mmbiz_png/jkFKgEkASDpk5C9WQaeoMwbEwrPpPjvrmaNNDdrvJNJ0S6tpArL8RjqQ2M5AWXGiaY7PIdH0tSliaaNnceX39zGWFdciaic0IbeTGssuB6w2SIQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1",
+        "https://mp.weixin.qq.com/s?__biz=MzU4NTc5NTk1MA==&mid=2247491014&idx=1&sn=616a6a6a48c3133aec09fa49356ccd8f&poc_token=HCLyE2qjMe6PMi72R0Hh2AVT0WSsb3GHpIa-gLvA"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "14:54:51 · 图片\n\n![image](https://mmbiz.qpic.cn/mmbiz_png/jkFKgEkASDpk5C9WQaeoMwbEwrPpPjvrmaNNDdrvJNJ0S6tpArL8RjqQ2M5AWXGiaY7PIdH0tSliaaNnceX39zGWFdciaic0IbeTGssuB6w2SIQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)\n\n来源: [重磅｜业绩好也裁员，还设百万年薪通道：ClickUp给出一个AI组织变革的激进样本](https://mp.weixin.qq.com/s?__biz=MzU4NTc5NTk1MA==&mid=2247491014&idx=1&sn=616a6a6a48c3133aec09fa49356ccd8f&poc_token=HCLyE2qjMe6PMi72R0Hh2AVT0WSsb3GHpIa-gLvA)",
+      "datetime": "2026-05-25T14:54:51+08:00"
+    },
+    {
+      "id": "2026-05-24_005",
+      "file": "2026-05-24.md",
+      "date": "2026-05-24",
+      "time": "22:10:55",
+      "type": "文字",
+      "title": "对我而言，编程最核心的意义从来不在于机械地堆砌代码，而在于为数据、计算、状态以及它们之间的交互构建出最完整、最优雅的抽象。",
+      "quote": "对我而言，编程最核心的意义从来不在于机械地堆砌代码，而在于为数据、计算、状态以及它们之间的交互构建出最完整、最优雅的抽象。",
+      "images": [],
+      "has_image": false,
+      "author": "@cryptoxiao",
+      "author_desc": "In the AI era, the entire organizational structure must be r",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/cryptoxiao/status/2058385506602254808",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@cryptoxiao"
+      ],
+      "preview": "对我而言，编程最核心的意义从来不在于机械地堆砌代码，而在于为数据、计算、状态以及它们之间的交互构建出最完整、最优雅的抽象。",
+      "raw": "22:10:55 · 文字\n\n> 对我而言，编程最核心的意义从来不在于机械地堆砌代码，而在于为数据、计算、状态以及它们之间的交互构建出最完整、最优雅的抽象。\n\n来源: [@cryptoxiao: In the AI era, the entire organizational structure must be r…](https://x.com/cryptoxiao/status/2058385506602254808)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-24T22:10:55+08:00"
+    },
+    {
+      "id": "2026-05-24_004",
+      "file": "2026-05-24.md",
+      "date": "2026-05-24",
+      "time": "22:08:47",
+      "type": "文字",
+      "title": "Polsia 刚刚融资了 3000 万美元，我认为它精准捕捉到的叙事意义重大：即将一个“公司”封装成一款软件产品。  You give it a goal, a",
+      "quote": "Polsia 刚刚融资了 3000 万美元，我认为它精准捕捉到的叙事意义重大：即将一个“公司”封装成一款软件产品。  You give it a goal, and it breaks down engineering, marketing, customer service, sales leads, and roadmaps to a group of agents to run. People sit in front of the dashboard, only handling decisions and exceptions. 你给它一个目标，它就会将工程、营销、客户服务、销售线索和路线图分解给一组智能体去执行。人们坐在仪表盘前，只负责处理决策和异常情况。  If this thing works, the way organizations scale will change. Previously, scaling relied on hiring people, splitting departments, and adding management layers. AI-native orgs are more like allocating compute power, permissions, and context to a set of executable SOPs. 如果这套机制行得通，组织扩张的方式将会发生改变。 以前，扩张依赖于招聘人员、拆分部门和增加管理层级。 AI 原生组织则更像是将算力、权限和上下文分配给一组可执行的标准作业程序（SOP）。  Employee headcount will become a very weak indicator; organizational valuation will increasingly depend on how many industry SOPs it has accumulated, how many processes can already be automatically executed by AI, and how many exceptions can be quickly arbitrated by humans. 员工人数将成为一个非常弱的指标；组织的估值将日益取决于其积累了多少行业 SOP（标准作业程序），有多少流程已经可以由 AI 自动执行，以及有多少异常情况可以由人工快速仲裁。  If Polsia pulls this off, a one-person company will shift from one person grinding through 100 jobs to one person orchestrating interfaces for 100 roles. 如果 Polsia 能够实现这一目标，一人公司将从一个人苦干 100 份工作，转变为一个人编排 100 个角色的接口。",
+      "images": [],
+      "has_image": false,
+      "author": "@chuhaiqu",
+      "author_desc": "Polsia just raised $30 million, and I think the narrative it",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/chuhaiqu/status/2058397921310302234",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@chuhaiqu"
+      ],
+      "preview": "Polsia 刚刚融资了 3000 万美元，我认为它精准捕捉到的叙事意义重大：即将一个“公司”封装成一款软件产品。  You give it a goal, and it breaks down engineering, marketing, customer service, sales leads, and roadmaps to a group of agents to run. People sit in front of the dashboard, only ha...",
+      "raw": "22:08:47 · 文字\n\n> Polsia 刚刚融资了 3000 万美元，我认为它精准捕捉到的叙事意义重大：即将一个“公司”封装成一款软件产品。  You give it a goal, and it breaks down engineering, marketing, customer service, sales leads, and roadmaps to a group of agents to run. People sit in front of the dashboard, only handling decisions and exceptions. 你给它一个目标，它就会将工程、营销、客户服务、销售线索和路线图分解给一组智能体去执行。人们坐在仪表盘前，只负责处理决策和异常情况。  If this thing works, the way organizations scale will change. Previously, scaling relied on hiring people, splitting departments, and adding management layers. AI-native orgs are more like allocating compute power, permissions, and context to a set of executable SOPs. 如果这套机制行得通，组织扩张的方式将会发生改变。 以前，扩张依赖于招聘人员、拆分部门和增加管理层级。 AI 原生组织则更像是将算力、权限和上下文分配给一组可执行的标准作业程序（SOP）。  Employee headcount will become a very weak indicator; organizational valuation will increasingly depend on how many industry SOPs it has accumulated, how many processes can already be automatically executed by AI, and how many exceptions can be quickly arbitrated by humans. 员工人数将成为一个非常弱的指标；组织的估值将日益取决于其积累了多少行业 SOP（标准作业程序），有多少流程已经可以由 AI 自动执行，以及有多少异常情况可以由人工快速仲裁。  If Polsia pulls this off, a one-person company will shift from one person grinding through 100 jobs to one person orchestrating interfaces for 100 roles. 如果 Polsia 能够实现这一目标，一人公司将从一个人苦干 100 份工作，转变为一个人编排 100 个角色的接口。\n\n来源: [@chuhaiqu: Polsia just raised $30 million, and I think the narrative it…](https://x.com/chuhaiqu/status/2058397921310302234)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-24T22:08:47+08:00"
+    },
+    {
+      "id": "2026-05-24_003",
+      "file": "2026-05-24.md",
+      "date": "2026-05-24",
+      "time": "22:08:18",
+      "type": "文字",
+      "title": "NVIDIA 的 CEO 黄仁勋，是我这几年见过最颠覆管理常识的一个人。2025 年他提出全员 AI 指挥员的构想，说白了就是：公司里不管工程师还是分析师，每个",
+      "quote": "NVIDIA 的 CEO 黄仁勋，是我这几年见过最颠覆管理常识的一个人。2025 年他提出全员 AI 指挥员的构想，说白了就是：公司里不管工程师还是分析师，每个人都在指挥一群 AI 智能体干活，自己更像一个调度中心的负责人。他举过一个例子——工程师通过 AI 智能体提前发现代码漏洞、自动做模拟测试、检查合规性，原本需要一周的原型验证，现在半天就能跑完。我在做 AI 产品的这两年，听到很多团队还在纠结“AI 会不会取代我”，但 Huang 的思路完全相反：不是取代，是让你指挥更多智能体，一个人顶一个分队。他管这叫“指数级增长的生产力”——不是让你做得更快，而是让你同时干好几件事。  更让我吃惊的是他本人的管理方式。Huang 有 60 个直接下属，却坚决不做一对一的会议。这在传统管理教科书里简直是灾难——没有一对一，你怎么辅导？怎么对齐目标？他的逻辑很直接：我对一个人说的每句话，都应该是所有人都能听的。他把所有讨论放在集体场合，信息完全透明，每个人都能看到决策的完整过程。他自己也承认，这样做的代价是会议变长、场面更乱，但好处是公司层级被压到最薄，信息流动比任何组织都快。我入行 5 年，见过太多管理者把时间花在私下沟通、摆平关系上，结果一线最真实的数据反而传不到高层。Huang 的做法等于把那些隐形沟通全部砍掉，逼着你把时间花在真正的技术问题上。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://www.woshipm.com/ai/6400892.html",
+      "all_urls": [
+        "https://www.woshipm.com/ai/6400892.html"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "NVIDIA 的 CEO 黄仁勋，是我这几年见过最颠覆管理常识的一个人。2025 年他提出全员 AI 指挥员的构想，说白了就是：公司里不管工程师还是分析师，每个人都在指挥一群 AI 智能体干活，自己更像一个调度中心的负责人。他举过一个例子——工程师通过 AI 智能体提前发现代码漏洞、自动做模拟测试、检查合规性，原本需要一周的原型验证，现在半天就能跑完。我在做 AI 产品的这两年，听到很多团队还在纠结“AI 会不会取代我”，但 Huang 的思路完全相反：不是取代，是让你指挥更...",
+      "raw": "22:08:18 · 文字\n\n> NVIDIA 的 CEO 黄仁勋，是我这几年见过最颠覆管理常识的一个人。2025 年他提出全员 AI 指挥员的构想，说白了就是：公司里不管工程师还是分析师，每个人都在指挥一群 AI 智能体干活，自己更像一个调度中心的负责人。他举过一个例子——工程师通过 AI 智能体提前发现代码漏洞、自动做模拟测试、检查合规性，原本需要一周的原型验证，现在半天就能跑完。我在做 AI 产品的这两年，听到很多团队还在纠结“AI 会不会取代我”，但 Huang 的思路完全相反：不是取代，是让你指挥更多智能体，一个人顶一个分队。他管这叫“指数级增长的生产力”——不是让你做得更快，而是让你同时干好几件事。  更让我吃惊的是他本人的管理方式。Huang 有 60 个直接下属，却坚决不做一对一的会议。这在传统管理教科书里简直是灾难——没有一对一，你怎么辅导？怎么对齐目标？他的逻辑很直接：我对一个人说的每句话，都应该是所有人都能听的。他把所有讨论放在集体场合，信息完全透明，每个人都能看到决策的完整过程。他自己也承认，这样做的代价是会议变长、场面更乱，但好处是公司层级被压到最薄，信息流动比任何组织都快。我入行 5 年，见过太多管理者把时间花在私下沟通、摆平关系上，结果一线最真实的数据反而传不到高层。Huang 的做法等于把那些隐形沟通全部砍掉，逼着你把时间花在真正的技术问题上。\n\n来源: [当90%的工程师用AI写代码，AI 组织的管理者要怎么办？ | 人人都是产品经理](https://www.woshipm.com/ai/6400892.html)",
+      "datetime": "2026-05-24T22:08:18+08:00"
+    },
+    {
+      "id": "2026-05-24_002",
+      "file": "2026-05-24.md",
+      "date": "2026-05-24",
+      "time": "22:06:21",
+      "type": "文字",
+      "title": "Gemini 3.5 Flash、codegraph、Codex + Obsidian——这些信号都指向同一个事实：未来的核心竞争力不在于谁最擅长聊天，而在于谁",
+      "quote": "Gemini 3.5 Flash、codegraph、Codex + Obsidian——这些信号都指向同一个事实：未来的核心竞争力不在于谁最擅长聊天，而在于谁能更好地接手项目、找准上下文，并让工作稳步推进。",
+      "images": [],
+      "has_image": false,
+      "author": "@Tim_Tian_dream",
+      "author_desc": "The most overestimated aspect of recent AI programming tools",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Tim_Tian_dream/status/2058465139624657057",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Tim_Tian_dream"
+      ],
+      "preview": "Gemini 3.5 Flash、codegraph、Codex + Obsidian——这些信号都指向同一个事实：未来的核心竞争力不在于谁最擅长聊天，而在于谁能更好地接手项目、找准上下文，并让工作稳步推进。",
+      "raw": "22:06:21 · 文字\n\n> Gemini 3.5 Flash、codegraph、Codex + Obsidian——这些信号都指向同一个事实：未来的核心竞争力不在于谁最擅长聊天，而在于谁能更好地接手项目、找准上下文，并让工作稳步推进。\n\n来源: [@Tim_Tian_dream: The most overestimated aspect of recent AI programming tools…](https://x.com/Tim_Tian_dream/status/2058465139624657057)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-24T22:06:21+08:00"
+    },
+    {
+      "id": "2026-05-24_001",
+      "file": "2026-05-24.md",
+      "date": "2026-05-24",
+      "time": "10:27:52",
+      "type": "文字",
+      "title": "最近有一家日本企业的玩法挺有意思。  他们不是去做什么新 AI 产品，也不是融资、发币、搞大模型应用，而是专门收购那种特别老的会员制业务：  〇〇协会、〇〇共济",
+      "quote": "最近有一家日本企业的玩法挺有意思。  他们不是去做什么新 AI 产品，也不是融资、发币、搞大模型应用，而是专门收购那种特别老的会员制业务：  〇〇协会、〇〇共济、〇〇会、地方行业组织、会员俱乐部。  这些业务看起来很土，但有一个优点：  现金流很稳。  会员名簿有人维护，会费有人催，活动有人办，老会员每年继续交钱，整个系统靠几个事务员、Excel、电话、邮件慢慢转。  然后他们收购之后，做的事也不复杂：  把会员名簿迁到数据库；  用 Stripe 做自动扣费和催缴；  用 Supabase 搭会员后台；  用 Claude Code 写一些管理页面和自动化流程；  原来需要几个人反复处理的事，变成一个系统每天自动跑。  人员成本降下来，利润率立刻变好看。  利润率一变好看，这家公司就不再是一个“老协会”了，而是一个现金流更干净、管理成本更低、可以被重新估值的会员制资产。  然后再卖掉。  这件事最有意思的地方在于，它的技术难度可能真的不高。  很多用 Claude Code 的工程师，随手一天就能搭出这种系统的雏形。  但问题是，很多工程师脑子里默认的世界太先进了，总觉得公司都已经在用 SaaS、API、自动化、AI 工作流。  现实不是这样。  大量赚钱的老业务，连最基础的信息化都没做完，还停留在人工整理名单、人工催费、人工发通知、人工对账的阶段。  所以这里真正的机会，不是“AI 能不能写代码”。  而是工程师有没有经营视角，能不能看懂：  什么业务有稳定现金流；  什么环节还在靠人肉重复劳动；  什么系统一上线，利润率就会被立刻改写；  什么资产改造完之后，可以用更高估值卖出去。  技术人很容易看不起这种事，觉得太土、太简单、没技术含量。  但商业世界里很多钱，恰恰就藏在这种“太土、太简单、没技术含量”的地方。  有时候不是工程师能力不够。  是工程师水平太高了，反而不知道这个世界上还有多少公司，连 Claude Code 自动化的门槛都还没摸到。",
+      "images": [],
+      "has_image": false,
+      "author": "@realCaigu",
+      "author_desc": "最近有一家日本企业的玩法挺有意思。 他们不是去做什么新 AI 产品，也不是融资、发币、搞大模型应用，而是专门收购那种特别",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/realCaigu/status/2058200538416923056",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@realCaigu"
+      ],
+      "preview": "最近有一家日本企业的玩法挺有意思。  他们不是去做什么新 AI 产品，也不是融资、发币、搞大模型应用，而是专门收购那种特别老的会员制业务：  〇〇协会、〇〇共济、〇〇会、地方行业组织、会员俱乐部。  这些业务看起来很土，但有一个优点：  现金流很稳。  会员名簿有人维护，会费有人催，活动有人办，老会员每年继续交钱，整个系统靠几个事务员、Excel、电话、邮件慢慢转。  然后他们收购之后，做的事也不复杂：  把会员名簿迁到数据库；  用 Stripe 做自动扣费和催缴；  用 ...",
+      "raw": "10:27:52 · 文字\n\n> 最近有一家日本企业的玩法挺有意思。  他们不是去做什么新 AI 产品，也不是融资、发币、搞大模型应用，而是专门收购那种特别老的会员制业务：  〇〇协会、〇〇共济、〇〇会、地方行业组织、会员俱乐部。  这些业务看起来很土，但有一个优点：  现金流很稳。  会员名簿有人维护，会费有人催，活动有人办，老会员每年继续交钱，整个系统靠几个事务员、Excel、电话、邮件慢慢转。  然后他们收购之后，做的事也不复杂：  把会员名簿迁到数据库；  用 Stripe 做自动扣费和催缴；  用 Supabase 搭会员后台；  用 Claude Code 写一些管理页面和自动化流程；  原来需要几个人反复处理的事，变成一个系统每天自动跑。  人员成本降下来，利润率立刻变好看。  利润率一变好看，这家公司就不再是一个“老协会”了，而是一个现金流更干净、管理成本更低、可以被重新估值的会员制资产。  然后再卖掉。  这件事最有意思的地方在于，它的技术难度可能真的不高。  很多用 Claude Code 的工程师，随手一天就能搭出这种系统的雏形。  但问题是，很多工程师脑子里默认的世界太先进了，总觉得公司都已经在用 SaaS、API、自动化、AI 工作流。  现实不是这样。  大量赚钱的老业务，连最基础的信息化都没做完，还停留在人工整理名单、人工催费、人工发通知、人工对账的阶段。  所以这里真正的机会，不是“AI 能不能写代码”。  而是工程师有没有经营视角，能不能看懂：  什么业务有稳定现金流；  什么环节还在靠人肉重复劳动；  什么系统一上线，利润率就会被立刻改写；  什么资产改造完之后，可以用更高估值卖出去。  技术人很容易看不起这种事，觉得太土、太简单、没技术含量。  但商业世界里很多钱，恰恰就藏在这种“太土、太简单、没技术含量”的地方。  有时候不是工程师能力不够。  是工程师水平太高了，反而不知道这个世界上还有多少公司，连 Claude Code 自动化的门槛都还没摸到。\n\n来源: [@realCaigu: 最近有一家日本企业的玩法挺有意思。 他们不是去做什么新 AI 产品，也不是融资、发币、搞大模型应用，而是专门收购那种特别…](https://x.com/realCaigu/status/2058200538416923056)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-24T10:27:52+08:00"
+    },
+    {
+      "id": "2026-05-23_009",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:56:15",
+      "type": "文字",
+      "title": "把 GitHub 当成一种记笔记的方式，可能是在 AI 时代一种非常方便的方式，因为 AI 编程体。天然就能帮你去把这些笔记的版本，包括信息的组织给维护好。",
+      "quote": "把 GitHub 当成一种记笔记的方式，可能是在 AI 时代一种非常方便的方式，因为 AI 编程体。天然就能帮你去把这些笔记的版本，包括信息的组织给维护好。",
+      "images": [],
+      "has_image": false,
+      "author": "@attaalong",
+      "author_desc": "把 GitHub 当成一种记笔记的方式，可能是在 AI 时代一种非常方便的方式，因为 AI 编程体。天然就能帮你去把这些",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/attaalong/status/2057694009099969017",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@attaalong"
+      ],
+      "preview": "把 GitHub 当成一种记笔记的方式，可能是在 AI 时代一种非常方便的方式，因为 AI 编程体。天然就能帮你去把这些笔记的版本，包括信息的组织给维护好。",
+      "raw": "22:56:15 · 文字\n\n> 把 GitHub 当成一种记笔记的方式，可能是在 AI 时代一种非常方便的方式，因为 AI 编程体。天然就能帮你去把这些笔记的版本，包括信息的组织给维护好。\n\n来源: [@attaalong: 把 GitHub 当成一种记笔记的方式，可能是在 AI 时代一种非常方便的方式，因为 AI 编程体。天然就能帮你去把这些…](https://x.com/attaalong/status/2057694009099969017)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-23T22:56:15+08:00"
+    },
+    {
+      "id": "2026-05-23_008",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:54:44",
+      "type": "文字",
+      "title": "战略极度聚焦，组织文化极度纯粹。",
+      "quote": "战略极度聚焦，组织文化极度纯粹。",
+      "images": [],
+      "has_image": false,
+      "author": "@dcp164",
+      "author_desc": "Anthropic为什么能突然杀出来？ 过去一年，AI行业最值得研究的公司，可能不是OpenAI，而是Anthropic",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/dcp164/status/2057840859656466865",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@dcp164"
+      ],
+      "preview": "战略极度聚焦，组织文化极度纯粹。",
+      "raw": "22:54:44 · 文字\n\n> 战略极度聚焦，组织文化极度纯粹。\n\n来源: [@dcp164: Anthropic为什么能突然杀出来？ 过去一年，AI行业最值得研究的公司，可能不是OpenAI，而是Anthropic…](https://x.com/dcp164/status/2057840859656466865)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-23T22:54:44+08:00"
+    },
+    {
+      "id": "2026-05-23_007",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:54:24",
+      "type": "文字",
+      "title": "一个人的收入上限往往不是由其能力决定的  而是取决于谁在购买你的能力  如果你的能力只被一家公司购买， 那么它的定价将受限于岗位、职级、预算以及组织规则  但如",
+      "quote": "一个人的收入上限往往不是由其能力决定的  而是取决于谁在购买你的能力  如果你的能力只被一家公司购买， 那么它的定价将受限于岗位、职级、预算以及组织规则  但如果你能将自己的能力转化为产品， 它就进入了一个完全不同的逻辑：  它可以被更多人看到 它可以被内容放大 它可以被重复交付 它可以被不同的客户购买  这就是为什么我一直在不断研究 AI 产品的个性化  并不是为了鼓励每个人都去创业  但对于有经验的人来说，你确实应该再问自己一个问题：  我的经验——除了被公司雇佣之外， 是否可以被市场直接购买？",
+      "images": [],
+      "has_image": false,
+      "author": "@ianneo_ai",
+      "author_desc": "The upper limit of a person's income is often not determined",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ianneo_ai/status/2057854492830470158",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ianneo_ai"
+      ],
+      "preview": "一个人的收入上限往往不是由其能力决定的  而是取决于谁在购买你的能力  如果你的能力只被一家公司购买， 那么它的定价将受限于岗位、职级、预算以及组织规则  但如果你能将自己的能力转化为产品， 它就进入了一个完全不同的逻辑：  它可以被更多人看到 它可以被内容放大 它可以被重复交付 它可以被不同的客户购买  这就是为什么我一直在不断研究 AI 产品的个性化  并不是为了鼓励每个人都去创业  但对于有经验的人来说，你确实应该再问自己一个问题：  我的经验——除了被公司雇佣之外， ...",
+      "raw": "22:54:24 · 文字\n\n> 一个人的收入上限往往不是由其能力决定的  而是取决于谁在购买你的能力  如果你的能力只被一家公司购买， 那么它的定价将受限于岗位、职级、预算以及组织规则  但如果你能将自己的能力转化为产品， 它就进入了一个完全不同的逻辑：  它可以被更多人看到 它可以被内容放大 它可以被重复交付 它可以被不同的客户购买  这就是为什么我一直在不断研究 AI 产品的个性化  并不是为了鼓励每个人都去创业  但对于有经验的人来说，你确实应该再问自己一个问题：  我的经验——除了被公司雇佣之外， 是否可以被市场直接购买？\n\n来源: [@ianneo_ai: The upper limit of a person's income is often not determined…](https://x.com/ianneo_ai/status/2057854492830470158)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-23T22:54:24+08:00"
+    },
+    {
+      "id": "2026-05-23_006",
       "file": "2026-05-23.md",
       "date": "2026-05-23",
       "time": "22:53:31",
       "type": "文字",
-      "title": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉",
-      "quote": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉淀成下次可复用的 Context?",
+      "title": "AI 时代缺的不是更多工具。  工具太多了。  缺的是一套新的组织基建：  AI 怎么理解现场？ AI 怎么知道边界？ AI 怎么升级给人？ AI 怎么把一次人",
+      "quote": "AI 时代缺的不是更多工具。  工具太多了。  缺的是一套新的组织基建：  AI 怎么理解现场？ AI 怎么知道边界？ AI 怎么升级给人？ AI 怎么把一次人类判断，沉淀成下次可复用的 Context？",
       "images": [],
       "has_image": false,
       "author": "@UncleJAI",
-      "author_desc": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI",
+      "author_desc": "AI 时代缺的不是更多工具。 工具太多了。 缺的是一套新的组织基建： AI 怎么理解现场？ AI 怎么知道边界？ AI",
       "source": "X(Twitter)",
       "source_page": "AI 组织 - Search / X",
-      "source_url": "https://x.com/search?q=AI%E7%BB%84%E7%BB%87",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
       "all_urls": [
-        "https://x.com/UncleJAI",
-        "https://x.com/search?q=AI%E7%BB%84%E7%BB%87"
+        "https://x.com/UncleJAI/status/2057984926105190474",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
       ],
       "tags": [
         "文字",
         "@UncleJAI"
       ],
-      "preview": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉淀成下次可复用的 Context?",
-      "raw": "22:53:31 · 文字\n\n> AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉淀成下次可复用的 Context?\n\n来源:[@UncleJAI](https://x.com/UncleJAI): AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI ... 所在页面:[AI 组织 - Search / X](https://x.com/search?q=AI%E7%BB%84%E7%BB%87)",
+      "preview": "AI 时代缺的不是更多工具。  工具太多了。  缺的是一套新的组织基建：  AI 怎么理解现场？ AI 怎么知道边界？ AI 怎么升级给人？ AI 怎么把一次人类判断，沉淀成下次可复用的 Context？",
+      "raw": "22:53:31 · 文字\n\n> AI 时代缺的不是更多工具。  工具太多了。  缺的是一套新的组织基建：  AI 怎么理解现场？ AI 怎么知道边界？ AI 怎么升级给人？ AI 怎么把一次人类判断，沉淀成下次可复用的 Context？\n\n来源: [@UncleJAI: AI 时代缺的不是更多工具。 工具太多了。 缺的是一套新的组织基建： AI 怎么理解现场？ AI 怎么知道边界？ AI …](https://x.com/UncleJAI/status/2057984926105190474)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
       "datetime": "2026-05-23T22:53:31+08:00"
     },
     {
-      "id": "2026-05-23_003",
+      "id": "2026-05-23_005",
       "file": "2026-05-23.md",
       "date": "2026-05-23",
       "time": "22:51:19",
       "type": "图片",
-      "title": "Lucius - AI 时代,团队的速度离不开上下文层",
+      "title": "image",
       "quote": "",
       "images": [
         {
-          "alt": "Lucius - AI 时代,团队的速度离不开上下文层",
-          "url": "https://pbs.twimg.com/media/example.jpg"
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HI5kJ9YWoAAaDtG?format=jpg&name=small"
         }
       ],
       "has_image": true,
@@ -83,18 +433,71 @@
       "author_desc": "",
       "source": "X(Twitter)",
       "source_page": "",
-      "source_url": "https://x.com/AYi_AInotes",
+      "source_url": "https://x.com/AYi_AInotes/status/2057693110923038753",
       "all_urls": [
-        "https://pbs.twimg.com/media/example.jpg",
-        "https://x.com/AYi_AInotes"
+        "https://pbs.twimg.com/media/HI5kJ9YWoAAaDtG?format=jpg&name=small",
+        "https://x.com/AYi_AInotes/status/2057693110923038753"
       ],
       "tags": [
         "图片",
         "@AYi_AInotes"
       ],
       "preview": "[图片] ",
-      "raw": "22:51:19 · 图片\n\n![Lucius - AI 时代,团队的速度离不开上下文层](https://pbs.twimg.com/media/example.jpg)\n\n来源:[@AYi_AInotes](https://x.com/AYi_AInotes)",
+      "raw": "22:51:19 · 图片\n\n![image](https://pbs.twimg.com/media/HI5kJ9YWoAAaDtG?format=jpg&name=small)\n\n来源: [@AYi_AInotes](https://x.com/AYi_AInotes/status/2057693110923038753)",
       "datetime": "2026-05-23T22:51:19+08:00"
+    },
+    {
+      "id": "2026-05-23_004",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:50:55",
+      "type": "文字",
+      "title": "你给我十个 ChatGPT 账号没用，我要的是我们公司从昨天到今天，每一次对话、每一个决策、每一份反馈，都能被沉淀下来、被检索到、被复用。 可一旦想到这里，问题",
+      "quote": "你给我十个 ChatGPT 账号没用，我要的是我们公司从昨天到今天，每一次对话、每一个决策、每一份反馈，都能被沉淀下来、被检索到、被复用。 可一旦想到这里，问题就来了： 再聪明的智能体，如果不知道你的组织在想什么，它就只是一个聪明的傻瓜。",
+      "images": [],
+      "has_image": false,
+      "author": "@AYi_AInotes",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/AYi_AInotes/status/2057693110923038753",
+      "all_urls": [
+        "https://x.com/AYi_AInotes/status/2057693110923038753"
+      ],
+      "tags": [
+        "文字",
+        "@AYi_AInotes"
+      ],
+      "preview": "你给我十个 ChatGPT 账号没用，我要的是我们公司从昨天到今天，每一次对话、每一个决策、每一份反馈，都能被沉淀下来、被检索到、被复用。 可一旦想到这里，问题就来了： 再聪明的智能体，如果不知道你的组织在想什么，它就只是一个聪明的傻瓜。",
+      "raw": "22:50:55 · 文字\n\n> 你给我十个 ChatGPT 账号没用，我要的是我们公司从昨天到今天，每一次对话、每一个决策、每一份反馈，都能被沉淀下来、被检索到、被复用。 可一旦想到这里，问题就来了： 再聪明的智能体，如果不知道你的组织在想什么，它就只是一个聪明的傻瓜。\n\n来源: [@AYi_AInotes](https://x.com/AYi_AInotes/status/2057693110923038753)",
+      "datetime": "2026-05-23T22:50:55+08:00"
+    },
+    {
+      "id": "2026-05-23_003",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:43:03",
+      "type": "文字",
+      "title": "“个人在飞升，组织在坍塌。”如果没有组织记忆作为基础，购买再多工具也只会加速团队的混乱。未来的赢家拼的是记忆，而不是模型！",
+      "quote": "“个人在飞升，组织在坍塌。”如果没有组织记忆作为基础，购买再多工具也只会加速团队的混乱。未来的赢家拼的是记忆，而不是模型！",
+      "images": [],
+      "has_image": false,
+      "author": "@ddny09",
+      "author_desc": "This article truly tells bosses: Stop blindly buying AI acco",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ddny09/status/2058111820108575226",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ddny09"
+      ],
+      "preview": "“个人在飞升，组织在坍塌。”如果没有组织记忆作为基础，购买再多工具也只会加速团队的混乱。未来的赢家拼的是记忆，而不是模型！",
+      "raw": "22:43:03 · 文字\n\n> “个人在飞升，组织在坍塌。”如果没有组织记忆作为基础，购买再多工具也只会加速团队的混乱。未来的赢家拼的是记忆，而不是模型！\n\n来源: [@ddny09: This article truly tells bosses: Stop blindly buying AI acco…](https://x.com/ddny09/status/2058111820108575226)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-23T22:43:03+08:00"
     },
     {
       "id": "2026-05-23_002",
@@ -102,25 +505,25 @@
       "date": "2026-05-23",
       "time": "22:42:32",
       "type": "文字",
-      "title": "组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"",
-      "quote": "组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"",
+      "title": "组织结构不再以“人”为基础，而是基于任务驱动的智能体集群。创始人从执行者转变为“系统架构师”或“战略导演”。",
+      "quote": "组织结构不再以“人”为基础，而是基于任务驱动的智能体集群。创始人从执行者转变为“系统架构师”或“战略导演”。",
       "images": [],
       "has_image": false,
       "author": "@skyrain888",
       "author_desc": "4/9 This is essentially the \"AI-native company\" model: the o",
       "source": "X(Twitter)",
       "source_page": "AI 组织 - Search / X",
-      "source_url": "https://x.com/search?q=AI%E7%BB%84%E7%BB%87",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
       "all_urls": [
-        "https://x.com/skyrain888",
-        "https://x.com/search?q=AI%E7%BB%84%E7%BB%87"
+        "https://x.com/skyrain888/status/2058145977102713016",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
       ],
       "tags": [
         "文字",
         "@skyrain888"
       ],
-      "preview": "组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"",
-      "raw": "22:42:32 · 文字\n\n> 组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"\n\n来源:[@skyrain888](https://x.com/skyrain888): 4/9 This is essentially the \"AI-native company\" model: the o... 所在页面:[AI 组织 - Search / X](https://x.com/search?q=AI%E7%BB%84%E7%BB%87)",
+      "preview": "组织结构不再以“人”为基础，而是基于任务驱动的智能体集群。创始人从执行者转变为“系统架构师”或“战略导演”。",
+      "raw": "22:42:32 · 文字\n\n> 组织结构不再以“人”为基础，而是基于任务驱动的智能体集群。创始人从执行者转变为“系统架构师”或“战略导演”。\n\n来源: [@skyrain888: 4/9 This is essentially the \"AI-native company\" model: the o…](https://x.com/skyrain888/status/2058145977102713016)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
       "datetime": "2026-05-23T22:42:32+08:00"
     },
     {
@@ -129,26 +532,2235 @@
       "date": "2026-05-23",
       "time": "22:42:21",
       "type": "文字",
-      "title": "Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业",
-      "quote": "Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业务流程并转译为指令\"",
+      "title": "Tycoon AI 是自动化理念在组织层面的激进实验：当 Agent 能力密度超过人类，公司边界将被重塑。一人公司的未来不再是“雇多少人”，而是“能否清晰定义业",
+      "quote": "Tycoon AI 是自动化理念在组织层面的激进实验：当 Agent 能力密度超过人类，公司边界将被重塑。一人公司的未来不再是“雇多少人”，而是“能否清晰定义业务流程并转译为指令",
       "images": [],
       "has_image": false,
       "author": "@skyrain888",
-      "author_desc": "8/9 Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公",
+      "author_desc": "8/9 Tycoon AI 是自动化理念在组织层面的激进实验：当 Agent 能力密度超过人类，公司边界将被重塑。一人公",
       "source": "X(Twitter)",
       "source_page": "AI 组织 - Search / X",
-      "source_url": "https://x.com/search?q=AI%E7%BB%84%E7%BB%87",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
       "all_urls": [
-        "https://x.com/skyrain888",
-        "https://x.com/search?q=AI%E7%BB%84%E7%BB%87"
+        "https://x.com/skyrain888/status/2058146050364559833",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
       ],
       "tags": [
         "文字",
         "@skyrain888"
       ],
-      "preview": "Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业务流程并转译为指令\"",
-      "raw": "22:42:21 · 文字\n\n> Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业务流程并转译为指令\"\n\n来源:[@skyrain888](https://x.com/skyrain888): 8/9 Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公... 所在页面:[AI 组织 - Search / X](https://x.com/search?q=AI%E7%BB%84%E7%BB%87)",
+      "preview": "Tycoon AI 是自动化理念在组织层面的激进实验：当 Agent 能力密度超过人类，公司边界将被重塑。一人公司的未来不再是“雇多少人”，而是“能否清晰定义业务流程并转译为指令",
+      "raw": "22:42:21 · 文字\n\n> Tycoon AI 是自动化理念在组织层面的激进实验：当 Agent 能力密度超过人类，公司边界将被重塑。一人公司的未来不再是“雇多少人”，而是“能否清晰定义业务流程并转译为指令\n\n来源: [@skyrain888: 8/9 Tycoon AI 是自动化理念在组织层面的激进实验：当 Agent 能力密度超过人类，公司边界将被重塑。一人公…](https://x.com/skyrain888/status/2058146050364559833)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
       "datetime": "2026-05-23T22:42:21+08:00"
+    },
+    {
+      "id": "2026-05-22_010",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:46:37",
+      "type": "文字",
+      "title": "大多数人以为 2026 年最重要的开发者技能是\"写 prompt\"。  但实际上是\"Context Engineering\"——怎么组织信息喂给 AI。  区别",
+      "quote": "大多数人以为 2026 年最重要的开发者技能是\"写 prompt\"。  但实际上是\"Context Engineering\"——怎么组织信息喂给 AI。  区别： • Prompt：问一个好问题 • Context Engineering：决定哪些文件、哪些上下文、以什么顺序给 AI，让它持续输出高质量结果  我的经验：同样的任务，context 组织得好 vs 差，AI 输出质量差 3-5 倍。  举个例子：让 AI 重构一个模块，直接丢代码给它 vs 先给架构图+依赖关系+测试用例再丢代码，结果天差地别。  你们有什么 context 管理的技巧？一起交流",
+      "images": [],
+      "has_image": false,
+      "author": "@hui1231123",
+      "author_desc": "大多数人以为 2026 年最重要的开发者技能是\"写 prompt\"。 但实际上是\"Context Engineering",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/hui1231123/status/2057397235940278552",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@hui1231123"
+      ],
+      "preview": "大多数人以为 2026 年最重要的开发者技能是\"写 prompt\"。  但实际上是\"Context Engineering\"——怎么组织信息喂给 AI。  区别： • Prompt：问一个好问题 • Context Engineering：决定哪些文件、哪些上下文、以什么顺序给 AI，让它持续输出高质量结果  我的经验：同样的任务，context 组织得好 vs 差，AI 输出质量差 3-5 倍。  举个例子：让 AI 重构一个模块，直接丢代码给它 vs 先给架构图+依赖关系...",
+      "raw": "12:46:37 · 文字\n\n> 大多数人以为 2026 年最重要的开发者技能是\"写 prompt\"。  但实际上是\"Context Engineering\"——怎么组织信息喂给 AI。  区别： • Prompt：问一个好问题 • Context Engineering：决定哪些文件、哪些上下文、以什么顺序给 AI，让它持续输出高质量结果  我的经验：同样的任务，context 组织得好 vs 差，AI 输出质量差 3-5 倍。  举个例子：让 AI 重构一个模块，直接丢代码给它 vs 先给架构图+依赖关系+测试用例再丢代码，结果天差地别。  你们有什么 context 管理的技巧？一起交流\n\n来源: [@hui1231123: 大多数人以为 2026 年最重要的开发者技能是\"写 prompt\"。 但实际上是\"Context Engineering…](https://x.com/hui1231123/status/2057397235940278552)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:46:37+08:00"
+    },
+    {
+      "id": "2026-05-22_009",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:43:22",
+      "type": "文字",
+      "title": "为什么你用 AI 写的方案总是毫无灵魂、千篇一律？  因为 AI 没有你的经历和审美！真正的顶级高手都在用 Obsidian 积累个人资产： 1. 零门槛：实时",
+      "quote": "为什么你用 AI 写的方案总是毫无灵魂、千篇一律？  因为 AI 没有你的经历和审美！真正的顶级高手都在用 Obsidian 积累个人资产： 1. 零门槛：实时预览，3 天养成肌肉记忆。 2. 拒绝混乱分类：利用 MOC 和 PARA 体系——先写后理，乱中有序。 3. AI 集成：将 Copilot 与 DeepSeek 结合，打造你的终极数字分身。",
+      "images": [],
+      "has_image": false,
+      "author": "@ddny09",
+      "author_desc": "Why are the plans you write with AI always soulless and cook",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ddny09/status/2057504166923391116",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ddny09"
+      ],
+      "preview": "为什么你用 AI 写的方案总是毫无灵魂、千篇一律？  因为 AI 没有你的经历和审美！真正的顶级高手都在用 Obsidian 积累个人资产： 1. 零门槛：实时预览，3 天养成肌肉记忆。 2. 拒绝混乱分类：利用 MOC 和 PARA 体系——先写后理，乱中有序。 3. AI 集成：将 Copilot 与 DeepSeek 结合，打造你的终极数字分身。",
+      "raw": "12:43:22 · 文字\n\n> 为什么你用 AI 写的方案总是毫无灵魂、千篇一律？  因为 AI 没有你的经历和审美！真正的顶级高手都在用 Obsidian 积累个人资产： 1. 零门槛：实时预览，3 天养成肌肉记忆。 2. 拒绝混乱分类：利用 MOC 和 PARA 体系——先写后理，乱中有序。 3. AI 集成：将 Copilot 与 DeepSeek 结合，打造你的终极数字分身。\n\n来源: [@ddny09: Why are the plans you write with AI always soulless and cook…](https://x.com/ddny09/status/2057504166923391116)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:43:22+08:00"
+    },
+    {
+      "id": "2026-05-22_008",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:42:45",
+      "type": "文字",
+      "title": "TXG 的 Xenium 平台正主导着“AI 规模生物数据集”的供应，其中针对 10 万份患者组织样本的空间转录组学计划是关键催化剂——空间基因组学数据是训练生",
+      "quote": "TXG 的 Xenium 平台正主导着“AI 规模生物数据集”的供应，其中针对 10 万份患者组织样本的空间转录组学计划是关键催化剂——空间基因组学数据是训练生物 AI 模型的核心原材料。  生物、化学、医药——这些行业的护城河不在于算力，而在于成像、资产和监管。它们无法被模型公司所取代",
+      "images": [],
+      "has_image": false,
+      "author": "@PickAlphas",
+      "author_desc": "$TXG When a company is at a low point yet remains unshaken b",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/PickAlphas/status/2057511506460524547",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@PickAlphas"
+      ],
+      "preview": "TXG 的 Xenium 平台正主导着“AI 规模生物数据集”的供应，其中针对 10 万份患者组织样本的空间转录组学计划是关键催化剂——空间基因组学数据是训练生物 AI 模型的核心原材料。  生物、化学、医药——这些行业的护城河不在于算力，而在于成像、资产和监管。它们无法被模型公司所取代",
+      "raw": "12:42:45 · 文字\n\n> TXG 的 Xenium 平台正主导着“AI 规模生物数据集”的供应，其中针对 10 万份患者组织样本的空间转录组学计划是关键催化剂——空间基因组学数据是训练生物 AI 模型的核心原材料。  生物、化学、医药——这些行业的护城河不在于算力，而在于成像、资产和监管。它们无法被模型公司所取代\n\n来源: [@PickAlphas: $TXG When a company is at a low point yet remains unshaken b…](https://x.com/PickAlphas/status/2057511506460524547)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:42:45+08:00"
+    },
+    {
+      "id": "2026-05-22_007",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:41:42",
+      "type": "文字",
+      "title": "戳痛点了！过去一年大家都在卷‘个人提效’，结果导致每个个体产出的信息量呈指数级上升，组织反而更容易溺死在信息孤岛里。‘个体变快，组织没变快’这个总结太精准了，A",
+      "quote": "戳痛点了！过去一年大家都在卷‘个人提效’，结果导致每个个体产出的信息量呈指数级上升，组织反而更容易溺死在信息孤岛里。‘个体变快，组织没变快’这个总结太精准了，AI 的下半场确实该卷‘组织层面的信息减熵’",
+      "images": [],
+      "has_image": false,
+      "author": "@ponyodong",
+      "author_desc": "太戳痛点了！过去一年大家都在卷‘个人提效’，结果导致每个个体产出的信息量呈指数级上升，组织反而更容易溺死在信息孤岛里。‘",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ponyodong/status/2057625552614481937",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ponyodong"
+      ],
+      "preview": "戳痛点了！过去一年大家都在卷‘个人提效’，结果导致每个个体产出的信息量呈指数级上升，组织反而更容易溺死在信息孤岛里。‘个体变快，组织没变快’这个总结太精准了，AI 的下半场确实该卷‘组织层面的信息减熵’",
+      "raw": "12:41:42 · 文字\n\n> 戳痛点了！过去一年大家都在卷‘个人提效’，结果导致每个个体产出的信息量呈指数级上升，组织反而更容易溺死在信息孤岛里。‘个体变快，组织没变快’这个总结太精准了，AI 的下半场确实该卷‘组织层面的信息减熵’\n\n来源: [@ponyodong: 太戳痛点了！过去一年大家都在卷‘个人提效’，结果导致每个个体产出的信息量呈指数级上升，组织反而更容易溺死在信息孤岛里。‘…](https://x.com/ponyodong/status/2057625552614481937)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:41:42+08:00"
+    },
+    {
+      "id": "2026-05-22_006",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:34:41",
+      "type": "文字",
+      "title": "AI时代，组织之间最大的差距不是技术，不是资金，不是人才，是上下文，这是一个AI时代的非共识  最近我重听了42章经曲凯对谈Dify创始人路宇的一期节目，去年1",
+      "quote": "AI时代，组织之间最大的差距不是技术，不是资金，不是人才，是上下文，这是一个AI时代的非共识  最近我重听了42章经曲凯对谈Dify创始人路宇的一期节目，去年12月的 里面有一个概念，我反复想了很久——CCO，首席上下文官  路宇说了一句暴论：今天所有Agent最大的问题，不是模型不够强，而是上下文组织的无序与噪音  他把模型比作鱼。同一条鱼，放在不同的鱼缸里，会长成完全不同的样子。上下文，就是那个鱼缸  所以他提了一个判断：未来每个企业都需要一个CCO，专门治理组织的上下文总线  我当时觉得有道理，但没太当真 直到我看到LUCIUS，它做的事，就是把CCO这个角色产品化了  LUCIUS干三件事。 第一，记忆 每一位成员在Discord、Telegram、Slack、飞书上的完整历史。三个月前的提问影响今天的回答，团队的每次纠正永久生效 第二，上下文 你只需要简报一次——产品细节、品牌语调、用户分层——它在每次互动中自动应用。不是配置出来的，是被你\"交代\"出来的，像带一个新员工 第三，自主判断 权限内自主解答、唤醒沉默用户、发现流失信号。到了边界，把完整对话和草稿回复交给人决定。它知道什么时候该行动，什么时候该闭嘴  7x24小时在线，不需要工资，永远不会忘 如果说以前是三四个人干的客服活，现在一个人配合LUCIUS就够了。 其实CCO不是一个职位，是一个能力层  路宇提出了必然：未来组织的核心瓶颈不在模型，在上下文治理 LUCIUS给出了实然：一个能记住、能理解、能判断的AI队友，已经在帮你治理上下文了  它不是自动化工具，不是聊天机器人。它是一个了解你社区的队友 趋势是必然的，把趋势落成产品，才是实然，LUCIUS就是那个实然 不信的话，你可以试试：",
+      "images": [],
+      "has_image": false,
+      "author": "@Astronaut_1216",
+      "author_desc": "AI时代，组织之间最大的差距不是技术，不是资金，不是人才，是上下文，这是一个AI时代的非共识 最近我重听了42章经曲凯对",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Astronaut_1216/status/2057648191621804410",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Astronaut_1216"
+      ],
+      "preview": "AI时代，组织之间最大的差距不是技术，不是资金，不是人才，是上下文，这是一个AI时代的非共识  最近我重听了42章经曲凯对谈Dify创始人路宇的一期节目，去年12月的 里面有一个概念，我反复想了很久——CCO，首席上下文官  路宇说了一句暴论：今天所有Agent最大的问题，不是模型不够强，而是上下文组织的无序与噪音  他把模型比作鱼。同一条鱼，放在不同的鱼缸里，会长成完全不同的样子。上下文，就是那个鱼缸  所以他提了一个判断：未来每个企业都需要一个CCO，专门治理组织的上下文...",
+      "raw": "12:34:41 · 文字\n\n> AI时代，组织之间最大的差距不是技术，不是资金，不是人才，是上下文，这是一个AI时代的非共识  最近我重听了42章经曲凯对谈Dify创始人路宇的一期节目，去年12月的 里面有一个概念，我反复想了很久——CCO，首席上下文官  路宇说了一句暴论：今天所有Agent最大的问题，不是模型不够强，而是上下文组织的无序与噪音  他把模型比作鱼。同一条鱼，放在不同的鱼缸里，会长成完全不同的样子。上下文，就是那个鱼缸  所以他提了一个判断：未来每个企业都需要一个CCO，专门治理组织的上下文总线  我当时觉得有道理，但没太当真 直到我看到LUCIUS，它做的事，就是把CCO这个角色产品化了  LUCIUS干三件事。 第一，记忆 每一位成员在Discord、Telegram、Slack、飞书上的完整历史。三个月前的提问影响今天的回答，团队的每次纠正永久生效 第二，上下文 你只需要简报一次——产品细节、品牌语调、用户分层——它在每次互动中自动应用。不是配置出来的，是被你\"交代\"出来的，像带一个新员工 第三，自主判断 权限内自主解答、唤醒沉默用户、发现流失信号。到了边界，把完整对话和草稿回复交给人决定。它知道什么时候该行动，什么时候该闭嘴  7x24小时在线，不需要工资，永远不会忘 如果说以前是三四个人干的客服活，现在一个人配合LUCIUS就够了。 其实CCO不是一个职位，是一个能力层  路宇提出了必然：未来组织的核心瓶颈不在模型，在上下文治理 LUCIUS给出了实然：一个能记住、能理解、能判断的AI队友，已经在帮你治理上下文了  它不是自动化工具，不是聊天机器人。它是一个了解你社区的队友 趋势是必然的，把趋势落成产品，才是实然，LUCIUS就是那个实然 不信的话，你可以试试：\n\n来源: [@Astronaut_1216: AI时代，组织之间最大的差距不是技术，不是资金，不是人才，是上下文，这是一个AI时代的非共识 最近我重听了42章经曲凯对…](https://x.com/Astronaut_1216/status/2057648191621804410)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:34:41+08:00"
+    },
+    {
+      "id": "2026-05-22_005",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:22:28",
+      "type": "文字",
+      "title": "AI 与大规模裁员：冷酷、简单、残暴 ClickUp CEO 在业务巅峰期宣布裁员 22% 动机：打造 100 倍速组织，留住 10 倍速员工，削减中层管理人员",
+      "quote": "AI 与大规模裁员：冷酷、简单、残暴 ClickUp CEO 在业务巅峰期宣布裁员 22% 动机：打造 100 倍速组织，留住 10 倍速员工，削减中层管理人员  Zeb 的核心判断   熟练使用 AI 的员工可以产生 100 倍的生产力  Zeb 眼中的未来 未来并不意味着更少的人力， 而是不同的工作内容和全新的角色， 而拥抱它的人将获得更丰厚的回报。 我们已经看到全新的角色正在涌现， 比如一年前还不存在的“智能体经理”（agent manager）。",
+      "images": [],
+      "has_image": false,
+      "author": "@ReyJudgementOS",
+      "author_desc": "AI and Mass Layoffs: Ruthless, Simple, Brutal ClickUp CEO An",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ReyJudgementOS/status/2057653791705702590",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ReyJudgementOS"
+      ],
+      "preview": "AI 与大规模裁员：冷酷、简单、残暴 ClickUp CEO 在业务巅峰期宣布裁员 22% 动机：打造 100 倍速组织，留住 10 倍速员工，削减中层管理人员  Zeb 的核心判断   熟练使用 AI 的员工可以产生 100 倍的生产力  Zeb 眼中的未来 未来并不意味着更少的人力， 而是不同的工作内容和全新的角色， 而拥抱它的人将获得更丰厚的回报。 我们已经看到全新的角色正在涌现， 比如一年前还不存在的“智能体经理”（agent manager）。",
+      "raw": "12:22:28 · 文字\n\n> AI 与大规模裁员：冷酷、简单、残暴 ClickUp CEO 在业务巅峰期宣布裁员 22% 动机：打造 100 倍速组织，留住 10 倍速员工，削减中层管理人员  Zeb 的核心判断   熟练使用 AI 的员工可以产生 100 倍的生产力  Zeb 眼中的未来 未来并不意味着更少的人力， 而是不同的工作内容和全新的角色， 而拥抱它的人将获得更丰厚的回报。 我们已经看到全新的角色正在涌现， 比如一年前还不存在的“智能体经理”（agent manager）。\n\n来源: [@ReyJudgementOS: AI and Mass Layoffs: Ruthless, Simple, Brutal ClickUp CEO An…](https://x.com/ReyJudgementOS/status/2057653791705702590)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:22:28+08:00"
+    },
+    {
+      "id": "2026-05-22_004",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:22:13",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HI4_t6hasAAAd1i?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@ReyJudgementOS",
+      "author_desc": "AI and Mass Layoffs: Ruthless, Simple, Brutal ClickUp CEO An",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HI4_t6hasAAAd1i?format=jpg&name=900x900",
+        "https://x.com/ReyJudgementOS/status/2057653791705702590",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@ReyJudgementOS"
+      ],
+      "preview": "AI and Mass Layoffs: Ruthless, Simple, Brutal ClickUp CEO An [含图]",
+      "raw": "12:22:13 · 图片\n\n![image](https://pbs.twimg.com/media/HI4_t6hasAAAd1i?format=jpg&name=900x900)\n\n来源: [@ReyJudgementOS: AI and Mass Layoffs: Ruthless, Simple, Brutal ClickUp CEO An…](https://x.com/ReyJudgementOS/status/2057653791705702590)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:22:13+08:00"
+    },
+    {
+      "id": "2026-05-22_003",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:21:28",
+      "type": "文字",
+      "title": "第一代 AI 巨星已经开始降温。  The Miaoya Camera team has disbanded. From \"4,000 people queui",
+      "quote": "第一代 AI 巨星已经开始降温。  The Miaoya Camera team has disbanded. From \"4,000 people queuing up to generate images\" to \"no more upgrades or promotions,\" it only took a little over two years. 妙鸭相机团队已经解散。从“4000 人排队生成照片”到“不再更新推广”，仅仅用了两年多时间。  This is the result of organizational changes and team departures at Alibaba's major division. But the more fundamental reason is that AI is moving too fast— so fast that by the time you've just come up with a business model, the next model upgrade crushes it. 这是阿里大文娱组织架构调整和团队流失的结果。但更深层的原因在于 AI 的进化速度太快了——快到当你刚构思好商业模式时，下一次模型升级就已将其击碎。  Miaoya's portrait capabilities were a moat in the era of specialized vertical models; in the era of multimodal large models, they instantly became standard features. 妙鸭的写真能力在垂直小模型时代是护城河；但在多模态大模型时代，瞬间就变成了标配功能。  When the pace of technological progress far outstrips the speed of building commercial barriers, all consumer-facing AI products must confront the same soul-searching question: Why should users stick around? 当技术进步的速度远超商业壁垒的构建速度时，所有面向消费者的 AI 产品都必须面对同一个灵魂拷问：用户凭什么留下来？  Last week, we were deeply involved in mushanghai and found that this is the issue currently preoccupying all developers the most. 上周，我们深度参与了 mushanghai，发现这正是目前所有开发者最关注的问题。  Creating a product is just the first step; being needed, understood, and retained is the harder second half of AI entrepreneurship. 打造出一款产品只是第一步；被需要、被理解以及留住用户，才是 AI 创业更难的下半场。",
+      "images": [],
+      "has_image": false,
+      "author": "@tongtongbee",
+      "author_desc": "The first-generation AI superstar is already starting to coo",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/tongtongbee/status/2057655555305717974",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@tongtongbee"
+      ],
+      "preview": "第一代 AI 巨星已经开始降温。  The Miaoya Camera team has disbanded. From \"4,000 people queuing up to generate images\" to \"no more upgrades or promotions,\" it only took a little over two years. 妙鸭相机团队已经解散。从“4000 人排队生成照片”到“不再更新推广”，仅仅用了两年多时间。  This is the...",
+      "raw": "12:21:28 · 文字\n\n> 第一代 AI 巨星已经开始降温。  The Miaoya Camera team has disbanded. From \"4,000 people queuing up to generate images\" to \"no more upgrades or promotions,\" it only took a little over two years. 妙鸭相机团队已经解散。从“4000 人排队生成照片”到“不再更新推广”，仅仅用了两年多时间。  This is the result of organizational changes and team departures at Alibaba's major division. But the more fundamental reason is that AI is moving too fast— so fast that by the time you've just come up with a business model, the next model upgrade crushes it. 这是阿里大文娱组织架构调整和团队流失的结果。但更深层的原因在于 AI 的进化速度太快了——快到当你刚构思好商业模式时，下一次模型升级就已将其击碎。  Miaoya's portrait capabilities were a moat in the era of specialized vertical models; in the era of multimodal large models, they instantly became standard features. 妙鸭的写真能力在垂直小模型时代是护城河；但在多模态大模型时代，瞬间就变成了标配功能。  When the pace of technological progress far outstrips the speed of building commercial barriers, all consumer-facing AI products must confront the same soul-searching question: Why should users stick around? 当技术进步的速度远超商业壁垒的构建速度时，所有面向消费者的 AI 产品都必须面对同一个灵魂拷问：用户凭什么留下来？  Last week, we were deeply involved in mushanghai and found that this is the issue currently preoccupying all developers the most. 上周，我们深度参与了 mushanghai，发现这正是目前所有开发者最关注的问题。  Creating a product is just the first step; being needed, understood, and retained is the harder second half of AI entrepreneurship. 打造出一款产品只是第一步；被需要、被理解以及留住用户，才是 AI 创业更难的下半场。\n\n来源: [@tongtongbee: The first-generation AI superstar is already starting to coo…](https://x.com/tongtongbee/status/2057655555305717974)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:21:28+08:00"
+    },
+    {
+      "id": "2026-05-22_002",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:19:55",
+      "type": "文字",
+      "title": "做AI短剧最头疼的不是画面生成, 是角色一致性  试过的方法: - 固定种子: 模型更新就废 - ControlNet: 门槛太高 - 手动描述: 一句话不一样",
+      "quote": "做AI短剧最头疼的不是画面生成, 是角色一致性  试过的方法: - 固定种子: 模型更新就废 - ControlNet: 门槛太高 - 手动描述: 一句话不一样就崩  最后发现问题不在模型, 在工作流 分镜阶段把角色定死, 后面每一步引用同一个角色卡 一致性从70%拉到95%  关键不是哪个模型最好, 是怎么组织这条链路",
+      "images": [],
+      "has_image": false,
+      "author": "@lupinlin",
+      "author_desc": "做AI短剧最头疼的不是画面生成, 是角色一致性 试过的方法: - 固定种子: 模型更新就废 - ControlNet:",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/lupinlin/status/2057658568669839404",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@lupinlin"
+      ],
+      "preview": "做AI短剧最头疼的不是画面生成, 是角色一致性  试过的方法: - 固定种子: 模型更新就废 - ControlNet: 门槛太高 - 手动描述: 一句话不一样就崩  最后发现问题不在模型, 在工作流 分镜阶段把角色定死, 后面每一步引用同一个角色卡 一致性从70%拉到95%  关键不是哪个模型最好, 是怎么组织这条链路",
+      "raw": "12:19:55 · 文字\n\n> 做AI短剧最头疼的不是画面生成, 是角色一致性  试过的方法: - 固定种子: 模型更新就废 - ControlNet: 门槛太高 - 手动描述: 一句话不一样就崩  最后发现问题不在模型, 在工作流 分镜阶段把角色定死, 后面每一步引用同一个角色卡 一致性从70%拉到95%  关键不是哪个模型最好, 是怎么组织这条链路\n\n来源: [@lupinlin: 做AI短剧最头疼的不是画面生成, 是角色一致性 试过的方法: - 固定种子: 模型更新就废 - ControlNet: …](https://x.com/lupinlin/status/2057658568669839404)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:19:55+08:00"
+    },
+    {
+      "id": "2026-05-22_001",
+      "file": "2026-05-22.md",
+      "date": "2026-05-22",
+      "time": "12:17:36",
+      "type": "文字",
+      "title": "Cloudflare 的刀法一点都不花哨——董事会把它翻译成了大白话：先清理掉那些既不能直接上手造东西，又不能直接带回订单的人。  更狠的是，这不仅仅是缩减人员",
+      "quote": "Cloudflare 的刀法一点都不花哨——董事会把它翻译成了大白话：先清理掉那些既不能直接上手造东西，又不能直接带回订单的人。  更狠的是，这不仅仅是缩减人员；他们裁掉了 1100 人，随即塞进了 1111 名 AI 原生代实习生。老手记流程，新手喂模型，组织的记忆被当场拆解，直接喂给了机器。  从现在起，当公司口口声声谈论转型时，请这样理解：要么你会写代码，要么你会卖东西；剩下那些负责汇报、协调、审计、管理的中间层——AI 会先拿你们开刀。",
+      "images": [],
+      "has_image": false,
+      "author": "@justlikemaki",
+      "author_desc": "Cloudflare's knife isn't fancy at all—the board flips it int",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/justlikemaki/status/2057665662554939830",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@justlikemaki"
+      ],
+      "preview": "Cloudflare 的刀法一点都不花哨——董事会把它翻译成了大白话：先清理掉那些既不能直接上手造东西，又不能直接带回订单的人。  更狠的是，这不仅仅是缩减人员；他们裁掉了 1100 人，随即塞进了 1111 名 AI 原生代实习生。老手记流程，新手喂模型，组织的记忆被当场拆解，直接喂给了机器。  从现在起，当公司口口声声谈论转型时，请这样理解：要么你会写代码，要么你会卖东西；剩下那些负责汇报、协调、审计、管理的中间层——AI 会先拿你们开刀。",
+      "raw": "12:17:36 · 文字\n\n> Cloudflare 的刀法一点都不花哨——董事会把它翻译成了大白话：先清理掉那些既不能直接上手造东西，又不能直接带回订单的人。  更狠的是，这不仅仅是缩减人员；他们裁掉了 1100 人，随即塞进了 1111 名 AI 原生代实习生。老手记流程，新手喂模型，组织的记忆被当场拆解，直接喂给了机器。  从现在起，当公司口口声声谈论转型时，请这样理解：要么你会写代码，要么你会卖东西；剩下那些负责汇报、协调、审计、管理的中间层——AI 会先拿你们开刀。\n\n来源: [@justlikemaki: Cloudflare's knife isn't fancy at all—the board flips it int…](https://x.com/justlikemaki/status/2057665662554939830)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-22T12:17:36+08:00"
+    },
+    {
+      "id": "2026-05-21_006",
+      "file": "2026-05-21.md",
+      "date": "2026-05-21",
+      "time": "18:05:48",
+      "type": "文字",
+      "title": "重大新闻：Claude 推出了一项名为“资深开发人员”（Senior Dev）的功能 代码审查模式。  你可以利用它在代码上线前发现漏洞、安全隐患以及 不良模式",
+      "quote": "重大新闻：Claude 推出了一项名为“资深开发人员”（Senior Dev）的功能 代码审查模式。  你可以利用它在代码上线前发现漏洞、安全隐患以及 不良模式。",
+      "images": [],
+      "has_image": false,
+      "author": "@free_ai_guides",
+      "author_desc": "BREAKING: Claude has a feature called Senior Dev Code Review",
+      "source": "X(Twitter)",
+      "source_page": "claude code - Search / X",
+      "source_url": "https://x.com/search?q=claude%20code&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/free_ai_guides/status/2057401061418365113",
+        "https://x.com/search?q=claude%20code&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@free_ai_guides"
+      ],
+      "preview": "重大新闻：Claude 推出了一项名为“资深开发人员”（Senior Dev）的功能 代码审查模式。  你可以利用它在代码上线前发现漏洞、安全隐患以及 不良模式。",
+      "raw": "18:05:48 · 文字\n\n> 重大新闻：Claude 推出了一项名为“资深开发人员”（Senior Dev）的功能 代码审查模式。  你可以利用它在代码上线前发现漏洞、安全隐患以及 不良模式。\n\n来源: [@free_ai_guides: BREAKING: Claude has a feature called Senior Dev Code Review…](https://x.com/free_ai_guides/status/2057401061418365113)\n所在页面: [claude code - Search / X](https://x.com/search?q=claude%20code&src=typed_query&f=live)",
+      "datetime": "2026-05-21T18:05:48+08:00"
+    },
+    {
+      "id": "2026-05-21_005",
+      "file": "2026-05-21.md",
+      "date": "2026-05-21",
+      "time": "18:04:29",
+      "type": "文字",
+      "title": "把 AWS 成本调查随手丢给 Claude Code，结果挖出了每年数千万日元的改进点，这简直太狠了。  而且它还能不带先入为主的偏见，揪出那些没被引用的 S3",
+      "quote": "把 AWS 成本调查随手丢给 Claude Code，结果挖出了每年数千万日元的改进点，这简直太狠了。  而且它还能不带先入为主的偏见，揪出那些没被引用的 S3 写入、API Gateway 压缩未启用等人类容易忽略的地方。  定期让 AI 运行一下“帮我找找家里的浪费”，这种运维方式完全可行啊",
+      "images": [],
+      "has_image": false,
+      "author": "@koder_dev",
+      "author_desc": "Claude CodeにAWSのコスト調査を雑に投げたら年間数千万円の改善ポイント出てきたって話、えぐすぎる しかも参照",
+      "source": "X(Twitter)",
+      "source_page": "claude code - Search / X",
+      "source_url": "https://x.com/search?q=claude%20code&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/koder_dev/status/2057401128275624098",
+        "https://x.com/search?q=claude%20code&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@koder_dev"
+      ],
+      "preview": "把 AWS 成本调查随手丢给 Claude Code，结果挖出了每年数千万日元的改进点，这简直太狠了。  而且它还能不带先入为主的偏见，揪出那些没被引用的 S3 写入、API Gateway 压缩未启用等人类容易忽略的地方。  定期让 AI 运行一下“帮我找找家里的浪费”，这种运维方式完全可行啊",
+      "raw": "18:04:29 · 文字\n\n> 把 AWS 成本调查随手丢给 Claude Code，结果挖出了每年数千万日元的改进点，这简直太狠了。  而且它还能不带先入为主的偏见，揪出那些没被引用的 S3 写入、API Gateway 压缩未启用等人类容易忽略的地方。  定期让 AI 运行一下“帮我找找家里的浪费”，这种运维方式完全可行啊\n\n**备注:** claude code\n\n来源: [@koder_dev: Claude CodeにAWSのコスト調査を雑に投げたら年間数千万円の改善ポイント出てきたって話、えぐすぎる しかも参照…](https://x.com/koder_dev/status/2057401128275624098)\n所在页面: [claude code - Search / X](https://x.com/search?q=claude%20code&src=typed_query&f=live)",
+      "datetime": "2026-05-21T18:04:29+08:00"
+    },
+    {
+      "id": "2026-05-21_004",
+      "file": "2026-05-21.md",
+      "date": "2026-05-21",
+      "time": "17:56:32",
+      "type": "文字",
+      "title": "A company using AI to boost efficiency shouldn't just focus on how much faster i",
+      "quote": "A company using AI to boost efficiency shouldn't just focus on how much faster individuals are getting. 一家利用 AI 提升效率的公司，不应仅仅关注员工个人的工作速度提升了多少。  Customer service replies faster,   salespeople write emails faster,   programmers code faster,   客服回复得更快， 销售人员写邮件更快， 程序员编写代码更快，  but customer info, past commitments, responsible parties, and next steps are still scattered. 但客户信息、过往承诺、责任方以及后续步骤仍然处于分散状态。  The company is still slow. 公司的运转依然缓慢。  True enterprise AI   isn't about handing out a tool to everyone. 真正的企业级 AI 并非仅仅是向每个人分发一个工具。  It's about plugging AI into the organization's information flow:   这是关于将 AI 接入组织的信息流：  knowing what's happened,   knowing who to find,   knowing how to move forward next.   了解发生了什么， 了解该找谁， 了解下一步该如何推进。  Personal AI is an add-on.   个人 AI 是一种插件。  Enterprise AI has to be like a position in the org chart. 企业 AI 必须像组织架构图中的一个职位。",
+      "images": [],
+      "has_image": false,
+      "author": "@SuisPasDaVinci",
+      "author_desc": "The core of this piece boils down to one sentence:这篇文章的核心可以归",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/SuisPasDaVinci/status/2057084079053435132",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@SuisPasDaVinci"
+      ],
+      "preview": "A company using AI to boost efficiency shouldn't just focus on how much faster individuals are getting. 一家利用 AI 提升效率的公司，不应仅仅关注员工个人的工作速度提升了多少。  Customer service replies faster,   salespeople write emails faster,   programmers code faster,   ...",
+      "raw": "17:56:32 · 文字\n\n> A company using AI to boost efficiency shouldn't just focus on how much faster individuals are getting. 一家利用 AI 提升效率的公司，不应仅仅关注员工个人的工作速度提升了多少。  Customer service replies faster,   salespeople write emails faster,   programmers code faster,   客服回复得更快， 销售人员写邮件更快， 程序员编写代码更快，  but customer info, past commitments, responsible parties, and next steps are still scattered. 但客户信息、过往承诺、责任方以及后续步骤仍然处于分散状态。  The company is still slow. 公司的运转依然缓慢。  True enterprise AI   isn't about handing out a tool to everyone. 真正的企业级 AI 并非仅仅是向每个人分发一个工具。  It's about plugging AI into the organization's information flow:   这是关于将 AI 接入组织的信息流：  knowing what's happened,   knowing who to find,   knowing how to move forward next.   了解发生了什么， 了解该找谁， 了解下一步该如何推进。  Personal AI is an add-on.   个人 AI 是一种插件。  Enterprise AI has to be like a position in the org chart. 企业 AI 必须像组织架构图中的一个职位。\n\n来源: [@SuisPasDaVinci: The core of this piece boils down to one sentence:这篇文章的核心可以归…](https://x.com/SuisPasDaVinci/status/2057084079053435132)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-21T17:56:32+08:00"
+    },
+    {
+      "id": "2026-05-21_003",
+      "file": "2026-05-21.md",
+      "date": "2026-05-21",
+      "time": "17:30:37",
+      "type": "文字",
+      "title": "现在是组织认知gap最大的时候 领导们是没有时间和心力玩AI的 还沉浸在怎么管人玩人的阶段 而AI原生民早就无法认同这样的合作方式了",
+      "quote": "现在是组织认知gap最大的时候 领导们是没有时间和心力玩AI的 还沉浸在怎么管人玩人的阶段 而AI原生民早就无法认同这样的合作方式了",
+      "images": [],
+      "has_image": false,
+      "author": "@li12826221",
+      "author_desc": "现在是组织认知gap最大的时候 领导们是没有时间和心力玩AI的 还沉浸在怎么管人玩人的阶段 而AI原生民早就无法认同这样",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/li12826221/status/2057382385138782313",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@li12826221"
+      ],
+      "preview": "现在是组织认知gap最大的时候 领导们是没有时间和心力玩AI的 还沉浸在怎么管人玩人的阶段 而AI原生民早就无法认同这样的合作方式了",
+      "raw": "17:30:37 · 文字\n\n> 现在是组织认知gap最大的时候 领导们是没有时间和心力玩AI的 还沉浸在怎么管人玩人的阶段 而AI原生民早就无法认同这样的合作方式了\n\n来源: [@li12826221: 现在是组织认知gap最大的时候 领导们是没有时间和心力玩AI的 还沉浸在怎么管人玩人的阶段 而AI原生民早就无法认同这样…](https://x.com/li12826221/status/2057382385138782313)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-21T17:30:37+08:00"
+    },
+    {
+      "id": "2026-05-21_002",
+      "file": "2026-05-21.md",
+      "date": "2026-05-21",
+      "time": "17:30:08",
+      "type": "文字",
+      "title": "AI 能不能解决真实问题，以及团队能不能把复杂能力讲清楚、做扎实。",
+      "quote": "AI 能不能解决真实问题，以及团队能不能把复杂能力讲清楚、做扎实。",
+      "images": [],
+      "has_image": false,
+      "author": "@Ulysses1088",
+      "author_desc": "做评委时我一直在看两件事：AI 能不能解决真实问题，以及团队能不能把复杂能力讲清楚、做扎实。花絮里剪到的“严格”和“挑剔",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Ulysses1088/status/2057384833836527980",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Ulysses1088"
+      ],
+      "preview": "AI 能不能解决真实问题，以及团队能不能把复杂能力讲清楚、做扎实。",
+      "raw": "17:30:08 · 文字\n\n> AI 能不能解决真实问题，以及团队能不能把复杂能力讲清楚、做扎实。\n\n来源: [@Ulysses1088: 做评委时我一直在看两件事：AI 能不能解决真实问题，以及团队能不能把复杂能力讲清楚、做扎实。花絮里剪到的“严格”和“挑剔…](https://x.com/Ulysses1088/status/2057384833836527980)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-21T17:30:08+08:00"
+    },
+    {
+      "id": "2026-05-21_001",
+      "file": "2026-05-21.md",
+      "date": "2026-05-21",
+      "time": "17:29:20",
+      "type": "文字",
+      "title": "现在很多 AI 创业项目 本质上都在做一件事 “上下文工程”。  因为模型越来越强以后 真正决定体验的反而是 给了什么上下文 怎么检索 怎么组织记忆 怎么管理 ",
+      "quote": "现在很多 AI 创业项目 本质上都在做一件事 “上下文工程”。  因为模型越来越强以后 真正决定体验的反而是 给了什么上下文 怎么检索 怎么组织记忆 怎么管理 workflow。  很多人还停留在 prompt 阶段， 但行业其实已经开始卷系统层了。",
+      "images": [],
+      "has_image": false,
+      "author": "@Bc8Lao",
+      "author_desc": "现在很多 AI 创业项目 本质上都在做一件事 “上下文工程”。 因为模型越来越强以后 真正决定体验的反而是 给了什么上下",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Bc8Lao/status/2057390357118390478",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Bc8Lao"
+      ],
+      "preview": "现在很多 AI 创业项目 本质上都在做一件事 “上下文工程”。  因为模型越来越强以后 真正决定体验的反而是 给了什么上下文 怎么检索 怎么组织记忆 怎么管理 workflow。  很多人还停留在 prompt 阶段， 但行业其实已经开始卷系统层了。",
+      "raw": "17:29:20 · 文字\n\n> 现在很多 AI 创业项目 本质上都在做一件事 “上下文工程”。  因为模型越来越强以后 真正决定体验的反而是 给了什么上下文 怎么检索 怎么组织记忆 怎么管理 workflow。  很多人还停留在 prompt 阶段， 但行业其实已经开始卷系统层了。\n\n来源: [@Bc8Lao: 现在很多 AI 创业项目 本质上都在做一件事 “上下文工程”。 因为模型越来越强以后 真正决定体验的反而是 给了什么上下…](https://x.com/Bc8Lao/status/2057390357118390478)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-21T17:29:20+08:00"
+    },
+    {
+      "id": "2026-05-20_009",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:57:44",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIqZf-OXMAA7IFN?format=jpg&name=4096x4096"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/TechFlowPost/status/2056624986555633979/photo/1",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIqZf-OXMAA7IFN?format=jpg&name=4096x4096",
+        "https://x.com/TechFlowPost/status/2056624986555633979/photo/1"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:57:44 · 图片\n\n![image](https://pbs.twimg.com/media/HIqZf-OXMAA7IFN?format=jpg&name=4096x4096)\n\n**备注:** 裁员\n\n来源: [AI 组织 - Search / X](https://x.com/TechFlowPost/status/2056624986555633979/photo/1)",
+      "datetime": "2026-05-20T12:57:44+08:00"
+    },
+    {
+      "id": "2026-05-20_008",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:41:13",
+      "type": "文字",
+      "title": "当一个人利用 AI 获得效率的快速提升后，他们与团队其他成员的协作反而变得更加困难了。 组织层面的 AI 应用不仅仅是个人生产力提升的放大版——它是一个完全不同",
+      "quote": "当一个人利用 AI 获得效率的快速提升后，他们与团队其他成员的协作反而变得更加困难了。 组织层面的 AI 应用不仅仅是个人生产力提升的放大版——它是一个完全不同的课题： 如何将 AI 嵌入到 x.com/luciushq/statu…",
+      "images": [],
+      "has_image": false,
+      "author": "@yucheng",
+      "author_desc": "While I’m also a fan of OPC, the odds of hiring a 100x engin",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/yucheng/status/2056762485877756134",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@yucheng"
+      ],
+      "preview": "当一个人利用 AI 获得效率的快速提升后，他们与团队其他成员的协作反而变得更加困难了。 组织层面的 AI 应用不仅仅是个人生产力提升的放大版——它是一个完全不同的课题： 如何将 AI 嵌入到 x.com/luciushq/statu…",
+      "raw": "12:41:13 · 文字\n\n> 当一个人利用 AI 获得效率的快速提升后，他们与团队其他成员的协作反而变得更加困难了。 组织层面的 AI 应用不仅仅是个人生产力提升的放大版——它是一个完全不同的课题： 如何将 AI 嵌入到 x.com/luciushq/statu…\n\n来源: [@yucheng: While I’m also a fan of OPC, the odds of hiring a 100x engin…](https://x.com/yucheng/status/2056762485877756134)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:41:13+08:00"
+    },
+    {
+      "id": "2026-05-20_007",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:41:04",
+      "type": "文字",
+      "title": "虽然我也推崇 OPC（一人公司），但雇佣到一名百倍工程师的概率远低于雇佣 10 多名十倍工程师。因此，我们该如何让一个组织从 AI 带来的效率提升中获益，并确保",
+      "quote": "虽然我也推崇 OPC（一人公司），但雇佣到一名百倍工程师的概率远低于雇佣 10 多名十倍工程师。因此，我们该如何让一个组织从 AI 带来的效率提升中获益，并确保这 10 多名十倍工程师在各自的语境下实现高效互联？这是一个巨大的挑战。",
+      "images": [],
+      "has_image": false,
+      "author": "@yucheng",
+      "author_desc": "While I’m also a fan of OPC, the odds of hiring a 100x engin",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/yucheng/status/2056762485877756134",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@yucheng"
+      ],
+      "preview": "虽然我也推崇 OPC（一人公司），但雇佣到一名百倍工程师的概率远低于雇佣 10 多名十倍工程师。因此，我们该如何让一个组织从 AI 带来的效率提升中获益，并确保这 10 多名十倍工程师在各自的语境下实现高效互联？这是一个巨大的挑战。",
+      "raw": "12:41:04 · 文字\n\n> 虽然我也推崇 OPC（一人公司），但雇佣到一名百倍工程师的概率远低于雇佣 10 多名十倍工程师。因此，我们该如何让一个组织从 AI 带来的效率提升中获益，并确保这 10 多名十倍工程师在各自的语境下实现高效互联？这是一个巨大的挑战。\n\n来源: [@yucheng: While I’m also a fan of OPC, the odds of hiring a 100x engin…](https://x.com/yucheng/status/2056762485877756134)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:41:04+08:00"
+    },
+    {
+      "id": "2026-05-20_006",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:39:28",
+      "type": "文字",
+      "title": "1) 人才流动（Karpathy 的去向引发了连锁讨论） 2) 产品入口（Gemini / Claude / ChatGPT 都在争夺“默认工作台”） 3) 组",
+      "quote": "1) 人才流动（Karpathy 的去向引发了连锁讨论） 2) 产品入口（Gemini / Claude / ChatGPT 都在争夺“默认工作台”） 3) 组织效率（Meta 式的调整将会持续）  在接下来的 90 天里，真正拉开差距的将是“分发 + 工作流 + 执行速度”，而不仅仅是基准测试。",
+      "images": [],
+      "has_image": false,
+      "author": "@sidelined_cap",
+      "author_desc": "These past two days, the most interesting thing in the AI ci",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/sidelined_cap/status/2056827781582110793",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@sidelined_cap"
+      ],
+      "preview": "1) 人才流动（Karpathy 的去向引发了连锁讨论） 2) 产品入口（Gemini / Claude / ChatGPT 都在争夺“默认工作台”） 3) 组织效率（Meta 式的调整将会持续）  在接下来的 90 天里，真正拉开差距的将是“分发 + 工作流 + 执行速度”，而不仅仅是基准测试。",
+      "raw": "12:39:28 · 文字\n\n> 1) 人才流动（Karpathy 的去向引发了连锁讨论） 2) 产品入口（Gemini / Claude / ChatGPT 都在争夺“默认工作台”） 3) 组织效率（Meta 式的调整将会持续）  在接下来的 90 天里，真正拉开差距的将是“分发 + 工作流 + 执行速度”，而不仅仅是基准测试。\n\n来源: [@sidelined_cap: These past two days, the most interesting thing in the AI ci…](https://x.com/sidelined_cap/status/2056827781582110793)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:39:28+08:00"
+    },
+    {
+      "id": "2026-05-20_005",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:33:42",
+      "type": "文字",
+      "title": "论 AI 的价值观影响深远 Anthropic 近期发表了一篇文章，宣布他们正在系统性地与宗教学者、哲学家、伦理学家、心理学家、作家和公民组织展开对话——目的只",
+      "quote": "论 AI 的价值观影响深远 Anthropic 近期发表了一篇文章，宣布他们正在系统性地与宗教学者、哲学家、伦理学家、心理学家、作家和公民组织展开对话——目的只有一个：研究\"一个好的 AI 应该具备什么样的品格\"。",
+      "images": [],
+      "has_image": false,
+      "author": "@gzh_uk",
+      "author_desc": "论 AI 的价值观影响深远 Anthropic 近期发表了一篇文章，宣布他们正在系统性地与宗教学者、哲学家、伦理学家、心",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/gzh_uk/status/2056895008595484896",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@gzh_uk"
+      ],
+      "preview": "论 AI 的价值观影响深远 Anthropic 近期发表了一篇文章，宣布他们正在系统性地与宗教学者、哲学家、伦理学家、心理学家、作家和公民组织展开对话——目的只有一个：研究\"一个好的 AI 应该具备什么样的品格\"。",
+      "raw": "12:33:42 · 文字\n\n> 论 AI 的价值观影响深远 Anthropic 近期发表了一篇文章，宣布他们正在系统性地与宗教学者、哲学家、伦理学家、心理学家、作家和公民组织展开对话——目的只有一个：研究\"一个好的 AI 应该具备什么样的品格\"。\n\n来源: [@gzh_uk: 论 AI 的价值观影响深远 Anthropic 近期发表了一篇文章，宣布他们正在系统性地与宗教学者、哲学家、伦理学家、心…](https://x.com/gzh_uk/status/2056895008595484896)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:33:42+08:00"
+    },
+    {
+      "id": "2026-05-20_004",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:32:39",
+      "type": "文字",
+      "title": "组织惯性真的是AI落地最大的阻力之一。工具再先进，如果旧的流程、权力结构和利益格局没动起来，推动起来就像对着钢墙撞——不是技术问题，而是人和机制的问题",
+      "quote": "组织惯性真的是AI落地最大的阻力之一。工具再先进，如果旧的流程、权力结构和利益格局没动起来，推动起来就像对着钢墙撞——不是技术问题，而是人和机制的问题",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "组织惯性真的是AI落地最大的阻力之一。工具再先进，如果旧的流程、权力结构和利益格局没动起来，推动起来就像对着钢墙撞——不",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/UncleJAI/status/2056913641694523865",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "组织惯性真的是AI落地最大的阻力之一。工具再先进，如果旧的流程、权力结构和利益格局没动起来，推动起来就像对着钢墙撞——不是技术问题，而是人和机制的问题",
+      "raw": "12:32:39 · 文字\n\n> 组织惯性真的是AI落地最大的阻力之一。工具再先进，如果旧的流程、权力结构和利益格局没动起来，推动起来就像对着钢墙撞——不是技术问题，而是人和机制的问题\n\n来源: [@UncleJAI: 组织惯性真的是AI落地最大的阻力之一。工具再先进，如果旧的流程、权力结构和利益格局没动起来，推动起来就像对着钢墙撞——不…](https://x.com/UncleJAI/status/2056913641694523865)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:32:39+08:00"
+    },
+    {
+      "id": "2026-05-20_003",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:32:01",
+      "type": "文字",
+      "title": "别躲在岗位后：从姚顺宇判断看 AI 为什么不按职业排危险榜 为什么 AI 会先吃掉程序员，而不是产品经理 如果你还在用职业名判断 AI 风险，先停一下。 姚顺宇",
+      "quote": "别躲在岗位后：从姚顺宇判断看 AI 为什么不按职业排危险榜 为什么 AI 会先吃掉程序员，而不是产品经理 如果你还在用职业名判断 AI 风险，先停一下。 姚顺宇在访谈里给过一个反直觉判断：AI 最先高速改变的，不一定是人类觉得简单的工作，而是反馈最清楚的工作。.",
+      "images": [],
+      "has_image": false,
+      "author": "@huang31572",
+      "author_desc": "Human value will migrate upstream and downstream. Upstream i",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/huang31572/status/2056933949616926770",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@huang31572"
+      ],
+      "preview": "别躲在岗位后：从姚顺宇判断看 AI 为什么不按职业排危险榜 为什么 AI 会先吃掉程序员，而不是产品经理 如果你还在用职业名判断 AI 风险，先停一下。 姚顺宇在访谈里给过一个反直觉判断：AI 最先高速改变的，不一定是人类觉得简单的工作，而是反馈最清楚的工作。.",
+      "raw": "12:32:01 · 文字\n\n> 别躲在岗位后：从姚顺宇判断看 AI 为什么不按职业排危险榜 为什么 AI 会先吃掉程序员，而不是产品经理 如果你还在用职业名判断 AI 风险，先停一下。 姚顺宇在访谈里给过一个反直觉判断：AI 最先高速改变的，不一定是人类觉得简单的工作，而是反馈最清楚的工作。.\n\n来源: [@huang31572: Human value will migrate upstream and downstream. Upstream i…](https://x.com/huang31572/status/2056933949616926770)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:32:01+08:00"
+    },
+    {
+      "id": "2026-05-20_002",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:28:24",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIu9stUaIAAxHh0?format=jpg&name=large"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/mylifcc/status/2056946263212589088/photo/1",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIu9stUaIAAxHh0?format=jpg&name=large",
+        "https://x.com/mylifcc/status/2056946263212589088/photo/1"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:28:24 · 图片\n\n![image](https://pbs.twimg.com/media/HIu9stUaIAAxHh0?format=jpg&name=large)\n\n来源: [(1) AI 组织 - Search / X](https://x.com/mylifcc/status/2056946263212589088/photo/1)",
+      "datetime": "2026-05-20T12:28:24+08:00"
+    },
+    {
+      "id": "2026-05-20_001",
+      "file": "2026-05-20.md",
+      "date": "2026-05-20",
+      "time": "12:28:08",
+      "type": "文字",
+      "title": "在阅读了 Eugene Yan 的文章《如何与 AI 协作并产生复利》（How to Work and Compound with AI）后，我受益匪浅。  与",
+      "quote": "在阅读了 Eugene Yan 的文章《如何与 AI 协作并产生复利》（How to Work and Compound with AI）后，我受益匪浅。  与 AI 的高效协作并不依赖于一两个巧妙的提示词，而是取决于构建一个能够持续产生复利的系统：将上下文组织成基础设施，使 AI 能够随时访问完整的背景信息（INDEX.md + 项目文档）；将你的审美和偏好编码进配置文件，形成一致的行为准则（CLAUDE.md）；设计简单有效的验证机制，逐步赋予 AI 自主权；从处理细碎任务转向委派完整项目，并并行运行多个会话；不断从对话日志中学习，通过迭代优化整个流程。通过这种方式，AI 将从一个工具转变为一个与你共同成长的真正伙伴，从而推动工作效率的指数级增长。",
+      "images": [],
+      "has_image": false,
+      "author": "@mylifcc",
+      "author_desc": "After reading Eugene Yan's article \"How to Work and Compound",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/mylifcc/status/2056946263212589088",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@mylifcc"
+      ],
+      "preview": "在阅读了 Eugene Yan 的文章《如何与 AI 协作并产生复利》（How to Work and Compound with AI）后，我受益匪浅。  与 AI 的高效协作并不依赖于一两个巧妙的提示词，而是取决于构建一个能够持续产生复利的系统：将上下文组织成基础设施，使 AI 能够随时访问完整的背景信息（INDEX.md + 项目文档）；将你的审美和偏好编码进配置文件，形成一致的行为准则（CLAUDE.md）；设计简单有效的验证机制，逐步赋予 AI 自主权；从处理细碎任...",
+      "raw": "12:28:08 · 文字\n\n> 在阅读了 Eugene Yan 的文章《如何与 AI 协作并产生复利》（How to Work and Compound with AI）后，我受益匪浅。  与 AI 的高效协作并不依赖于一两个巧妙的提示词，而是取决于构建一个能够持续产生复利的系统：将上下文组织成基础设施，使 AI 能够随时访问完整的背景信息（INDEX.md + 项目文档）；将你的审美和偏好编码进配置文件，形成一致的行为准则（CLAUDE.md）；设计简单有效的验证机制，逐步赋予 AI 自主权；从处理细碎任务转向委派完整项目，并并行运行多个会话；不断从对话日志中学习，通过迭代优化整个流程。通过这种方式，AI 将从一个工具转变为一个与你共同成长的真正伙伴，从而推动工作效率的指数级增长。\n\n来源: [@mylifcc: After reading Eugene Yan's article \"How to Work and Compound…](https://x.com/mylifcc/status/2056946263212589088)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-20T12:28:08+08:00"
+    },
+    {
+      "id": "2026-05-19_030",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:34:03",
+      "type": "文字",
+      "title": "Salesforce 用 AI 后工程平均效率提升 30% 以上，但平均数掩盖了真相——高用户和低用户的效率差是 5 到 10 倍。同样的岗位，用 AI 的人产",
+      "quote": "Salesforce 用 AI 后工程平均效率提升 30% 以上，但平均数掩盖了真相——高用户和低用户的效率差是 5 到 10 倍。同样的岗位，用 AI 的人产出是不用的人的几倍，公司不会一下子裁所有人，它会先留下高杠杆的那批。",
+      "images": [],
+      "has_image": false,
+      "author": "@wangray",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/wangray/status/2056341368034001365",
+      "all_urls": [
+        "https://x.com/wangray/status/2056341368034001365"
+      ],
+      "tags": [
+        "文字",
+        "@wangray"
+      ],
+      "preview": "Salesforce 用 AI 后工程平均效率提升 30% 以上，但平均数掩盖了真相——高用户和低用户的效率差是 5 到 10 倍。同样的岗位，用 AI 的人产出是不用的人的几倍，公司不会一下子裁所有人，它会先留下高杠杆的那批。",
+      "raw": "13:34:03 · 文字\n\n> Salesforce 用 AI 后工程平均效率提升 30% 以上，但平均数掩盖了真相——高用户和低用户的效率差是 5 到 10 倍。同样的岗位，用 AI 的人产出是不用的人的几倍，公司不会一下子裁所有人，它会先留下高杠杆的那批。\n\n来源: [@wangray](https://x.com/wangray/status/2056341368034001365)",
+      "datetime": "2026-05-19T13:34:03+08:00"
+    },
+    {
+      "id": "2026-05-19_029",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:30:03",
+      "type": "文字",
+      "title": "更尖锐的指标是应届生失业率： 16 到 24 岁青年失业率（不含在校生）2023 年 6 月达到 21.3%，之后官方直接停止公布原口径数据； 新口径下，202",
+      "quote": "更尖锐的指标是应届生失业率： 16 到 24 岁青年失业率（不含在校生）2023 年 6 月达到 21.3%，之后官方直接停止公布原口径数据； 新口径下，2025 年 8 月又冲到 18.9% 的新高，2025 年 12 月回落到 16.5%，2026 年 3 月再回升到 16.9%。 2025 年大学毕业生 1222 万，比 2024 年多了 43 万；同时 2025 年上半年应届生岗位投放下降 22%，求职者增加 8%。2024 年国考报名突破 300 万。 这些数字组合在一起说明一件事：中国年轻人正在被压在“找不到第一份工作”的天花板上，而这个天花板还在往下压。",
+      "images": [],
+      "has_image": false,
+      "author": "@wangray",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/wangray/status/2056341368034001365",
+      "all_urls": [
+        "https://x.com/wangray/status/2056341368034001365"
+      ],
+      "tags": [
+        "文字",
+        "@wangray"
+      ],
+      "preview": "更尖锐的指标是应届生失业率： 16 到 24 岁青年失业率（不含在校生）2023 年 6 月达到 21.3%，之后官方直接停止公布原口径数据； 新口径下，2025 年 8 月又冲到 18.9% 的新高，2025 年 12 月回落到 16.5%，2026 年 3 月再回升到 16.9%。 2025 年大学毕业生 1222 万，比 2024 年多了 43 万；同时 2025 年上半年应届生岗位投放下降 22%，求职者增加 8%。2024 年国考报名突破 300 万。 这些数字组合...",
+      "raw": "13:30:03 · 文字\n\n> 更尖锐的指标是应届生失业率： 16 到 24 岁青年失业率（不含在校生）2023 年 6 月达到 21.3%，之后官方直接停止公布原口径数据； 新口径下，2025 年 8 月又冲到 18.9% 的新高，2025 年 12 月回落到 16.5%，2026 年 3 月再回升到 16.9%。 2025 年大学毕业生 1222 万，比 2024 年多了 43 万；同时 2025 年上半年应届生岗位投放下降 22%，求职者增加 8%。2024 年国考报名突破 300 万。 这些数字组合在一起说明一件事：中国年轻人正在被压在“找不到第一份工作”的天花板上，而这个天花板还在往下压。\n\n来源: [@wangray](https://x.com/wangray/status/2056341368034001365)",
+      "datetime": "2026-05-19T13:30:03+08:00"
+    },
+    {
+      "id": "2026-05-19_028",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:29:10",
+      "type": "文字",
+      "title": "如果想把“快”这件事钉死，不妨看一组对比： 美国农业从业者从 1900 年占全国劳动力 41% 降到 2000 年的 1.9%，用了整整 100 年； Davi",
+      "quote": "如果想把“快”这件事钉死，不妨看一组对比： 美国农业从业者从 1900 年占全国劳动力 41% 降到 2000 年的 1.9%，用了整整 100 年； David Autor 等经济学家研究的“中国冲击”导致美国制造业失去 240 万个岗位，用了 12 年； 而 2025 年仅美国科技业一年内就裁员超过 12 万人，TrueUp 的更高口径接近 25 万人。 时间窗口在指数级压缩，这不是和以前一样的科技革命，而是压缩了十倍速度的科技革命",
+      "images": [],
+      "has_image": false,
+      "author": "@wangray",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/wangray/status/2056341368034001365",
+      "all_urls": [
+        "https://x.com/wangray/status/2056341368034001365"
+      ],
+      "tags": [
+        "文字",
+        "@wangray"
+      ],
+      "preview": "如果想把“快”这件事钉死，不妨看一组对比： 美国农业从业者从 1900 年占全国劳动力 41% 降到 2000 年的 1.9%，用了整整 100 年； David Autor 等经济学家研究的“中国冲击”导致美国制造业失去 240 万个岗位，用了 12 年； 而 2025 年仅美国科技业一年内就裁员超过 12 万人，TrueUp 的更高口径接近 25 万人。 时间窗口在指数级压缩，这不是和以前一样的科技革命，而是压缩了十倍速度的科技革命",
+      "raw": "13:29:10 · 文字\n\n> 如果想把“快”这件事钉死，不妨看一组对比： 美国农业从业者从 1900 年占全国劳动力 41% 降到 2000 年的 1.9%，用了整整 100 年； David Autor 等经济学家研究的“中国冲击”导致美国制造业失去 240 万个岗位，用了 12 年； 而 2025 年仅美国科技业一年内就裁员超过 12 万人，TrueUp 的更高口径接近 25 万人。 时间窗口在指数级压缩，这不是和以前一样的科技革命，而是压缩了十倍速度的科技革命\n\n来源: [@wangray](https://x.com/wangray/status/2056341368034001365)",
+      "datetime": "2026-05-19T13:29:10+08:00"
+    },
+    {
+      "id": "2026-05-19_027",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:28:43",
+      "type": "文字",
+      "title": "“未来一到五年内，AI 可能消灭初级白领岗位的一半，失业率可能上升到 10% 到 20%，风险最高的四个行业是金融、咨询、法律和科技。” Anthropic C",
+      "quote": "“未来一到五年内，AI 可能消灭初级白领岗位的一半，失业率可能上升到 10% 到 20%，风险最高的四个行业是金融、咨询、法律和科技。” Anthropic CEO Dario Amodei 在2025年5月的一次采访中这么说道，他不是个唱衰 AI 的人，他自己就是这场革命的核心推动者之一，正因如此，这番话的分量才特别重。",
+      "images": [],
+      "has_image": false,
+      "author": "@wangray",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/wangray/status/2056341368034001365",
+      "all_urls": [
+        "https://x.com/wangray/status/2056341368034001365"
+      ],
+      "tags": [
+        "文字",
+        "@wangray"
+      ],
+      "preview": "“未来一到五年内，AI 可能消灭初级白领岗位的一半，失业率可能上升到 10% 到 20%，风险最高的四个行业是金融、咨询、法律和科技。” Anthropic CEO Dario Amodei 在2025年5月的一次采访中这么说道，他不是个唱衰 AI 的人，他自己就是这场革命的核心推动者之一，正因如此，这番话的分量才特别重。",
+      "raw": "13:28:43 · 文字\n\n> “未来一到五年内，AI 可能消灭初级白领岗位的一半，失业率可能上升到 10% 到 20%，风险最高的四个行业是金融、咨询、法律和科技。” Anthropic CEO Dario Amodei 在2025年5月的一次采访中这么说道，他不是个唱衰 AI 的人，他自己就是这场革命的核心推动者之一，正因如此，这番话的分量才特别重。\n\n来源: [@wangray](https://x.com/wangray/status/2056341368034001365)",
+      "datetime": "2026-05-19T13:28:43+08:00"
+    },
+    {
+      "id": "2026-05-19_026",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:22:01",
+      "type": "文字",
+      "title": "无论中华文明还是西方文明， 任何文明本质上都是： 能量流 信息流 组织结构 形成一个远离平衡态的系统。 因此： 国家、城市、互联网、市场、AI 系统—— 愿一切",
+      "quote": "无论中华文明还是西方文明， 任何文明本质上都是： 能量流 信息流 组织结构 形成一个远离平衡态的系统。 因此： 国家、城市、互联网、市场、AI 系统—— 愿一切都属于： 某种“社会耗散结构”。 它们通过以下方式维持自身： 消耗能量 处理信息 释放熵 以维持自身的复杂性。 因此： 文明并非一座静止的大厦。 而更像： 持续流动中一个稳定的漩涡。",
+      "images": [],
+      "has_image": false,
+      "author": "@PatrickkkkKim",
+      "author_desc": "Regardless of Chinese or Western civilizations, Any civiliza",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/PatrickkkkKim/status/2056454190722097290",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@PatrickkkkKim"
+      ],
+      "preview": "无论中华文明还是西方文明， 任何文明本质上都是： 能量流 信息流 组织结构 形成一个远离平衡态的系统。 因此： 国家、城市、互联网、市场、AI 系统—— 愿一切都属于： 某种“社会耗散结构”。 它们通过以下方式维持自身： 消耗能量 处理信息 释放熵 以维持自身的复杂性。 因此： 文明并非一座静止的大厦。 而更像： 持续流动中一个稳定的漩涡。",
+      "raw": "13:22:01 · 文字\n\n> 无论中华文明还是西方文明， 任何文明本质上都是： 能量流 信息流 组织结构 形成一个远离平衡态的系统。 因此： 国家、城市、互联网、市场、AI 系统—— 愿一切都属于： 某种“社会耗散结构”。 它们通过以下方式维持自身： 消耗能量 处理信息 释放熵 以维持自身的复杂性。 因此： 文明并非一座静止的大厦。 而更像： 持续流动中一个稳定的漩涡。\n\n来源: [@PatrickkkkKim: Regardless of Chinese or Western civilizations, Any civiliza…](https://x.com/PatrickkkkKim/status/2056454190722097290)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-19T13:22:01+08:00"
+    },
+    {
+      "id": "2026-05-19_025",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:18:47",
+      "type": "文字",
+      "title": "RUFLO，一天涨了20419星，专门给 Claude 做多智能体编排，让一群 AI Agent 像团队一样协作跑任务、接工具、做自动化流程。  它是啥？  一",
+      "quote": "RUFLO，一天涨了20419星，专门给 Claude 做多智能体编排，让一群 AI Agent 像团队一样协作跑任务、接工具、做自动化流程。  它是啥？  一个面向 Claude 的 Agent 编排平台，核心不是单个聊天机器人，而是把多个智能体组织成“任务群”。每个 Agent 可以负责不同角色，比如规划、检索、执行、审核、写代码，再由平台统一调度，让复杂任务不再全压在一个模型上下文里硬撑。  硬核点在哪？  多 Agent Swarm 编排：支持把多个自主 Agent 组合成协作网络，不同 Agent 分工处理不同步骤，适合做研究分析、代码生成、客服系统、企业流程自动化这类长链路任务   自学习群体智能：它强调 swarm intelligence，不只是固定工作流跑一遍，而是让 Agent 在执行过程中根据反馈调整策略，逐步优化任务完成方式   Claude Code / Codex 原生集成：对开发者很关键，可以直接把 AI 编程工具接进 Agent 流程里，让它不只会回答问题，还能参与真实代码任务、自动生成、修改、验证   RAG 集成：支持接入知识库检索，把企业文档、项目资料、代码仓库内容喂给 Agent，减少胡编，提高回答和执行任务时的上下文准确度   企业级架构取向：它不是一个简单 demo，定位是可部署的 Agent orchestration platform，重点放在多 Agent 协调、工作流自治、对话式 AI 系统搭建和工程化落地上  能拿来干嘛？  自动化研发流程：让一个 Agent 拆需求，一个 Agent 写代码，一个 Agent 做 review，一个 Agent 生成文档，把 Claude 从聊天窗口推进到软件工程流水线里   企业知识助手：结合 RAG 后，可以做内部知识问答、文档分析、报告生成，不再只是单轮问答，而是能连续检索、推理、整理、交付结果   复杂任务代理系统：适合搭建客服、运营、数据分析、研究助理这类多步骤系统，尤其是那些需要多个角色协作、多个工具调用、多个阶段交付的场景  数据多猛？  今日新增 20419 星，这个涨幅非常罕见。更关键的是，它踩中了 Claude、Agent、Swarm、RAG、代码自动化几个高热方向，开发者关注点很集中：大家已经不满足于“会聊天的大模型”，而是在找能真正组织任务、调用工具、跑完整流程的 Agent 基础设施。",
+      "images": [],
+      "has_image": false,
+      "author": "@mrlu_ricardo",
+      "author_desc": "RUFLO，一天涨了20419星，专门给 Claude 做多智能体编排，让一群 AI Agent 像团队一样协作跑任务、",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/mrlu_ricardo/status/2056527824757112914",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@mrlu_ricardo"
+      ],
+      "preview": "RUFLO，一天涨了20419星，专门给 Claude 做多智能体编排，让一群 AI Agent 像团队一样协作跑任务、接工具、做自动化流程。  它是啥？  一个面向 Claude 的 Agent 编排平台，核心不是单个聊天机器人，而是把多个智能体组织成“任务群”。每个 Agent 可以负责不同角色，比如规划、检索、执行、审核、写代码，再由平台统一调度，让复杂任务不再全压在一个模型上下文里硬撑。  硬核点在哪？  多 Agent Swarm 编排：支持把多个自主 Agent ...",
+      "raw": "13:18:47 · 文字\n\n> RUFLO，一天涨了20419星，专门给 Claude 做多智能体编排，让一群 AI Agent 像团队一样协作跑任务、接工具、做自动化流程。  它是啥？  一个面向 Claude 的 Agent 编排平台，核心不是单个聊天机器人，而是把多个智能体组织成“任务群”。每个 Agent 可以负责不同角色，比如规划、检索、执行、审核、写代码，再由平台统一调度，让复杂任务不再全压在一个模型上下文里硬撑。  硬核点在哪？  多 Agent Swarm 编排：支持把多个自主 Agent 组合成协作网络，不同 Agent 分工处理不同步骤，适合做研究分析、代码生成、客服系统、企业流程自动化这类长链路任务   自学习群体智能：它强调 swarm intelligence，不只是固定工作流跑一遍，而是让 Agent 在执行过程中根据反馈调整策略，逐步优化任务完成方式   Claude Code / Codex 原生集成：对开发者很关键，可以直接把 AI 编程工具接进 Agent 流程里，让它不只会回答问题，还能参与真实代码任务、自动生成、修改、验证   RAG 集成：支持接入知识库检索，把企业文档、项目资料、代码仓库内容喂给 Agent，减少胡编，提高回答和执行任务时的上下文准确度   企业级架构取向：它不是一个简单 demo，定位是可部署的 Agent orchestration platform，重点放在多 Agent 协调、工作流自治、对话式 AI 系统搭建和工程化落地上  能拿来干嘛？  自动化研发流程：让一个 Agent 拆需求，一个 Agent 写代码，一个 Agent 做 review，一个 Agent 生成文档，把 Claude 从聊天窗口推进到软件工程流水线里   企业知识助手：结合 RAG 后，可以做内部知识问答、文档分析、报告生成，不再只是单轮问答，而是能连续检索、推理、整理、交付结果   复杂任务代理系统：适合搭建客服、运营、数据分析、研究助理这类多步骤系统，尤其是那些需要多个角色协作、多个工具调用、多个阶段交付的场景  数据多猛？  今日新增 20419 星，这个涨幅非常罕见。更关键的是，它踩中了 Claude、Agent、Swarm、RAG、代码自动化几个高热方向，开发者关注点很集中：大家已经不满足于“会聊天的大模型”，而是在找能真正组织任务、调用工具、跑完整流程的 Agent 基础设施。\n\n来源: [@mrlu_ricardo: RUFLO，一天涨了20419星，专门给 Claude 做多智能体编排，让一群 AI Agent 像团队一样协作跑任务、…](https://x.com/mrlu_ricardo/status/2056527824757112914)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-19T13:18:47+08:00"
+    },
+    {
+      "id": "2026-05-19_024",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:14:46",
+      "type": "文字",
+      "title": "消除传话筒式管理：传统的层级接力式和基于信息传递的传话筒式管理将被 AI 原生模式所淘汰；组织将不再依赖逐层传递，而是由人直接指挥和监督智能体，从而实现更高的效",
+      "quote": "消除传话筒式管理：传统的层级接力式和基于信息传递的传话筒式管理将被 AI 原生模式所淘汰；组织将不再依赖逐层传递，而是由人直接指挥和监督智能体，从而实现更高的效率和更少的信息损耗",
+      "images": [],
+      "has_image": false,
+      "author": "@BaoZiDaDa010",
+      "author_desc": "3 Eliminate Pass-the-Message Management: Traditional hierarc",
+      "source": "X(Twitter)",
+      "source_page": "(1) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/BaoZiDaDa010/status/2056551865521991756",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@BaoZiDaDa010"
+      ],
+      "preview": "消除传话筒式管理：传统的层级接力式和基于信息传递的传话筒式管理将被 AI 原生模式所淘汰；组织将不再依赖逐层传递，而是由人直接指挥和监督智能体，从而实现更高的效率和更少的信息损耗",
+      "raw": "13:14:46 · 文字\n\n> 消除传话筒式管理：传统的层级接力式和基于信息传递的传话筒式管理将被 AI 原生模式所淘汰；组织将不再依赖逐层传递，而是由人直接指挥和监督智能体，从而实现更高的效率和更少的信息损耗\n\n来源: [@BaoZiDaDa010: 3 Eliminate Pass-the-Message Management: Traditional hierarc…](https://x.com/BaoZiDaDa010/status/2056551865521991756)\n所在页面: [(1) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-19T13:14:46+08:00"
+    },
+    {
+      "id": "2026-05-19_023",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:11:40",
+      "type": "文字",
+      "title": "我相信成功在于拥有 有意义的工作和有意义的人际关系——  换句话说，就是那种能让你 感到兴奋的工作和关系。  如果你能将工作与热情融为一体， 并与你所关心的人并",
+      "quote": "我相信成功在于拥有 有意义的工作和有意义的人际关系——  换句话说，就是那种能让你 感到兴奋的工作和关系。  如果你能将工作与热情融为一体， 并与你所关心的人并肩同行， 你将拥有幸福且成功的人生。",
+      "images": [],
+      "has_image": false,
+      "author": "@leolee_101",
+      "author_desc": "I believe that success lies in having meaningful work and me",
+      "source": "X(Twitter)",
+      "source_page": "(1) LEO LEE on X: \"不要工作，而要设计。 Not WORK，But DESIGN. 不要想着自己在完成多少任务， 而是充分发挥自己的老板思维来 设计工作 设计组织 设计标准 #AI #obsidian #个人成长 #效率 https://t.co/XOvFHEjkUg\" / X",
+      "source_url": "https://x.com/leolee_101/status/2056568242521686219",
+      "all_urls": [
+        "https://x.com/leolee_101/status/2056568884476694735",
+        "https://t.co/XOvFHEjkUg",
+        "https://x.com/leolee_101/status/2056568242521686219"
+      ],
+      "tags": [
+        "文字",
+        "@leolee_101"
+      ],
+      "preview": "我相信成功在于拥有 有意义的工作和有意义的人际关系——  换句话说，就是那种能让你 感到兴奋的工作和关系。  如果你能将工作与热情融为一体， 并与你所关心的人并肩同行， 你将拥有幸福且成功的人生。",
+      "raw": "13:11:40 · 文字\n\n> 我相信成功在于拥有 有意义的工作和有意义的人际关系——  换句话说，就是那种能让你 感到兴奋的工作和关系。  如果你能将工作与热情融为一体， 并与你所关心的人并肩同行， 你将拥有幸福且成功的人生。\n\n来源: [@leolee_101: I believe that success lies in having meaningful work and me…](https://x.com/leolee_101/status/2056568884476694735)\n所在页面: [(1) LEO LEE on X: \"不要工作，而要设计。 Not WORK，But DESIGN. 不要想着自己在完成多少任务， 而是充分发挥自己的老板思维来 设计工作 设计组织 设计标准 #AI #obsidian #个人成长 #效率 https://t.co/XOvFHEjkUg\" / X](https://x.com/leolee_101/status/2056568242521686219)",
+      "datetime": "2026-05-19T13:11:40+08:00"
+    },
+    {
+      "id": "2026-05-19_022",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:10:34",
+      "type": "文字",
+      "title": "不要工作，而要设计。 Not WORK，But DESIGN.  不要想着自己在完成多少任务， 而是充分发挥自己的老板思维来 设计工作  设计组织 设计标准",
+      "quote": "不要工作，而要设计。 Not WORK，But DESIGN.  不要想着自己在完成多少任务， 而是充分发挥自己的老板思维来 设计工作  设计组织 设计标准",
+      "images": [],
+      "has_image": false,
+      "author": "@leolee_101",
+      "author_desc": "不要工作，而要设计。 Not WORK，But DESIGN. 不要想着自己在完成多少任务， 而是充分发挥自己的老板思维",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/leolee_101/status/2056568242521686219",
+      "all_urls": [
+        "https://x.com/leolee_101/status/2056568242521686219"
+      ],
+      "tags": [
+        "文字",
+        "@leolee_101"
+      ],
+      "preview": "不要工作，而要设计。 Not WORK，But DESIGN.  不要想着自己在完成多少任务， 而是充分发挥自己的老板思维来 设计工作  设计组织 设计标准",
+      "raw": "13:10:34 · 文字\n\n> 不要工作，而要设计。 Not WORK，But DESIGN.  不要想着自己在完成多少任务， 而是充分发挥自己的老板思维来 设计工作  设计组织 设计标准\n\n来源: [@leolee_101: 不要工作，而要设计。 Not WORK，But DESIGN. 不要想着自己在完成多少任务， 而是充分发挥自己的老板思维…](https://x.com/leolee_101/status/2056568242521686219)",
+      "datetime": "2026-05-19T13:10:34+08:00"
+    },
+    {
+      "id": "2026-05-19_021",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:04:57",
+      "type": "文字",
+      "title": "信任只能委托给人。 这件事在 AI 时代的含义是：所有最终牵涉到稀缺资源、生命、长期承诺的事——投资、医疗、亲密关系、社群——都会比以前更需要\"那个具体的人\"。",
+      "quote": "信任只能委托给人。 这件事在 AI 时代的含义是：所有最终牵涉到稀缺资源、生命、长期承诺的事——投资、医疗、亲密关系、社群——都会比以前更需要\"那个具体的人\"。AI 在背后做无限多的事，但前台必须是一张真实的脸。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "信任只能委托给人。 这件事在 AI 时代的含义是：所有最终牵涉到稀缺资源、生命、长期承诺的事——投资、医疗、亲密关系、社群——都会比以前更需要\"那个具体的人\"。AI 在背后做无限多的事，但前台必须是一张真实的脸。",
+      "raw": "13:04:57 · 文字\n\n> 信任只能委托给人。 这件事在 AI 时代的含义是：所有最终牵涉到稀缺资源、生命、长期承诺的事——投资、医疗、亲密关系、社群——都会比以前更需要\"那个具体的人\"。AI 在背后做无限多的事，但前台必须是一张真实的脸。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T13:04:57+08:00"
+    },
+    {
+      "id": "2026-05-19_020",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:04:36",
+      "type": "文字",
+      "title": "中部消失，两极放大。 不管是公司、风险投资、还是个人能力——中间地带都在塌缩。\"挺不错的\"在这个时代变得很危险。要么去把\"足够伟大的事\"押注完整，要么干脆做\"足",
+      "quote": "中部消失，两极放大。 不管是公司、风险投资、还是个人能力——中间地带都在塌缩。\"挺不错的\"在这个时代变得很危险。要么去把\"足够伟大的事\"押注完整，要么干脆做\"足够小但足够你的事\"——两端都能活，中间会窒息。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "中部消失，两极放大。 不管是公司、风险投资、还是个人能力——中间地带都在塌缩。\"挺不错的\"在这个时代变得很危险。要么去把\"足够伟大的事\"押注完整，要么干脆做\"足够小但足够你的事\"——两端都能活，中间会窒息。",
+      "raw": "13:04:36 · 文字\n\n> 中部消失，两极放大。 不管是公司、风险投资、还是个人能力——中间地带都在塌缩。\"挺不错的\"在这个时代变得很危险。要么去把\"足够伟大的事\"押注完整，要么干脆做\"足够小但足够你的事\"——两端都能活，中间会窒息。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T13:04:36+08:00"
+    },
+    {
+      "id": "2026-05-19_019",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:04:15",
+      "type": "文字",
+      "title": "AI 让你更像你 = 放大方向 / 先做人再用 AI 增强 = 放大顺序。 这两句话合在一起，是这一期最重的\"做事原则\"。任何想在 AI 时代认真做点什么的人，",
+      "quote": "AI 让你更像你 = 放大方向 / 先做人再用 AI 增强 = 放大顺序。 这两句话合在一起，是这一期最重的\"做事原则\"。任何想在 AI 时代认真做点什么的人，都应该先问自己：我是谁？我相信什么？我想被放大成什么样的人？ 然后才是工具。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "AI 让你更像你 = 放大方向 / 先做人再用 AI 增强 = 放大顺序。 这两句话合在一起，是这一期最重的\"做事原则\"。任何想在 AI 时代认真做点什么的人，都应该先问自己：我是谁？我相信什么？我想被放大成什么样的人？ 然后才是工具。",
+      "raw": "13:04:15 · 文字\n\n> AI 让你更像你 = 放大方向 / 先做人再用 AI 增强 = 放大顺序。 这两句话合在一起，是这一期最重的\"做事原则\"。任何想在 AI 时代认真做点什么的人，都应该先问自己：我是谁？我相信什么？我想被放大成什么样的人？ 然后才是工具。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T13:04:15+08:00"
+    },
+    {
+      "id": "2026-05-19_018",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:03:12",
+      "type": "文字",
+      "title": "\"GitHub 就是一个新一代的、由人机混合的社交网络。**它是人机混合的——因为 AI 大量在用它的代码做训练、写代码，人类又在上面提交代码、打星评分。**这",
+      "quote": "\"GitHub 就是一个新一代的、由人机混合的社交网络。**它是人机混合的——因为 AI 大量在用它的代码做训练、写代码，人类又在上面提交代码、打星评分。**这说不定就是大家在找的——AI 时代有网络效应的社交平台。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "\"GitHub 就是一个新一代的、由人机混合的社交网络。**它是人机混合的——因为 AI 大量在用它的代码做训练、写代码，人类又在上面提交代码、打星评分。**这说不定就是大家在找的——AI 时代有网络效应的社交平台。",
+      "raw": "13:03:12 · 文字\n\n> \"GitHub 就是一个新一代的、由人机混合的社交网络。**它是人机混合的——因为 AI 大量在用它的代码做训练、写代码，人类又在上面提交代码、打星评分。**这说不定就是大家在找的——AI 时代有网络效应的社交平台。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T13:03:12+08:00"
+    },
+    {
+      "id": "2026-05-19_017",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "13:01:52",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIoyhB1bAAA5srn?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIoyhB1bAAA5srn?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "13:01:52 · 图片\n\n![image](https://pbs.twimg.com/media/HIoyhB1bAAA5srn?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T13:01:52+08:00"
+    },
+    {
+      "id": "2026-05-19_016",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:59:49",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIoyIOHa4AA_vo8?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIoyIOHa4AA_vo8?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:59:49 · 图片\n\n![image](https://pbs.twimg.com/media/HIoyIOHa4AA_vo8?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:59:49+08:00"
+    },
+    {
+      "id": "2026-05-19_015",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:55:23",
+      "type": "文字",
+      "title": "\"现在改变比特结构已经被模型公司改得很好了，但是改变原子世界结构——Elon Musk 旗下那些公司——他们真的在做很难的事情。AI 加科学、AI 加硬件制造、",
+      "quote": "\"现在改变比特结构已经被模型公司改得很好了，但是改变原子世界结构——Elon Musk 旗下那些公司——他们真的在做很难的事情。AI 加科学、AI 加硬件制造、AI 加太空、生物、物理、数学，这些是值得 1 亿 / 2 亿 / 5 亿美金、要足够算力去解决的事。剩下的纯软件的小事情，那还不如就一人公司做算了。VC 应该投更伟大的事情。\" [46:00]",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "\"现在改变比特结构已经被模型公司改得很好了，但是改变原子世界结构——Elon Musk 旗下那些公司——他们真的在做很难的事情。AI 加科学、AI 加硬件制造、AI 加太空、生物、物理、数学，这些是值得 1 亿 / 2 亿 / 5 亿美金、要足够算力去解决的事。剩下的纯软件的小事情，那还不如就一人公司做算了。VC 应该投更伟大的事情。\" [46:00]",
+      "raw": "12:55:23 · 文字\n\n> \"现在改变比特结构已经被模型公司改得很好了，但是改变原子世界结构——Elon Musk 旗下那些公司——他们真的在做很难的事情。AI 加科学、AI 加硬件制造、AI 加太空、生物、物理、数学，这些是值得 1 亿 / 2 亿 / 5 亿美金、要足够算力去解决的事。剩下的纯软件的小事情，那还不如就一人公司做算了。VC 应该投更伟大的事情。\" [46:00]\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:55:23+08:00"
+    },
+    {
+      "id": "2026-05-19_014",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:53:25",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIox99XboAAGxfk?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIox99XboAAGxfk?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:53:25 · 图片\n\n![image](https://pbs.twimg.com/media/HIox99XboAAGxfk?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:53:25+08:00"
+    },
+    {
+      "id": "2026-05-19_013",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:50:25",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIoxxpSaIAAZ4pU?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIoxxpSaIAAZ4pU?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:50:25 · 图片\n\n![image](https://pbs.twimg.com/media/HIoxxpSaIAAZ4pU?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:50:25+08:00"
+    },
+    {
+      "id": "2026-05-19_012",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:49:14",
+      "type": "文字",
+      "title": "Bill 顺着这个把\"被放大的人\"分成了三类： 第一类：在所在行业本来就 10 倍效率的顶级人才，加上愿意主动用 AI，他会从 10 倍变成 100 倍甚至 1",
+      "quote": "Bill 顺着这个把\"被放大的人\"分成了三类： 第一类：在所在行业本来就 10 倍效率的顶级人才，加上愿意主动用 AI，他会从 10 倍变成 100 倍甚至 1000 倍的工程师。Andrej Karpathy 是范例——他不需要再有一支像 Tesla Autopilot 那种规模的团队，一个人加 AI 就能做出来 Autoresearch 那样的东西。 第二类：多任务处理能力极强、能开高线程的创始人 / 老板型人物。他能同时指挥 50 个 AI 智能体干不同的事，相当于一个能管理一百个直接下属的人——Jensen Huang、Elon Musk 那类人天然适合。 第三类：在自己完全不懂的维度上被\"塌缩式\"补全的人。以前你要做个产品，得分别招前端、设计师、产品经理、交互设计师，然后发现他们之间还沟通不畅；现在这些角色全部塌缩成\"你只要描述你想要什么\"。Bill 在自己创业过程中深有体会，他从 2023 年的设想就是\"能不能就招一个人，把这些全干了\"，发现找不到——而现在 AI 就成了这个人。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "Bill 顺着这个把\"被放大的人\"分成了三类： 第一类：在所在行业本来就 10 倍效率的顶级人才，加上愿意主动用 AI，他会从 10 倍变成 100 倍甚至 1000 倍的工程师。Andrej Karpathy 是范例——他不需要再有一支像 Tesla Autopilot 那种规模的团队，一个人加 AI 就能做出来 Autoresearch 那样的东西。 第二类：多任务处理能力极强、能开高线程的创始人 / 老板型人物。他能同时指挥 50 个 AI 智能体干不同的事，相当于一个...",
+      "raw": "12:49:14 · 文字\n\n> Bill 顺着这个把\"被放大的人\"分成了三类： 第一类：在所在行业本来就 10 倍效率的顶级人才，加上愿意主动用 AI，他会从 10 倍变成 100 倍甚至 1000 倍的工程师。Andrej Karpathy 是范例——他不需要再有一支像 Tesla Autopilot 那种规模的团队，一个人加 AI 就能做出来 Autoresearch 那样的东西。 第二类：多任务处理能力极强、能开高线程的创始人 / 老板型人物。他能同时指挥 50 个 AI 智能体干不同的事，相当于一个能管理一百个直接下属的人——Jensen Huang、Elon Musk 那类人天然适合。 第三类：在自己完全不懂的维度上被\"塌缩式\"补全的人。以前你要做个产品，得分别招前端、设计师、产品经理、交互设计师，然后发现他们之间还沟通不畅；现在这些角色全部塌缩成\"你只要描述你想要什么\"。Bill 在自己创业过程中深有体会，他从 2023 年的设想就是\"能不能就招一个人，把这些全干了\"，发现找不到——而现在 AI 就成了这个人。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:49:14+08:00"
+    },
+    {
+      "id": "2026-05-19_011",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:47:53",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIoxckEbQAAIs1t?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIoxckEbQAAIs1t?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:47:53 · 图片\n\n![image](https://pbs.twimg.com/media/HIoxckEbQAAIs1t?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:47:53+08:00"
+    },
+    {
+      "id": "2026-05-19_010",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:47:39",
+      "type": "文字",
+      "title": "AI 时代，我觉得它是一个极端放大器。它不是让任何人都有一个很平等的工具——AI 让你更像你。",
+      "quote": "AI 时代，我觉得它是一个极端放大器。它不是让任何人都有一个很平等的工具——AI 让你更像你。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "AI 时代，我觉得它是一个极端放大器。它不是让任何人都有一个很平等的工具——AI 让你更像你。",
+      "raw": "12:47:39 · 文字\n\n> AI 时代，我觉得它是一个极端放大器。它不是让任何人都有一个很平等的工具——AI 让你更像你。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:47:39+08:00"
+    },
+    {
+      "id": "2026-05-19_009",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:44:40",
+      "type": "文字",
+      "title": "好的投资、好的科研、好的数学，乍一看都是\"品位问题\"、\"不可验证\"。但如果你把时间维度拉到 10–20 年，其实是可验证的；只是这个验证太慢，没法直接当强化学习",
+      "quote": "好的投资、好的科研、好的数学，乍一看都是\"品位问题\"、\"不可验证\"。但如果你把时间维度拉到 10–20 年，其实是可验证的；只是这个验证太慢，没法直接当强化学习的信号。所以你需要找一个代理参照——而最好的参照，是顶级人类的偏执。",
+      "images": [],
+      "has_image": false,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "文字",
+        "@indigox"
+      ],
+      "preview": "好的投资、好的科研、好的数学，乍一看都是\"品位问题\"、\"不可验证\"。但如果你把时间维度拉到 10–20 年，其实是可验证的；只是这个验证太慢，没法直接当强化学习的信号。所以你需要找一个代理参照——而最好的参照，是顶级人类的偏执。",
+      "raw": "12:44:40 · 文字\n\n> 好的投资、好的科研、好的数学，乍一看都是\"品位问题\"、\"不可验证\"。但如果你把时间维度拉到 10–20 年，其实是可验证的；只是这个验证太慢，没法直接当强化学习的信号。所以你需要找一个代理参照——而最好的参照，是顶级人类的偏执。\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:44:40+08:00"
+    },
+    {
+      "id": "2026-05-19_008",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:43:03",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIoxGcGawAE1UI3?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIoxGcGawAE1UI3?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:43:03 · 图片\n\n![image](https://pbs.twimg.com/media/HIoxGcGawAE1UI3?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:43:03+08:00"
+    },
+    {
+      "id": "2026-05-19_007",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "12:42:15",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIo-b-NbMAAGfzI?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@indigox",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/indigox/status/2056589121955782913",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIo-b-NbMAAGfzI?format=jpg&name=900x900",
+        "https://x.com/indigox/status/2056589121955782913"
+      ],
+      "tags": [
+        "图片",
+        "@indigox"
+      ],
+      "preview": "[图片] ",
+      "raw": "12:42:15 · 图片\n\n![image](https://pbs.twimg.com/media/HIo-b-NbMAAGfzI?format=jpg&name=900x900)\n\n来源: [@indigox](https://x.com/indigox/status/2056589121955782913)",
+      "datetime": "2026-05-19T12:42:15+08:00"
+    },
+    {
+      "id": "2026-05-19_006",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "08:53:55",
+      "type": "文字",
+      "title": "“The year of me” “自我之年” Joshua Lu 2026 will become “the year of me”: the moment ",
+      "quote": "“The year of me” “自我之年” Joshua Lu 2026 will become “the year of me”: the moment when products stop being mass-produced and start being made for you. 2026 年将成为“自我之年”：这一刻，产品将不再是批量生产的产物，而是开始为你量身定制。  We’re seeing it everywhere already. 我们已经随处可见这种趋势。  In education, startups like Alphaschool are building AI tutors that adapt to each student’s pace and curiosity, giving every kid an education that matches their pace and preferred method of learning. This level of attention previously would not be possible without tens of thousands of tutoring dollars spent per student. 在教育领域，像 Alphaschool 这样的初创公司正在开发 AI 导师，它们能根据每个学生的进度和好奇心进行调整，让每个孩子都能获得与其节奏和偏好相匹配的教育。在过去，如果不为每个学生花费数万美元的辅导费用，这种程度的关注是不可能实现的。  In health, AI is designing daily supplement stacks, workout plans, and meal routines tailored to your biology. No need for a trainer or a lab. 在健康领域，AI 正在根据你的生物特征量身定制每日补充剂组合、健身计划和饮食方案。不再需要教练或实验室。  Even in media, AI lets creators remix news, shows, and stories into personalized feeds that match your exact interests and tone. 甚至在媒体领域，AI 让创作者能够将新闻、节目和故事重新混剪成个性化信息流，精准匹配你的兴趣和偏好语调。  The biggest companies of the last century won by finding the average consumer. 上个世纪最伟大的公司通过寻找“平均消费者”而获胜。 The biggest companies of the next century will win by finding the individual inside the average. 下个世纪最伟大的公司将通过在“平均”之中挖掘“个体”而获胜。  2026 is the year the world stops optimizing for everyone and starts optimizing for you. 2026 年将是世界停止为大众进行优化，并开始为你个人进行优化的元年。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "all_urls": [
+        "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "“The year of me” “自我之年” Joshua Lu 2026 will become “the year of me”: the moment when products stop being mass-produced and start being made for you. 2026 年将成为“自我之年”：这一刻，产品将不再是批量生产的产物，而是开始为你量身定制。  We’re seeing it everywhere already. 我们已经随处可见...",
+      "raw": "08:53:55 · 文字\n\n> “The year of me” “自我之年” Joshua Lu 2026 will become “the year of me”: the moment when products stop being mass-produced and start being made for you. 2026 年将成为“自我之年”：这一刻，产品将不再是批量生产的产物，而是开始为你量身定制。  We’re seeing it everywhere already. 我们已经随处可见这种趋势。  In education, startups like Alphaschool are building AI tutors that adapt to each student’s pace and curiosity, giving every kid an education that matches their pace and preferred method of learning. This level of attention previously would not be possible without tens of thousands of tutoring dollars spent per student. 在教育领域，像 Alphaschool 这样的初创公司正在开发 AI 导师，它们能根据每个学生的进度和好奇心进行调整，让每个孩子都能获得与其节奏和偏好相匹配的教育。在过去，如果不为每个学生花费数万美元的辅导费用，这种程度的关注是不可能实现的。  In health, AI is designing daily supplement stacks, workout plans, and meal routines tailored to your biology. No need for a trainer or a lab. 在健康领域，AI 正在根据你的生物特征量身定制每日补充剂组合、健身计划和饮食方案。不再需要教练或实验室。  Even in media, AI lets creators remix news, shows, and stories into personalized feeds that match your exact interests and tone. 甚至在媒体领域，AI 让创作者能够将新闻、节目和故事重新混剪成个性化信息流，精准匹配你的兴趣和偏好语调。  The biggest companies of the last century won by finding the average consumer. 上个世纪最伟大的公司通过寻找“平均消费者”而获胜。 The biggest companies of the next century will win by finding the individual inside the average. 下个世纪最伟大的公司将通过在“平均”之中挖掘“个体”而获胜。  2026 is the year the world stops optimizing for everyone and starts optimizing for you. 2026 年将是世界停止为大众进行优化，并开始为你个人进行优化的元年。\n\n来源: [2026 年大趋势：第一部分 | Andreessen Horowitz --- Big Ideas 2026: Part 1 | Andreessen Horowitz](https://a16z.com/newsletter/big-ideas-2026-part-1/)",
+      "datetime": "2026-05-19T08:53:55+08:00"
+    },
+    {
+      "id": "2026-05-19_005",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "08:52:33",
+      "type": "文字",
+      "title": "记录系统失去主导地位 Sarah Wang In 2026, the real disruption in enterprise software is tha",
+      "quote": "记录系统失去主导地位 Sarah Wang In 2026, the real disruption in enterprise software is that the system of record will finally start to lose primacy. AI is collapsing the distance between intent and execution: models can now read, write, and reason directly across operational data, turning ITSM and CRM systems from passive databases into autonomous workflow engines. And as recent advances in reasoning models and agentic workflows compound, these systems gain the ability not just to respond, but to anticipate, coordinate, and execute end-to-end processes. The interface becomes a dynamic agent layer, while the traditional system of record slips into the background as a commodity persistence tier—its strategic leverage ceded to whoever controls the intelligent execution environment employees actually use. 到 2026 年，企业软件领域真正的颠覆在于，记录系统（system of record）将最终开始失去其主导地位。AI 正在缩短意图与执行之间的距离：模型现在可以直接跨运营数据进行阅读、编写和推理，将 ITSM 和 CRM 系统从被动数据库转变为自主工作流引擎。随着推理模型和智能体工作流（agentic workflows）近期取得的进展不断叠加，这些系统不仅获得了响应能力，还具备了预测、协调和执行端到端流程的能力。界面演变成了一个动态的智能体层，而传统的记录系统则退居幕后，成为一种商品化的持久化层——其战略杠杆作用已让渡给那些控制着员工实际使用的智能执行环境的人。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "all_urls": [
+        "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "记录系统失去主导地位 Sarah Wang In 2026, the real disruption in enterprise software is that the system of record will finally start to lose primacy. AI is collapsing the distance between intent and execution: models can now read, write, and reason di...",
+      "raw": "08:52:33 · 文字\n\n> 记录系统失去主导地位 Sarah Wang In 2026, the real disruption in enterprise software is that the system of record will finally start to lose primacy. AI is collapsing the distance between intent and execution: models can now read, write, and reason directly across operational data, turning ITSM and CRM systems from passive databases into autonomous workflow engines. And as recent advances in reasoning models and agentic workflows compound, these systems gain the ability not just to respond, but to anticipate, coordinate, and execute end-to-end processes. The interface becomes a dynamic agent layer, while the traditional system of record slips into the background as a commodity persistence tier—its strategic leverage ceded to whoever controls the intelligent execution environment employees actually use. 到 2026 年，企业软件领域真正的颠覆在于，记录系统（system of record）将最终开始失去其主导地位。AI 正在缩短意图与执行之间的距离：模型现在可以直接跨运营数据进行阅读、编写和推理，将 ITSM 和 CRM 系统从被动数据库转变为自主工作流引擎。随着推理模型和智能体工作流（agentic workflows）近期取得的进展不断叠加，这些系统不仅获得了响应能力，还具备了预测、协调和执行端到端流程的能力。界面演变成了一个动态的智能体层，而传统的记录系统则退居幕后，成为一种商品化的持久化层——其战略杠杆作用已让渡给那些控制着员工实际使用的智能执行环境的人。\n\n来源: [2026 年大趋势：第一部分 | Andreessen Horowitz --- Big Ideas 2026: Part 1 | Andreessen Horowitz](https://a16z.com/newsletter/big-ideas-2026-part-1/)",
+      "datetime": "2026-05-19T08:52:33+08:00"
+    },
+    {
+      "id": "2026-05-19_004",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "08:51:43",
+      "type": "文字",
+      "title": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ b",
+      "quote": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。  That’s why untangling unstructured data becomes a generational opportunity. Enterprises need a continuous way to clean, structure, validate and govern their multimodal data so downstream AI workloads actually work. The use cases are everywhere: contract analysis, onboarding flows, claims handling, compliance, support, procurement, engineering search, sales enablement, analytics pipelines, and every agent workflow that depends on reliable context. Startups that build the platform that extracts structure from documents, images, and videos; reconciles conflicts; repairs pipelines; or keeps data fresh and retrievable hold the key to the kingdom of enterprise knowledge and process. 这就是为什么理清非结构化数据成为了一个代际机遇。企业需要一种持续的方法来清理、结构化、验证和治理其多模态数据，以便下游的 AI 工作负载能够真正发挥作用。用例无处不在：合同分析、入职流程、理赔处理、合规、支持、采购、工程搜索、销售赋能、分析流水线，以及每一个依赖可靠上下文的智能体工作流。那些能够构建平台，从文档、图像和视频中提取结构，调解冲突，修复流水线，或保持数据新鲜且可检索的初创公司，将掌握开启企业知识与流程宝库的钥匙。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "all_urls": [
+        "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models ...",
+      "raw": "08:51:43 · 文字\n\n> 初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。  That’s why untangling unstructured data becomes a generational opportunity. Enterprises need a continuous way to clean, structure, validate and govern their multimodal data so downstream AI workloads actually work. The use cases are everywhere: contract analysis, onboarding flows, claims handling, compliance, support, procurement, engineering search, sales enablement, analytics pipelines, and every agent workflow that depends on reliable context. Startups that build the platform that extracts structure from documents, images, and videos; reconciles conflicts; repairs pipelines; or keeps data fresh and retrievable hold the key to the kingdom of enterprise knowledge and process. 这就是为什么理清非结构化数据成为了一个代际机遇。企业需要一种持续的方法来清理、结构化、验证和治理其多模态数据，以便下游的 AI 工作负载能够真正发挥作用。用例无处不在：合同分析、入职流程、理赔处理、合规、支持、采购、工程搜索、销售赋能、分析流水线，以及每一个依赖可靠上下文的智能体工作流。那些能够构建平台，从文档、图像和视频中提取结构，调解冲突，修复流水线，或保持数据新鲜且可检索的初创公司，将掌握开启企业知识与流程宝库的钥匙。\n\n来源: [2026 年大趋势：第一部分 | Andreessen Horowitz --- Big Ideas 2026: Part 1 | Andreessen Horowitz](https://a16z.com/newsletter/big-ideas-2026-part-1/)",
+      "datetime": "2026-05-19T08:51:43+08:00"
+    },
+    {
+      "id": "2026-05-19_003",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "08:47:31",
+      "type": "文字",
+      "title": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ b",
+      "quote": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。  That’s why untangling unstructured data becomes a generational opportunity. Enterprises need a continuous way to clean, structure, validate and govern their multimodal data so downstream AI workloads actually work. The use cases are everywhere: contract analysis, onboarding flows, claims handling, compliance, support, procurement, engineering search, sales enablement, analytics pipelines, and every agent workflow that depends on reliable context. Startups that build the platform that extracts structure from documents, images, and videos; reconciles conflicts; repairs pipelines; or keeps data fresh and retrievable hold the key to the kingdom of enterprise knowledge and process. 这就是为什么理清非结构化数据成为了一个代际机遇。企业需要一种持续的方法来清理、结构化、验证和治理其多模态数据，以便下游的 AI 工作负载能够真正发挥作用。用例无处不在：合同分析、入职流程、理赔处理、合规、支持、采购、工程搜索、销售赋能、分析流水线，以及每一个依赖可靠上下文的智能体工作流。那些能够构建平台，从文档、图像和视频中提取结构，调解冲突，修复流水线，或保持数据新鲜且可检索的初创公司，将掌握开启企业知识与流程宝库的钥匙。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "all_urls": [
+        "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models ...",
+      "raw": "08:47:31 · 文字\n\n> 初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。  That’s why untangling unstructured data becomes a generational opportunity. Enterprises need a continuous way to clean, structure, validate and govern their multimodal data so downstream AI workloads actually work. The use cases are everywhere: contract analysis, onboarding flows, claims handling, compliance, support, procurement, engineering search, sales enablement, analytics pipelines, and every agent workflow that depends on reliable context. Startups that build the platform that extracts structure from documents, images, and videos; reconciles conflicts; repairs pipelines; or keeps data fresh and retrievable hold the key to the kingdom of enterprise knowledge and process. 这就是为什么理清非结构化数据成为了一个代际机遇。企业需要一种持续的方法来清理、结构化、验证和治理其多模态数据，以便下游的 AI 工作负载能够真正发挥作用。用例无处不在：合同分析、入职流程、理赔处理、合规、支持、采购、工程搜索、销售赋能、分析流水线，以及每一个依赖可靠上下文的智能体工作流。那些能够构建平台，从文档、图像和视频中提取结构，调解冲突，修复流水线，或保持数据新鲜且可检索的初创公司，将掌握开启企业知识与流程宝库的钥匙。\n\n来源: [2026 年大趋势：第一部分 | Andreessen Horowitz --- Big Ideas 2026: Part 1 | Andreessen Horowitz](https://a16z.com/newsletter/big-ideas-2026-part-1/)",
+      "datetime": "2026-05-19T08:47:31+08:00"
+    },
+    {
+      "id": "2026-05-19_002",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "08:47:07",
+      "type": "文字",
+      "title": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ b",
+      "quote": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。  That’s why untangling unstructured data becomes a generational opportunity. Enterprises need a continuous way to clean, structure, validate and govern their multimodal data so downstream AI workloads actually work. The use cases are everywhere: contract analysis, onboarding flows, claims handling, compliance, support, procurement, engineering search, sales enablement, analytics pipelines, and every agent workflow that depends on reliable context. Startups that build the platform that extracts structure from documents, images, and videos; reconciles conflicts; repairs pipelines; or keeps data fresh and retrievable hold the key to the kingdom of enterprise knowledge and process. 这就是为什么理清非结构化数据成为了一个代际机遇。企业需要一种持续的方法来清理、结构化、验证和治理其多模态数据，以便下游的 AI 工作负载能够真正发挥作用。用例无处不在：合同分析、入职流程、理赔处理、合规、支持、采购、工程搜索、销售赋能、分析流水线，以及每一个依赖可靠上下文的智能体工作流。那些能够构建平台，从文档、图像和视频中提取结构，调解冲突，修复流水线，或保持数据新鲜且可检索的初创公司，将掌握开启企业知识与流程宝库的钥匙。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "all_urls": [
+        "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models ...",
+      "raw": "08:47:07 · 文字\n\n> 初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。  That’s why untangling unstructured data becomes a generational opportunity. Enterprises need a continuous way to clean, structure, validate and govern their multimodal data so downstream AI workloads actually work. The use cases are everywhere: contract analysis, onboarding flows, claims handling, compliance, support, procurement, engineering search, sales enablement, analytics pipelines, and every agent workflow that depends on reliable context. Startups that build the platform that extracts structure from documents, images, and videos; reconciles conflicts; repairs pipelines; or keeps data fresh and retrievable hold the key to the kingdom of enterprise knowledge and process. 这就是为什么理清非结构化数据成为了一个代际机遇。企业需要一种持续的方法来清理、结构化、验证和治理其多模态数据，以便下游的 AI 工作负载能够真正发挥作用。用例无处不在：合同分析、入职流程、理赔处理、合规、支持、采购、工程搜索、销售赋能、分析流水线，以及每一个依赖可靠上下文的智能体工作流。那些能够构建平台，从文档、图像和视频中提取结构，调解冲突，修复流水线，或保持数据新鲜且可检索的初创公司，将掌握开启企业知识与流程宝库的钥匙。\n\n来源: [2026 年大趋势：第一部分 | Andreessen Horowitz --- Big Ideas 2026: Part 1 | Andreessen Horowitz](https://a16z.com/newsletter/big-ideas-2026-part-1/)",
+      "datetime": "2026-05-19T08:47:07+08:00"
+    },
+    {
+      "id": "2026-05-19_001",
+      "file": "2026-05-19.md",
+      "date": "2026-05-19",
+      "time": "08:46:57",
+      "type": "文字",
+      "title": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ b",
+      "quote": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "all_urls": [
+        "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models ...",
+      "raw": "08:46:57 · 文字\n\n> 初创公司驯服多模态数据的混乱 Jennifer Li Unstructured, multimodal data has been enterprises’ biggest bottleneck and their biggest untapped treasure. Every company is drowning in PDFs, screenshots, videos, logs, emails, and semi-structured sludge. Models keep getting smarter but the inputs keep getting messier, which causes RAG systems to hallucinate, agents to break in subtle, expensive ways, and critical workflows to still heavily rely on human QA. The limiting factor for AI companies is now data entropy: the steady decay of freshness, structured, and truth inside the unstructured universe where 80% of corporate knowledge now lives. 非结构化、多模态数据一直是企业最大的瓶颈，也是其最大的未开发宝库。每家公司都淹没在 PDF、截图、视频、日志、电子邮件和半结构化的“淤泥”中。模型变得越来越聪明，但输入的数据却越来越杂乱，这导致 RAG 系统产生幻觉，智能体（Agent）以微妙且代价高昂的方式崩溃，而关键工作流仍严重依赖人工 QA。AI 公司的限制因素现在变成了数据熵：在承载了 80% 企业知识的非结构化宇宙中，数据的时效性、结构化和真实性正在稳步衰减。\n\n来源: [2026 年大趋势：第一部分 | Andreessen Horowitz --- Big Ideas 2026: Part 1 | Andreessen Horowitz](https://a16z.com/newsletter/big-ideas-2026-part-1/)",
+      "datetime": "2026-05-19T08:46:57+08:00"
+    },
+    {
+      "id": "2026-05-18_026",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:39:16",
+      "type": "文字",
+      "title": "全同意阿姨的分析！Garry Tan 的 GBrain 浪潮直接将个人 AI 从“失忆患者”升级为“终身伴侣”。 这不仅仅是简单的 RAG 堆料，而是真正从操作",
+      "quote": "全同意阿姨的分析！Garry Tan 的 GBrain 浪潮直接将个人 AI 从“失忆患者”升级为“终身伴侣”。 这不仅仅是简单的 RAG 堆料，而是真正从操作系统层面将记忆转化为 8 层架构，前 4 层负责强检索，后 4 层负责自我进化 + 终身积累——这才是解决 Agent 核心痛点的正确路径。@i  在 Garry 自己的环境中，它已经运行着来自 17k+ 页面、4000+ 人物、700+ 公司的信息，并将 Markdown 视为最高事实来源",
+      "images": [],
+      "has_image": false,
+      "author": "@SamMusical6990",
+      "author_desc": "Totally agree with AYi's analysis! Garry Tan's GBrain wave d",
+      "source": "X(Twitter)",
+      "source_page": "gbrain - Search / X",
+      "source_url": "https://x.com/search?q=gbrain&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/SamMusical6990/status/2056222398828220917",
+        "https://x.com/search?q=gbrain&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@SamMusical6990"
+      ],
+      "preview": "全同意阿姨的分析！Garry Tan 的 GBrain 浪潮直接将个人 AI 从“失忆患者”升级为“终身伴侣”。 这不仅仅是简单的 RAG 堆料，而是真正从操作系统层面将记忆转化为 8 层架构，前 4 层负责强检索，后 4 层负责自我进化 + 终身积累——这才是解决 Agent 核心痛点的正确路径。@i  在 Garry 自己的环境中，它已经运行着来自 17k+ 页面、4000+ 人物、700+ 公司的信息，并将 Markdown 视为最高事实来源",
+      "raw": "14:39:16 · 文字\n\n> 全同意阿姨的分析！Garry Tan 的 GBrain 浪潮直接将个人 AI 从“失忆患者”升级为“终身伴侣”。 这不仅仅是简单的 RAG 堆料，而是真正从操作系统层面将记忆转化为 8 层架构，前 4 层负责强检索，后 4 层负责自我进化 + 终身积累——这才是解决 Agent 核心痛点的正确路径。@i  在 Garry 自己的环境中，它已经运行着来自 17k+ 页面、4000+ 人物、700+ 公司的信息，并将 Markdown 视为最高事实来源\n\n来源: [@SamMusical6990: Totally agree with AYi's analysis! Garry Tan's GBrain wave d…](https://x.com/SamMusical6990/status/2056222398828220917)\n所在页面: [gbrain - Search / X](https://x.com/search?q=gbrain&src=typed_query&f=live)",
+      "datetime": "2026-05-18T14:39:16+08:00"
+    },
+    {
+      "id": "2026-05-18_025",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:21:19",
+      "type": "文字",
+      "title": "大多数企业主每天都在做两种工作。 推动业务前进的工作。 以及防止业务掉队的工作。 第一种不可替代。战略、关系、创造性决策、只有你才能做出的判断。",
+      "quote": "大多数企业主每天都在做两种工作。 推动业务前进的工作。 以及防止业务掉队的工作。 第一种不可替代。战略、关系、创造性决策、只有你才能做出的判断。",
+      "images": [],
+      "has_image": false,
+      "author": "@rwayne",
+      "author_desc": "Obsidian can also run your business and make money for you w",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/rwayne/status/2055583786314989655",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@rwayne"
+      ],
+      "preview": "大多数企业主每天都在做两种工作。 推动业务前进的工作。 以及防止业务掉队的工作。 第一种不可替代。战略、关系、创造性决策、只有你才能做出的判断。",
+      "raw": "14:21:19 · 文字\n\n> 大多数企业主每天都在做两种工作。 推动业务前进的工作。 以及防止业务掉队的工作。 第一种不可替代。战略、关系、创造性决策、只有你才能做出的判断。\n\n来源: [@rwayne: Obsidian can also run your business and make money for you w…](https://x.com/rwayne/status/2055583786314989655)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T14:21:19+08:00"
+    },
+    {
+      "id": "2026-05-18_024",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:20:42",
+      "type": "文字",
+      "title": "未来专注于为大型公司和组织进行 AI/智能体原生改革的管理/战略咨询，可能会成为一个比麦肯锡、波士顿咨询（BCG）或埃森哲巅峰时期还要庞大的市场。",
+      "quote": "未来专注于为大型公司和组织进行 AI/智能体原生改革的管理/战略咨询，可能会成为一个比麦肯锡、波士顿咨询（BCG）或埃森哲巅峰时期还要庞大的市场。",
+      "images": [],
+      "has_image": false,
+      "author": "@ChinaMacroFacts",
+      "author_desc": "I have a hunch that in the future, management/strategy consu",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ChinaMacroFacts/status/2055596813051392352",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ChinaMacroFacts"
+      ],
+      "preview": "未来专注于为大型公司和组织进行 AI/智能体原生改革的管理/战略咨询，可能会成为一个比麦肯锡、波士顿咨询（BCG）或埃森哲巅峰时期还要庞大的市场。",
+      "raw": "14:20:42 · 文字\n\n> 未来专注于为大型公司和组织进行 AI/智能体原生改革的管理/战略咨询，可能会成为一个比麦肯锡、波士顿咨询（BCG）或埃森哲巅峰时期还要庞大的市场。\n\n来源: [@ChinaMacroFacts: I have a hunch that in the future, management/strategy consu…](https://x.com/ChinaMacroFacts/status/2055596813051392352)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T14:20:42+08:00"
+    },
+    {
+      "id": "2026-05-18_023",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:19:09",
+      "type": "文字",
+      "title": "当我因滑雪受伤卧床休养时，我全身心地投入其中，甚至废寝忘食，一天消耗最多的量是 1 亿到 2 亿个 Token，这已经让我觉得非常惊人了。你知道排行榜第一名一天",
+      "quote": "当我因滑雪受伤卧床休养时，我全身心地投入其中，甚至废寝忘食，一天消耗最多的量是 1 亿到 2 亿个 Token，这已经让我觉得非常惊人了。你知道排行榜第一名一天消耗多少吗？超过 10 亿个 Token。如果没有达到大师级的使用习惯，你根本无法达到这种规模——这才是真正的权力用户（power user）",
+      "images": [],
+      "has_image": false,
+      "author": "@FuSheng_0306",
+      "author_desc": "Second Tier: Meta第二梯队：MetaYou might be a bit surprised, but",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/FuSheng_0306/status/2055670495262216364",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@FuSheng_0306"
+      ],
+      "preview": "当我因滑雪受伤卧床休养时，我全身心地投入其中，甚至废寝忘食，一天消耗最多的量是 1 亿到 2 亿个 Token，这已经让我觉得非常惊人了。你知道排行榜第一名一天消耗多少吗？超过 10 亿个 Token。如果没有达到大师级的使用习惯，你根本无法达到这种规模——这才是真正的权力用户（power user）",
+      "raw": "14:19:09 · 文字\n\n> 当我因滑雪受伤卧床休养时，我全身心地投入其中，甚至废寝忘食，一天消耗最多的量是 1 亿到 2 亿个 Token，这已经让我觉得非常惊人了。你知道排行榜第一名一天消耗多少吗？超过 10 亿个 Token。如果没有达到大师级的使用习惯，你根本无法达到这种规模——这才是真正的权力用户（power user）\n\n**备注:** 新概念\n\n来源: [@FuSheng_0306: Second Tier: Meta第二梯队：MetaYou might be a bit surprised, but …](https://x.com/FuSheng_0306/status/2055670495262216364)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T14:19:09+08:00"
+    },
+    {
+      "id": "2026-05-18_022",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:16:35",
+      "type": "文字",
+      "title": "真正的突破不在于插件本身，而在于“技能（skills）+ CLAUDE.md”的分层机制。将你的标准作业程序（SOPs）放入技能中（描述部分始终加载，主体内容按",
+      "quote": "真正的突破不在于插件本身，而在于“技能（skills）+ CLAUDE.md”的分层机制。将你的标准作业程序（SOPs）放入技能中（描述部分始终加载，主体内容按需调用），将项目规则写入 CLAUDE.md，这样智能体就能在不同会话间真正记住你的工作方式。这能减少约 60% 的无效上下文消耗。",
+      "images": [],
+      "has_image": false,
+      "author": "@kleon_ai",
+      "author_desc": "The real unlock isn't the plugin itself — it's skills + CLAU",
+      "source": "X(Twitter)",
+      "source_page": "Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X",
+      "source_url": "https://x.com/Suryanshti777/status/2056022182560665602",
+      "all_urls": [
+        "https://x.com/kleon_ai/status/2056201004081979718",
+        "https://t.co/jaOuMAq37f",
+        "https://x.com/Suryanshti777/status/2056022182560665602"
+      ],
+      "tags": [
+        "文字",
+        "@kleon_ai"
+      ],
+      "preview": "真正的突破不在于插件本身，而在于“技能（skills）+ CLAUDE.md”的分层机制。将你的标准作业程序（SOPs）放入技能中（描述部分始终加载，主体内容按需调用），将项目规则写入 CLAUDE.md，这样智能体就能在不同会话间真正记住你的工作方式。这能减少约 60% 的无效上下文消耗。",
+      "raw": "14:16:35 · 文字\n\n> 真正的突破不在于插件本身，而在于“技能（skills）+ CLAUDE.md”的分层机制。将你的标准作业程序（SOPs）放入技能中（描述部分始终加载，主体内容按需调用），将项目规则写入 CLAUDE.md，这样智能体就能在不同会话间真正记住你的工作方式。这能减少约 60% 的无效上下文消耗。\n\n来源: [@kleon_ai: The real unlock isn't the plugin itself — it's skills + CLAU…](https://x.com/kleon_ai/status/2056201004081979718)\n所在页面: [Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X](https://x.com/Suryanshti777/status/2056022182560665602)",
+      "datetime": "2026-05-18T14:16:35+08:00"
+    },
+    {
+      "id": "2026-05-18_021",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:08:38",
+      "type": "文字",
+      "title": "原生的 Claude Code 就像是用一档开法拉利",
+      "quote": "原生的 Claude Code 就像是用一档开法拉利",
+      "images": [],
+      "has_image": false,
+      "author": "@cochod_clement",
+      "author_desc": "vanilla claude code is like driving a ferrari in first gear原",
+      "source": "X(Twitter)",
+      "source_page": "Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X",
+      "source_url": "https://x.com/Suryanshti777/status/2056022182560665602",
+      "all_urls": [
+        "https://x.com/cochod_clement/status/2056085906516222050",
+        "https://t.co/jaOuMAq37f",
+        "https://x.com/Suryanshti777/status/2056022182560665602"
+      ],
+      "tags": [
+        "文字",
+        "@cochod_clement"
+      ],
+      "preview": "原生的 Claude Code 就像是用一档开法拉利",
+      "raw": "14:08:38 · 文字\n\n> 原生的 Claude Code 就像是用一档开法拉利\n\n来源: [@cochod_clement: vanilla claude code is like driving a ferrari in first gear原…](https://x.com/cochod_clement/status/2056085906516222050)\n所在页面: [Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X](https://x.com/Suryanshti777/status/2056022182560665602)",
+      "datetime": "2026-05-18T14:08:38+08:00"
+    },
+    {
+      "id": "2026-05-18_020",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:07:31",
+      "type": "文字",
+      "title": "不要再把 AI 工具当作无状态的聊天窗口。添加一个 CLAUDE.md，添加钩子（hooks），添加技能。让每一次会话都在上一次的基础上累积，而不是从零开始。大",
+      "quote": "不要再把 AI 工具当作无状态的聊天窗口。添加一个 CLAUDE.md，添加钩子（hooks），添加技能。让每一次会话都在上一次的基础上累积，而不是从零开始。大多数开发者从未跨越那道门槛，因为他们在多次运行之间没有持久化任何内容。",
+      "images": [],
+      "has_image": false,
+      "author": "@MindTheGapMTG",
+      "author_desc": "Plugin is nice but the real unlock is simpler: stop treating",
+      "source": "X(Twitter)",
+      "source_page": "Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X",
+      "source_url": "https://x.com/Suryanshti777/status/2056022182560665602",
+      "all_urls": [
+        "https://x.com/MindTheGapMTG/status/2056068480856674369",
+        "https://t.co/jaOuMAq37f",
+        "https://x.com/Suryanshti777/status/2056022182560665602"
+      ],
+      "tags": [
+        "文字",
+        "@MindTheGapMTG"
+      ],
+      "preview": "不要再把 AI 工具当作无状态的聊天窗口。添加一个 CLAUDE.md，添加钩子（hooks），添加技能。让每一次会话都在上一次的基础上累积，而不是从零开始。大多数开发者从未跨越那道门槛，因为他们在多次运行之间没有持久化任何内容。",
+      "raw": "14:07:31 · 文字\n\n> 不要再把 AI 工具当作无状态的聊天窗口。添加一个 CLAUDE.md，添加钩子（hooks），添加技能。让每一次会话都在上一次的基础上累积，而不是从零开始。大多数开发者从未跨越那道门槛，因为他们在多次运行之间没有持久化任何内容。\n\n**备注:** 编程\n\n来源: [@MindTheGapMTG: Plugin is nice but the real unlock is simpler: stop treating…](https://x.com/MindTheGapMTG/status/2056068480856674369)\n所在页面: [Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X](https://x.com/Suryanshti777/status/2056022182560665602)",
+      "datetime": "2026-05-18T14:07:31+08:00"
+    },
+    {
+      "id": "2026-05-18_019",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:06:40",
+      "type": "文字",
+      "title": "Hooks 是大多数人忽略的关键突破口。下一个瓶颈是上下文卫生：一旦项目历史和工具输出变得庞大，每个智能代理都会开始为了重读自己产生的废料而支付高昂代价。",
+      "quote": "Hooks 是大多数人忽略的关键突破口。下一个瓶颈是上下文卫生：一旦项目历史和工具输出变得庞大，每个智能代理都会开始为了重读自己产生的废料而支付高昂代价。",
+      "images": [],
+      "has_image": false,
+      "author": "@m_guown",
+      "author_desc": "hooks are the unlock most people miss. next bottleneck is co",
+      "source": "X(Twitter)",
+      "source_page": "Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X",
+      "source_url": "https://x.com/Suryanshti777/status/2056022182560665602",
+      "all_urls": [
+        "https://x.com/m_guown/status/2056081979393835086",
+        "https://t.co/jaOuMAq37f",
+        "https://x.com/Suryanshti777/status/2056022182560665602"
+      ],
+      "tags": [
+        "文字",
+        "@m_guown"
+      ],
+      "preview": "Hooks 是大多数人忽略的关键突破口。下一个瓶颈是上下文卫生：一旦项目历史和工具输出变得庞大，每个智能代理都会开始为了重读自己产生的废料而支付高昂代价。",
+      "raw": "14:06:40 · 文字\n\n> Hooks 是大多数人忽略的关键突破口。下一个瓶颈是上下文卫生：一旦项目历史和工具输出变得庞大，每个智能代理都会开始为了重读自己产生的废料而支付高昂代价。\n\n来源: [@m_guown: hooks are the unlock most people miss. next bottleneck is co…](https://x.com/m_guown/status/2056081979393835086)\n所在页面: [Suryansh Tiwari on X: \"Claude Code feels completely different once you install this. Anthropic quietly released an official plugin called claude-code-setup and it basically turns Claude Code from “pretty good” into an actual AI dev environment. It scans your project and recommends: → hooks → https://t.co/jaOuMAq37f\" / X](https://x.com/Suryanshti777/status/2056022182560665602)",
+      "datetime": "2026-05-18T14:06:40+08:00"
+    },
+    {
+      "id": "2026-05-18_018",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "14:04:28",
+      "type": "文字",
+      "title": "初级 AI 使用方式与系统级工作流之间的差距正在变得巨大",
+      "quote": "初级 AI 使用方式与系统级工作流之间的差距正在变得巨大",
+      "images": [],
+      "has_image": false,
+      "author": "@DivyanshT91162",
+      "author_desc": "The difference between beginner AI usage and system-level wo",
+      "source": "X(Twitter)",
+      "source_page": "Nainsi Dwivedi on X: \"These 12 Claude Code Setup Tricks Made AI Feel Like a Real Engineer\" / X",
+      "source_url": "https://x.com/NainsiDwiv50980/status/2056021997659017452",
+      "all_urls": [
+        "https://x.com/DivyanshT91162/status/2056023633659920442",
+        "https://x.com/NainsiDwiv50980/status/2056021997659017452"
+      ],
+      "tags": [
+        "文字",
+        "@DivyanshT91162"
+      ],
+      "preview": "初级 AI 使用方式与系统级工作流之间的差距正在变得巨大",
+      "raw": "14:04:28 · 文字\n\n> 初级 AI 使用方式与系统级工作流之间的差距正在变得巨大\n\n来源: [@DivyanshT91162: The difference between beginner AI usage and system-level wo…](https://x.com/DivyanshT91162/status/2056023633659920442)\n所在页面: [Nainsi Dwivedi on X: \"These 12 Claude Code Setup Tricks Made AI Feel Like a Real Engineer\" / X](https://x.com/NainsiDwiv50980/status/2056021997659017452)",
+      "datetime": "2026-05-18T14:04:28+08:00"
+    },
+    {
+      "id": "2026-05-18_017",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:59:16",
+      "type": "页面",
+      "title": "13:59:16 · 页面",
+      "quote": "",
+      "images": [],
+      "has_image": false,
+      "author": "@NainsiDwiv50980",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/NainsiDwiv50980/status/2056021997659017452",
+      "all_urls": [
+        "https://x.com/NainsiDwiv50980/status/2056021997659017452"
+      ],
+      "tags": [
+        "页面",
+        "@NainsiDwiv50980"
+      ],
+      "preview": "",
+      "raw": "13:59:16 · 页面\n\n📄 [@NainsiDwiv50980](https://x.com/NainsiDwiv50980/status/2056021997659017452)\n\n来源: [@NainsiDwiv50980](https://x.com/NainsiDwiv50980/status/2056021997659017452)",
+      "datetime": "2026-05-18T13:59:16+08:00"
+    },
+    {
+      "id": "2026-05-18_016",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:47:25",
+      "type": "文字",
+      "title": "https://github.com/Yaogui415/newsflow-oss 为新闻编辑室提供一套 AI 辅助的中间件流程管理系统，涵盖线索聚合、证据整理",
+      "quote": "https://github.com/Yaogui415/newsflow-oss 为新闻编辑室提供一套 AI 辅助的中间件流程管理系统，涵盖线索聚合、证据整理、风险审核、审批签发、勘误处理以及发布后监测。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/geekbb/status/2055670608487485646",
+      "all_urls": [
+        "https://github.com/Yaogui415/newsflow-oss",
+        "https://t.co/s86WaG9inw",
+        "https://t.co/vUbiOmonhM",
+        "https://x.com/geekbb/status/2055670608487485646"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "https://github.com/Yaogui415/newsflow-oss 为新闻编辑室提供一套 AI 辅助的中间件流程管理系统，涵盖线索聚合、证据整理、风险审核、审批签发、勘误处理以及发布后监测。",
+      "raw": "13:47:25 · 文字\n\n> https://github.com/Yaogui415/newsflow-oss 为新闻编辑室提供一套 AI 辅助的中间件流程管理系统，涵盖线索聚合、证据整理、风险审核、审批签发、勘误处理以及发布后监测。\n\n**备注:** 案例\n\n来源: [Geek on X: \"为新闻编辑室提供一套 AI 辅助的中间流程管理系统，覆盖线索归并、证据组织、风险审查、签发审批、勘误和发布后监测。 https://t.co/s86WaG9inw https://t.co/vUbiOmonhM\" / X](https://x.com/geekbb/status/2055670608487485646)",
+      "datetime": "2026-05-18T13:47:25+08:00"
+    },
+    {
+      "id": "2026-05-18_015",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:47:05",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIcIm5saoAAgcdi?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIcIm5saoAAgcdi?format=jpg&name=900x900",
+        "https://x.com/geekbb/status/2055670608487485646",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "13:47:05 · 图片\n\n![image](https://pbs.twimg.com/media/HIcIm5saoAAgcdi?format=jpg&name=900x900)\n\n**备注:** 案例\n\n来源: [AI 组织 - Search / X](https://x.com/geekbb/status/2055670608487485646)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:47:05+08:00"
+    },
+    {
+      "id": "2026-05-18_014",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:43:16",
+      "type": "文字",
+      "title": "过去，公司购买的是“人头数”：雇佣更多的人，启动更多的项目，扩张更多的组织。 现在，公司购买的是“产出密度”：更少的人员，更强的工具，更短的链路。",
+      "quote": "过去，公司购买的是“人头数”：雇佣更多的人，启动更多的项目，扩张更多的组织。 现在，公司购买的是“产出密度”：更少的人员，更强的工具，更短的链路。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/FakeMaidenMaker/status/2055870095092580635",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "过去，公司购买的是“人头数”：雇佣更多的人，启动更多的项目，扩张更多的组织。 现在，公司购买的是“产出密度”：更少的人员，更强的工具，更短的链路。",
+      "raw": "13:43:16 · 文字\n\n> 过去，公司购买的是“人头数”：雇佣更多的人，启动更多的项目，扩张更多的组织。 现在，公司购买的是“产出密度”：更少的人员，更强的工具，更短的链路。\n\n来源: [AI 组织 - Search / X](https://x.com/FakeMaidenMaker/status/2055870095092580635)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:43:16+08:00"
+    },
+    {
+      "id": "2026-05-18_013",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:43:08",
+      "type": "文字",
+      "title": "亚马逊裁员 16,000 人；Meta 在向 AI 基础设施投入 1,250 亿至 1,450 亿美元的同时，仍在继续裁员。  Challenger's dat",
+      "quote": "亚马逊裁员 16,000 人；Meta 在向 AI 基础设施投入 1,250 亿至 1,450 亿美元的同时，仍在继续裁员。  Challenger's data shows that the tech industry laid off 52,050 people in the first quarter, a 40% increase year-over-year. Challenger 的数据显示，科技行业在第一季度裁员 52,050 人，同比增长 40%。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/FakeMaidenMaker/status/2055870095092580635",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "亚马逊裁员 16,000 人；Meta 在向 AI 基础设施投入 1,250 亿至 1,450 亿美元的同时，仍在继续裁员。  Challenger's data shows that the tech industry laid off 52,050 people in the first quarter, a 40% increase year-over-year. Challenger 的数据显示，科技行业在第一季度裁员 52,050 人，同比增长 40%。",
+      "raw": "13:43:08 · 文字\n\n> 亚马逊裁员 16,000 人；Meta 在向 AI 基础设施投入 1,250 亿至 1,450 亿美元的同时，仍在继续裁员。  Challenger's data shows that the tech industry laid off 52,050 people in the first quarter, a 40% increase year-over-year. Challenger 的数据显示，科技行业在第一季度裁员 52,050 人，同比增长 40%。\n\n来源: [AI 组织 - Search / X](https://x.com/FakeMaidenMaker/status/2055870095092580635)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:43:08+08:00"
+    },
+    {
+      "id": "2026-05-18_012",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:42:28",
+      "type": "文字",
+      "title": "AI 时代最大的护城河不是技术，不是数据，而是公司的组织形态。 OpenAI 赢在哪里？答案颠覆了 99% 人的认知。在 AI 泡沫中唯一不变的东西：是能够留住",
+      "quote": "AI 时代最大的护城河不是技术，不是数据，而是公司的组织形态。 OpenAI 赢在哪里？答案颠覆了 99% 人的认知。在 AI 泡沫中唯一不变的东西：是能够留住人才的组织机制。硅谷正在热议：在 AI 时代，一切皆可复制， 唯有人才不可复制。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ned714/status/2055876080997925228",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "AI 时代最大的护城河不是技术，不是数据，而是公司的组织形态。 OpenAI 赢在哪里？答案颠覆了 99% 人的认知。在 AI 泡沫中唯一不变的东西：是能够留住人才的组织机制。硅谷正在热议：在 AI 时代，一切皆可复制， 唯有人才不可复制。",
+      "raw": "13:42:28 · 文字\n\n> AI 时代最大的护城河不是技术，不是数据，而是公司的组织形态。 OpenAI 赢在哪里？答案颠覆了 99% 人的认知。在 AI 泡沫中唯一不变的东西：是能够留住人才的组织机制。硅谷正在热议：在 AI 时代，一切皆可复制， 唯有人才不可复制。\n\n来源: [AI 组织 - Search / X](https://x.com/ned714/status/2055876080997925228)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:42:28+08:00"
+    },
+    {
+      "id": "2026-05-18_011",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:40:16",
+      "type": "页面",
+      "title": "13:40:16 · 页面",
+      "quote": "",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/geneningz/status/2055886289564729445",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "页面"
+      ],
+      "preview": "",
+      "raw": "13:40:16 · 页面\n\n📄 [AI 组织 - Search / X](https://x.com/geneningz/status/2055886289564729445)\n\n来源: [AI 组织 - Search / X](https://x.com/geneningz/status/2055886289564729445)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:40:16+08:00"
+    },
+    {
+      "id": "2026-05-18_010",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:39:37",
+      "type": "文字",
+      "title": "蒸汽机时代的“中央替换”（当前的红利与错觉） 历史镜像：早期电气化工厂只是把中央蒸汽机换成了中央电动机，依然用复杂的皮带驱动老旧的织布机。 AI 现状：企业组织",
+      "quote": "蒸汽机时代的“中央替换”（当前的红利与错觉） 历史镜像：早期电气化工厂只是把中央蒸汽机换成了中央电动机，依然用复杂的皮带驱动老旧的织布机。 AI 现状：企业组织架构不变，只是让员工学写 Prompt，用 AI 替代部分人工撰写。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/zoharzhang/status/2055892134038000052",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "蒸汽机时代的“中央替换”（当前的红利与错觉） 历史镜像：早期电气化工厂只是把中央蒸汽机换成了中央电动机，依然用复杂的皮带驱动老旧的织布机。 AI 现状：企业组织架构不变，只是让员工学写 Prompt，用 AI 替代部分人工撰写。",
+      "raw": "13:39:37 · 文字\n\n> 蒸汽机时代的“中央替换”（当前的红利与错觉） 历史镜像：早期电气化工厂只是把中央蒸汽机换成了中央电动机，依然用复杂的皮带驱动老旧的织布机。 AI 现状：企业组织架构不变，只是让员工学写 Prompt，用 AI 替代部分人工撰写。\n\n**备注:** 比喻\n\n来源: [AI 组织 - Search / X](https://x.com/zoharzhang/status/2055892134038000052)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:39:37+08:00"
+    },
+    {
+      "id": "2026-05-18_009",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:38:52",
+      "type": "文字",
+      "title": "AI 并不只是简单地减少组织的人员编制；它放大的是人类能力的差异。  The stronger the tools, the more people who t",
+      "quote": "AI 并不只是简单地减少组织的人员编制；它放大的是人类能力的差异。  The stronger the tools, the more people who truly understand problems, judgment, and systems get amplified. 工具越强大，那些真正理解问题、判断和系统的人就越会被放大。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/LabubuNoBB/status/2055905371152376146",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "AI 并不只是简单地减少组织的人员编制；它放大的是人类能力的差异。  The stronger the tools, the more people who truly understand problems, judgment, and systems get amplified. 工具越强大，那些真正理解问题、判断和系统的人就越会被放大。",
+      "raw": "13:38:52 · 文字\n\n> AI 并不只是简单地减少组织的人员编制；它放大的是人类能力的差异。  The stronger the tools, the more people who truly understand problems, judgment, and systems get amplified. 工具越强大，那些真正理解问题、判断和系统的人就越会被放大。\n\n来源: [AI 组织 - Search / X](https://x.com/LabubuNoBB/status/2055905371152376146)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:38:52+08:00"
+    },
+    {
+      "id": "2026-05-18_008",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:37:15",
+      "type": "文字",
+      "title": "AI 改变的是组织，而不只是产品",
+      "quote": "AI 改变的是组织，而不只是产品",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/LabubuNoBB/status/2055905371152376146",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "AI 改变的是组织，而不只是产品",
+      "raw": "13:37:15 · 文字\n\n> AI 改变的是组织，而不只是产品\n\n来源: [AI 组织 - Search / X](https://x.com/LabubuNoBB/status/2055905371152376146)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:37:15+08:00"
+    },
+    {
+      "id": "2026-05-18_007",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:34:39",
+      "type": "文字",
+      "title": "李想讨论 Agent（智能体）时，核心关注点在于真实的任务、真实的反馈以及完整的链条。",
+      "quote": "李想讨论 Agent（智能体）时，核心关注点在于真实的任务、真实的反馈以及完整的链条。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/LabubuNoBB/status/2055905371152376146",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "李想讨论 Agent（智能体）时，核心关注点在于真实的任务、真实的反馈以及完整的链条。",
+      "raw": "13:34:39 · 文字\n\n> 李想讨论 Agent（智能体）时，核心关注点在于真实的任务、真实的反馈以及完整的链条。\n\n来源: [AI 组织 - Search / X](https://x.com/LabubuNoBB/status/2055905371152376146)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:34:39+08:00"
+    },
+    {
+      "id": "2026-05-18_006",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:34:31",
+      "type": "文字",
+      "title": "AI 进入组织的关键不在于“相信它很重要”，而在于它是否成为了日常工作中的真实变量。",
+      "quote": "AI 进入组织的关键不在于“相信它很重要”，而在于它是否成为了日常工作中的真实变量。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/LabubuNoBB/status/2055905371152376146",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "AI 进入组织的关键不在于“相信它很重要”，而在于它是否成为了日常工作中的真实变量。",
+      "raw": "13:34:31 · 文字\n\n> AI 进入组织的关键不在于“相信它很重要”，而在于它是否成为了日常工作中的真实变量。\n\n来源: [AI 组织 - Search / X](https://x.com/LabubuNoBB/status/2055905371152376146)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:34:31+08:00"
+    },
+    {
+      "id": "2026-05-18_005",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:32:42",
+      "type": "文字",
+      "title": "为什么需要 Agent Team 单 Agent 很适合短任务、快速判断和单线执行。但当任务变成内容策划、产品评估、代码审查、竞品调研、投资研究，甚至是一次真实",
+      "quote": "为什么需要 Agent Team 单 Agent 很适合短任务、快速判断和单线执行。但当任务变成内容策划、产品评估、代码审查、竞品调研、投资研究，甚至是一次真实的经营决策时，单线程处理会遇到几个明显瓶颈：  信息源变多，单个 Agent 串行处理会很慢。 视角容易单一，可能漏掉用户、传播、技术、商业、风险等维度。 长任务容易把调研、分析、执行、复盘混在一起，导致结果变散。 重要任务需要第二视角，降低单一判断的主观偏差。 Agent Team 的价值，是把复杂任务拆成多个独立、可验证、可并行的工作单元，再由主 Agent 做最终综合。  这不是“多开几个 Agent 就会更好”，而是让复杂任务变得可组织、可检查、可复盘",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://deepcarry.io/zh/deepinsights/openclaw-agent-team-agent",
+      "all_urls": [
+        "https://deepcarry.io/zh/deepinsights/openclaw-agent-team-agent"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "为什么需要 Agent Team 单 Agent 很适合短任务、快速判断和单线执行。但当任务变成内容策划、产品评估、代码审查、竞品调研、投资研究，甚至是一次真实的经营决策时，单线程处理会遇到几个明显瓶颈：  信息源变多，单个 Agent 串行处理会很慢。 视角容易单一，可能漏掉用户、传播、技术、商业、风险等维度。 长任务容易把调研、分析、执行、复盘混在一起，导致结果变散。 重要任务需要第二视角，降低单一判断的主观偏差。 Agent Team 的价值，是把复杂任务拆成多个独立、...",
+      "raw": "13:32:42 · 文字\n\n> 为什么需要 Agent Team 单 Agent 很适合短任务、快速判断和单线执行。但当任务变成内容策划、产品评估、代码审查、竞品调研、投资研究，甚至是一次真实的经营决策时，单线程处理会遇到几个明显瓶颈：  信息源变多，单个 Agent 串行处理会很慢。 视角容易单一，可能漏掉用户、传播、技术、商业、风险等维度。 长任务容易把调研、分析、执行、复盘混在一起，导致结果变散。 重要任务需要第二视角，降低单一判断的主观偏差。 Agent Team 的价值，是把复杂任务拆成多个独立、可验证、可并行的工作单元，再由主 Agent 做最终综合。  这不是“多开几个 Agent 就会更好”，而是让复杂任务变得可组织、可检查、可复盘\n\n来源: [OpenClaw Agent Team：多 Agent 分工的判断、组织与验收方法](https://deepcarry.io/zh/deepinsights/openclaw-agent-team-agent)",
+      "datetime": "2026-05-18T13:32:42+08:00"
+    },
+    {
+      "id": "2026-05-18_004",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:30:46",
+      "type": "文字",
+      "title": "在企业级 AI 落地过程中，技术并非最大的挑战。77% 的核心障碍源于“隐形成本”，包括变革管理、数据质量、组织架构和流程重组；而技术通常被视为最简单的部分，技",
+      "quote": "在企业级 AI 落地过程中，技术并非最大的挑战。77% 的核心障碍源于“隐形成本”，包括变革管理、数据质量、组织架构和流程重组；而技术通常被视为最简单的部分，技术与集成问题仅占 23%。此外，挑战还来自高层意识、中高层管理人员的阻力。在 20% 使用智能体（AI Agents）的企业案例中，生产力提升的中位数高达 71%。关于数据质量：仅有 6% 的企业案例拥有完全适配 AI 的数据。 《斯坦福大学人工智能研究院》",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/themushou/status/2055905523426271353",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "在企业级 AI 落地过程中，技术并非最大的挑战。77% 的核心障碍源于“隐形成本”，包括变革管理、数据质量、组织架构和流程重组；而技术通常被视为最简单的部分，技术与集成问题仅占 23%。此外，挑战还来自高层意识、中高层管理人员的阻力。在 20% 使用智能体（AI Agents）的企业案例中，生产力提升的中位数高达 71%。关于数据质量：仅有 6% 的企业案例拥有完全适配 AI 的数据。 《斯坦福大学人工智能研究院》",
+      "raw": "13:30:46 · 文字\n\n> 在企业级 AI 落地过程中，技术并非最大的挑战。77% 的核心障碍源于“隐形成本”，包括变革管理、数据质量、组织架构和流程重组；而技术通常被视为最简单的部分，技术与集成问题仅占 23%。此外，挑战还来自高层意识、中高层管理人员的阻力。在 20% 使用智能体（AI Agents）的企业案例中，生产力提升的中位数高达 71%。关于数据质量：仅有 6% 的企业案例拥有完全适配 AI 的数据。 《斯坦福大学人工智能研究院》\n\n来源: [AI 组织 - Search / X](https://x.com/themushou/status/2055905523426271353)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:30:46+08:00"
+    },
+    {
+      "id": "2026-05-18_003",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:12:02",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HIgaavQbUAA7vNN?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HIgaavQbUAA7vNN?format=jpg&name=900x900",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "13:12:02 · 图片\n\n![image](https://pbs.twimg.com/media/HIgaavQbUAA7vNN?format=jpg&name=900x900)\n\n来源: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:12:02+08:00"
+    },
+    {
+      "id": "2026-05-18_002",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "13:11:48",
+      "type": "文字",
+      "title": "新英格兰复杂系统研究所（New England Complex Systems Institute）对人类文明的分析表明：  人类社会正从等级结构向网络化组织转",
+      "quote": "新英格兰复杂系统研究所（New England Complex Systems Institute）对人类文明的分析表明：  人类社会正从等级结构向网络化组织转型",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "新英格兰复杂系统研究所（New England Complex Systems Institute）对人类文明的分析表明：  人类社会正从等级结构向网络化组织转型",
+      "raw": "13:11:48 · 文字\n\n> 新英格兰复杂系统研究所（New England Complex Systems Institute）对人类文明的分析表明：  人类社会正从等级结构向网络化组织转型\n\n来源: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T13:11:48+08:00"
+    },
+    {
+      "id": "2026-05-18_001",
+      "file": "2026-05-18.md",
+      "date": "2026-05-18",
+      "time": "12:56:41",
+      "type": "text",
+      "title": "华为是中国唯一一个在集团组织架构上提前适配AI时代的巨头，耐力足、血条厚、提前啃高确定性的硬骨头。而AI的革命是农业革命、工业革命这种至少需要上百年赛跑的级别。",
+      "quote": "华为是中国唯一一个在集团组织架构上提前适配AI时代的巨头，耐力足、血条厚、提前啃高确定性的硬骨头。而AI的革命是农业革命、工业革命这种至少需要上百年赛跑的级别。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "text"
+      ],
+      "preview": "华为是中国唯一一个在集团组织架构上提前适配AI时代的巨头，耐力足、血条厚、提前啃高确定性的硬骨头。而AI的革命是农业革命、工业革命这种至少需要上百年赛跑的级别。",
+      "raw": "12:56:41 · text\n\n> 华为是中国唯一一个在集团组织架构上提前适配AI时代的巨头，耐力足、血条厚、提前啃高确定性的硬骨头。而AI的革命是农业革命、工业革命这种至少需要上百年赛跑的级别。\n\n来源: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-18T12:56:41+08:00"
     }
   ]
 }
