@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-05-25T08:38:50.588059+08:00",
+  "source_repo": "wikicc2013/my-clips",
+  "source_path": "clips",
+  "total_files": 1,
+  "total_clips": 4,
+  "total_with_images": 1,
+  "types": {
+    "文字": 3,
+    "图片": 1,
+    "其他": 0
+  },
+  "top_sources": [
+    [
+      "X(Twitter)",
+      4
+    ]
+  ],
+  "top_authors": [
+    [
+      "@skyrain888",
+      2
+    ],
+    [
+      "@UncleJAI",
+      1
+    ],
+    [
+      "@AYi_AInotes",
+      1
+    ]
+  ],
+  "files": [
+    [
+      "2026-05-23.md",
+      4
+    ]
+  ],
+  "clips": [
+    {
+      "id": "2026-05-23_004",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:53:31",
+      "type": "文字",
+      "title": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉",
+      "quote": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉淀成下次可复用的 Context?",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%E7%BB%84%E7%BB%87",
+      "all_urls": [
+        "https://x.com/UncleJAI",
+        "https://x.com/search?q=AI%E7%BB%84%E7%BB%87"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉淀成下次可复用的 Context?",
+      "raw": "22:53:31 · 文字\n\n> AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI 怎么升级给人? AI 怎么把一次人类判断,沉淀成下次可复用的 Context?\n\n来源:[@UncleJAI](https://x.com/UncleJAI): AI 时代缺的不是更多工具。工具太多了。缺的是一套新的组织基建: AI 怎么理解现场? AI 怎么知道边界? AI ... 所在页面:[AI 组织 - Search / X](https://x.com/search?q=AI%E7%BB%84%E7%BB%87)",
+      "datetime": "2026-05-23T22:53:31+08:00"
+    },
+    {
+      "id": "2026-05-23_003",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:51:19",
+      "type": "图片",
+      "title": "Lucius - AI 时代,团队的速度离不开上下文层",
+      "quote": "",
+      "images": [
+        {
+          "alt": "Lucius - AI 时代,团队的速度离不开上下文层",
+          "url": "https://pbs.twimg.com/media/example.jpg"
+        }
+      ],
+      "has_image": true,
+      "author": "@AYi_AInotes",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/AYi_AInotes",
+      "all_urls": [
+        "https://pbs.twimg.com/media/example.jpg",
+        "https://x.com/AYi_AInotes"
+      ],
+      "tags": [
+        "图片",
+        "@AYi_AInotes"
+      ],
+      "preview": "[图片] ",
+      "raw": "22:51:19 · 图片\n\n![Lucius - AI 时代,团队的速度离不开上下文层](https://pbs.twimg.com/media/example.jpg)\n\n来源:[@AYi_AInotes](https://x.com/AYi_AInotes)",
+      "datetime": "2026-05-23T22:51:19+08:00"
+    },
+    {
+      "id": "2026-05-23_002",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:42:32",
+      "type": "文字",
+      "title": "组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"",
+      "quote": "组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"",
+      "images": [],
+      "has_image": false,
+      "author": "@skyrain888",
+      "author_desc": "4/9 This is essentially the \"AI-native company\" model: the o",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%E7%BB%84%E7%BB%87",
+      "all_urls": [
+        "https://x.com/skyrain888",
+        "https://x.com/search?q=AI%E7%BB%84%E7%BB%87"
+      ],
+      "tags": [
+        "文字",
+        "@skyrain888"
+      ],
+      "preview": "组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"",
+      "raw": "22:42:32 · 文字\n\n> 组织结构不再以\"人\"为基础,而是基于任务驱动的智能体集群。创始人从执行者转变为\"系统架构师\"或\"战略导演\"\n\n来源:[@skyrain888](https://x.com/skyrain888): 4/9 This is essentially the \"AI-native company\" model: the o... 所在页面:[AI 组织 - Search / X](https://x.com/search?q=AI%E7%BB%84%E7%BB%87)",
+      "datetime": "2026-05-23T22:42:32+08:00"
+    },
+    {
+      "id": "2026-05-23_001",
+      "file": "2026-05-23.md",
+      "date": "2026-05-23",
+      "time": "22:42:21",
+      "type": "文字",
+      "title": "Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业",
+      "quote": "Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业务流程并转译为指令\"",
+      "images": [],
+      "has_image": false,
+      "author": "@skyrain888",
+      "author_desc": "8/9 Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%E7%BB%84%E7%BB%87",
+      "all_urls": [
+        "https://x.com/skyrain888",
+        "https://x.com/search?q=AI%E7%BB%84%E7%BB%87"
+      ],
+      "tags": [
+        "文字",
+        "@skyrain888"
+      ],
+      "preview": "Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业务流程并转译为指令\"",
+      "raw": "22:42:21 · 文字\n\n> Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公司的未来不再是\"雇多少人\",而是\"能否清晰定义业务流程并转译为指令\"\n\n来源:[@skyrain888](https://x.com/skyrain888): 8/9 Tycoon AI 是自动化理念在组织层面的激进实验:当 Agent 能力密度超过人类,公司边界将被重塑。一人公... 所在页面:[AI 组织 - Search / X](https://x.com/search?q=AI%E7%BB%84%E7%BB%87)",
+      "datetime": "2026-05-23T22:42:21+08:00"
+    }
+  ]
+}
