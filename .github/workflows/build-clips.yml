@@ -29,8 +29,7 @@ jobs:
         with:
           repository: wikicc2013/my-clips
           path: my-clips
-          # 如果 my-clips 是 private:
-          # token: ${{ secrets.MY_CLIPS_TOKEN }}
+          token: ${{ secrets.MY_CLIPS_TOKEN }}
       
       - name: Setup Python
         uses: actions/setup-python@v5
