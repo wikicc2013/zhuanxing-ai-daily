@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-26T09:54:21.295773+08:00",
+  "generated_at": "2026-05-27T09:07:38.894826+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 8,
-  "total_clips": 97,
-  "total_with_images": 14,
+  "total_files": 9,
+  "total_clips": 120,
+  "total_with_images": 17,
   "types": {
-    "文字": 80,
-    "图片": 14,
+    "文字": 100,
+    "图片": 17,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      87
+      109
     ],
     [
       "微信公众号",
@@ -26,11 +26,23 @@
       15
     ],
     [
+      "@UncleJAI",
+      4
+    ],
+    [
       "@wangray",
       4
     ],
     [
-      "@UncleJAI",
+      "@Zhm20220917",
+      3
+    ],
+    [
+      "@zeyu_kap",
+      2
+    ],
+    [
+      "@eric17258",
       2
     ],
     [
@@ -58,31 +70,23 @@
       2
     ],
     [
-      "@cryptoxiao",
+      "@dotey",
       1
     ],
     [
-      "@chuhaiqu",
+      "@teach_fireworks",
       1
     ],
     [
-      "@Tim_Tian_dream",
-      1
-    ],
-    [
-      "@realCaigu",
-      1
-    ],
-    [
-      "@attaalong",
-      1
-    ],
-    [
-      "@dcp164",
+      "@SaitoWu",
       1
     ]
   ],
   "files": [
+    [
+      "2026-05-26.md",
+      23
+    ],
     [
       "2026-05-25.md",
       2
@@ -117,6 +121,637 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-05-26_022",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:59:11",
+      "type": "文字",
+      "title": "国企、央企及传统企业落地 AI 的第一道门槛并非技术，而是客户认知。  通常存在三个问题：领导层不了解 AI、内部缺乏既懂 AI 又懂业务的人才，以及由于缺乏可",
+      "quote": "国企、央企及传统企业落地 AI 的第一道门槛并非技术，而是客户认知。  通常存在三个问题：领导层不了解 AI、内部缺乏既懂 AI 又懂业务的人才，以及由于缺乏可信案例导致信任度不足。  因此，许多项目并不缺乏需求，而是需求尚未在组织内部得到真正的认可。  对于这类客户，大量的前期成本将耗费在“建立认知”上，而非交付本身。客户不买单 AI，并非因为 AI 缺乏价值，而是因为组织内部尚未就 AI 的价值达成共识。",
+      "images": [],
+      "has_image": false,
+      "author": "@Zhm20220917",
+      "author_desc": "The first barrier to AI implementation for state-owned enter",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Zhm20220917/status/2058850626864570806",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Zhm20220917"
+      ],
+      "preview": "国企、央企及传统企业落地 AI 的第一道门槛并非技术，而是客户认知。  通常存在三个问题：领导层不了解 AI、内部缺乏既懂 AI 又懂业务的人才，以及由于缺乏可信案例导致信任度不足。  因此，许多项目并不缺乏需求，而是需求尚未在组织内部得到真正的认可。  对于这类客户，大量的前期成本将耗费在“建立认知”上，而非交付本身。客户不买单 AI，并非因为 AI 缺乏价值，而是因为组织内部尚未就 AI 的价值达成共识。",
+      "raw": "23:59:11 · 文字\n\n> 国企、央企及传统企业落地 AI 的第一道门槛并非技术，而是客户认知。  通常存在三个问题：领导层不了解 AI、内部缺乏既懂 AI 又懂业务的人才，以及由于缺乏可信案例导致信任度不足。  因此，许多项目并不缺乏需求，而是需求尚未在组织内部得到真正的认可。  对于这类客户，大量的前期成本将耗费在“建立认知”上，而非交付本身。客户不买单 AI，并非因为 AI 缺乏价值，而是因为组织内部尚未就 AI 的价值达成共识。\n\n来源: [@Zhm20220917: The first barrier to AI implementation for state-owned enter…](https://x.com/Zhm20220917/status/2058850626864570806)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:59:11+08:00"
+    },
+    {
+      "id": "2026-05-26_021",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:58:52",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HJKB9qDbQAAsjYJ?format=png&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/UncleJAI/status/2058851105807688140/photo/1",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HJKB9qDbQAAsjYJ?format=png&name=small",
+        "https://x.com/UncleJAI/status/2058851105807688140/photo/1"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "23:58:52 · 图片\n\n![image](https://pbs.twimg.com/media/HJKB9qDbQAAsjYJ?format=png&name=small)\n\n来源: [AI 组织 - Search / X](https://x.com/UncleJAI/status/2058851105807688140/photo/1)",
+      "datetime": "2026-05-26T23:58:52+08:00"
+    },
+    {
+      "id": "2026-05-26_020",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:58:23",
+      "type": "文字",
+      "title": "在 2026 年 5 月 20 日的阿里云峰会上，米哈游《崩坏》系列 AI NPC 及玩法技术负责人郑银河分享了内部的 Agent 实践。其中提到：他们在内部开",
+      "quote": "在 2026 年 5 月 20 日的阿里云峰会上，米哈游《崩坏》系列 AI NPC 及玩法技术负责人郑银河分享了内部的 Agent 实践。其中提到：他们在内部开发了多个 Agent 平台，部分同事为了达成项目目标，构建了数十个 Agent 进行协作，仅一晚就消耗了价值 200 万人民币的 Token。  一个 Agent 能够运行，并不代表组织已经掌握了它。 如果开发一个功能需要 13 小时，却要烧掉 200 万的 Token，这并不叫产能释放。 这是组织的操作系统（OS）没有安装成本熔断机制。  AI 并非魔法；它是一场对组织架构的压力测试。",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "At the Alibaba Cloud Summit on May 20, 2026, Zheng Yinhe, he",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/UncleJAI/status/2058851105807688140",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "在 2026 年 5 月 20 日的阿里云峰会上，米哈游《崩坏》系列 AI NPC 及玩法技术负责人郑银河分享了内部的 Agent 实践。其中提到：他们在内部开发了多个 Agent 平台，部分同事为了达成项目目标，构建了数十个 Agent 进行协作，仅一晚就消耗了价值 200 万人民币的 Token。  一个 Agent 能够运行，并不代表组织已经掌握了它。 如果开发一个功能需要 13 小时，却要烧掉 200 万的 Token，这并不叫产能释放。 这是组织的操作系统（OS）没...",
+      "raw": "23:58:23 · 文字\n\n> 在 2026 年 5 月 20 日的阿里云峰会上，米哈游《崩坏》系列 AI NPC 及玩法技术负责人郑银河分享了内部的 Agent 实践。其中提到：他们在内部开发了多个 Agent 平台，部分同事为了达成项目目标，构建了数十个 Agent 进行协作，仅一晚就消耗了价值 200 万人民币的 Token。  一个 Agent 能够运行，并不代表组织已经掌握了它。 如果开发一个功能需要 13 小时，却要烧掉 200 万的 Token，这并不叫产能释放。 这是组织的操作系统（OS）没有安装成本熔断机制。  AI 并非魔法；它是一场对组织架构的压力测试。\n\n来源: [@UncleJAI: At the Alibaba Cloud Summit on May 20, 2026, Zheng Yinhe, he…](https://x.com/UncleJAI/status/2058851105807688140)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:58:23+08:00"
+    },
+    {
+      "id": "2026-05-26_019",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:54:44",
+      "type": "文字",
+      "title": "像那样做一个 Agent Harness（代理框架）已经没有太大价值了——无论你怎么做，都无法超越模型公司。每当模型升级，大量的工作就会付诸东流。  但是，基于",
+      "quote": "像那样做一个 Agent Harness（代理框架）已经没有太大价值了——无论你怎么做，都无法超越模型公司。每当模型升级，大量的工作就会付诸东流。  但是，基于成熟的 Agent Harness 构建解决方案？那才是真正的潜力所在。  MCP 只解决了连接性问题，而 Skills 只解决了领域知识问题。  在垂直领域，仍有大量问题需要解决： - 将面向代理（Agents）的传统工作流重新设计为 AI 原生代理工作流 - 在人机回环（Human In Loop）环节中，重构 UI 和 UX 交互体验 - 为垂直领域精选高质量数据 - 诸如此类  这些是模型公司无法独立处理的事务，需要通过协作努力来构建。  智能体（Agents）是未来的操作系统：少数几家模型公司提供模型和 Harness（治理与交付平台），而其他公司则在此基础上构建应用程序。",
+      "images": [],
+      "has_image": false,
+      "author": "@dotey",
+      "author_desc": "Doing an Agent Harness like that doesn't hold much value any",
+      "source": "X(Twitter)",
+      "source_page": "Saito on X: \"Harness 时代 AI-First 的组织架构\" / X",
+      "source_url": "https://x.com/SaitoWu/status/2058860578291241071",
+      "all_urls": [
+        "https://x.com/dotey/status/2058929615058477106",
+        "https://x.com/SaitoWu/status/2058860578291241071"
+      ],
+      "tags": [
+        "文字",
+        "@dotey"
+      ],
+      "preview": "像那样做一个 Agent Harness（代理框架）已经没有太大价值了——无论你怎么做，都无法超越模型公司。每当模型升级，大量的工作就会付诸东流。  但是，基于成熟的 Agent Harness 构建解决方案？那才是真正的潜力所在。  MCP 只解决了连接性问题，而 Skills 只解决了领域知识问题。  在垂直领域，仍有大量问题需要解决： - 将面向代理（Agents）的传统工作流重新设计为 AI 原生代理工作流 - 在人机回环（Human In Loop）环节中，重构 U...",
+      "raw": "23:54:44 · 文字\n\n> 像那样做一个 Agent Harness（代理框架）已经没有太大价值了——无论你怎么做，都无法超越模型公司。每当模型升级，大量的工作就会付诸东流。  但是，基于成熟的 Agent Harness 构建解决方案？那才是真正的潜力所在。  MCP 只解决了连接性问题，而 Skills 只解决了领域知识问题。  在垂直领域，仍有大量问题需要解决： - 将面向代理（Agents）的传统工作流重新设计为 AI 原生代理工作流 - 在人机回环（Human In Loop）环节中，重构 UI 和 UX 交互体验 - 为垂直领域精选高质量数据 - 诸如此类  这些是模型公司无法独立处理的事务，需要通过协作努力来构建。  智能体（Agents）是未来的操作系统：少数几家模型公司提供模型和 Harness（治理与交付平台），而其他公司则在此基础上构建应用程序。\n\n来源: [@dotey: Doing an Agent Harness like that doesn't hold much value any…](https://x.com/dotey/status/2058929615058477106)\n所在页面: [Saito on X: \"Harness 时代 AI-First 的组织架构\" / X](https://x.com/SaitoWu/status/2058860578291241071)",
+      "datetime": "2026-05-26T23:54:44+08:00"
+    },
+    {
+      "id": "2026-05-26_018",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:51:22",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HJArS3ubgAEeeeg?format=jpg&name=large"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/teach_fireworks/article/2058929780880458125/media/2058192632904646657",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HJArS3ubgAEeeeg?format=jpg&name=large",
+        "https://x.com/teach_fireworks/article/2058929780880458125/media/2058192632904646657"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "23:51:22 · 图片\n\n![image](https://pbs.twimg.com/media/HJArS3ubgAEeeeg?format=jpg&name=large)\n\n来源: [烟花老师 on X: \"我最近两个月的探索和实践分享：长任务 Agent 的最小工程闭环\" / X](https://x.com/teach_fireworks/article/2058929780880458125/media/2058192632904646657)",
+      "datetime": "2026-05-26T23:51:22+08:00"
+    },
+    {
+      "id": "2026-05-26_017",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:51:13",
+      "type": "文字",
+      "title": "如果要让 Agent 稳定处理长任务，系统里至少要补上哪些控制层？",
+      "quote": "如果要让 Agent 稳定处理长任务，系统里至少要补上哪些控制层？",
+      "images": [],
+      "has_image": false,
+      "author": "@teach_fireworks",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/teach_fireworks/status/2058929780880458125",
+      "all_urls": [
+        "https://x.com/teach_fireworks/status/2058929780880458125"
+      ],
+      "tags": [
+        "文字",
+        "@teach_fireworks"
+      ],
+      "preview": "如果要让 Agent 稳定处理长任务，系统里至少要补上哪些控制层？",
+      "raw": "23:51:13 · 文字\n\n> 如果要让 Agent 稳定处理长任务，系统里至少要补上哪些控制层？\n\n来源: [@teach_fireworks](https://x.com/teach_fireworks/status/2058929780880458125)",
+      "datetime": "2026-05-26T23:51:13+08:00"
+    },
+    {
+      "id": "2026-05-26_016",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:49:25",
+      "type": "文字",
+      "title": "Agent 经济：未来内容可能不是给人看的 最让我脑子嗡嗡的，是 Clark 提到的 Agent 经济。 他们发现，现在很多营销素材其实是给 Agent 看的，",
+      "quote": "Agent 经济：未来内容可能不是给人看的 最让我脑子嗡嗡的，是 Clark 提到的 Agent 经济。 他们发现，现在很多营销素材其实是给 Agent 看的，而不是给人看的。 未来买东西、订报纸、订牛奶，可能都是 Agent 在决策。那你今天产出的内容，到底是给人消费，还是给 AI 消费？ 价值判断标准可能会完全不一样。 过去我们优化的是人类注意力，未来可能还要优化 Agent 的理解、检索、判断和行动。",
+      "images": [],
+      "has_image": false,
+      "author": "@SaitoWu",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/SaitoWu/status/2058860578291241071",
+      "all_urls": [
+        "https://x.com/SaitoWu/status/2058860578291241071"
+      ],
+      "tags": [
+        "文字",
+        "@SaitoWu"
+      ],
+      "preview": "Agent 经济：未来内容可能不是给人看的 最让我脑子嗡嗡的，是 Clark 提到的 Agent 经济。 他们发现，现在很多营销素材其实是给 Agent 看的，而不是给人看的。 未来买东西、订报纸、订牛奶，可能都是 Agent 在决策。那你今天产出的内容，到底是给人消费，还是给 AI 消费？ 价值判断标准可能会完全不一样。 过去我们优化的是人类注意力，未来可能还要优化 Agent 的理解、检索、判断和行动。",
+      "raw": "23:49:25 · 文字\n\n> Agent 经济：未来内容可能不是给人看的 最让我脑子嗡嗡的，是 Clark 提到的 Agent 经济。 他们发现，现在很多营销素材其实是给 Agent 看的，而不是给人看的。 未来买东西、订报纸、订牛奶，可能都是 Agent 在决策。那你今天产出的内容，到底是给人消费，还是给 AI 消费？ 价值判断标准可能会完全不一样。 过去我们优化的是人类注意力，未来可能还要优化 Agent 的理解、检索、判断和行动。\n\n来源: [@SaitoWu](https://x.com/SaitoWu/status/2058860578291241071)",
+      "datetime": "2026-05-26T23:49:25+08:00"
+    },
+    {
+      "id": "2026-05-26_015",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:48:34",
+      "type": "文字",
+      "title": "模型并非分水岭；组织才是分水岭。 影子 AI 并非员工不听指挥，而是组织未能以充足的供应满足员工的需求。 在产能释放后，裁员只是一种选项，而非系统的默认动作。 ",
+      "quote": "模型并非分水岭；组织才是分水岭。 影子 AI 并非员工不听指挥，而是组织未能以充足的供应满足员工的需求。 在产能释放后，裁员只是一种选项，而非系统的默认动作。 脏数据尚可挽救，但如果上下文无法扎根，组织越是使用 AI，就只会变得越发碎片化。",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "The model is not the watershed; the organization is the wate",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/UncleJAI/status/2058877486759567644",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "模型并非分水岭；组织才是分水岭。 影子 AI 并非员工不听指挥，而是组织未能以充足的供应满足员工的需求。 在产能释放后，裁员只是一种选项，而非系统的默认动作。 脏数据尚可挽救，但如果上下文无法扎根，组织越是使用 AI，就只会变得越发碎片化。",
+      "raw": "23:48:34 · 文字\n\n> 模型并非分水岭；组织才是分水岭。 影子 AI 并非员工不听指挥，而是组织未能以充足的供应满足员工的需求。 在产能释放后，裁员只是一种选项，而非系统的默认动作。 脏数据尚可挽救，但如果上下文无法扎根，组织越是使用 AI，就只会变得越发碎片化。\n\n来源: [@UncleJAI: The model is not the watershed; the organization is the wate…](https://x.com/UncleJAI/status/2058877486759567644)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:48:34+08:00"
+    },
+    {
+      "id": "2026-05-26_014",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:40:56",
+      "type": "文字",
+      "title": "关键在于将人类的隐性知识外显化为 Prompt 模板或知识图谱，使 AI 能够真正“继承”经验，避免每次重启都从零开始，从而实现 30% 以上的效率提升。",
+      "quote": "关键在于将人类的隐性知识外显化为 Prompt 模板或知识图谱，使 AI 能够真正“继承”经验，避免每次重启都从零开始，从而实现 30% 以上的效率提升。",
+      "images": [],
+      "has_image": false,
+      "author": "@Soranlan",
+      "author_desc": "A highly information-dense piece AI entering organizations i",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Soranlan/status/2058893119249350709",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Soranlan"
+      ],
+      "preview": "关键在于将人类的隐性知识外显化为 Prompt 模板或知识图谱，使 AI 能够真正“继承”经验，避免每次重启都从零开始，从而实现 30% 以上的效率提升。",
+      "raw": "23:40:56 · 文字\n\n> 关键在于将人类的隐性知识外显化为 Prompt 模板或知识图谱，使 AI 能够真正“继承”经验，避免每次重启都从零开始，从而实现 30% 以上的效率提升。\n\n来源: [@Soranlan: A highly information-dense piece AI entering organizations i…](https://x.com/Soranlan/status/2058893119249350709)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:40:56+08:00"
+    },
+    {
+      "id": "2026-05-26_013",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:39:57",
+      "type": "文字",
+      "title": "中文 AI 播客，90% 的有效信息密度都在张小珺那里。",
+      "quote": "中文 AI 播客，90% 的有效信息密度都在张小珺那里。",
+      "images": [],
+      "has_image": false,
+      "author": "@Zhm20220917",
+      "author_desc": "Chinese AI podcasts, 90% of the effective information densit",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Zhm20220917/status/2058908487074410920",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Zhm20220917"
+      ],
+      "preview": "中文 AI 播客，90% 的有效信息密度都在张小珺那里。",
+      "raw": "23:39:57 · 文字\n\n> 中文 AI 播客，90% 的有效信息密度都在张小珺那里。\n\n来源: [@Zhm20220917: Chinese AI podcasts, 90% of the effective information densit…](https://x.com/Zhm20220917/status/2058908487074410920)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:39:57+08:00"
+    },
+    {
+      "id": "2026-05-26_012",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:36:51",
+      "type": "文字",
+      "title": "AI 带来的不是「大规模失业」，而是企业组织的去中介化。  靠信息不对称、流程协调生存的岗位，正在被格式化。",
+      "quote": "AI 带来的不是「大规模失业」，而是企业组织的去中介化。  靠信息不对称、流程协调生存的岗位，正在被格式化。",
+      "images": [],
+      "has_image": false,
+      "author": "@iluciddreaming",
+      "author_desc": "5/ Cloudflare 的情况可能是真的。但大多数公司在讲的，是同一个故事的不同版本。 真正的信号是这个： AI 带",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/iluciddreaming/status/2059084669254300091",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@iluciddreaming"
+      ],
+      "preview": "AI 带来的不是「大规模失业」，而是企业组织的去中介化。  靠信息不对称、流程协调生存的岗位，正在被格式化。",
+      "raw": "23:36:51 · 文字\n\n> AI 带来的不是「大规模失业」，而是企业组织的去中介化。  靠信息不对称、流程协调生存的岗位，正在被格式化。\n\n来源: [@iluciddreaming: 5/ Cloudflare 的情况可能是真的。但大多数公司在讲的，是同一个故事的不同版本。 真正的信号是这个： AI 带…](https://x.com/iluciddreaming/status/2059084669254300091)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:36:51+08:00"
+    },
+    {
+      "id": "2026-05-26_011",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:35:44",
+      "type": "文字",
+      "title": "要让一个agent做太多的工作，限制每个单一agent的职责范围。还可以加入监督agent，评估agent。 对于开发场景，流程相对固定，几轮迭代调试下来，效果",
+      "quote": "要让一个agent做太多的工作，限制每个单一agent的职责范围。还可以加入监督agent，评估agent。 对于开发场景，流程相对固定，几轮迭代调试下来，效果会大幅提升。 其实就和建设团队的原理差不多。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://www.xiaoyuzhoufm.com/episode/6a13923cfe904f3873c51d2b",
+      "all_urls": [
+        "https://www.xiaoyuzhoufm.com/episode/6a13923cfe904f3873c51d2b"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "要让一个agent做太多的工作，限制每个单一agent的职责范围。还可以加入监督agent，评估agent。 对于开发场景，流程相对固定，几轮迭代调试下来，效果会大幅提升。 其实就和建设团队的原理差不多。",
+      "raw": "23:35:44 · 文字\n\n> 要让一个agent做太多的工作，限制每个单一agent的职责范围。还可以加入监督agent，评估agent。 对于开发场景，流程相对固定，几轮迭代调试下来，效果会大幅提升。 其实就和建设团队的原理差不多。\n\n来源: [E238｜聊聊Harness时代AI-First的组织架构：从信任人到信任AI - 硅谷101 | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/6a13923cfe904f3873c51d2b)",
+      "datetime": "2026-05-26T23:35:44+08:00"
+    },
+    {
+      "id": "2026-05-26_010",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:34:53",
+      "type": "文字",
+      "title": "以前公司买的是人时、编制、管理层级；现在开始买可计量的任务吞吐。只要Agent边际成本继续掉，老板就会像当年上云一样，一层层剥掉人工流程。  ClickUp一次",
+      "quote": "以前公司买的是人时、编制、管理层级；现在开始买可计量的任务吞吐。只要Agent边际成本继续掉，老板就会像当年上云一样，一层层剥掉人工流程。  ClickUp一次性裁掉数百人，同时押注数千个AI agent；Uber也开始审token账单。一个在换组织结构，一个在压模型成本，方向其实是同一件事。",
+      "images": [],
+      "has_image": false,
+      "author": "@ZPeng61582",
+      "author_desc": "以前公司买的是人时、编制、管理层级；现在开始买可计量的任务吞吐。只要Agent边际成本继续掉，老板就会像当年上云一样，一",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ZPeng61582/status/2059100104657604917",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ZPeng61582"
+      ],
+      "preview": "以前公司买的是人时、编制、管理层级；现在开始买可计量的任务吞吐。只要Agent边际成本继续掉，老板就会像当年上云一样，一层层剥掉人工流程。  ClickUp一次性裁掉数百人，同时押注数千个AI agent；Uber也开始审token账单。一个在换组织结构，一个在压模型成本，方向其实是同一件事。",
+      "raw": "23:34:53 · 文字\n\n> 以前公司买的是人时、编制、管理层级；现在开始买可计量的任务吞吐。只要Agent边际成本继续掉，老板就会像当年上云一样，一层层剥掉人工流程。  ClickUp一次性裁掉数百人，同时押注数千个AI agent；Uber也开始审token账单。一个在换组织结构，一个在压模型成本，方向其实是同一件事。\n\n来源: [@ZPeng61582: 以前公司买的是人时、编制、管理层级；现在开始买可计量的任务吞吐。只要Agent边际成本继续掉，老板就会像当年上云一样，一…](https://x.com/ZPeng61582/status/2059100104657604917)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:34:53+08:00"
+    },
+    {
+      "id": "2026-05-26_009",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:33:47",
+      "type": "文字",
+      "title": "harness 时代 AI-First 的组织架构：从信任人到信任 AI",
+      "quote": "harness 时代 AI-First 的组织架构：从信任人到信任 AI",
+      "images": [],
+      "has_image": false,
+      "author": "@sleep9ull",
+      "author_desc": "AI 时代对人的需求在发生变化： 复合型 | General - 有产品 sense 的工程师 - 有 implemen",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/sleep9ull/status/2059146772732375469",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@sleep9ull"
+      ],
+      "preview": "harness 时代 AI-First 的组织架构：从信任人到信任 AI",
+      "raw": "23:33:47 · 文字\n\n> harness 时代 AI-First 的组织架构：从信任人到信任 AI\n\n来源: [@sleep9ull: AI 时代对人的需求在发生变化： 复合型 | General - 有产品 sense 的工程师 - 有 implemen…](https://x.com/sleep9ull/status/2059146772732375469)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:33:47+08:00"
+    },
+    {
+      "id": "2026-05-26_008",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:23:32",
+      "type": "文字",
+      "title": "看到有人说OPC是伪概念，我不这么认为。  AI带来的进化分成三层：智能体→超级个体→超级组织。   我在公司的实践的体感是：个人通过掌握各种工具和组织各种智能",
+      "quote": "看到有人说OPC是伪概念，我不这么认为。  AI带来的进化分成三层：智能体→超级个体→超级组织。   我在公司的实践的体感是：个人通过掌握各种工具和组织各种智能体成为超级个体，这里对应的是OPC的概念。  但超级组织不是通过组织超级个体实现的，而是通过Context not control 的理念再通过AI强化个体和流程改造实现。",
+      "images": [],
+      "has_image": false,
+      "author": "@chenxhliu",
+      "author_desc": "看到有人说OPC是伪概念，我不这么认为。 AI带来的进化分成三层：智能体→超级个体→超级组织。 我在公司的实践的体感是：",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/chenxhliu/status/2059166149758382173",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@chenxhliu"
+      ],
+      "preview": "看到有人说OPC是伪概念，我不这么认为。  AI带来的进化分成三层：智能体→超级个体→超级组织。   我在公司的实践的体感是：个人通过掌握各种工具和组织各种智能体成为超级个体，这里对应的是OPC的概念。  但超级组织不是通过组织超级个体实现的，而是通过Context not control 的理念再通过AI强化个体和流程改造实现。",
+      "raw": "23:23:32 · 文字\n\n> 看到有人说OPC是伪概念，我不这么认为。  AI带来的进化分成三层：智能体→超级个体→超级组织。   我在公司的实践的体感是：个人通过掌握各种工具和组织各种智能体成为超级个体，这里对应的是OPC的概念。  但超级组织不是通过组织超级个体实现的，而是通过Context not control 的理念再通过AI强化个体和流程改造实现。\n\n来源: [@chenxhliu: 看到有人说OPC是伪概念，我不这么认为。 AI带来的进化分成三层：智能体→超级个体→超级组织。 我在公司的实践的体感是：…](https://x.com/chenxhliu/status/2059166149758382173)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:23:32+08:00"
+    },
+    {
+      "id": "2026-05-26_007",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:22:23",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HJOZvsjaYAAMNiD?format=png&name=360x360"
+        }
+      ],
+      "has_image": true,
+      "author": "@zeyu_kap",
+      "author_desc": "真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个feat",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HJOZvsjaYAAMNiD?format=png&name=360x360",
+        "https://x.com/zeyu_kap/status/2059184987157742028",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@zeyu_kap"
+      ],
+      "preview": "真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个feat [含图]",
+      "raw": "23:22:23 · 图片\n\n![image](https://pbs.twimg.com/media/HJOZvsjaYAAMNiD?format=png&name=360x360)\n\n来源: [@zeyu_kap: 真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个feat…](https://x.com/zeyu_kap/status/2059184987157742028)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:22:23+08:00"
+    },
+    {
+      "id": "2026-05-26_006",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:22:05",
+      "type": "文字",
+      "title": "真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个features能让你的顾客多交钱吗  工程效率",
+      "quote": "真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个features能让你的顾客多交钱吗  工程效率溢出  对这类公司 第一步是不招人+裁员 第二步才是限制token的budget 第三步开始考虑组织架构向ai优化  烧token对每个公司的收益是不一样的",
+      "images": [],
+      "has_image": false,
+      "author": "@zeyu_kap",
+      "author_desc": "真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个feat",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/zeyu_kap/status/2059184987157742028",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@zeyu_kap"
+      ],
+      "preview": "真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个features能让你的顾客多交钱吗  工程效率溢出  对这类公司 第一步是不招人+裁员 第二步才是限制token的budget 第三步开始考虑组织架构向ai优化  烧token对每个公司的收益是不一样的",
+      "raw": "23:22:05 · 文字\n\n> 真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个features能让你的顾客多交钱吗  工程效率溢出  对这类公司 第一步是不招人+裁员 第二步才是限制token的budget 第三步开始考虑组织架构向ai优化  烧token对每个公司的收益是不一样的\n\n来源: [@zeyu_kap: 真实的问题在于：即使整个技术团队的效率上来了，对于某些公司，也不一定能转化成营收，你一个打车软件，app多10个feat…](https://x.com/zeyu_kap/status/2059184987157742028)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:22:05+08:00"
+    },
+    {
+      "id": "2026-05-26_005",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:20:00",
+      "type": "文字",
+      "title": "orii AI Management Platform于2026年5月12日发布，提供统一仪表盘追踪模型/应用/助手三类AI活动；AICostBoard于202",
+      "quote": "orii AI Management Platform于2026年5月12日发布，提供统一仪表盘追踪模型/应用/助手三类AI活动；AICostBoard于2026年2月19日上线，支持按项目+供应商设阈值与告警；GitHub组织级CLI遥测3月17日落地，提供活跃用户/会话/请求/token用量 三者密集落地，可观测建设正式进入实操",
+      "images": [],
+      "has_image": false,
+      "author": "@eric17258",
+      "author_desc": "1/2 Torii AI Management Platform于2026年5月12日发布，提供统一仪表盘追踪模型/应用",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/eric17258/status/2059248987337629884",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@eric17258"
+      ],
+      "preview": "orii AI Management Platform于2026年5月12日发布，提供统一仪表盘追踪模型/应用/助手三类AI活动；AICostBoard于2026年2月19日上线，支持按项目+供应商设阈值与告警；GitHub组织级CLI遥测3月17日落地，提供活跃用户/会话/请求/token用量 三者密集落地，可观测建设正式进入实操",
+      "raw": "23:20:00 · 文字\n\n> orii AI Management Platform于2026年5月12日发布，提供统一仪表盘追踪模型/应用/助手三类AI活动；AICostBoard于2026年2月19日上线，支持按项目+供应商设阈值与告警；GitHub组织级CLI遥测3月17日落地，提供活跃用户/会话/请求/token用量 三者密集落地，可观测建设正式进入实操\n\n来源: [@eric17258: 1/2 Torii AI Management Platform于2026年5月12日发布，提供统一仪表盘追踪模型/应用…](https://x.com/eric17258/status/2059248987337629884)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:20:00+08:00"
+    },
+    {
+      "id": "2026-05-26_004",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:19:18",
+      "type": "文字",
+      "title": "AI成本正从“看不见”变成“不敢乱花”：Uber用排行榜给工程师AI用量打分，微软已启用组织级CLI用量报表，三类可观测工具（Torii/AICostBoard",
+      "quote": "AI成本正从“看不见”变成“不敢乱花”：Uber用排行榜给工程师AI用量打分，微软已启用组织级CLI用量报表，三类可观测工具（Torii/AICostBoard/CodeBurn）已实际落地——它们不预测未来，只让每颗token的去向都可追溯。AI支出，正在成为企业核心成本项",
+      "images": [],
+      "has_image": false,
+      "author": "@eric17258",
+      "author_desc": "AI成本正从“看不见”变成“不敢乱花”：Uber用排行榜给工程师AI用量打分，微软已启用组织级CLI用量报表，三类可观测",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/eric17258/status/2059248981394219093",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@eric17258"
+      ],
+      "preview": "AI成本正从“看不见”变成“不敢乱花”：Uber用排行榜给工程师AI用量打分，微软已启用组织级CLI用量报表，三类可观测工具（Torii/AICostBoard/CodeBurn）已实际落地——它们不预测未来，只让每颗token的去向都可追溯。AI支出，正在成为企业核心成本项",
+      "raw": "23:19:18 · 文字\n\n> AI成本正从“看不见”变成“不敢乱花”：Uber用排行榜给工程师AI用量打分，微软已启用组织级CLI用量报表，三类可观测工具（Torii/AICostBoard/CodeBurn）已实际落地——它们不预测未来，只让每颗token的去向都可追溯。AI支出，正在成为企业核心成本项\n\n来源: [@eric17258: AI成本正从“看不见”变成“不敢乱花”：Uber用排行榜给工程师AI用量打分，微软已启用组织级CLI用量报表，三类可观测…](https://x.com/eric17258/status/2059248981394219093)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:19:18+08:00"
+    },
+    {
+      "id": "2026-05-26_003",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:18:28",
+      "type": "文字",
+      "title": "AI 不是在替代生产力。它在做更尴尬的事——把组织里”看起来在工作”的环节照出来。 很多大厂岗位的本质，是给中后台对账，外加一堆跨部门翻译和情绪铺垫。AI 接管",
+      "quote": "AI 不是在替代生产力。它在做更尴尬的事——把组织里”看起来在工作”的环节照出来。 很多大厂岗位的本质，是给中后台对账，外加一堆跨部门翻译和情绪铺垫。AI 接管之后才发现，不是它取代了你，是你之前做的事本来就不太该存在。 所以 AI 焦虑，多半不是对未来的恐惧，是对过去的事后审计",
+      "images": [],
+      "has_image": false,
+      "author": "@baibaida",
+      "author_desc": "聊一个反常识。 AI 不是在替代生产力。它在做更尴尬的事——把组织里”看起来在工作”的环节照出来。 很多大厂岗位的本质，",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/baibaida/status/2059254919589462101",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@baibaida"
+      ],
+      "preview": "AI 不是在替代生产力。它在做更尴尬的事——把组织里”看起来在工作”的环节照出来。 很多大厂岗位的本质，是给中后台对账，外加一堆跨部门翻译和情绪铺垫。AI 接管之后才发现，不是它取代了你，是你之前做的事本来就不太该存在。 所以 AI 焦虑，多半不是对未来的恐惧，是对过去的事后审计",
+      "raw": "23:18:28 · 文字\n\n> AI 不是在替代生产力。它在做更尴尬的事——把组织里”看起来在工作”的环节照出来。 很多大厂岗位的本质，是给中后台对账，外加一堆跨部门翻译和情绪铺垫。AI 接管之后才发现，不是它取代了你，是你之前做的事本来就不太该存在。 所以 AI 焦虑，多半不是对未来的恐惧，是对过去的事后审计\n\n来源: [@baibaida: 聊一个反常识。 AI 不是在替代生产力。它在做更尴尬的事——把组织里”看起来在工作”的环节照出来。 很多大厂岗位的本质，…](https://x.com/baibaida/status/2059254919589462101)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:18:28+08:00"
+    },
+    {
+      "id": "2026-05-26_002",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:17:49",
+      "type": "文字",
+      "title": "真正难的是让组织里的成员真正相信“AI 可以主导，而不只是辅助。”   这在传统组织里非常难（因为逆人性",
+      "quote": "真正难的是让组织里的成员真正相信“AI 可以主导，而不只是辅助。”   这在传统组织里非常难（因为逆人性",
+      "images": [],
+      "has_image": false,
+      "author": "@Wanglei850403",
+      "author_desc": "真正难的是让组织里的成员真正相信“AI 可以主导，而不只是辅助。” 这在传统组织里非常难（因为逆人性）",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Wanglei850403/status/2059262541906522546",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Wanglei850403"
+      ],
+      "preview": "真正难的是让组织里的成员真正相信“AI 可以主导，而不只是辅助。”   这在传统组织里非常难（因为逆人性",
+      "raw": "23:17:49 · 文字\n\n> 真正难的是让组织里的成员真正相信“AI 可以主导，而不只是辅助。”   这在传统组织里非常难（因为逆人性\n\n来源: [@Wanglei850403: 真正难的是让组织里的成员真正相信“AI 可以主导，而不只是辅助。” 这在传统组织里非常难（因为逆人性）](https://x.com/Wanglei850403/status/2059262541906522546)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:17:49+08:00"
+    },
+    {
+      "id": "2026-05-26_001",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "23:01:37",
+      "type": "文字",
+      "title": "产力软件的竞争点正在从“组织工作”转向“完成工作的一部分”。AI agent 如果能读 brief、建任务、更新 roadmap、总结 blockers、写 f",
+      "quote": "产力软件的竞争点正在从“组织工作”转向“完成工作的一部分”。AI agent 如果能读 brief、建任务、更新 roadmap、总结 blockers、写 follow-up，传统工作管理 SaaS 的价值叙事会被重写。 来源：",
+      "images": [],
+      "has_image": false,
+      "author": "@vkdefi",
+      "author_desc": "ClickUp 裁员 22% 的后续分析显示，生产力软件的竞争点正在从“组织工作”转向“完成工作的一部分”。AI age",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/vkdefi/status/2059274801492152608",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@vkdefi"
+      ],
+      "preview": "产力软件的竞争点正在从“组织工作”转向“完成工作的一部分”。AI agent 如果能读 brief、建任务、更新 roadmap、总结 blockers、写 follow-up，传统工作管理 SaaS 的价值叙事会被重写。 来源：",
+      "raw": "23:01:37 · 文字\n\n> 产力软件的竞争点正在从“组织工作”转向“完成工作的一部分”。AI agent 如果能读 brief、建任务、更新 roadmap、总结 blockers、写 follow-up，传统工作管理 SaaS 的价值叙事会被重写。 来源：\n\n来源: [@vkdefi: ClickUp 裁员 22% 的后续分析显示，生产力软件的竞争点正在从“组织工作”转向“完成工作的一部分”。AI age…](https://x.com/vkdefi/status/2059274801492152608)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T23:01:37+08:00"
+    },
+    {
+      "id": "2026-05-26_023",
+      "file": "2026-05-26.md",
+      "date": "2026-05-26",
+      "time": "00:00:28",
+      "type": "文字",
+      "title": "AI 与数字化最大的区别在于：如果不采用数字化，短期的差距可能并不明显；但如果不采用 AI，在现金流、劳动效率、获客以及交付效率上的差距将会迅速拉大。",
+      "quote": "AI 与数字化最大的区别在于：如果不采用数字化，短期的差距可能并不明显；但如果不采用 AI，在现金流、劳动效率、获客以及交付效率上的差距将会迅速拉大。",
+      "images": [],
+      "has_image": false,
+      "author": "@Zhm20220917",
+      "author_desc": "My biggest takeaway from this year's efforts is: For enterpr",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Zhm20220917/status/2058847401541316907",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Zhm20220917"
+      ],
+      "preview": "AI 与数字化最大的区别在于：如果不采用数字化，短期的差距可能并不明显；但如果不采用 AI，在现金流、劳动效率、获客以及交付效率上的差距将会迅速拉大。",
+      "raw": "00:00:28 · 文字\n\n> AI 与数字化最大的区别在于：如果不采用数字化，短期的差距可能并不明显；但如果不采用 AI，在现金流、劳动效率、获客以及交付效率上的差距将会迅速拉大。\n\n来源: [@Zhm20220917: My biggest takeaway from this year's efforts is: For enterpr…](https://x.com/Zhm20220917/status/2058847401541316907)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-26T00:00:28+08:00"
+    },
     {
       "id": "2026-05-25_002",
       "file": "2026-05-25.md",
