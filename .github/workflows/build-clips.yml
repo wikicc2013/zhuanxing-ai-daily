@@ -84,5 +84,5 @@ jobs:
           print(f'源文件数: {d[\"total_files\"]}')
           print(f'总裁剪数: {d[\"total_clips\"]}')
           print(f'Top 信源: {d[\"top_sources\"][:3]}')
-          print(f'Top 标签: {d[\"top_tags\"][:5]}')
+          print(f'Top 作者: {d[\"top_authors\"][:5]}')
           "
