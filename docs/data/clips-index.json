@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-27T11:18:53.468680+08:00",
+  "generated_at": "2026-05-28T09:46:49.869005+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 9,
-  "total_clips": 120,
-  "total_with_images": 17,
+  "total_files": 10,
+  "total_clips": 130,
+  "total_with_images": 20,
   "types": {
-    "文字": 100,
-    "图片": 17,
+    "文字": 107,
+    "图片": 20,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      109
+      119
     ],
     [
       "微信公众号",
@@ -27,7 +27,7 @@
     ],
     [
       "@UncleJAI",
-      4
+      7
     ],
     [
       "@wangray",
@@ -36,6 +36,14 @@
     [
       "@Zhm20220917",
       3
+    ],
+    [
+      "@ponyodong",
+      2
+    ],
+    [
+      "@shao__meng",
+      2
     ],
     [
       "@zeyu_kap",
@@ -70,19 +78,15 @@
       2
     ],
     [
-      "@dotey",
-      1
-    ],
-    [
-      "@teach_fireworks",
-      1
-    ],
-    [
-      "@SaitoWu",
+      "@arknights60",
       1
     ]
   ],
   "files": [
+    [
+      "2026-05-27.md",
+      10
+    ],
     [
       "2026-05-26.md",
       23
@@ -121,6 +125,291 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-05-27_010",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:15:03",
+      "type": "文字",
+      "title": "个体拼速度，组织拼记忆",
+      "quote": "个体拼速度，组织拼记忆",
+      "images": [],
+      "has_image": false,
+      "author": "@ponyodong",
+      "author_desc": "精辟！“个体拼速度，组织拼记忆。” 在 AIGC 时代，谁能先把漏掉的上下文像沙子一样抓回来，谁就拿到了下半场的入场券。",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/ponyodong/status/2059478033464189391",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@ponyodong"
+      ],
+      "preview": "个体拼速度，组织拼记忆",
+      "raw": "23:15:03 · 文字\n\n> 个体拼速度，组织拼记忆\n\n来源: [@ponyodong: 精辟！“个体拼速度，组织拼记忆。” 在 AIGC 时代，谁能先把漏掉的上下文像沙子一样抓回来，谁就拿到了下半场的入场券。…](https://x.com/ponyodong/status/2059478033464189391)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:15:03+08:00"
+    },
+    {
+      "id": "2026-05-27_009",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:10:54",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HJUVRbJawAAp82G?format=jpg&name=large"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/AlpacaNotes/status/2059578745070231601/photo/1",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HJUVRbJawAAp82G?format=jpg&name=large",
+        "https://x.com/AlpacaNotes/status/2059578745070231601/photo/1"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "23:10:54 · 图片\n\n![image](https://pbs.twimg.com/media/HJUVRbJawAAp82G?format=jpg&name=large)\n\n来源: [AI 组织 - Search / X](https://x.com/AlpacaNotes/status/2059578745070231601/photo/1)",
+      "datetime": "2026-05-27T23:10:54+08:00"
+    },
+    {
+      "id": "2026-05-27_008",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:10:26",
+      "type": "文字",
+      "title": "一直好奇为什么 peter 到底工作强度要多大才可以达到 4000+ 每天的 commit 量，我之前一天八开 claude 每天累死也只有 100，直到最近终",
+      "quote": "一直好奇为什么 peter 到底工作强度要多大才可以达到 4000+ 每天的 commit 量，我之前一天八开 claude 每天累死也只有 100，直到最近终于摸到了 1k commit/d，才理解他应该也有我手里类似的 ai 自组织工具和方法论，我比起真大牛来还是有几个月差距，继续努力。",
+      "images": [],
+      "has_image": false,
+      "author": "@arknights60",
+      "author_desc": "一直好奇为什么 peter 到底工作强度要多大才可以达到 4000+ 每天的 commit 量，我之前一天八开 clau",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/arknights60/status/2059583894199181535",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@arknights60"
+      ],
+      "preview": "一直好奇为什么 peter 到底工作强度要多大才可以达到 4000+ 每天的 commit 量，我之前一天八开 claude 每天累死也只有 100，直到最近终于摸到了 1k commit/d，才理解他应该也有我手里类似的 ai 自组织工具和方法论，我比起真大牛来还是有几个月差距，继续努力。",
+      "raw": "23:10:26 · 文字\n\n> 一直好奇为什么 peter 到底工作强度要多大才可以达到 4000+ 每天的 commit 量，我之前一天八开 claude 每天累死也只有 100，直到最近终于摸到了 1k commit/d，才理解他应该也有我手里类似的 ai 自组织工具和方法论，我比起真大牛来还是有几个月差距，继续努力。\n\n来源: [@arknights60: 一直好奇为什么 peter 到底工作强度要多大才可以达到 4000+ 每天的 commit 量，我之前一天八开 clau…](https://x.com/arknights60/status/2059583894199181535)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:10:26+08:00"
+    },
+    {
+      "id": "2026-05-27_007",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:08:35",
+      "type": "文字",
+      "title": "“组织记忆”根本没长出来。  FAQ、置顶、Notion、聊天记录、离职员工脑子里，全都算知识，但没人能实时调用。  于是运营最后变成了： 每天重复回答昨天已经",
+      "quote": "“组织记忆”根本没长出来。  FAQ、置顶、Notion、聊天记录、离职员工脑子里，全都算知识，但没人能实时调用。  于是运营最后变成了： 每天重复回答昨天已经回答过的问题。 AI 真正有价值的地方，也许不是自动回复，而是把这些碎片重新变成“可被组织调用的记忆层”。",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "很多社区的问题其实不是没人维护，而是“组织记忆”根本没长出来。 FAQ、置顶、Notion、聊天记录、离职员工脑子里，全",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/UncleJAI/status/2059617849375687012",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "“组织记忆”根本没长出来。  FAQ、置顶、Notion、聊天记录、离职员工脑子里，全都算知识，但没人能实时调用。  于是运营最后变成了： 每天重复回答昨天已经回答过的问题。 AI 真正有价值的地方，也许不是自动回复，而是把这些碎片重新变成“可被组织调用的记忆层”。",
+      "raw": "23:08:35 · 文字\n\n> “组织记忆”根本没长出来。  FAQ、置顶、Notion、聊天记录、离职员工脑子里，全都算知识，但没人能实时调用。  于是运营最后变成了： 每天重复回答昨天已经回答过的问题。 AI 真正有价值的地方，也许不是自动回复，而是把这些碎片重新变成“可被组织调用的记忆层”。\n\n来源: [@UncleJAI: 很多社区的问题其实不是没人维护，而是“组织记忆”根本没长出来。 FAQ、置顶、Notion、聊天记录、离职员工脑子里，全…](https://x.com/UncleJAI/status/2059617849375687012)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:08:35+08:00"
+    },
+    {
+      "id": "2026-05-27_006",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:08:16",
+      "type": "文字",
+      "title": "I 真进入组织以后， “聪明”反而不是第一优先级。 能不能签 SLA、 能不能被审计、 能不能形成稳定责任链， 这些东西才决定它到底是“助手”还是“组织成员”。",
+      "quote": "I 真进入组织以后， “聪明”反而不是第一优先级。 能不能签 SLA、 能不能被审计、 能不能形成稳定责任链， 这些东西才决定它到底是“助手”还是“组织成员”。",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "对。 AI 真进入组织以后， “聪明”反而不是第一优先级。 能不能签 SLA、 能不能被审计、 能不能形成稳定责任链，",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/UncleJAI/status/2059624981731196973",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "I 真进入组织以后， “聪明”反而不是第一优先级。 能不能签 SLA、 能不能被审计、 能不能形成稳定责任链， 这些东西才决定它到底是“助手”还是“组织成员”。",
+      "raw": "23:08:16 · 文字\n\n> I 真进入组织以后， “聪明”反而不是第一优先级。 能不能签 SLA、 能不能被审计、 能不能形成稳定责任链， 这些东西才决定它到底是“助手”还是“组织成员”。\n\n来源: [@UncleJAI: 对。 AI 真进入组织以后， “聪明”反而不是第一优先级。 能不能签 SLA、 能不能被审计、 能不能形成稳定责任链， …](https://x.com/UncleJAI/status/2059624981731196973)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:08:16+08:00"
+    },
+    {
+      "id": "2026-05-27_005",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:08:10",
+      "type": "文字",
+      "title": "很多团队现在的 AI， 本质上还是“高智商临时工”。 能干活， 但不稳定、 不可追责、 不会继承组织经验。  所以 Context Layer 真正值钱的地方，",
+      "quote": "很多团队现在的 AI， 本质上还是“高智商临时工”。 能干活， 但不稳定、 不可追责、 不会继承组织经验。  所以 Context Layer 真正值钱的地方， 不是记知识， 而是记“组织如何判断”。",
+      "images": [],
+      "has_image": false,
+      "author": "@UncleJAI",
+      "author_desc": "很多团队现在的 AI， 本质上还是“高智商临时工”。 能干活， 但不稳定、 不可追责、 不会继承组织经验。 所以 Con",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/UncleJAI/status/2059625112614424614",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@UncleJAI"
+      ],
+      "preview": "很多团队现在的 AI， 本质上还是“高智商临时工”。 能干活， 但不稳定、 不可追责、 不会继承组织经验。  所以 Context Layer 真正值钱的地方， 不是记知识， 而是记“组织如何判断”。",
+      "raw": "23:08:10 · 文字\n\n> 很多团队现在的 AI， 本质上还是“高智商临时工”。 能干活， 但不稳定、 不可追责、 不会继承组织经验。  所以 Context Layer 真正值钱的地方， 不是记知识， 而是记“组织如何判断”。\n\n来源: [@UncleJAI: 很多团队现在的 AI， 本质上还是“高智商临时工”。 能干活， 但不稳定、 不可追责、 不会继承组织经验。 所以 Con…](https://x.com/UncleJAI/status/2059625112614424614)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:08:10+08:00"
+    },
+    {
+      "id": "2026-05-27_004",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:07:40",
+      "type": "文字",
+      "title": "AI Agent 协作编排层：Alook  @alook_ai    Alook 把 Claude Code、Codex、OpenCode 等本地 CLI ag",
+      "quote": "AI Agent 协作编排层：Alook  @alook_ai    Alook 把 Claude Code、Codex、OpenCode 等本地 CLI agent 组织成一支「可管理的 AI 团队」——有角色、邮箱、任务板、日历和可追溯的执行记录 。  开源地址： https://github.com/alookai/alook  核心命题：换一条组织轴 Alook 的出发点很清晰：现有工具按「项目」组织，工作却按「人/角色」组织。  一个项目往往需要规划、开发、审查、运营等多个角色，但工具只给单个 agent + 多个 context window。用户被迫在 tab、tmux、会话之间搬运上下文，自己当消息总线。  传统模式 · 1 项目 → 1 agent → 多 session · 上下文在 session 内 · 用户是 router  Alook 模式 · 1 人 → 多 agent → 各持角色 · 上下文跨天、跨任务持久化 · 用户是 CEO，agent 是员工  Email 被当作异步、持久、可线程化的上下文层——人机、机机通信都走邮件，底层共享记忆不断累积，而不是每次从零开始。  架构：本地执行 + 云端协作 · 本地优先：代码、工具、文件系统都在本机，agent 有完整 repo 访问权。 · 云端协作：Dashboard、任务调度、邮件路由、多设备可达、团队共享。  记忆系统：三层叠加 · 指令层：AGENTS.md（ symlink 到 CLAUDE.md），角色定义、同事列表、CLI 工具手册 · 记忆层：memory.md + experiences/*.md，短记忆索引 + 长经验文档 · 时间线：.context_timeline/YYYY-MM-DD.jsonl，全任务历史：prompt、响应、session_id、status",
+      "images": [],
+      "has_image": false,
+      "author": "@shao__meng",
+      "author_desc": "AI Agent 协作编排层：Alook @alook_ai Alook 把 Claude Code、Codex、Ope",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://github.com/alookai/alook",
+        "https://x.com/shao__meng/status/2059639640647500263",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@shao__meng"
+      ],
+      "preview": "AI Agent 协作编排层：Alook  @alook_ai    Alook 把 Claude Code、Codex、OpenCode 等本地 CLI agent 组织成一支「可管理的 AI 团队」——有角色、邮箱、任务板、日历和可追溯的执行记录 。  开源地址： https://github.com/alookai/alook  核心命题：换一条组织轴 Alook 的出发点很清晰：现有工具按「项目」组织，工作却按「人/角色」组织。  一个项目往往需要规划、开发、审查、运...",
+      "raw": "23:07:40 · 文字\n\n> AI Agent 协作编排层：Alook  @alook_ai    Alook 把 Claude Code、Codex、OpenCode 等本地 CLI agent 组织成一支「可管理的 AI 团队」——有角色、邮箱、任务板、日历和可追溯的执行记录 。  开源地址： https://github.com/alookai/alook  核心命题：换一条组织轴 Alook 的出发点很清晰：现有工具按「项目」组织，工作却按「人/角色」组织。  一个项目往往需要规划、开发、审查、运营等多个角色，但工具只给单个 agent + 多个 context window。用户被迫在 tab、tmux、会话之间搬运上下文，自己当消息总线。  传统模式 · 1 项目 → 1 agent → 多 session · 上下文在 session 内 · 用户是 router  Alook 模式 · 1 人 → 多 agent → 各持角色 · 上下文跨天、跨任务持久化 · 用户是 CEO，agent 是员工  Email 被当作异步、持久、可线程化的上下文层——人机、机机通信都走邮件，底层共享记忆不断累积，而不是每次从零开始。  架构：本地执行 + 云端协作 · 本地优先：代码、工具、文件系统都在本机，agent 有完整 repo 访问权。 · 云端协作：Dashboard、任务调度、邮件路由、多设备可达、团队共享。  记忆系统：三层叠加 · 指令层：AGENTS.md（ symlink 到 CLAUDE.md），角色定义、同事列表、CLI 工具手册 · 记忆层：memory.md + experiences/*.md，短记忆索引 + 长经验文档 · 时间线：.context_timeline/YYYY-MM-DD.jsonl，全任务历史：prompt、响应、session_id、status\n\n来源: [@shao__meng: AI Agent 协作编排层：Alook @alook_ai Alook 把 Claude Code、Codex、Ope…](https://x.com/shao__meng/status/2059639640647500263)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:07:40+08:00"
+    },
+    {
+      "id": "2026-05-27_003",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:06:52",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HJVPU6yaQAEJuTT?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@shao__meng",
+      "author_desc": "AI Agent 协作编排层：Alook @alook_ai Alook 把 Claude Code、Codex、Ope",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HJVPU6yaQAEJuTT?format=jpg&name=900x900",
+        "https://x.com/shao__meng/status/2059639640647500263",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@shao__meng"
+      ],
+      "preview": "AI Agent 协作编排层：Alook @alook_ai Alook 把 Claude Code、Codex、Ope [含图]",
+      "raw": "23:06:52 · 图片\n\n![image](https://pbs.twimg.com/media/HJVPU6yaQAEJuTT?format=jpg&name=900x900)\n\n来源: [@shao__meng: AI Agent 协作编排层：Alook @alook_ai Alook 把 Claude Code、Codex、Ope…](https://x.com/shao__meng/status/2059639640647500263)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:06:52+08:00"
+    },
+    {
+      "id": "2026-05-27_002",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:05:23",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HJVYrsHasAAuoSX?format=jpg&name=4096x4096"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/xiaoluv12o/status/2059649956513030448/photo/1",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HJVYrsHasAAuoSX?format=jpg&name=4096x4096",
+        "https://x.com/xiaoluv12o/status/2059649956513030448/photo/1"
+      ],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "23:05:23 · 图片\n\n![image](https://pbs.twimg.com/media/HJVYrsHasAAuoSX?format=jpg&name=4096x4096)\n\n来源: [AI 组织 - Search / X](https://x.com/xiaoluv12o/status/2059649956513030448/photo/1)",
+      "datetime": "2026-05-27T23:05:23+08:00"
+    },
+    {
+      "id": "2026-05-27_001",
+      "file": "2026-05-27.md",
+      "date": "2026-05-27",
+      "time": "23:04:39",
+      "type": "文字",
+      "title": "AI编程是必选项，文科出身的老板自己都用10天时间用AI做产品，未来对员工的能力要求和组织架构变化会发生巨大改变",
+      "quote": "AI编程是必选项，文科出身的老板自己都用10天时间用AI做产品，未来对员工的能力要求和组织架构变化会发生巨大改变",
+      "images": [],
+      "has_image": false,
+      "author": "@xiaoluv12o",
+      "author_desc": "不夸张，AI编程是必选项，文科出身的老板自己都用10天时间用AI做产品，未来对员工的能力要求和组织架构变化会发生巨大改变",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/xiaoluv12o/status/2059649956513030448",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@xiaoluv12o"
+      ],
+      "preview": "AI编程是必选项，文科出身的老板自己都用10天时间用AI做产品，未来对员工的能力要求和组织架构变化会发生巨大改变",
+      "raw": "23:04:39 · 文字\n\n> AI编程是必选项，文科出身的老板自己都用10天时间用AI做产品，未来对员工的能力要求和组织架构变化会发生巨大改变\n\n来源: [@xiaoluv12o: 不夸张，AI编程是必选项，文科出身的老板自己都用10天时间用AI做产品，未来对员工的能力要求和组织架构变化会发生巨大改变…](https://x.com/xiaoluv12o/status/2059649956513030448)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-27T23:04:39+08:00"
+    },
     {
       "id": "2026-05-26_022",
       "file": "2026-05-26.md",
