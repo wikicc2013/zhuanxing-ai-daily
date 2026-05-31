@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-30T09:51:19.356797+08:00",
+  "generated_at": "2026-05-31T10:03:55.264521+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 11,
-  "total_clips": 137,
-  "total_with_images": 20,
+  "total_files": 12,
+  "total_clips": 139,
+  "total_with_images": 21,
   "types": {
-    "文字": 114,
-    "图片": 20,
+    "文字": 115,
+    "图片": 21,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      126
+      128
     ],
     [
       "微信公众号",
@@ -84,6 +84,10 @@
   ],
   "files": [
     [
+      "2026-05-30.md",
+      2
+    ],
+    [
       "2026-05-28.md",
       7
     ],
@@ -129,6 +133,66 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-05-30_002",
+      "file": "2026-05-30.md",
+      "date": "2026-05-30",
+      "time": "18:56:11",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HI5uBDhaoAAmgnY?format=jpg&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "@Rourou0413",
+      "author_desc": "重建上下文的成本太高，这才是拖慢企业速度的真凶。AI要解决的是这个痛点。 信任AI不是靠解释原理，而是渐进式授权和可追溯",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HI5uBDhaoAAmgnY?format=jpg&name=small",
+        "https://x.com/Rourou0413/status/2060616473991958822",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@Rourou0413"
+      ],
+      "preview": "重建上下文的成本太高，这才是拖慢企业速度的真凶。AI要解决的是这个痛点。 信任AI不是靠解释原理，而是渐进式授权和可追溯 [含图]",
+      "raw": "18:56:11 · 图片\n\n![image](https://pbs.twimg.com/media/HI5uBDhaoAAmgnY?format=jpg&name=small)\n\n来源: [@Rourou0413: 重建上下文的成本太高，这才是拖慢企业速度的真凶。AI要解决的是这个痛点。 信任AI不是靠解释原理，而是渐进式授权和可追溯…](https://x.com/Rourou0413/status/2060616473991958822)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-30T18:56:11+08:00"
+    },
+    {
+      "id": "2026-05-30_001",
+      "file": "2026-05-30.md",
+      "date": "2026-05-30",
+      "time": "18:55:51",
+      "type": "文字",
+      "title": "果是AI失败要做空资源，因为文明倒退，矿产需求少了。无论是AI成功还是失败都应该多生孩",
+      "quote": "果是AI失败要做空资源，因为文明倒退，矿产需求少了。无论是AI成功还是失败都应该多生孩",
+      "images": [],
+      "has_image": false,
+      "author": "@TsewangBTC",
+      "author_desc": "如果是AI失败要做空资源，因为文明倒退，矿产需求少了。无论是AI成功还是失败都应该多生孩子，然后把家族打造成和平时期可以",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/TsewangBTC/status/2060640619979251831",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@TsewangBTC"
+      ],
+      "preview": "果是AI失败要做空资源，因为文明倒退，矿产需求少了。无论是AI成功还是失败都应该多生孩",
+      "raw": "18:55:51 · 文字\n\n> 果是AI失败要做空资源，因为文明倒退，矿产需求少了。无论是AI成功还是失败都应该多生孩\n\n来源: [@TsewangBTC: 如果是AI失败要做空资源，因为文明倒退，矿产需求少了。无论是AI成功还是失败都应该多生孩子，然后把家族打造成和平时期可以…](https://x.com/TsewangBTC/status/2060640619979251831)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-05-30T18:55:51+08:00"
+    },
     {
       "id": "2026-05-28_007",
       "file": "2026-05-28.md",
