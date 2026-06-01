@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-31T10:03:55.264521+08:00",
+  "generated_at": "2026-06-01T10:12:11.127031+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 12,
-  "total_clips": 139,
+  "total_files": 13,
+  "total_clips": 141,
   "total_with_images": 21,
   "types": {
-    "文字": 115,
+    "文字": 117,
     "图片": 21,
     "其他": 3
   },
@@ -17,7 +17,7 @@
     ],
     [
       "微信公众号",
-      2
+      4
     ]
   ],
   "top_authors": [
@@ -84,6 +84,10 @@
   ],
   "files": [
     [
+      "2026-05-31.md",
+      2
+    ],
+    [
       "2026-05-30.md",
       2
     ],
@@ -133,6 +137,56 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-05-31_002",
+      "file": "2026-05-31.md",
+      "date": "2026-05-31",
+      "time": "13:06:07",
+      "type": "文字",
+      "title": "「知道AI重要但不知道怎么系统化」",
+      "quote": "「知道AI重要但不知道怎么系统化」",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "微信公众号",
+      "source_page": "",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5NjQyMjE1NA==&mid=2650744647&idx=1&sn=b2c9b411f93b9888d04f161fd25e25ca&scene=4&poc_token=HG7BG2qj3RfYj1fW3Wo0smxnfRV5gWad22KKcfTR",
+      "all_urls": [
+        "https://mp.weixin.qq.com/s?__biz=MjM5NjQyMjE1NA==&mid=2650744647&idx=1&sn=b2c9b411f93b9888d04f161fd25e25ca&scene=4&poc_token=HG7BG2qj3RfYj1fW3Wo0smxnfRV5gWad22KKcfTR"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "「知道AI重要但不知道怎么系统化」",
+      "raw": "13:06:07 · 文字\n\n> 「知道AI重要但不知道怎么系统化」\n\n来源: [重构个体：一套逻辑让你从AI旁观者变成系统架构师](https://mp.weixin.qq.com/s?__biz=MjM5NjQyMjE1NA==&mid=2650744647&idx=1&sn=b2c9b411f93b9888d04f161fd25e25ca&scene=4&poc_token=HG7BG2qj3RfYj1fW3Wo0smxnfRV5gWad22KKcfTR)",
+      "datetime": "2026-05-31T13:06:07+08:00"
+    },
+    {
+      "id": "2026-05-31_001",
+      "file": "2026-05-31.md",
+      "date": "2026-05-31",
+      "time": "13:05:33",
+      "type": "文字",
+      "title": "「知道AI重要但不知道怎么系统化」",
+      "quote": "「知道AI重要但不知道怎么系统化」",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "微信公众号",
+      "source_page": "",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5NjQyMjE1NA==&mid=2650744647&idx=1&sn=b2c9b411f93b9888d04f161fd25e25ca&scene=4&poc_token=HG7BG2qj3RfYj1fW3Wo0smxnfRV5gWad22KKcfTR",
+      "all_urls": [
+        "https://mp.weixin.qq.com/s?__biz=MjM5NjQyMjE1NA==&mid=2650744647&idx=1&sn=b2c9b411f93b9888d04f161fd25e25ca&scene=4&poc_token=HG7BG2qj3RfYj1fW3Wo0smxnfRV5gWad22KKcfTR"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "「知道AI重要但不知道怎么系统化」",
+      "raw": "13:05:33 · 文字\n\n> 「知道AI重要但不知道怎么系统化」\n\n来源: [重构个体：一套逻辑让你从AI旁观者变成系统架构师](https://mp.weixin.qq.com/s?__biz=MjM5NjQyMjE1NA==&mid=2650744647&idx=1&sn=b2c9b411f93b9888d04f161fd25e25ca&scene=4&poc_token=HG7BG2qj3RfYj1fW3Wo0smxnfRV5gWad22KKcfTR)",
+      "datetime": "2026-05-31T13:05:33+08:00"
+    },
     {
       "id": "2026-05-30_002",
       "file": "2026-05-30.md",
