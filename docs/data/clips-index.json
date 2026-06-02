@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-01T10:12:11.127031+08:00",
+  "generated_at": "2026-06-02T10:13:23.669461+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 13,
-  "total_clips": 141,
-  "total_with_images": 21,
+  "total_files": 14,
+  "total_clips": 142,
+  "total_with_images": 22,
   "types": {
     "文字": 117,
-    "图片": 21,
+    "图片": 22,
     "其他": 3
   },
   "top_sources": [
@@ -84,6 +84,10 @@
   ],
   "files": [
     [
+      "2026-06-01.md",
+      1
+    ],
+    [
       "2026-05-31.md",
       2
     ],
@@ -137,6 +141,34 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-01_001",
+      "file": "2026-06-01.md",
+      "date": "2026-06-01",
+      "time": "07:16:15",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "file:///C:/Users/thinkpad/Downloads/hype-cycle-for-agentic-ai.webp"
+        }
+      ],
+      "has_image": true,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "",
+      "all_urls": [],
+      "tags": [
+        "图片"
+      ],
+      "preview": "[图片] ",
+      "raw": "07:16:15 · 图片\n\n![image](file:///C:/Users/thinkpad/Downloads/hype-cycle-for-agentic-ai.webp)\n\n**备注:** hype-cycle-for-agentic-ai\n\n来源: [hype-cycle-for-agentic-ai.webp (1360×766)](file:///C:/Users/thinkpad/Downloads/hype-cycle-for-agentic-ai.webp)",
+      "datetime": "2026-06-01T07:16:15+08:00"
+    },
     {
       "id": "2026-05-31_002",
       "file": "2026-05-31.md",
