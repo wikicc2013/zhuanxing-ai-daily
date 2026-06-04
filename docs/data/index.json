@@ -1,14 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-06-04T21:46:24.259617+00:00",
-    "total_reports": 21,
-    "total_articles": 1402,
+    "generated_at": "2026-06-04T22:29:17.005495+00:00",
+    "total_reports": 22,
+    "total_articles": 1478,
     "date_range": [
       "2026-05-14",
-      "2026-06-04"
+      "2026-06-05"
     ]
   },
   "reports": [
+    {
+      "date": "2026-06-05",
+      "weekday": "周五",
+      "signal_strength": "medium",
+      "main_count": 62,
+      "tier0_count": 9,
+      "summary": "⭐⭐⭐ [⭐ 双源] Anthropic 递交 IPO 申请，估值 9650 亿逼近万亿美元",
+      "url": "reports/2026-06-05.md",
+      "article_count": 76
+    },
     {
       "date": "2026-06-04",
       "weekday": "周四",
@@ -221,6 +231,1316 @@
     }
   ],
   "articles": [
+    {
+      "id": "20260605-T01",
+      "date": "2026-06-05",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐⭐⭐ [⭐ 双源] Anthropic 递交 IPO 申请，估值 9650 亿逼近万亿美元",
+      "summary": "Anthropic 于 6 月 1 日向 SEC 提交保密 S-1 文件，计划登陆公开市场，完成申报时 Series H 轮融资总额达 650 亿美元，最新估值约 9,650 亿美元（接近 1 万亿）。5 月营收年化运行率（ARR）约 470 亿美元，是一年前约 100 亿美元的近 5 倍。此次 IPO 抢在 OpenAI 之前，构成两家公司在资本市场层面的正面竞争。若以万亿美元估值上市，将跻身史上最大 IPO 之列（仅次于沙特阿美和 SpaceX）。OpenAI CEO Sam Altman 随即在 CNBC 表示将\"在合适时机\"上市并否认竞速压力。旗下 Mythos 模型（受限访问）在高危漏洞检测上已展示超越竞品能力，预计 IPO 后将扩大商业开放。\n\n🔗 主源：NPR / CNN / NBC News ｜ 复述：TechCrunch",
+      "meaning": "：AI 模型公司从私募融资走向公开市场，财务数据和商业模式可持续性将首次接受公众和机构审视；已深度集成 Claude API 的企业需评估上市后定价策略变化风险。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "TechCrunch",
+        "Sam Altman",
+        "Mythos"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-T02",
+      "date": "2026-06-05",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐⭐⭐ [⭐ 双源] Alphabet 创纪录 850 亿美元融资——全球史上最大股权融资",
+      "summary": "Alphabet 完成 850 亿美元融资，打破 2010 年巴西石油 700 亿美元的全球股权融资纪录。首期 450 亿美元已完成交割，第二期 400 亿美元计划下季度完成。标志性投资方：伯克希尔·哈撒韦承诺 100 亿美元。CEO Sundar Pichai 表示资金将全部用于\"AI 机遇布局\"，支撑 1,800-1,900 亿美元年度资本支出计划。Stratechery 分析指出：Google Services（搜索广告）是极高利润率的\"现金牛\"，正以与巴菲特用 See's Candies 利润收购 BNSF 铁路相同的逻辑，为 Google Cloud 算力基础设施持续输血，资金耐力是竞争对手无法复制的结构性优势——但也使 Alphabet 高度暴露于\"AI 彻底颠覆搜索广告\"的尾部风险。本次超额认购（原计划 400 亿）显示公开市场对 AI 基础设施的强烈信心。\n\n🔗 主源：TechCrunch（新闻）+ Stratechery（深度分析）",
+      "meaning": "：谷歌押注未来 AI 算力稀缺，视自己为基础设施\"压舱石\"而非模型赛跑选手；企业采购方可预判 Google Cloud 未来 18 个月将凭借充裕资本在算力、模型和服务 SLA 上全面扩张。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "Google",
+        "TechCrunch",
+        "Stratechery"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-T03",
+      "date": "2026-06-05",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐⭐⭐ [🇨🇳 中国] Moonshot AI Kimi K2.6：SWE-Bench Pro 58.6 全球第一",
+      "summary": "Kimi K2.6 以开放权重发布，万亿参数 MoE 架构，上下文扩展至 256K，内置 400M 参数 MoonViT 视觉编码器支持图像/视频输入，Modified MIT 协议开源。Agent Swarm 系统支持 300 个子 Agent 协调运行 4,000 步长程任务。关键评测：SWE-Bench Pro 58.6（超越 GPT-5.4 的 57.7 与 Claude Opus 4.6 的 53.4）；HLE-Full 54.0（GPT-5.4 为 52.1）。模型已上线 Kimi.com、Kimi App、官方 API 及 Kimi Code CLI。同期，Moonshot AI 完成约 20 亿美元新一轮融资，估值超过 200 亿美元，4 月 ARR 突破 2 亿美元。\n\n🔗 来源：MarkTechPost + SCMP",
+      "meaning": "：Kimi K2.6 在代码和 Agent 长程任务两个核心评测上暂居全球第一，是目前国内最强开源 Agent 模型，标志中国 AI 在 Agent 能力上已进入全球第一梯队。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "MIT",
+        "Moonshot",
+        "Kimi"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-T04",
+      "date": "2026-06-05",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐⭐⭐ [⚖️ 政策] 特朗普签署 AI 行政令：模型发布前政府可提前 30 天自愿审查",
+      "summary": "特朗普签署行政令《推进人工智能创新与安全》，要求 AI 公司在发布前沿模型前，自愿提前最多 30 天提交政府评估（此前草案版本为 90 天，因担忧阻碍创新被压缩）。同时指示建立\"AI 网络安全清算所\"信息共享机制，并制定联邦 AI 能力评测基准。行政令明文规定：不得被解读为设立强制性政府许可前置机制。该行政令将美国 AI 监管从 Biden 时代的预防性框架转向以\"可选审查 + 信息共享\"为核心的促进创新路线。\n\n🔗 来源：CNBC / Axios / NPR",
+      "meaning": "：美国确立\"AI 安全自愿制\"基调，与 EU AI Act 强制规范形成制度分野，将影响全球 AI 治理格局；各国监管机构有望在此基础上形成阵营分化。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-T05",
+      "date": "2026-06-05",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐⭐⭐ [⭐ 双源 · Tier 0] Karpathy 软件 3.0 宣言：Agentic Engineering 时代来临",
+      "summary": "Karpathy 在 Sequoia AI Ascent 2026 峰会后发布博客，宣布软件 3.0 范式跃迁：软件不再是确定性指令集，而是通过 Prompt、上下文、Agent、工具、记忆与验证驱动的智能解释器层。他区分了\"随性编程\"（Vibe Coding）——任何人都能用自然语言造出可运行的应用——与\"Agentic Engineering\"——在保证专业品质前提下让 Agent 系统完成真实工程任务。个人披露：自 2025 年 12 月起，他不再亲自编写代码，而是管理最多 20 个并行运行的 AI Agent，工作模式从\"80% 自己写代码\"翻转为\"近 100% 委托 Agent 执行\"。新的技能瓶颈不是实现速度，而是清晰表达\"正确\"的含义、在系统层面审查输出，以及设计让 Agent 并行运行的工作流。\n\n🔗 主源：Karpathy Blog (bearblog) ｜ Tier 0 ｜ 复述：batch-4 研究咨询批",
+      "meaning": "：AI 工具链的竞争焦点正从\"Copilot 效率\"转向\"能否独立完成生产级任务\"；当 AI 领域最具公信力的工程师宣布范式转移，这对软件工程培训体系、团队结构和开发工具产品设计都是强烈方向信号。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "Karpathy",
+        "Ring"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-006",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Apple 批准 Poke 成为 Messages for Business 首个 AI Agent",
+      "summary": "Poke 成为首个获得 Apple Messages for Business 平台准入资质的 AI Agent，标志着苹果正式向第三方自主 AI 开放商业消息生态。Poke 通过短信即可完成日历管理、健康追踪、智能家居控制、照片编辑等任务，已累计转发超过 1 亿条消息。此次入驻耗时数月，期间需按 Apple 要求完成定制 UI 改造。商业模式方面，Poke 向 Apple 按用户数缴费，费率\"显著低于 Meta AI\"。公司由 Spark Capital 和 General Catalyst 支持，近期完成 1,000 万美元融资，估值达 3 亿美元，已覆盖 SMS、Telegram、WhatsApp 和 iMessage。",
+      "meaning": "：Apple 生态的 AI Agent 分发通道正式打开。第三方 AI 助手厂商进入苹果渠道的门票是：满足严格 UI 合规 + 按用户缴纳平台费。CIO 可关注此类\"原生消息 AI Agent\"对企业内部 IT 服务台的替代潜力",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "companies": [
+        "Meta",
+        "Apple",
+        "SAP"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-007",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "OpenAI 发布 Codex 6 大企业职能插件",
+      "summary": "OpenAI 为 Codex 发布了 6 个面向白领职能的专项插件：数据分析、创意生产、销售、产品设计、股权投资和投资银行。每个插件集成了专属工具链、操作指令和上下文知识。知识工作者目前占 Codex 每周 500 万活跃用户的约 20%，且增速是开发者用户的 3 倍以上。同步新增 Sites 功能（直接输出可交互托管网页）和 Annotations 工具（文档内嵌命令）。集成合作方包括 Wix、Figma 和 Replit。此举配合 OpenAI 三周前发布的 40 亿美元\"部署公司\"计划，正面竞争 Anthropic 的企业 Agent 项目。",
+      "meaning": "：AI\"白领替代\"叙事从概念落地到产品矩阵。采购方需评估 Codex 企业插件与现有 ERP/CRM 工作流的集成成本，以及内部 SOP 文档化需求",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "companies": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-008",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Microsoft 发布 Scout AI 个人助手",
+      "summary": "Microsoft 在 Build 2026 大会上发布 Scout，受 OpenClaw 启发的云端 AI 助手，深度集成 Microsoft 365 生态，可跨桌面和浏览器管理日历、邮件和工作任务。Scout 具备持久身份（用户可自定义名称）、预置日历管理和会议议程生成技能，以及基于 ML 的个人工作模式学习能力。安全方面内置\"策略合规系统\"，附带审计追踪以满足企业监管要求。目前通过 Microsoft Frontier 计划（早期采用者项目）发布，需绑定 GitHub Copilot 订阅。产品定位对标 Anthropic 企业 Agent 和 OpenAI Codex，主打工作自动化和用户个性化锁定。",
+      "meaning": "：微软将 Copilot 订阅与 Scout 深度绑定，是典型的\"生态锁定\"策略。已部署 Microsoft 365 的企业应优先评测 Scout，避免为功能重叠的第三方助手买单",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Microsoft",
+        "FT"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-009",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "WWDC 2026 预览：Siri 大改造 + Apple Intelligence 全面升级",
+      "summary": "Apple WWDC 2026（即将召开）的核心看点是 Siri 转型为\"具备上下文理解、多步任务处理能力\"的对话式助手，技术底层接入 Google Gemini。Apple 同步计划推出独立 Siri 应用（直接竞争 ChatGPT 和 Claude），以及 AI Agent 应用商店整合以支持任务委托。相机和 Photos 应用将获\"视觉智能\"能力；Image Playground 质量升级，新增 Genmoji 建议；Wallet 新增账单拆分和数字票据生成。",
+      "meaning": "：苹果 AI 战略的核心是\"平台控制权\"——通过将 Gemini 内嵌为基础模型、开放第三方 AI Agent 商店，Apple 正在构建 AI 分发层，而非自研竞争。企业移动设备管理（MDM）策略需提前规划 AI Agent 权限管控",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "companies": [
+        "Google",
+        "Apple"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-010",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Google 推出 Dreambeans AI 生活故事应用",
+      "summary": "Google Labs 推出 Dreambeans，一款将用户日常数据转化为个性化卡通图文故事的 AI 应用（iOS/Android）。应用分析来自 Gmail、日历、Photos、YouTube 和搜索记录的数据，每日生成 10-14 条生活建议，涵盖餐厅推荐、活动洞察和精选文章。刻意限制每日内容量以减少手机依赖。用户可完全控制接入的 Google 服务，个性化数据仅本人可见。目前仅向美国 Google AI Ultra 订阅用户开放。",
+      "meaning": "：Google 正将旗下分散数据资产（Gmail、Calendar、Photos）整合为个人 AI 体验的差异化护城河。Google AI Ultra 订阅作为高端付费层级的产品矩阵正在成形",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+      "companies": [
+        "Google"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-011",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Hello Robot Stretch 4：$3 万美元家用辅助机器人",
+      "summary": "Hello Robot 发布第四代家用辅助机器人 Stretch 4，定价 3 万美元。该轮式机器人配备可伸缩机械臂和多传感器头部，设计原则为\"人在回路\"安全优先。首批计划生产 200-300 台，第一批次已售罄。真实用例：脊髓损伤患者 Keith Platt 用 Stretch 将早餐备餐时间从 2 小时缩短至数分钟。公司融资 2,500 万美元，创始人为前 Google 机器人总监 Aaron Edsinger。",
+      "meaning": "：家用机器人市场的可信赖参与者正在通过\"小而美 + 真实用户\"模式建立壁垒。医疗辅助、老年护理机构采购可重点评估 Stretch 4 的 ROI",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "companies": [
+        "Google"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-012",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "Meta 在 Facebook 推出 AI 内容创作助手",
+      "summary": "Meta 在 Facebook 上线了面向内容创作者的对话式 AI 助手，基于创作者的内容表现、风格及受众趋势提供个性化建议，可直接回答\"何时发帖最佳\"\"评论区在讨论什么\"等问题，无需手动查看复杂数据面板。首批上线美国、加拿大和印度。同步新增 AI 翻译功能，支持阿拉伯语、印尼语、法语、泰语、越南语，且保留创作者的个人语气风格。目前每周已有超过 5 亿 Facebook 用户观看 AI 翻译视频。",
+      "meaning": "：Meta 正在为创作者提供内嵌式数据分析和内容策略工具，降低对第三方 SaaS（如 Sprout Social、Hootsuite）的依赖。品牌营销预算中\"创作者工具\"这一项正在被平台方逐步内化",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "companies": [
+        "Meta"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-013",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🚀 产品",
+      "title": "字节扣子 Coze 3.0 上线：支持多人多 Agent 协作及行业技能包",
+      "summary": "字节跳动旗下 AI Agent 平台扣子（Coze）3.0 于 6 月 1 日正式上线，核心升级为支持多人多 Agent 协作，以及金融、自媒体、医疗、法律、科研等行业专属技能包。与此同时，36 氪报道豆包 APP 将于 6 月下旬正式启动付费，标志着字节旗下 AI 产品线商业化按键正式按下。",
+      "meaning": "：字节\"大模型 + Agent 平台 + C 端应用\"的完整商业化链条正在同步推进，6 月下旬付费将是重要观察节点",
+      "source": "掘金 / 36氪",
+      "quality_score": 6,
+      "url": "https://juejin.cn/post/7646348958055497778",
+      "companies": [
+        "字节",
+        "豆包"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-014",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "今日深度：银行 AI 采购潮来袭，从算力硬件到智能外呼全线覆盖",
+      "summary": "2026 年 5 月下旬至 6 月初，江苏农商行、广州银行、中国银行安徽省分行、邮储银行山东省分行、秦皇岛银行等多家机构密集发布 AI 相关招标公告，采购范围全面覆盖底层算力硬件、国产 AI 基座改造、智能外呼和大模型问数。典型案例：中国银行安徽分行投入 340.2 万元建设 300 路并发 AI 智能外呼系统；秦皇岛银行投入 130 万元招标基于 LLM 的智能问数项目；邮储银行山东分行启动 AI 基础平台国产化改造。",
+      "meaning": "：中小银行已由\"试点探索\"阶段正式迈入\"基建自建与规模化商用\"成熟期，国产 AI 在金融领域加速替代",
+      "source": "新浪财经",
+      "quality_score": 6,
+      "url": "https://finance.sina.com.cn/jjxw/2026-06-04/doc-iniahhrn9133637.shtml",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-015",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "万华化学以 AI 流程优化年节省千万级成本",
+      "summary": "万华化学宁波氯碱生产基地部署流程工业时序大模型 TPT 及配套智能体，对年产 65 万吨烧碱装置实现全流程优化，据报道每年可节省超千万元综合成本。其他典型案例：浙江某大型搅拌站引入网易灵动\"灵载\"无人装载机后效率提升 30%、综合能耗降低 15%、人力成本下降 70%，已连续安全作业超 5 万小时；浙江某硅钢板厂 AI 质检缺陷检测准确率达 99.67%，速度比人工快 3 倍。",
+      "meaning": "：工业 AI Agent 已从\"辅助决策\"转向\"自主执行\"，制造业千万级降本案例正在真实发生",
+      "source": "实在智能",
+      "quality_score": 6,
+      "url": "https://www.ai-indeed.com/encyclopedia/15205.html",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-016",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "讯飞星火医疗大模型覆盖 806 区县、辅诊超 11 亿次",
+      "summary": "据 36 氪 2026 年 5 月医疗大模型落地研究报告，搭载讯飞星火医疗大模型的\"智医助理\"已覆盖全国 31 个省市、806 个区县，服务超 7.7 万基层医疗机构；累计提供 AI 辅诊建议超 11 亿次，辅助生成规范化电子病历 4.5 亿余份，识别不合理处方 1.2 亿余份。报告总结：医疗大模型已度过爆发期进入理性落地期，ToB 路径（药企、健康服务商）落地最为成熟。",
+      "meaning": "：讯飞医疗 AI 已在基层医疗形成规模化商业闭环，成为国内医疗 AI 落地的头部标杆案例",
+      "source": "36氪",
+      "quality_score": 6,
+      "url": "https://36kr.com/p/3815459102433026",
+      "companies": [
+        "讯飞"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-017",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🏢 案例",
+      "title": "GitLab 裁员 14%：AI 时代的\"增收裁员\"悖论",
+      "summary": "GitLab 裁减约 350 名员工（占员工总数 14%），同步退出 22 个国家业务并精简管理层级。财务背景：Q1 营收 2.64 亿美元、同比增长 23%、毛利率 88%——在盈利的情况下裁员。CEO Bill Staples 解释称\"Agent 工作负载对开发者基础设施的压力已超出原有设计容量\"，GitLab 正重建 git 基础架构以支撑 100 倍增长，并与一家 AI 实验室合作开发 Agent 优化 API 和治理工具。2026 年全球科技行业已累计裁员逾 10 万人，形成\"营收创新高、同步裁员\"的行业性规律。",
+      "meaning": "：DevOps 平台正在为 AI Agent 工作负载重构底层架构。依赖 GitLab 的企业需关注 API 和工作流的兼容性变化；同时，\"AI 转型期裁员\"模式正在科技行业蔓延，HR 和供应链规划需将此纳入风险评估",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/",
+      "companies": [
+        "GitLab"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-018",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "[⭐ 双源 · 见 Top 5 #1] Anthropic 递交 IPO 申请，估值 9650 亿逼近万亿美元",
+      "summary": "Anthropic 于 6 月 1 日向 SEC 提交保密 S-1 文件，计划登陆公开市场，最新融资后估值达 9,650 亿美元（接近万亿）。5 月营收年化运行率约 470 亿美元，是一年前约 100 亿美元的近 5 倍。此次 IPO 抢在 OpenAI 之前，构成两家公司在资本市场层面的正面竞争。若以万亿美元估值上市，将跻身史上最大 IPO 之列（仅次于沙特阿美和 SpaceX）。TechCrunch 补充：Series H 轮融资总额达 650 亿美元；旗下 Mythos 模型在高危漏洞检测上已展示超越竞品能力，预计 IPO 后将扩大商业开放。",
+      "meaning": "：AI 模型公司从私募融资走向公开市场，将使其财务数据和商业模式的可持续性首次接受公众和机构审视",
+      "source": "NPR / CNN / NBC News（主）+ TechCrunch（副）",
+      "quality_score": 6,
+      "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "TechCrunch",
+        "Mythos"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-019",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "[⭐ 双源 · 见 Top 5 #2] Alphabet 创纪录 850 亿美元融资——全球史上最大股权融资",
+      "summary": "Alphabet 完成 850 亿美元融资，首期 450 亿美元已完成交割，第二期 400 亿美元计划下季度完成。伯克希尔·哈撒韦承诺 100 亿美元。CEO Sundar Pichai 表示资金将全部用于\"AI 机遇布局\"，支撑 1,800-1,900 亿美元年度资本支出计划。Stratechery 分析指出：Google Services（搜索广告）是极高利润率的\"现金牛\"，正以巴菲特逻辑为 Google Cloud 算力基础设施持续输血，资金耐力是竞争对手无法复制的结构性优势，但同时高度暴露于\"AI 彻底颠覆搜索广告\"的尾部风险。本次超额认购显示公开市场对 AI 基础设施投资具有强烈信心，也为 Anthropic、SpaceX 等即将 IPO 的 AI 公司提供积极信号。",
+      "meaning": "：谷歌押注未来 AI 算力稀缺，视自己为基础设施\"压舱石\"而非模型赛跑选手",
+      "source": "TechCrunch（新闻）+ Stratechery（分析）",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+      "companies": [
+        "Anthropic",
+        "Google",
+        "Stratechery"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-020",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "Brookfield 500 亿美元 AI 基础设施押注",
+      "summary": "加拿大资产管理巨头 Brookfield 宣布前所未有的 500 亿美元 AI 基础设施投资计划，聚焦数据中心、电力和冷却系统，针对超大规模算力需求。这是迄今私募基础设施领域最大单笔 AI 押注之一，反映了机构资本对 AI 算力需求长期持续的强烈信心。该举措与加拿大政府同日宣布向 AI 初创公司提供资金并获取股权的政策形成协同，显示加拿大正在系统性构建本国 AI 产业生态。",
+      "meaning": "：算力基础设施的金融化加速，AI 数据中心正成为和铁路、港口同等量级的\"新世纪国家战略资产\"",
+      "source": "Bloomberg",
+      "quality_score": 6,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/brookfield-rolls-out-new-ai-infrastructure-playbook",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-021",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "加拿大押注 AI 国家战略：政府直接购股，2034 年目标 60% 企业 AI 化",
+      "summary": "加拿大政府宣布向最具潜力的本土 AI 初创公司提供资金，并直接获取股权，旨在打造\"国家冠军\"企业。目标是到 2034 年将使用 AI 工具的加拿大企业占比从目前 12% 提升至 60%。这是继法国、英国、德国之后，又一 G7 国家通过\"国家股权直投\"方式参与 AI 产业竞争。",
+      "meaning": "：G7 国家普遍由间接政策（补贴、监管豁免）转向\"国家资本直接入股\"AI 公司，AI 产业国家化趋势加剧",
+      "source": "Bloomberg",
+      "quality_score": 6,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/canada-to-provide-funding-buy-equity-stakes-in-ai-startups",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-022",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "Moonshot AI 估值达 200 亿美元，ARR 突破 2 亿美元",
+      "summary": "据 SCMP 报道，Moonshot AI 完成约 20 亿美元新一轮融资，估值超过 200 亿美元。公司 4 月年化经常性收入（ARR）已突破 2 亿美元。报道同时指出，Moonshot 正在研究如何在中国新 IPO 规则下推进上市路径。",
+      "meaning": "：Moonshot 已成为中国 AI 独角兽中商业化落地速度最快的公司之一，ARR 2 亿美元标志商业模式初步验证",
+      "source": "South China Morning Post",
+      "quality_score": 6,
+      "url": "https://www.scmp.com/tech/article/3352751/kimi-developer-moonshot-ai-valued-us20b-it-navigates-chinas-new-ipo-rules",
+      "companies": [
+        "Moonshot"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-023",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "MiniMax 海螺视频 2.3 发布 + 智谱 AI 同步启动 A 股科创板辅导",
+      "summary": "MiniMax 发布海螺视频 Hailuo 2.3，在保持同等价格基础上刷新全球视频模型性能-成本比纪录；新增 Hailuo 2.3 Fast 版本，批量创作成本最高降 50%。功能上大幅改善人体运动、风格化和微表情表现。同步发布的 Media Agent 支持全模态创意生产。据新浪财经 6 月 2 日报道，MiniMax 与智谱 AI 同步推进 A 股科创板上市辅导（智谱拟募 150 亿），成为国内大模型上市潮的最新进展。",
+      "meaning": "：MiniMax 和智谱双双启动 A 股辅导，国内大模型\"上市潮\"加速到来，资本退出路径逐步清晰",
+      "source": "MiniMax 官网 / 新浪财经",
+      "quality_score": 6,
+      "url": "https://finance.sina.com.cn/wm/2026-06-02/doc-inhzzytf1351508.shtml",
+      "companies": [
+        "智谱"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-024",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "💰 商业",
+      "title": "Lovable 与 Google Cloud 签署 5 倍扩容多年协议",
+      "summary": "斯德哥尔摩 AI 编程初创公司 Lovable 与 Google Cloud 签署扩展多年协议，使用量扩大 5 倍，同时获得 Anthropic Claude 和 Google Gemini 双模型访问权限。Lovable 已实现年化营收 4 亿美元，仅有 146 名员工，自称超过一半 Fortune 500 企业在使用其产品。协议包括：Lovable Agent 将上架 Google Cloud 企业市场；与 Google 旗下安全公司 Wiz 集成，实现实时威胁识别与修复。",
+      "meaning": "：Lovable 的\"AI 原生开发\"模式已得到大型云厂商的战略背书。企业 IT 采购方需关注此类工具正在重塑内部开发工具链的速度与成本结构",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "companies": [
+        "Anthropic",
+        "Google",
+        "Lovable"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-025",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "[⭐ 双源] Meta Muse Spark：首个\"个人超级智能\"推理模型发布，API 延期两月引发开发者生态疑虑",
+      "summary": "**模型面**（Meta AI Blog）：Meta Superintelligence Labs 发布 Muse Spark，定位\"个人超级智能\"的多模态推理模型。核心技术：原生多模态架构，支持工具调用、视觉推理和多 Agent 编排；\"沉思模式（Contemplating Mode）\"通过并行 Agent 协同解决复杂问题，在 Humanity's Last Exam 基准上达到 58%。预训练架构重建使计算量降低超 10 倍，同时维持等效性能。已在 meta.ai 上线，面向部分用户开放私有 API。**执行面**（WSJ）：Muse Spark 的面向开发者 API 持续推迟——从 4 月拖到 5 月，再推至 6 月，仍无确定上线日期，延误已近两个月。相比之下，OpenAI、Anthropic 和 Google 均在模型发布当天同步提供开发者 API 访问。",
+      "meaning": "：Meta 的 AI 商业化执行力仍是软肋，与其研究层面的模型表现不匹配。企业侧关注点在于其多 Agent 编排能力和医疗垂类的商业化路径，但 API 可用性问题须优先解决",
+      "source": "WSJ（主·延期批评）+ Meta AI Blog（主·模型发布）",
+      "quality_score": 6,
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Meta",
+        "WSJ"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-026",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "Meta 采用\"帐篷式\"数据中心应对 AI 基础设施扩张压力",
+      "summary": "Meta 借鉴特斯拉制造业做法，在俄亥俄州 New Albany 附近建造 6 栋大型帐篷结构数据中心，每栋面积 12.5 万平方英尺，建设工期较传统方式缩短一半。电力供应采用 200MW 模块化燃气轮机。建设时间窗：2026 年 4-6 月间陆续启动。Meta 全年资本支出计划高达 1,450 亿美元。然而华尔街反应消极——Meta 股价今年以来累计下跌 5%，市场担忧 AI 军备竞赛进入\"Mad Max 阶段\"，成本失控风险上升。",
+      "meaning": "：超大规模数据中心建设周期成为 AI 竞争的关键瓶颈。模块化/临时设施方案正在被主流采用，但背后的能耗与碳排放压力值得企业可持续战略团队关注",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
+      "companies": [
+        "Meta"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-027",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "👥 组织",
+      "title": "Meta SAM 3.1：视频对象多路复用，实时追踪速度翻倍",
+      "summary": "Meta 发布 SAM 3.1，引入\"对象多路复用\"技术，实现单次前向传播同时追踪最多 16 个对象，在 H100 GPU 上处理速度达 32 fps（较前代翻倍）。SA-Co 基准上较竞品提升 2 倍；H200 GPU 处理含 100+ 对象图像的推理延迟 30 毫秒。实际落地应用：Instagram Edits 视频特效、Facebook Marketplace 家居\"看看放在家里\"功能、野生动物保护监控（SA-FARI 数据集）、海洋研究（FathomNet 集成）。",
+      "meaning": "：Meta 将 SAM 3.1 的计算机视觉能力开放给研究和商业应用。零售商品 AR 展示、安防监控、工业质检可直接基于此能力降低视频分析成本",
+      "source": "Meta AI Blog",
+      "quality_score": 6,
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "companies": [
+        "Meta"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-028",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "NVIDIA Cosmos 3：首个开源全能物理 AI 基础模型",
+      "summary": "NVIDIA 发布 Cosmos 3，首个将世界生成、物理推理和动作生成统一于单一架构的开源基础模型，结束了过去需要多个分离模型的碎片化方案。两个规格：Cosmos 3 Nano（160 亿参数，适合工作站）和 Cosmos 3 Super（640 亿参数，适合大规模合成数据生成），均采用 Mixture-of-Transformers（MoT）架构。能力范围：文本/图像/视频到视频生成、前向/逆向动力学建模、机器人策略生成、视觉语言理解、多模态单次前向推理。发布包含后训练脚本、Hugging Face Diffusers 集成和机器人/物理/驾驶/仓储 6 个合成数据集。",
+      "meaning": "：机器人、自动驾驶、智能空间的物理 AI 开发门槛大幅降低。工业自动化和物流机器人团队可基于 Cosmos 3 快速构建场景模拟和策略训练管线",
+      "source": "Hugging Face Blog / NVIDIA",
+      "quality_score": 6,
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "companies": [
+        "NVIDIA",
+        "Hugging Face"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-029",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "NVIDIA Nemotron 3 Ultra 登陆 AWS SageMaker JumpStart",
+      "summary": "AWS 宣布 NVIDIA Nemotron 3 Ultra 上架 SageMaker JumpStart，支持一键部署。技术规格：5,500 亿总参数 / 550 亿激活参数，Transformer-Mamba 混合专家架构（MoE），上下文长度最长 100 万 token，NVFP4 精度优化后相比标准部署实现推理速度 5 倍提升、成本降低 30%。性能尤其适用于多步骤推理、Agent 编排、代码生成等复杂企业自动化场景。",
+      "meaning": "：顶级推理模型的\"一键部署\"门槛进一步降低。已在 AWS 上构建 AI 工作流的企业可以极低摩擦测试 550B 参数级推理能力，适合 Agent 编排和复杂任务自动化 POC",
+      "source": "AWS Machine Learning Blog",
+      "quality_score": 6,
+      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/",
+      "companies": [
+        "AWS",
+        "NVIDIA"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-030",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "WindBorne WeatherMesh-6：AI 气象模型超越欧洲 ECMWF",
+      "summary": "斯坦福学生于 2019 年创办的 WindBorne Systems 发布 WeatherMesh-6，在核心指标上超越欧洲天气预报顶级机构 ECMWF。\"传统模型 5 天后的准确度，WeatherMesh-6 在 5 天预测时已能达到\"。技术基础：全球部署约 400 个气象气球（15 个基地升放），每小时输出（对比传统 6 小时间隔），大陆美国分辨率 3 公里。公司融资 2,500 万美元，商业化渠道包括向 NOAA、空军、海军出售气球数据以及向交易商出售预报订阅。",
+      "meaning": "：能源、农业、物流、金融（天气衍生品）领域企业的气象数据采购决策应重新评估：AI 原生气象服务的精度已超越政府机构，且成本结构更灵活",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-031",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "AWS SageMaker：SFT+DPO 联合训练将工具调用准确率提升 30%",
+      "summary": "使用 When2Call 数据集（SFT 样本 1.5 万条 + 偏好样本 9,000 条）对 Qwen3-1.7B 进行 SFT+DPO 联合训练，工具调用准确率从 41.57% 提升至 71.06%（+30 个百分点），超越参数量更大的 Llama-3.2-3B（62.67%）。关键洞察：SFT 奠定基础指令遵从能力，DPO 引入偏好信号无需显式奖励模型。较小参数模型通过联合训练可超越更大基模型，显著降低部署成本和推理延迟。",
+      "meaning": "：构建可靠工具调用 Agent 的技术路线已有具体参考实现。企业 AI 团队可以 1.7B 参数小模型为基础训练专用工具调用模型，避免高成本大模型 API 调用",
+      "source": "AWS Machine Learning Blog",
+      "quality_score": 6,
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-your-agents-tool-calling-accuracy-with-sft-and-dpo-on-amazon-sagemaker-ai/",
+      "companies": [
+        "AWS",
+        "FT"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-032",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "AWS Bedrock Ops Alert：AI 运维自动驾驶解决方案",
+      "summary": "AWS 发布基于 CloudFormation 的 Amazon Bedrock Ops Alert，为生成式 AI 工作负载提供三层自动化监控：关键错误检测、配额率动态阈值调整和 ML 异常识别。核心功能：配额提升后自动重新校准阈值；智能告警分类自动路由到对应 support case；重复检测机制抑制冗余 case。",
+      "meaning": "：Bedrock 大规模企业部署的运维复杂度得到官方解决方案支撑。已上 Bedrock 的企业 AI 团队可直接采用，减少自建监控体系的工程投入",
+      "source": "AWS Machine Learning Blog",
+      "quality_score": 6,
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/",
+      "companies": [
+        "Amazon",
+        "AWS",
+        "Bedrock"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-033",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "NVIDIA Nemotron 3.5 ASR 多语言微调实战指南",
+      "summary": "NVIDIA Nemotron 3.5 ASR 是一款 6 亿参数的多语言流式语音转文字模型，单一 checkpoint 支持 40 种语言/地区，原生输出标点和大小写。Cache-Aware FastConformer-RNNT 架构每帧仅处理一次，延迟可配置（80ms 到 1.12s）。微调效果：在约 2,000 小时多语言数据上微调后，希腊语和保加利亚语的词错误率（WER）相对降低 31-32%。",
+      "meaning": "：有特定语言/口音/行业领域语音需求（呼叫中心、医疗记录、会议转录）的企业，可以低门槛对 Nemotron 3.5 ASR 进行定制微调，无需从头训练",
+      "source": "Hugging Face Blog / NVIDIA",
+      "quality_score": 6,
+      "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "companies": [
+        "NVIDIA"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-034",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "NVIDIA 任务种子合成问答：Nemotron 预训练质量大幅提升",
+      "summary": "NVIDIA 提出任务种子合成数据生成（Task-Seeded SDG）方法：规范化约 70 个任务（700 余子任务），生成相似新问题并用推理链和领域知识丰富答案，最后经格式校验和去重过滤。在 1,000 亿 token 的 Nemotron-3 Nano 续训实验中，GPQA 提升 11.1 分，MMLU-Pro 提升 1.8，平均代码能力提升 1.9。关键结论：上下文丰富的答案远优于纯标签答案；更广泛的任务覆盖有助于跨任务泛化。",
+      "meaning": "：企业自研模型预训练可通过此类合成数据策略显著降低对高质量人工标注数据的依赖，同时提升垂直领域模型的下游任务表现",
+      "source": "Hugging Face Blog / NVIDIA",
+      "quality_score": 6,
+      "url": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
+      "companies": [
+        "NVIDIA"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-035",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "Fundamental NEXUS 大型表格模型上架 SageMaker JumpStart",
+      "summary": "Fundamental 的 NEXUS 是首批专为结构化数据（表格）构建的大型基础模型之一，承诺将传统 ML 开发周期从 3-6 个月压缩至数小时。技术特性：十亿级行数据处理能力，原生支持数值、分类和时序数据，无需手动特征工程；具备排列不变性和跨 schema 推理能力。适用场景：金融欺诈检测、临床试验匹配、预测性维护、客户流失预测。",
+      "meaning": "：结构化数据场景终于有了\"开箱即用\"的基础模型。数据团队可评估 NEXUS 对金融/医疗/供应链场景中 AutoML 管线的替代成本",
+      "source": "AWS Machine Learning Blog",
+      "quality_score": 6,
+      "url": "https://aws.amazon.com/blogs/machine-learning/fundamentals-large-tabular-model-nexus-is-now-available-on-amazon-sagemaker-jumpstart/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-036",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "FLUX.2 [klein] LoRA：60 分钟 / $0.5 完成图像生成模型精调",
+      "summary": "Black Forest Labs 发布 FLUX.2 [klein] 的 LoRA 微调指南，40 亿参数模型可在消费级 GPU（RTX 4090，24GB VRAM）上以约 1 小时、约 0.5 美元完成微调，许可证 Apache 2.0（开放权重）。两种微调类型：风格 LoRA（15-40 张图像）和编辑 LoRA（50-200 对输入/输出配对图像）。训练约 1,800 步，推荐工具 ai-toolkit（ostris）。",
+      "meaning": "：企业创意设计团队可以极低成本为品牌视觉风格或产品图像编辑定制专属图像生成模型，摆脱对通用图像生成 API 的完全依赖",
+      "source": "Hugging Face Blog / Black Forest Labs",
+      "quality_score": 6,
+      "url": "https://huggingface.co/blog/black-forest-labs/flux-2-klein-lora",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-037",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚙️ 基础设施",
+      "title": "AWS Nova Forge 超参数优化：企业模型精调最佳实践",
+      "summary": "AWS 发布 Nova Forge 模型精调超参数优化实战指南，涵盖持续预训练（CPT）、监督微调（SFT）和强化微调（RFT）三种技术路线。核心建议：用约 50% 客户数据 + 通用语料混合训练以防止\"灾难性遗忘\"；学习率是最敏感超参数；应先用 LoRA 验证可行性再升级到全参数训练；推荐管线：SFT 后接 RFT。",
+      "meaning": "：企业在 Amazon Nova 系列模型上进行垂直行业精调有了官方最佳实践参考，可直接用于降低精调失败率和训练成本",
+      "source": "AWS Machine Learning Blog",
+      "quality_score": 6,
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-art-and-science-of-hyperparameter-optimization-on-amazon-nova-forge/",
+      "companies": [
+        "AWS",
+        "FT"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-038",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "McKinsey: AI 组织重构——88% 企业已常态使用 AI，但仅三分之一进入规模化阶段",
+      "summary": "调研覆盖全球数千名高管。88% 受访者表示其组织至少在一个业务功能中已常态使用 AI（较去年 78% 上升 10 个百分点），但企业级规模化仍属少数——约三分之一已开始扩展 AI 程序，多数仍处试验或试点阶段。核心差异在于数据基础牢固性、业务流程深度嵌入与 C-suite 领导力三个维度。报告特别指出 Agentic AI 的快速扩散，但多数组织尚未从中捕获企业级价值。",
+      "meaning": "：CXO 需警惕\"实验陷阱\"——88% 使用率背后是极度分散的价值分布，唯有推动从功能级部署到流程级重构的跨越，才能跻身价值捕获的少数群体",
+      "source": "McKinsey QuantumBlack",
+      "quality_score": 6,
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value",
+      "companies": [
+        "McKinsey"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-039",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "BCG AI Radar 2026：AI 投资占营收比翻倍，74% CEO 亲自主导决策",
+      "summary": "BCG 年度 AI Radar 报告，调研全球 1,000+ 名企业高管。核心数据：企业 AI 投入占营收比从 2025 年约 0.8% 翻倍至 2026 年 1.7%；94% 的企业即使短期 AI 举措失败也计划继续投资。74% 的 CEO 已成为公司的首席 AI 决策人（较去年近乎翻倍）；90% 相信 AI Agent 将在 2026 年带来可量化 ROI，并将超过 30% 的 AI 预算投入 Agent 相关项目。报告将 CEO 分为三类：追随者（约 15%）、务实派（约 70%）和先行者（约 15%），先行者将 60% 预算用于员工 AI 技能升级，是务实派的两倍以上。",
+      "meaning": "：AI 投资决策权正从 CTO/CIO 向 CEO 集中，战略级 AI 项目必须直接对接 CEO 议程，基于 P&L 的 ROI 证明成为决定性门槛",
+      "source": "BCG / BCG Henderson Institute",
+      "quality_score": 6,
+      "url": "https://www.bcg.com/publications/2026/as-ai-investments-surge-ceos-take-the-lead",
+      "companies": [
+        "BCG"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-040",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Deloitte 企业 AI 状态 2026：仅 25% 具变革影响，Agent 治理缺口高达 79%",
+      "summary": "报告基于 3,000+ 名 Director 至 C-suite 级别主管的调研，是目前规模最大的企业 AI 现状调查之一。25% 的受访企业主管表示 AI 正产生\"变革性影响\"（较去年翻倍），但仅 34% 的企业在用 AI \"深度改造\"业务。关键风险：74% 企业计划两年内部署 Agentic AI，但仅 21% 拥有成熟的 Agent 治理模型（治理缺口 79%）；仅 25% 的受访者已将超过 40% 的 AI 试点转入生产。",
+      "meaning": "：Agentic AI 的治理鸿沟将是 2026-2027 年最紧迫的企业风险议题，CXO 在规划 Agent 部署路线图时必须同步建设治理框架，否则将面临严重合规与失控风险",
+      "source": "Deloitte AI Institute",
+      "quality_score": 6,
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+      "companies": [
+        "Deloitte"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-041",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "PwC AI 绩效研究 2026：AI 经济价值 74% 被 20% 企业独占，增长导向远胜效率导向",
+      "summary": "PwC 调研来自 25 个行业的 1,217 名大型上市公司高级管理人员。核心发现：AI 的 74% 经济价值由仅 20% 的企业捕获，这一极化趋势仍在加剧。AI 表现最佳的企业在护栏内执行多任务（1.8 倍于其他企业）或以自主、自优化方式运作（1.9 倍）。重要结论：AI 价值的最强驱动力是\"增长机会把握\"而非单纯效率提升。",
+      "meaning": "：CFO 需重新评估 AI ROI 框架——将 AI 定位于成本削减的企业正在错失核心价值，真正的赢家是将 AI 融入增长战略的企业",
+      "source": "PwC Global",
+      "quality_score": 6,
+      "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
+      "companies": [
+        "PwC"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-042",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Bain：AI 企业\"代码红\"——董事会耐心耗尽，2026 年必须见底线成果",
+      "summary": "Bain 调研北美和欧洲 280 名高管。ChatGPT 发布三年后，极少数企业真正规模化了 AI 押注，董事会正在失去耐心——2026 年被明确定为 AI 必须转化为底线成果之年。AI 领先者（规模化采用）已实现 10%-25% 的 EBITDA 提升；75% 的受访者预计 AI/ML 将占技术预算的至少 5%-10%。数据、流程与变革管理是当前价值创造的核心障碍（占成功因素 2/3），而非技术本身。Bain 同期宣布投资 OpenAI 部署公司以加速企业级 AI 规模化。",
+      "meaning": "：2026 年是 AI 投资的\"证明期\"——企业需要从 PoC 集中转向可量化 ROI 的规模化场景，否则预算将面临严重收缩压力",
+      "source": "Bain & Company",
+      "quality_score": 6,
+      "url": "https://www.bain.com/insights/ai-enterprise-code-red/",
+      "companies": [
+        "OpenAI",
+        "Bain"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-043",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Bloomberg × Bain：企业 AI 投资大调查——\"技术有效，价值未至\"",
+      "summary": "Bain 对全球大型企业的最新调研显示，AI 自动化带来的成本节约普遍未达预期，Bain 报告直言\"应让高管们感到不安\"，因为许多人正以尚未到来的预期收益为依据批准持续加大的 AI 支出。与此同时，Alphabet、Meta、微软、Amazon 四大科技巨头今年预计合计资本支出超过 5,000 亿美元。这一\"支出增、收益缺\"的剪刀差，叠加高盛、彭博等机构持续发出 ROI 质疑，标志着企业界开始从\"AI 信仰投资\"向\"要求量化回报\"转型。",
+      "meaning": "：2026 年下半年企业 AI 预算审查趋严，能直接转化为成本节约或营收增长的 AI 应用将优先获批",
+      "source": "Bloomberg / Bain & Co.",
+      "quality_score": 6,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-01/bain-finds-corporate-ai-investments-based-on-returns-that-haven-t-arrived",
+      "companies": [
+        "Meta",
+        "Amazon",
+        "Bain",
+        "Bloomberg"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-044",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Forrester：Agentic AI 2026——追逐者众多，实现规模化者寥寥，25% AI 支出将推迟至 2027",
+      "summary": "大多数企业在追逐 Agentic AI，却几乎没有人真正实现；投资无法转化为规模的根源在于编排（orchestration）和治理机制严重滞后于雄心。Forrester 预测企业将推迟 25% 的 AI 支出至 2027 年；仅 15% 的 AI 决策者报告过去 12 个月 EBITDA 有所提升，不足三分之一能将 AI 价值关联到 P&L 变化。消费者层面：全球超过 40% 的线上成年用户已使用 GenAI 获取建议或推荐。",
+      "meaning": "：Agentic AI 的\"编排-治理\"能力鸿沟将成为新的竞争差异化点，投资者与采购者需评估供应商在这一层的成熟度，而非仅关注底层模型性能",
+      "source": "Forrester Research",
+      "quality_score": 6,
+      "url": "https://www.forrester.com/blogs/predictions-2026-ai-moves-from-hype-to-hard-hat-work/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-045",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Gartner：2026 年全球 AI 支出达 2.52 万亿美元，AI 成功企业数据投入高 4 倍",
+      "summary": "Gartner 预测 2026 年全球 AI 支出达 2.52 万亿美元，同比增长 44%。关键预警：到 2026 年底，因 AI 风险防护措施不足，\"AI 致死\"相关法律索赔将超 2,000 件。最重要发现：AI 成功企业在数据质量、治理、人才和变革管理等基础层面的投入高达表现较差企业的 4 倍。",
+      "meaning": "：2.52 万亿美元市场背后，基础层（数据、治理、人才）投资的 4 倍差距揭示了 AI 投资的真实结构——平台和工具层面的竞争将逐渐向基础能力倾斜",
+      "source": "Gartner Research",
+      "quality_score": 6,
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-046",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "IDC：2025 年 AI 基础设施支出翻倍至 3,180 亿，2026 年预计达 4,870 亿",
+      "summary": "IDC 最新数据：2025 年全球 AI 基础设施支出总计 3,180 亿美元（2024 年为 1,530 亿美元，同比翻倍）；Q4 2025 单季度达 899 亿美元，创历史新高；美国占 Q4 全球支出的 77%（692 亿美元）。IDC 预计 2026 年 AI 基础设施支出将达 4,870 亿美元（同比增长约 53%），2029 年将突破 1 万亿美元。金融服务业预计 2026 年 AI 支出约 730 亿美元，占全球总量超 20%。",
+      "meaning": "：从试验性投资向长期基础设施承诺的战略转变已全面发生，云服务商与数据中心运营商将持续受益，而软件层的 ROI 压力促使企业更精准地评估算力分配",
+      "source": "IDC",
+      "quality_score": 6,
+      "url": "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-caps-historic-year-at-90-billion-in-q4-2025-2029-spending-to-eclipse-1-trillion/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-047",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Accenture：仅 7% 企业具备 AI-Ready 数据能力——数据鸿沟成规模化的真正杀手",
+      "summary": "Accenture 5 月发布 AI-Ready Data 研究，揭示令人震惊的数字：仅 7% 的企业在构建先进 AI 所需数据能力方面足够成熟（称为\"Data Reinventors\"），而这 7% 的企业利润率提升幅度高达行业同比的 1.6 倍。对比：86% 的 C-suite 计划增加 AI 投资，但底层数据基础的严重滞后正成为规模化的根本瓶颈。",
+      "meaning": "：数据基础设施现代化投资的 ROI 已有充分数据验证，这为 CDO/CTO 向董事会申请数据治理预算提供了最有力的商业论据",
+      "source": "Accenture Research",
+      "quality_score": 6,
+      "url": "https://www.accenture.com/us-en/insights/ai-data/ai-ready-data",
+      "companies": [
+        "Accenture"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-048",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Stanford HAI AI Index 2026：SWE-bench 一年从 60% 升至 100%，GenAI 三年渗透 53% 人口",
+      "summary": "第七版 Stanford AI Index，超 400 页。技术层面：SWE-bench Verified 代码编写性能在一年内从 60% 跃升至接近 100%；多个模型已达到或超过博士级科学问题解答的人类基准。应用层面：企业采用率达 88%；80% 的大学生使用 GenAI；GenAI 仅用三年就达到 53% 人口渗透率，远快于 PC 或互联网。经济层面：美国私人 AI 投资 2025 年达 2,859 亿美元（中国的 23 倍）；2026 年初美国消费者年度 AI 剩余价值估计达 1,720 亿美元，中位用户价值一年内翻三倍。核心警告：技术能力与治理准备之间的鸿沟正在迅速扩大。",
+      "meaning": "：SWE-bench 接近满分是技术里程碑，意味着软件工程自动化已进入质变阶段；消费者 AI 剩余价值快速增长，但治理框架滞后的风险同样清晰可见",
+      "source": "Stanford HAI",
+      "quality_score": 6,
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "companies": [
+        "Stanford"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-049",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "a16z：1,000 亿 Token 实证研究——真实 AI 使用模式与市场份额演变",
+      "summary": "a16z 联合 OpenRouter 分析了超过 100 万亿 token 的真实使用数据，提供迄今最大规模 AI 使用实证研究。关键发现：OpenAI 在企业市场仍占约 56% 份额，但 Anthropic 和 Gemini 正稳步蚕食其份额，受访者预计这一趋势将在 2026 年加速；编程与分析任务的 token 消耗量远超预期；a16z 同期发布《State of Generative Media 2026》，指出 2026 年是 AI 多模态内容创作的爆发年。",
+      "meaning": "：这是目前最具统计可信度的 AI 使用分布研究；企业在制定 AI 供应商策略时，应将真实使用数据而非品牌声量作为参考基准；Anthropic 与 Gemini 的份额增长信号值得重点关注",
+      "source": "Andreessen Horowitz (a16z)",
+      "quality_score": 6,
+      "url": "https://a16z.com/state-of-ai/",
+      "companies": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-050",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "📊 咨询",
+      "title": "Lenny's Newsletter：2026 AI 增长新剧本——传统 PLG/SLG 框架被 Agent 打破后如何重构增长",
+      "summary": "前 Miro/SurveyMonkey 增长负责人 Elena Verna 阐述 AI 时代的增长逻辑变革：传统 PLG（产品驱动增长）和 SLG（销售驱动增长）框架正被 AI Agent 重写，产品边界被打破后，增长策略需围绕\"意图捕获\"而非\"功能转化\"重构。配套的产品岗位市场报告显示：AI 驱动需求正同时减少初级 PM 岗位（自动化）和增加高级 AI PM 岗位（战略决策层），市场两极分化加剧。",
+      "meaning": "：增长团队的技能重构已刻不容缓——能够驾驭 AI Agent 并设计 AI-native 增长飞轮的人才正在成为产品增长竞争的决定性要素",
+      "source": "Lenny's Newsletter (Elena Verna)",
+      "quality_score": 6,
+      "url": "https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-051",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "[见 Top 5 #4] 特朗普签署 AI 行政令：模型发布前政府可提前 30 天自愿审查",
+      "summary": "特朗普签署行政令《推进人工智能创新与安全》，要求 AI 公司在发布前沿模型前，自愿提前最多 30 天提交政府评估（此前草案为 90 天，因担忧阻碍创新被压缩）。同时指示建立 AI 网络安全信息共享机制\"AI 网络安全清算所\"，并制定联邦 AI 能力评测基准。行政令明文规定：不得被解读为设立强制性政府许可前置机制。该行政令将美国 AI 监管从 Biden 时代的预防性框架转向以\"可选审查 + 信息共享\"为核心的促进创新路线。",
+      "meaning": "：美国确立\"AI 安全自愿制\"基调，与 EU AI Act 强制规范形成制度分野，将影响全球 AI 治理格局",
+      "source": "CNBC / Axios / NPR",
+      "quality_score": 6,
+      "url": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-052",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "英国 CMA 裁定：出版商可申请退出 AI 搜索内容使用（全球首创）",
+      "summary": "英国竞争和市场管理局（CMA）裁定 Google 必须在 Google Search Console 提供开关，允许出版商将内容从 AI Overviews、AI Mode 等生成式 AI 搜索功能中移除，且退出不影响在传统搜索结果中的排名。Google 还须明确标注出版商内容来源并附带可点击链接。规则从英国开始，之后向全球扩展。背景数据：Google AI Overviews 月活 25 亿、AI Mode 月活超 10 亿。",
+      "meaning": "：内容权益在 AI 搜索时代的监管框架正在成形。媒体/出版公司应立即盘点内容授权政策，并借此监管杠杆与谷歌等平台谈判内容使用费",
+      "source": "TechCrunch",
+      "quality_score": 6,
+      "url": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
+      "companies": [
+        "Google"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-053",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "NYT：出版商警告 AI 公司\"违反既定法律\"，版权之战进入决定性阶段",
+      "summary": "《纽约时报》出版商公开警告，AI 公司正在做出\"违反既定法律\"的选择，将威胁创意工作的可持续性，并可能造成\"大量不必要的损害\"。NYT 已对 OpenAI 和 Perplexity 提起版权诉讼，与此同时与 Amazon 达成内容许可协议，展示了\"一手诉讼、一手谈判\"的双轨策略。NYT 工会将 AI 权益列为合同谈判核心议题。",
+      "meaning": "：主流媒体版权诉讼将在 2026 下半年密集进入庭审，判决结果将重塑 AI 训练数据的合法使用边界",
+      "source": "Variety / NYT",
+      "quality_score": 6,
+      "url": "https://variety.com/2026/biz/news/new-york-times-ai-companies-choices-unnecessary-harm-1236763934/",
+      "companies": [
+        "OpenAI",
+        "Amazon",
+        "Perplexity"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-054",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "网信办联合三部委发布《智能体规范应用与创新发展实施意见》",
+      "summary": "国家网信办、国家发改委、工业和信息化部三部委联合印发《智能体规范应用与创新发展实施意见》，首次在国家层面明确 AI 智能体与用户之间的决策权限边界。核心导向：安全可控前提下鼓励创新、明确责任主体链条、推动智能体在政务/金融/医疗等关键行业规范落地。",
+      "meaning": "：监管机构正式将 AI Agent 纳入专项制度框架，填补此前\"智能体\"法律地位模糊的空白，为大模型厂商商业化提供合规路径",
+      "source": "中央网络安全和信息化委员会办公室",
+      "quality_score": 6,
+      "url": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-055",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "⚖️ 监管",
+      "title": "网信办《人工智能拟人化互动服务管理暂行办法》7 月 15 日起施行",
+      "summary": "国家网信办、国家发改委、工信部、公安部、市场监管总局五部门联合发布《人工智能拟人化互动服务管理暂行办法》，2026 年 7 月 15 日起施行。办法规范了 AI 虚拟角色、情感陪伴、AI 客服等拟人化互动场景，要求服务提供者明确告知用户其交互对象为 AI，并限制对未成年人的情感依附诱导行为。",
+      "meaning": "：国内 AI 伴侣、AI 角色扮演、情感类 App 将面临严格合规要求，行业需在 7 月前完成整改",
+      "source": "中央网络安全和信息化委员会办公室",
+      "quality_score": 6,
+      "url": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-056",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "[见 Top 5 #3] Moonshot AI Kimi K2.6：SWE-Bench Pro 58.6 全球第一，300 Agent 协作 4000 步",
+      "summary": "Kimi K2.6 以开放权重发布，万亿参数 MoE 架构，上下文扩展至 256K，内置 400M 参数 MoonViT 视觉编码器支持图像/视频输入，Modified MIT 协议开源。Agent Swarm 系统支持 300 个子 Agent 协调运行 4,000 步长程任务。关键评测：SWE-Bench Pro 58.6（超越 GPT-5.4 的 57.7 与 Claude Opus 4.6 的 53.4）；HLE-Full 54.0（GPT-5.4 为 52.1）。模型已上线 Kimi.com、Kimi App、官方 API 及 Kimi Code CLI。",
+      "meaning": "：Kimi K2.6 在代码和 Agent 长程任务两个核心评测上暂居全球第一，是目前国内最强开源 Agent 模型",
+      "source": "MarkTechPost",
+      "quality_score": 6,
+      "url": "https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/",
+      "companies": [
+        "MIT",
+        "Moonshot",
+        "Kimi"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-057",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "DeepSeek V4 正式发布：1.6T MoE 开源、V4-Flash 定价全球最低",
+      "summary": "DeepSeek 2026 年 4 月发布 V4 系列，包括 V4-Pro（总参 1.6T / 激活 49B）和 V4-Flash（总参 284B / 激活 13B），均带 1M tokens 超长上下文、默认开启思维模式，以 MIT 协议开源并原生支持华为昇腾 NPU 部署。V4-Flash 输入价格为 $0.14/M tokens，低于 GPT-5.4 Nano。进入 2026 年 DeepSeek 产品重心已转向 Agent 系统工程，在代码 Agent 和中文搜索 Agent 领域逐步接近第一梯队。",
+      "meaning": "：V4 持续以开源高性价比策略压制闭源生态，原生昇腾支持打通国内算力替代路径",
+      "source": "七牛云开发者社区 / 博客园",
+      "quality_score": 6,
+      "url": "https://www.cnblogs.com/qiniushanghai/p/19925642",
+      "companies": [
+        "MIT",
+        "华为",
+        "DeepSeek"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-058",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "阿里云峰会：通义千问 Qwen3.7 系列亮相，Agentic Coding 国产第一",
+      "summary": "2026 年 5 月 20 日阿里云峰会，通义千问正式发布 Qwen3.7-Max-Preview（万亿参数 MoE）与 Qwen3.7-Plus-Preview（密集模型）。核心创新包括\"全域思考模式\"——首次实现文本、图像、代码统一推理。Qwen3.7-Max-Preview 在 Arena AI 综合评分达 1,284 分，超越 GPT-5.5（1,215 分）；Agentic Coding 能力声称达国产第一、全球前三。阿里云同步上线 Qwen Coding Plan 订阅方案，面向开发者。",
+      "meaning": "：通义继 Qwen3-Max-Thinking 后迈入下一代旗舰序列，\"全域思考\"有望与 Claude 对标编程赛道",
+      "source": "aibase 新闻",
+      "quality_score": 6,
+      "url": "https://news.aibase.cn/news/28076",
+      "companies": [
+        "阿里",
+        "通义"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-059",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "字节豆包 Seed-2.0-lite 全模态升级：能听、能看、能办事",
+      "summary": "火山引擎宣布豆包大模型 Doubao-Seed-2.0-lite 升级为豆包家族首款全模态理解模型，原生统一支持视频、图像、音频、文本四路输入。视觉理解在 BabyVision、WorldVQA 等细粒度感知评测中达 SOTA；音频侧支持 19 种语言语音转录及中英文互译，同步捕捉情感、背景音与音乐细节。同版本发布的 Seed-2.0-mini 也一并获得全模态能力，两款模型同日上线火山方舟平台供企业调用。",
+      "meaning": "：豆包从\"多模态\"升至\"全模态\"，Audio 理解能力补上最后一块拼图，企业侧多模态推理成本有望进一步下降",
+      "source": "IT之家",
+      "quality_score": 6,
+      "url": "https://www.ithome.com/0/947/010.htm",
+      "companies": [
+        "字节",
+        "豆包"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-060",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "百度文心 5.1 发布：参数压缩至 5.0 三分之一，预训练成本仅 6%",
+      "summary": "百度 2026 年 5 月 9 日正式发布文心大模型 5.1。总参数量约为文心 5.0 的三分之一，激活参数约一半，预训练成本仅为同规模业界模型的 6%，通过解耦的完全异步强化学习和规模化 Agent 后训练实现效率提升。Arena Search 排行榜显示其综合得分 1,223 分，为全球第 4、中国模型第 1；在法律与政府领域排全球第 1，数学排全球第 9。",
+      "meaning": "：文心 5.1 打出效率牌，用极低预训练成本实现主流排行榜顶尖表现，为国内大模型\"降本增效\"路线提供标杆",
+      "source": "ERNIE Blog / 证券时报",
+      "quality_score": 6,
+      "url": "https://yiyan.baidu.com/blog/posts/ernie-5.1-preview-0430-release-on-lmarena/",
+      "companies": [
+        "百度",
+        "文心"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-061",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "腾讯混元 Hy3 Preview 开源，旧版 46 个模型 6 月 22 日下线",
+      "summary": "腾讯混元 2026 年 4 月 23 日发布并开源 Hy3 Preview，参数 295B（A21B MoE），上下文 256K，采用 192 路专家 top-8 路由，配备 3.8B 参数 MTP 层，重点强化复杂推理、指令遵循、代码和 Agent 能力。与此同时，腾讯云公告原 HY2.0、hunyuan-turbos 等共 46 个旧版本模型将于 2026 年 6 月 22 日正式下线。",
+      "meaning": "：腾讯采用\"发新下旧\"策略推动模型迭代，混元生态向 Hy3 系列集中",
+      "source": "钛媒体 / 金融界",
+      "quality_score": 6,
+      "url": "https://www.tmtpost.com/7964254.html",
+      "companies": [
+        "腾讯",
+        "混元"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-062",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "华为盘古 5.5 开源全尺寸矩阵，最大模型 718B 深度思考版已可用",
+      "summary": "华为云 CEO 周跃峰在 2026 年中国合作伙伴大会宣布，华为云全面开放自研盘古大模型，开源覆盖 718B 至 1B 的全尺寸版本矩阵。旗舰 718B 深度思考模型由 256 个专家组成 MoE 架构，在知识推理、工具调用、数学等领域大幅增强，声称处于业界第一梯队。盘古已在 30 多个行业、500 多个场景落地。",
+      "meaning": "：华为通过全面开源战略拉拢开发者生态，718B 旗舰开源标志着国内 ToB 大模型竞争进入新阶段",
+      "source": "新浪财经",
+      "quality_score": 6,
+      "url": "https://finance.sina.com.cn/roll/2026-03-22/doc-inhrvsuz5114140.shtml",
+      "companies": [
+        "华为",
+        "盘古"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-063",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "北京正式发布\"人工智能创新高地\"行动计划，两年内 AI 核心产业破万亿",
+      "summary": "北京正式发布《北京人工智能创新高地建设行动计划》，明确九大核心行动，目标在两年内实现 AI 核心产业规模突破万亿元。具体指标包括：建成 10 万卡级国产 AI 算力集群、实施 100+ 个 AI 标杆应用、汇聚 2,000 亿元产业投资基金、新增 10 家以上上市公司和 20 家以上独角兽企业。亦庄开发区同步发布配套方案，提供算力补贴、模型支持、数据补贴和标杆场景奖励。",
+      "meaning": "：北京以万亿目标定调 2026-2027 年 AI 产业，政策资金支撑将加速大模型头部企业在京聚集",
+      "source": "北京市人民政府",
+      "quality_score": 6,
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202601/t20260106_4403157.html",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-064",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "信通院《人工智能产业发展研究报告（2025 年）》：智能体成主要落地形态",
+      "summary": "核心判断：2025 年 AI 技术正处于从技术创新向真实生产力转化的关键拐点，AI 智能体成为大模型应用落地主要形态并显现\"数字劳动力\"雏形；AI 正向价值创造核心环节渗透，具身 AI 在认知智能和物理智能双线取得突破。信通院估计 2025 年中国 AI 核心产业规模有望超 1.2 万亿元。",
+      "meaning": "：信通院报告为国内 AI 投资与政策制定提供权威产业基准，\"智能体\"被列为最重要的落地范式",
+      "source": "中国信息通信研究院",
+      "quality_score": 6,
+      "url": "https://www.caict.ac.cn/kxyj/qwfb/bps/202602/P020260202487301304903.pdf",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-065",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "信通院启动 2026 年\"可信 AI-智能体\"系列评估",
+      "summary": "中国信通院正式启动 2026 年\"可信 AI-智能体\"系列评估工作，面向市场上的 AI Agent 产品建立标准化评测体系。研华科技已入选信通院智能体应用案例，以 AI Agent 引领智能制造变革。该评估体系将成为国内 AI 智能体产品合规性与质量的重要认证依据。",
+      "meaning": "：信通院的评估标准正在成为 AI Agent 落地的\"质量门槛\"，通过认证有望成为 ToB 采购的重要参考",
+      "source": "证券时报",
+      "quality_score": 6,
+      "url": "https://www.stcn.com/article/detail/3678602.html",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-066",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "信通院联合发布《AI 模数共振体系研究报告（2026 年）》",
+      "summary": "中国信通院联合业界机构发布《人工智能模数共振体系研究报告（2026 年）》，提出\"模数共振\"框架，探讨大模型（Model）与数字化系统（Digital）之间协同进化的技术路径。强调在算力、数据、模型三要素协同基础上，推动 AI 价值向实体经济深度渗透，尤其点明电子信息、装备制造、汽车等行业为 AI 深度融合优先赛道。",
+      "meaning": "：信通院正在为\"AI + 实体经济\"的融合路径提供顶层框架，为各行业 AI 采购决策提供政策依据",
+      "source": "新浪财经",
+      "quality_score": 6,
+      "url": "https://finance.sina.com.cn/wm/2026-05-19/doc-inhymqci2189150.shtml",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-067",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": false,
+      "dimension": "🇨🇳 国内",
+      "title": "字节扣子 Coze 3.0 上线（🇨🇳 国内 Agent 平台集中于 🚀 产品维度，见上）",
+      "summary": "*本条目在 🚀 产品维度 [8] 已完整呈现，此处标记以供国内维度计数* ---",
+      "meaning": "",
+      "source": "",
+      "quality_score": 6,
+      "url": "",
+      "companies": [
+        "字节"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-068",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "[⭐ 双源 · 见 Top 5 #5] Karpathy：软件 3.0 宣言——Vibe Coding vs Agentic Engineering，自 2025 年 12 月不再亲手写一行代码",
+      "summary": "Karpathy 在 Sequoia AI Ascent 2026 上提出\"软件 3.0\"框架：软件不再是确定性指令集，而是通过 Prompt、上下文、Agent、工具、记忆与验证来驱动的智能解释器层。他区分了\"随性编程\"（Vibe Coding，任何人都能用自然语言造出可运行的应用）与\"Agentic Engineering\"（在保证专业品质前提下让 Agent 系统完成真实工程任务）。个人披露：自 2025 年 12 月起，他不再亲自编写代码，而是管理最多 20 个并行运行的 AI Agent，工作模式从\"80% 自己写代码\"翻转为\"近 100% 委托 Agent 执行\"。新的技能瓶颈不是实现速度，而是清晰表达\"正确\"的含义、在系统层面审查输出，以及设计让 Agent 并行运行的工作流。",
+      "meaning": "：AI 工具链的竞争焦点正从\"Copilot 效率\"转向\"能否独立完成生产级任务\"，企业选型标准将随之重构",
+      "source": "Karpathy Blog (bearblog)",
+      "quality_score": 6,
+      "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
+      "companies": [
+        "Karpathy",
+        "Ring"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-069",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Stratechery：《谷歌资本公司》——850 亿融资揭示 AI 时代的沃伦·巴菲特逻辑",
+      "summary": "Ben Thompson 分析 Alphabet 自 2005 年以来首次增发股票募资，认为这一举动暴露了 Google 的战略底牌：Google Services（搜索广告）是极高利润率的\"现金牛\"，正以与巴菲特用 See's Candies 利润收购 BNSF 铁路相同的逻辑，持续为 Google Cloud 的算力基础设施输血。Thompson 指出，这一结构意味着 Alphabet 在 AI 基础设施建设上具有竞争对手无法复制的资金耐力——只要广告业务不崩，算力就可以不断堆叠。但这也使 Alphabet 高度暴露于\"AI 彻底颠覆搜索广告\"的尾部风险。",
+      "meaning": "：谷歌押注未来 AI 算力稀缺，视自己为基础设施\"压舱石\"而非模型赛跑选手",
+      "source": "Stratechery",
+      "quality_score": 6,
+      "url": "https://stratechery.com/2026/the-google-capital-company/",
+      "companies": [
+        "Google",
+        "Stratechery"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-070",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Simon Willison：Anthropic 与 OpenAI 的产品-市场契合度已经实现",
+      "summary": "Willison 以自身每月消耗约 2,180 美元 API Token 的亲历数据为起点，佐以企业定价模式切换（Anthropic 将\"无限量使用\"改为\"$20/席位 + API 用量计费\"）、Anthropic 签约 12.5 亿美元/月算力采购，以及 OpenAI 703 个职位中 32.6% 面向企业销售等多重证据，论证两家公司的企业编程 Agent 已实现真正意义上的 PMF。关键信号：企业客户在\"预算超支\"时选择继续扩量而非削减，证明感知价值超过成本。Willison 认为转折点发生在 2025 年 11 月模型质量突破后，2026 年 4 月开始在财务层面显现。",
+      "meaning": "：AI 编程 Agent 是第一个经验证的大规模商业场景，其余垂直领域还在等待同等质量的突破",
+      "source": "Simon Willison's Weblog",
+      "quality_score": 6,
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Simon Willison"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-071",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Gary Marcus：《为何终将崩塌》——AI 行业无护城河的结构性危机",
+      "summary": "Marcus 以经济学逻辑提出：由于所有 AI 公司使用相似技术与数据，不存在可持续的竞争护城河，市场无法形成 Google 式 90% 份额的垄断，因此最终走向商品化定价和价格战。Bain 咨询的全球大企业调研证实，AI 成本节约效果普遍低于预期。他援引经济学家 Brad DeLong 的论断——\"推理经济学是无情的，Anthropic 和 OpenAI 不存在可信的高利润路径\"——预言 2026 年将被铭记为\"散户和指数基金接盘 AI 泡沫\"的年份。",
+      "meaning": "：AI 基础设施的超级泡沫担忧正从边缘声音进入主流金融叙事，值得长期关注",
+      "source": "Marcus on AI (Substack)",
+      "quality_score": 6,
+      "url": "https://garymarcus.substack.com/p/why-things-will-eventually-fall-apart",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Bain",
+        "Gary Marcus"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-072",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Ethan Mollick：《选择留在人类》——AI 内容泛滥时代，人类写作的价值主张",
+      "summary": "Mollick 观察到社交媒体上 AI 生成内容正快速侵蚀人类写作空间，促使他反思：在人人可以用 AI 生产大量内容的时代，选择用自己的声音写作、接受低效和不完美，本身成为一种有意义的社会信号。他将此描述为对\"人类带宽稀缺性\"的重新肯定——在信息过剩环境中，真实的人类叙事具有新的注意力价值。",
+      "meaning": "：AI 内容泛滥正在重塑\"可信度\"竞争，人类创作溢价或逐步体现在订阅制和认证机制上",
+      "source": "One Useful Thing (Substack)",
+      "quality_score": 6,
+      "url": "https://www.oneusefulthing.org/p/choosing-to-stay-human",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-073",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Simon Willison：SQLite 发布 AGENTS.md——拒绝 AI 贡献代码，欢迎高质量 Bug 报告",
+      "summary": "SQLite 项目发布专门针对 AI Agent 的指导文档 AGENTS.md，明确表态：不接受 AI 生成的代码提交，但欢迎 AI 辅助发现的高质量 Bug 报告，并为此创建独立讨论区处理 AI 涌入的 Issue 洪流。此举代表开源社区应对 AI 冲击的新范式——不是全面拒绝，而是区分 AI 擅长的任务（发现 Bug）与不适合 AI 介入的任务（代码贡献）。",
+      "meaning": "：开源项目将陆续制定 AI 参与规则，AGENTS.md 可能成为新的行业标准文档类型",
+      "source": "Simon Willison's Weblog",
+      "quality_score": 6,
+      "url": "https://simonwillison.net/2026/May/27/sqlite-agents/",
+      "companies": [
+        "Simon Willison"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-074",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Sequoia：2026 年就是 AGI——长周期 Agent 跨越了功能性 AGI 门槛",
+      "summary": "Sequoia 提出强论断：AGI 已经到来，三要素结构：① 基础知识（预训练），② 对知识的推理能力（推理时计算），③ 迭代解决问题的能力（长周期 Agent）——Claude Code 等代码 Agent 的近期跃升标志着第三要素的到位。Sequoia 将历史分期：2022-2024 为\"聊天界面时代\"，2024-2025 为\"推理模型时代\"，2026 起为\"Agent 时代\"。预测将出现\"$0 到 $10 亿俱乐部\"——在 AI 赋能下以前所未有速度规模化的新兴公司群体。",
+      "meaning": "：Sequoia 的 AGI 定义框架正在重塑融资逻辑——能够构建稳定运行长周期任务的 Agent 系统，将成为新一轮融资估值的核心指标",
+      "source": "Sequoia Capital",
+      "quality_score": 6,
+      "url": "https://sequoiacap.com/article/2026-this-is-agi/",
+      "companies": [],
+      "keywords": []
+    },
+    {
+      "id": "20260605-075",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Sequoia AI Ascent 2026：150+ 顶级创始人与研究者眼中的 AI 前沿",
+      "summary": "Sequoia 第四届 AI Ascent 峰会汇聚 150 余位顶尖 AI 创始人和研究者。核心主题：2026 年由 Agent 定义；Karpathy、Anthropic、OpenAI 等代表性人物分享了从\"对话 AI\"向\"行动 AI\"的范式转变。会议核心洞察：\"A Tale of Two AIs\"指出 2026 年的分裂态势——数据中心和 AGI 交付上的\"延迟年\"，与终端用户 AI 采用率的加速形成鲜明对比。",
+      "meaning": "：Sequoia 将 Agent 定位为 2026 年核心叙事，这一顶层判断将加速企业 AI 预算从工具采购向 Agent 基础设施迁移",
+      "source": "Sequoia Capital",
+      "quality_score": 6,
+      "url": "https://sequoiacap.com/article/ai-ascent-2026/",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Karpathy"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260605-076",
+      "date": "2026-06-05",
+      "is_top5": false,
+      "is_tier0": true,
+      "dimension": "🧠 Tier 0",
+      "title": "Every / Dan Shipper：Anthropic 2026 开发者大会内幕——Managed Agents 与 SpaceX Colossus 合作",
+      "summary": "Dan Shipper 亲历 Anthropic 2026 开发者大会，详细记录了主要发布内容：核心亮点是 Managed Agents 功能，以及 Anthropic 宣布与 SpaceX 签署协议，将 Colossus 超算集群的全部算力分配给 Claude。文章探讨了\"AI 悖论\"：自动化越多，反而产生更多工作——每个 Agent 都需要一个人类，AI 实际上在增加对专家的需求而非减少。Anthropic 还收购了一家开发者工具初创公司（报价约 3 亿美元）。",
+      "meaning": "：Anthropic 的开发者生态正快速扩张至基础设施层，Managed Agents + 超算算力的组合布局暗示其正在构建类 AWS 的 AI 基础设施护城河",
+      "source": "Every (Chain of Thought by Dan Shipper)",
+      "quality_score": 6,
+      "url": "https://every.to/chain-of-thought/inside-anthropic-s-2026-developer-conference",
+      "companies": [
+        "Anthropic"
+      ],
+      "keywords": []
+    },
     {
       "id": "20260604-T01",
       "date": "2026-06-04",
@@ -24338,79 +25658,75 @@
   ],
   "tag_index": {
     "dimensions": {
-      "🇨🇳 国内": 243,
-      "🚀 产品": 207,
-      "📊 咨询": 160,
-      "💰 商业": 155,
-      "⚙️ 基础设施": 122,
-      "🏢 案例": 119,
-      "🧠 Tier 0": 112,
-      "🌟 Top 5": 105,
-      "👥 组织": 92,
-      "⚖️ 监管": 87
+      "🇨🇳 国内": 255,
+      "🚀 产品": 215,
+      "📊 咨询": 173,
+      "💰 商业": 162,
+      "⚙️ 基础设施": 132,
+      "🏢 案例": 123,
+      "🧠 Tier 0": 121,
+      "🌟 Top 5": 110,
+      "👥 组织": 95,
+      "⚖️ 监管": 92
     },
     "companies": {
-      "Anthropic": 212,
-      "OpenAI": 186,
-      "Google": 133,
-      "DeepSeek": 87,
-      "AWS": 87,
-      "NVIDIA": 69,
-      "FT": 67,
-      "Amazon": 62,
-      "Bedrock": 47,
-      "Microsoft": 46,
-      "TechCrunch": 43,
-      "腾讯": 39,
-      "Kimi": 38,
-      "MIT": 38,
-      "阿里": 36,
-      "Hugging Face": 36,
-      "Simon Willison": 35,
-      "Meta": 34,
-      "智谱": 34,
+      "Anthropic": 224,
+      "OpenAI": 197,
+      "Google": 143,
+      "AWS": 91,
+      "DeepSeek": 88,
+      "NVIDIA": 73,
+      "FT": 70,
+      "Amazon": 65,
+      "Bedrock": 48,
+      "Microsoft": 47,
+      "TechCrunch": 46,
+      "MIT": 41,
+      "Kimi": 40,
+      "Meta": 40,
+      "腾讯": 40,
+      "Hugging Face": 37,
+      "阿里": 37,
+      "Simon Willison": 37,
+      "智谱": 35,
+      "Karpathy": 33,
       "xAI": 32,
-      "Karpathy": 30,
+      "Deloitte": 29,
       "DeepMind": 29,
-      "Deloitte": 28,
-      "Stanford": 26,
-      "PwC": 25,
-      "豆包": 25,
-      "Gary Marcus": 25,
-      "字节": 23,
-      "McKinsey": 23,
-      "BCG": 23,
-      "Bloomberg": 22,
-      "华为": 22,
-      "Mythos": 22,
-      "SAP": 20,
+      "豆包": 27,
+      "Stanford": 27,
+      "字节": 26,
+      "PwC": 26,
+      "Gary Marcus": 26,
+      "Mythos": 24,
+      "McKinsey": 24,
+      "BCG": 24,
+      "华为": 24,
+      "Bloomberg": 23,
+      "Stratechery": 22,
+      "SAP": 21,
+      "Accenture": 21,
+      "百度": 21,
       "IBM": 20,
-      "Accenture": 20,
-      "百度": 20,
-      "Stratechery": 19,
-      "文心": 18,
-      "混元": 17,
-      "Moonshot": 15,
+      "文心": 19,
+      "Moonshot": 18,
+      "混元": 18,
+      "Apple": 16,
+      "Ring": 15,
+      "通义": 15,
       "Snowflake": 15,
-      "通义": 14,
       "Salesforce": 14,
-      "Apple": 14,
-      "Ring": 13,
+      "Bain": 12,
       "Databricks": 10,
       "Cerebras": 9,
-      "Bain": 9,
-      "Glasswing": 8
+      "Sam Altman": 8
     },
     "signal_days": {
-      "medium": 21
+      "medium": 22
     }
   },
   "trends": {
     "timeline_30d": [
-      {
-        "date": "2026-05-06",
-        "count": 0
-      },
       {
         "date": "2026-05-07",
         "count": 0
@@ -24526,10 +25842,15 @@
       {
         "date": "2026-06-04",
         "count": 67
+      },
+      {
+        "date": "2026-06-05",
+        "count": 71
       }
     ],
     "top_companies_timeline": {
       "Anthropic": {
+        "2026-06-05": 12,
         "2026-06-04": 10,
         "2026-06-03": 10,
         "2026-06-01": 9,
@@ -24553,6 +25874,7 @@
         "2026-05-14": 14
       },
       "OpenAI": {
+        "2026-06-05": 11,
         "2026-06-04": 8,
         "2026-06-03": 9,
         "2026-06-01": 7,
@@ -24576,6 +25898,7 @@
         "2026-05-14": 10
       },
       "Google": {
+        "2026-06-05": 10,
         "2026-06-04": 3,
         "2026-06-03": 6,
         "2026-06-01": 5,
@@ -24598,30 +25921,8 @@
         "2026-05-15": 4,
         "2026-05-14": 8
       },
-      "DeepSeek": {
-        "2026-06-04": 8,
-        "2026-06-03": 3,
-        "2026-06-01": 5,
-        "2026-05-31": 4,
-        "2026-05-30": 3,
-        "2026-05-29": 5,
-        "2026-05-28": 6,
-        "2026-05-27": 5,
-        "2026-05-26": 2,
-        "2026-05-25": 3,
-        "2026-05-24": 4,
-        "2026-05-23": 8,
-        "2026-05-22": 4,
-        "2026-05-21": 2,
-        "2026-05-20": 4,
-        "2026-05-19": 3,
-        "2026-05-18": 3,
-        "2026-05-17": 6,
-        "2026-05-16": 5,
-        "2026-05-15": 3,
-        "2026-05-14": 1
-      },
       "AWS": {
+        "2026-06-05": 4,
         "2026-06-04": 2,
         "2026-06-03": 4,
         "2026-06-01": 5,
@@ -24644,7 +25945,32 @@
         "2026-05-15": 2,
         "2026-05-14": 6
       },
+      "DeepSeek": {
+        "2026-06-05": 1,
+        "2026-06-04": 8,
+        "2026-06-03": 3,
+        "2026-06-01": 5,
+        "2026-05-31": 4,
+        "2026-05-30": 3,
+        "2026-05-29": 5,
+        "2026-05-28": 6,
+        "2026-05-27": 5,
+        "2026-05-26": 2,
+        "2026-05-25": 3,
+        "2026-05-24": 4,
+        "2026-05-23": 8,
+        "2026-05-22": 4,
+        "2026-05-21": 2,
+        "2026-05-20": 4,
+        "2026-05-19": 3,
+        "2026-05-18": 3,
+        "2026-05-17": 6,
+        "2026-05-16": 5,
+        "2026-05-15": 3,
+        "2026-05-14": 1
+      },
       "NVIDIA": {
+        "2026-06-05": 4,
         "2026-06-04": 6,
         "2026-06-03": 3,
         "2026-06-01": 5,
@@ -24668,6 +25994,7 @@
         "2026-05-14": 2
       },
       "FT": {
+        "2026-06-05": 3,
         "2026-06-04": 5,
         "2026-06-03": 11,
         "2026-06-01": 7,
@@ -24688,6 +26015,7 @@
         "2026-05-14": 4
       },
       "Amazon": {
+        "2026-06-05": 3,
         "2026-06-04": 3,
         "2026-06-03": 2,
         "2026-06-01": 2,
@@ -24710,6 +26038,7 @@
         "2026-05-14": 4
       },
       "Bedrock": {
+        "2026-06-05": 1,
         "2026-06-04": 2,
         "2026-06-03": 2,
         "2026-06-01": 3,
@@ -24733,6 +26062,7 @@
         "2026-05-14": 2
       },
       "Microsoft": {
+        "2026-06-05": 1,
         "2026-06-04": 4,
         "2026-06-03": 10,
         "2026-06-01": 3,
@@ -24756,8 +26086,8 @@
       "Anthropic",
       "OpenAI",
       "Google",
-      "DeepSeek",
       "AWS",
+      "DeepSeek",
       "NVIDIA",
       "FT",
       "Amazon",
