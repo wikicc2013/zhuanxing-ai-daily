@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-07T10:08:49.689148+08:00",
+  "generated_at": "2026-06-08T10:13:37.734668+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 14,
-  "total_clips": 142,
-  "total_with_images": 22,
+  "total_files": 15,
+  "total_clips": 156,
+  "total_with_images": 25,
   "types": {
-    "文字": 117,
-    "图片": 22,
+    "文字": 128,
+    "图片": 25,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      128
+      142
     ],
     [
       "微信公众号",
@@ -40,6 +40,10 @@
     [
       "@Zhm20220917",
       3
+    ],
+    [
+      "@cindychoi_26",
+      2
     ],
     [
       "@ponyodong",
@@ -76,13 +80,13 @@
     [
       "@yucheng",
       2
-    ],
-    [
-      "@leolee_101",
-      2
     ]
   ],
   "files": [
+    [
+      "2026-06-07.md",
+      14
+    ],
     [
       "2026-06-01.md",
       1
@@ -141,6 +145,400 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-07_014",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:13:34",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HKEWZLLa4AAmhA5?format=png&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "@Pink_Piglet002",
+      "author_desc": "Reflections after watching: Alas! One person's heart is the",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HKEWZLLa4AAmhA5?format=png&name=small",
+        "https://x.com/Pink_Piglet002/status/2062954832424804841",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@Pink_Piglet002"
+      ],
+      "preview": "Reflections after watching: Alas! One person's heart is the [含图]",
+      "raw": "14:13:34 · 图片\n\n![image](https://pbs.twimg.com/media/HKEWZLLa4AAmhA5?format=png&name=small)\n\n来源: [@Pink_Piglet002: Reflections after watching: Alas! One person's heart is the …](https://x.com/Pink_Piglet002/status/2062954832424804841)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:13:34+08:00"
+    },
+    {
+      "id": "2026-06-07_013",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:12:48",
+      "type": "文字",
+      "title": "从“解决问题”转向“定义问题”、模型与产品的协同设计、Agent 技术的演进与性价比，以及腾讯在 AI 时代的战略节奏与组织变革，展开了深度交流。",
+      "quote": "从“解决问题”转向“定义问题”、模型与产品的协同设计、Agent 技术的演进与性价比，以及腾讯在 AI 时代的战略节奏与组织变革，展开了深度交流。",
+      "images": [],
+      "has_image": false,
+      "author": "@hongming731",
+      "author_desc": "#BestBlogs Morning Briefing 06-06 Today's Recommended Readin",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/hongming731/status/2063041981312618755",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@hongming731"
+      ],
+      "preview": "从“解决问题”转向“定义问题”、模型与产品的协同设计、Agent 技术的演进与性价比，以及腾讯在 AI 时代的战略节奏与组织变革，展开了深度交流。",
+      "raw": "14:12:48 · 文字\n\n> 从“解决问题”转向“定义问题”、模型与产品的协同设计、Agent 技术的演进与性价比，以及腾讯在 AI 时代的战略节奏与组织变革，展开了深度交流。\n\n来源: [@hongming731: #BestBlogs Morning Briefing 06-06 Today's Recommended Readin…](https://x.com/hongming731/status/2063041981312618755)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:12:48+08:00"
+    },
+    {
+      "id": "2026-06-07_012",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:10:16",
+      "type": "文字",
+      "title": "组织与个人：创造力在流水线下的损耗 B端产品的真实逻辑：权力、责任与成本 如果 AI 产品经理沦为单纯的“算粒申请器”或“汇报模板填充者”，不仅无法做出好产品，",
+      "quote": "组织与个人：创造力在流水线下的损耗 B端产品的真实逻辑：权力、责任与成本 如果 AI 产品经理沦为单纯的“算粒申请器”或“汇报模板填充者”，不仅无法做出好产品，还会导致个人的职业倦怠与枯竭。",
+      "images": [],
+      "has_image": false,
+      "author": "@Guluhehe",
+      "author_desc": "作为打工牛马 能感受到作者的纠结和无奈 置身钉内 值得看看。 组织与个人：创造力在流水线下的损耗 B端产品的真实逻辑：权",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Guluhehe/status/2063134703050478079",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Guluhehe"
+      ],
+      "preview": "组织与个人：创造力在流水线下的损耗 B端产品的真实逻辑：权力、责任与成本 如果 AI 产品经理沦为单纯的“算粒申请器”或“汇报模板填充者”，不仅无法做出好产品，还会导致个人的职业倦怠与枯竭。",
+      "raw": "14:10:16 · 文字\n\n> 组织与个人：创造力在流水线下的损耗 B端产品的真实逻辑：权力、责任与成本 如果 AI 产品经理沦为单纯的“算粒申请器”或“汇报模板填充者”，不仅无法做出好产品，还会导致个人的职业倦怠与枯竭。\n\n来源: [@Guluhehe: 作为打工牛马 能感受到作者的纠结和无奈 置身钉内 值得看看。 组织与个人：创造力在流水线下的损耗 B端产品的真实逻辑：权…](https://x.com/Guluhehe/status/2063134703050478079)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:10:16+08:00"
+    },
+    {
+      "id": "2026-06-07_011",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:09:57",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HKHBLVzaEAEn4UL?format=jpg&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "@success_cw",
+      "author_desc": "2000 年到 2010 年，中国承接了全球制造业转移，本质上是把美国和全球企业的生产环节外包给中国工厂。那个阶段最稀缺",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HKHBLVzaEAEn4UL?format=jpg&name=small",
+        "https://x.com/success_cw/status/2063142520931201296",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@success_cw"
+      ],
+      "preview": "2000 年到 2010 年，中国承接了全球制造业转移，本质上是把美国和全球企业的生产环节外包给中国工厂。那个阶段最稀缺 [含图]",
+      "raw": "14:09:57 · 图片\n\n![image](https://pbs.twimg.com/media/HKHBLVzaEAEn4UL?format=jpg&name=small)\n\n**备注:** 中国制造业的崛起，是把全球制造需求、工人、工厂、电力、港口和供应链组织在一起；AI 云的崛起，则是把全球知识工作、芯片、数据中心、电力、模型、Token 和 Agent 组织在一起，形成一个新的智能生产体系。\n\n来源: [@success_cw: 2000 年到 2010 年，中国承接了全球制造业转移，本质上是把美国和全球企业的生产环节外包给中国工厂。那个阶段最稀缺…](https://x.com/success_cw/status/2063142520931201296)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:09:57+08:00"
+    },
+    {
+      "id": "2026-06-07_010",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:08:34",
+      "type": "文字",
+      "title": "Hermes Desktop App 完整中文教程：从零搭建你的持久化 AI Agent 工作流  最近我花时间把 Nous Research 推出的 Herm",
+      "quote": "Hermes Desktop App 完整中文教程：从零搭建你的持久化 AI Agent 工作流  最近我花时间把 Nous Research 推出的 Hermes Desktop App 完整跑通了。  作为一个一直在学习搭建 AI 产品的 builder，我必须说，这可能是目前把开源自改进 AI 代理真正带到普通人桌面的最友好方式。  以前 Hermes 只能靠终端、配置文件、手动写工具，门槛高到只有程序员玩得转。现在桌面 App 直接把这一切拉到 macOS / Windows / Linux 的图形界面，5 分钟就能上手，却保留了全部深度——三层持久化内存、自定义技能、多代理 Kanban、Telegram 实时控制……它不是简单的聊天工具，而是把你从「写 Prompt 的人」变成「调度 Agent 团队的负责人」。  先说为什么 Hermes Desktop 是真正的游戏改变者。过去我们用各种 AI 工具，最大的痛点是上下文遗忘、技能碎片化、无法跨设备持续工作。  Hermes 用三层内存系统直接把这个问题解决了：  Tier 1 是短期 memory.md + user.md（预算控制，超限自动压缩）；  Tier 2 是 SQL 数据库存全历史会话；  Tier 3 是外部知识图谱（支持 8 种集成）。  这意味着你的 AI 不再是每次对话都「失忆」，而是真正拥有长期记忆，能把一次性任务变成持续工作流。这正是我一直强调的——AI 编程的下一阶段，不是模型更聪明，而是系统更持久。  安装和基础配置非常丝滑。打开浏览器搜 “Hermes Desktop”，进官网点 Install，选择你的系统（我用 macOS），下载后拖进 Applications 文件夹就行。启动后第一步是选模型和提供商——推荐直接 OAuth 登录 ChatGPT 订阅，或者用 OpenRouter 一键切换多模型（Claude Opus 4.8 是目前性价比最高的选择）。粘贴 Key 后点 Start Chatting，代理立刻就能响应你的第一个问题。整个过程零终端，真正做到了「任何人可用」。  进入界面后，左侧是会话列表，支持 Pin 重要会话保留上下文；设置里随时切换模型和 Gateway。高级用户还能添加自定义 MCP Server，或者把计算扔到远程 VPS，让笔记本变成瘦客户端，算力留在云端——这对想长期跑重度代理的朋友特别实用。  真正让我眼前一亮的是它的内存与技能体系。Hermes 预装了大量内置技能（Apple Notes、Reminders、代码执行、浏览器自动化等），全部可以单独开关，避免干扰。  Skills Hub 里更有 74 个官方 + 95 个可选 + 海量社区技能，按生产力、软件开发、创意、金融等分类，一搜即用。更重要的是，你可以在聊天界面直接说「帮我创建一个总结论文的技能」，Hermes 就会自动调用 skill create 流程，问清楚需求后生成完整技能（比如要求 4-5 分钟可读、突出关键点、平实语言）。生成后自动出现在 Skills & Tools 里，马上就能用——我当时直接丢了个 arXiv 链接，它就把最新 Google 论文总结得干净利落。  所有输出——文件、图像、Markdown、研究结果——都会自动保存到 Artifacts 目录，一键查看复用，再也不用担心「生成的东西找不到了」。  当你从单个代理走向多个代理时，Hermes 的真正威力才显现。点 New Profile 就能新建角色，每个 Profile 独立设置模型、技能、Soul.md（人格设定）。我建了一个 “Deep Researcher” 专门做文献调研，另一个做代码重构，切换像换聊天窗口一样简单。更进一步，多个 Profile 还能组成团队，通过 Hermes Kanban 实现流水线协作——产品经理 Agent 拆需求、后端 Agent 写代码、UI Agent 做界面、测试 Agent 跑验证，整个过程并行推进。你不再是执行者，而是整个 AI 团队的 PM。  最后再提一个杀手级功能：Telegram 集成。进 Messaging 模块，创建 Bot Token（@BotFather 新建 bot，名字必须以 _bot 结尾），再用  @userinfobot  拿 User ID，粘贴保存后重启 Gateway。手机上就能实时指挥桌面代理，随时随地推进工作流，极大提升了实际生产力。  Hermes Desktop 把原本「只有程序员能玩」的强大能力，变成了人人可用的桌面操作系统。它真正让我看到 AI 时代的个人开发者优势：不需要团队、不需要预算，只要你会定义目标、拆解任务、审核结果、建立文档，就能让多个 Agent 24 小时为你推进项目。未来拉开差距的，不是谁 Prompt 写得更好，而是谁能把 AI 真正组织成一个可持续运行的系统。",
+      "images": [],
+      "has_image": false,
+      "author": "@WenBin8nk",
+      "author_desc": "Hermes Desktop App 完整中文教程：从零搭建你的持久化 AI Agent 工作流最近我花时间把 Nous",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/WenBin8nk/status/2063168778448318680",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@WenBin8nk"
+      ],
+      "preview": "Hermes Desktop App 完整中文教程：从零搭建你的持久化 AI Agent 工作流  最近我花时间把 Nous Research 推出的 Hermes Desktop App 完整跑通了。  作为一个一直在学习搭建 AI 产品的 builder，我必须说，这可能是目前把开源自改进 AI 代理真正带到普通人桌面的最友好方式。  以前 Hermes 只能靠终端、配置文件、手动写工具，门槛高到只有程序员玩得转。现在桌面 App 直接把这一切拉到 macOS / Win...",
+      "raw": "14:08:34 · 文字\n\n> Hermes Desktop App 完整中文教程：从零搭建你的持久化 AI Agent 工作流  最近我花时间把 Nous Research 推出的 Hermes Desktop App 完整跑通了。  作为一个一直在学习搭建 AI 产品的 builder，我必须说，这可能是目前把开源自改进 AI 代理真正带到普通人桌面的最友好方式。  以前 Hermes 只能靠终端、配置文件、手动写工具，门槛高到只有程序员玩得转。现在桌面 App 直接把这一切拉到 macOS / Windows / Linux 的图形界面，5 分钟就能上手，却保留了全部深度——三层持久化内存、自定义技能、多代理 Kanban、Telegram 实时控制……它不是简单的聊天工具，而是把你从「写 Prompt 的人」变成「调度 Agent 团队的负责人」。  先说为什么 Hermes Desktop 是真正的游戏改变者。过去我们用各种 AI 工具，最大的痛点是上下文遗忘、技能碎片化、无法跨设备持续工作。  Hermes 用三层内存系统直接把这个问题解决了：  Tier 1 是短期 memory.md + user.md（预算控制，超限自动压缩）；  Tier 2 是 SQL 数据库存全历史会话；  Tier 3 是外部知识图谱（支持 8 种集成）。  这意味着你的 AI 不再是每次对话都「失忆」，而是真正拥有长期记忆，能把一次性任务变成持续工作流。这正是我一直强调的——AI 编程的下一阶段，不是模型更聪明，而是系统更持久。  安装和基础配置非常丝滑。打开浏览器搜 “Hermes Desktop”，进官网点 Install，选择你的系统（我用 macOS），下载后拖进 Applications 文件夹就行。启动后第一步是选模型和提供商——推荐直接 OAuth 登录 ChatGPT 订阅，或者用 OpenRouter 一键切换多模型（Claude Opus 4.8 是目前性价比最高的选择）。粘贴 Key 后点 Start Chatting，代理立刻就能响应你的第一个问题。整个过程零终端，真正做到了「任何人可用」。  进入界面后，左侧是会话列表，支持 Pin 重要会话保留上下文；设置里随时切换模型和 Gateway。高级用户还能添加自定义 MCP Server，或者把计算扔到远程 VPS，让笔记本变成瘦客户端，算力留在云端——这对想长期跑重度代理的朋友特别实用。  真正让我眼前一亮的是它的内存与技能体系。Hermes 预装了大量内置技能（Apple Notes、Reminders、代码执行、浏览器自动化等），全部可以单独开关，避免干扰。  Skills Hub 里更有 74 个官方 + 95 个可选 + 海量社区技能，按生产力、软件开发、创意、金融等分类，一搜即用。更重要的是，你可以在聊天界面直接说「帮我创建一个总结论文的技能」，Hermes 就会自动调用 skill create 流程，问清楚需求后生成完整技能（比如要求 4-5 分钟可读、突出关键点、平实语言）。生成后自动出现在 Skills & Tools 里，马上就能用——我当时直接丢了个 arXiv 链接，它就把最新 Google 论文总结得干净利落。  所有输出——文件、图像、Markdown、研究结果——都会自动保存到 Artifacts 目录，一键查看复用，再也不用担心「生成的东西找不到了」。  当你从单个代理走向多个代理时，Hermes 的真正威力才显现。点 New Profile 就能新建角色，每个 Profile 独立设置模型、技能、Soul.md（人格设定）。我建了一个 “Deep Researcher” 专门做文献调研，另一个做代码重构，切换像换聊天窗口一样简单。更进一步，多个 Profile 还能组成团队，通过 Hermes Kanban 实现流水线协作——产品经理 Agent 拆需求、后端 Agent 写代码、UI Agent 做界面、测试 Agent 跑验证，整个过程并行推进。你不再是执行者，而是整个 AI 团队的 PM。  最后再提一个杀手级功能：Telegram 集成。进 Messaging 模块，创建 Bot Token（@BotFather 新建 bot，名字必须以 _bot 结尾），再用  @userinfobot  拿 User ID，粘贴保存后重启 Gateway。手机上就能实时指挥桌面代理，随时随地推进工作流，极大提升了实际生产力。  Hermes Desktop 把原本「只有程序员能玩」的强大能力，变成了人人可用的桌面操作系统。它真正让我看到 AI 时代的个人开发者优势：不需要团队、不需要预算，只要你会定义目标、拆解任务、审核结果、建立文档，就能让多个 Agent 24 小时为你推进项目。未来拉开差距的，不是谁 Prompt 写得更好，而是谁能把 AI 真正组织成一个可持续运行的系统。\n\n来源: [@WenBin8nk: Hermes Desktop App 完整中文教程：从零搭建你的持久化 AI Agent 工作流最近我花时间把 Nous…](https://x.com/WenBin8nk/status/2063168778448318680)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:08:34+08:00"
+    },
+    {
+      "id": "2026-06-07_009",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:03:47",
+      "type": "文字",
+      "title": "AI确实正在掀起一场“组织解构”革命。过去公司靠层级、会议和KPI来维持运转，现在一个人+AI Agent就能完成从idea到执行的闭环，效率指数级提升。",
+      "quote": "AI确实正在掀起一场“组织解构”革命。过去公司靠层级、会议和KPI来维持运转，现在一个人+AI Agent就能完成从idea到执行的闭环，效率指数级提升。",
+      "images": [],
+      "has_image": false,
+      "author": "@xingzhanAI",
+      "author_desc": "AI确实正在掀起一场“组织解构”革命。过去公司靠层级、会议和KPI来维持运转，现在一个人+AI Agent就能完成从id",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/xingzhanAI/status/2063241640492544070",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@xingzhanAI"
+      ],
+      "preview": "AI确实正在掀起一场“组织解构”革命。过去公司靠层级、会议和KPI来维持运转，现在一个人+AI Agent就能完成从idea到执行的闭环，效率指数级提升。",
+      "raw": "14:03:47 · 文字\n\n> AI确实正在掀起一场“组织解构”革命。过去公司靠层级、会议和KPI来维持运转，现在一个人+AI Agent就能完成从idea到执行的闭环，效率指数级提升。\n\n来源: [@xingzhanAI: AI确实正在掀起一场“组织解构”革命。过去公司靠层级、会议和KPI来维持运转，现在一个人+AI Agent就能完成从id…](https://x.com/xingzhanAI/status/2063241640492544070)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:03:47+08:00"
+    },
+    {
+      "id": "2026-06-07_008",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:02:08",
+      "type": "文字",
+      "title": "未来的演进大概是： AI 会加速白领的结构性失业； 白领失业会进一步冲击国家税基、财政和城市秩序； 被体系挤出的人，会流向平台经济、地下经济，或者干脆躺平。  ",
+      "quote": "未来的演进大概是： AI 会加速白领的结构性失业； 白领失业会进一步冲击国家税基、财政和城市秩序； 被体系挤出的人，会流向平台经济、地下经济，或者干脆躺平。  对白领来说，能做的不是继续迷信公司职位和学历身份，而是尽快完成三件事： 1）掌握 AI 工具，把效率和判断力放大； 2）把自己的能力产品化，减少对单一雇主的依赖； 3）加入高信任社群，建立副业现金流和可迁移技能。  未来真正抗风险的，可能不是“有一份好工作”，而是你有没有脱离单一组织也能活下去的能力。",
+      "images": [],
+      "has_image": false,
+      "author": "@jonnytang6",
+      "author_desc": "孙佬这个视频讲得挺有启发。 他的大判断是：AI 时代真正被冲击的，可能不是单个岗位，而是整个白领阶层。 未来的演进大概是",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/jonnytang6/status/2063242266911842553",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@jonnytang6"
+      ],
+      "preview": "未来的演进大概是： AI 会加速白领的结构性失业； 白领失业会进一步冲击国家税基、财政和城市秩序； 被体系挤出的人，会流向平台经济、地下经济，或者干脆躺平。  对白领来说，能做的不是继续迷信公司职位和学历身份，而是尽快完成三件事： 1）掌握 AI 工具，把效率和判断力放大； 2）把自己的能力产品化，减少对单一雇主的依赖； 3）加入高信任社群，建立副业现金流和可迁移技能。  未来真正抗风险的，可能不是“有一份好工作”，而是你有没有脱离单一组织也能活下去的能力。",
+      "raw": "14:02:08 · 文字\n\n> 未来的演进大概是： AI 会加速白领的结构性失业； 白领失业会进一步冲击国家税基、财政和城市秩序； 被体系挤出的人，会流向平台经济、地下经济，或者干脆躺平。  对白领来说，能做的不是继续迷信公司职位和学历身份，而是尽快完成三件事： 1）掌握 AI 工具，把效率和判断力放大； 2）把自己的能力产品化，减少对单一雇主的依赖； 3）加入高信任社群，建立副业现金流和可迁移技能。  未来真正抗风险的，可能不是“有一份好工作”，而是你有没有脱离单一组织也能活下去的能力。\n\n来源: [@jonnytang6: 孙佬这个视频讲得挺有启发。 他的大判断是：AI 时代真正被冲击的，可能不是单个岗位，而是整个白领阶层。 未来的演进大概是…](https://x.com/jonnytang6/status/2063242266911842553)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:02:08+08:00"
+    },
+    {
+      "id": "2026-06-07_007",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "14:00:47",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HKJAwvzbIAAWnUn?format=jpg&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "@fengxia17063046",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HKJAwvzbIAAWnUn?format=jpg&name=small",
+        "https://x.com/fengxia17063046/status/2063282371169030587",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@fengxia17063046"
+      ],
+      "preview": "[图片] ",
+      "raw": "14:00:47 · 图片\n\n![image](https://pbs.twimg.com/media/HKJAwvzbIAAWnUn?format=jpg&name=small)\n\n来源: [@fengxia17063046](https://x.com/fengxia17063046/status/2063282371169030587)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T14:00:47+08:00"
+    },
+    {
+      "id": "2026-06-07_006",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "13:47:07",
+      "type": "文字",
+      "title": "这条最值得看的，不是“AI 会不会替代员工”。  更大的变化是：自动化没有消灭管理，反而把管理推到更上游。  当 agent 能执行，稀缺的就变成三件事： 1.",
+      "quote": "这条最值得看的，不是“AI 会不会替代员工”。  更大的变化是：自动化没有消灭管理，反而把管理推到更上游。  当 agent 能执行，稀缺的就变成三件事： 1. 判断什么任务值得自动化 2. 给 agent 设权限、预算和停机线 3. 把失败复盘沉淀成组织记忆",
+      "images": [],
+      "has_image": false,
+      "author": "@skyeye001",
+      "author_desc": "这条最值得看的，不是“AI 会不会替代员工”。 更大的变化是：自动化没有消灭管理，反而把管理推到更上游。 当 agent",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/skyeye001/status/2063290330494234947",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@skyeye001"
+      ],
+      "preview": "这条最值得看的，不是“AI 会不会替代员工”。  更大的变化是：自动化没有消灭管理，反而把管理推到更上游。  当 agent 能执行，稀缺的就变成三件事： 1. 判断什么任务值得自动化 2. 给 agent 设权限、预算和停机线 3. 把失败复盘沉淀成组织记忆",
+      "raw": "13:47:07 · 文字\n\n> 这条最值得看的，不是“AI 会不会替代员工”。  更大的变化是：自动化没有消灭管理，反而把管理推到更上游。  当 agent 能执行，稀缺的就变成三件事： 1. 判断什么任务值得自动化 2. 给 agent 设权限、预算和停机线 3. 把失败复盘沉淀成组织记忆\n\n来源: [@skyeye001: 这条最值得看的，不是“AI 会不会替代员工”。 更大的变化是：自动化没有消灭管理，反而把管理推到更上游。 当 agent…](https://x.com/skyeye001/status/2063290330494234947)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T13:47:07+08:00"
+    },
+    {
+      "id": "2026-06-07_005",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "13:43:57",
+      "type": "文字",
+      "title": "一个所谓的“AI 原生”战略级产品——从立项、发布、共创到收缩，DAU 峰值曾达 300 万——在短短一年内就经历了生老病死。",
+      "quote": "一个所谓的“AI 原生”战略级产品——从立项、发布、共创到收缩，DAU 峰值曾达 300 万——在短短一年内就经历了生老病死。",
+      "images": [],
+      "has_image": false,
+      "author": "@CL_CLACL",
+      "author_desc": "This article is bound to attract attention and discussion fr",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/CL_CLACL/status/2063439237803069884",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@CL_CLACL"
+      ],
+      "preview": "一个所谓的“AI 原生”战略级产品——从立项、发布、共创到收缩，DAU 峰值曾达 300 万——在短短一年内就经历了生老病死。",
+      "raw": "13:43:57 · 文字\n\n> 一个所谓的“AI 原生”战略级产品——从立项、发布、共创到收缩，DAU 峰值曾达 300 万——在短短一年内就经历了生老病死。\n\n来源: [@CL_CLACL: This article is bound to attract attention and discussion fr…](https://x.com/CL_CLACL/status/2063439237803069884)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T13:43:57+08:00"
+    },
+    {
+      "id": "2026-06-07_004",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "13:43:10",
+      "type": "文字",
+      "title": "很多企业AI落地后ROI惨淡，不是模型不行，而是「人机协作」没重构。 一家物流公司把路线规划Agent直接接入TMS系统，司机准点率从71%提到93%，油耗降1",
+      "quote": "很多企业AI落地后ROI惨淡，不是模型不行，而是「人机协作」没重构。 一家物流公司把路线规划Agent直接接入TMS系统，司机准点率从71%提到93%，油耗降15%。 他们没买更大模型，而是把决策边界和异常处理规则写死了。 AI商业化从来不是技术问题，而是组织流程问题。",
+      "images": [],
+      "has_image": false,
+      "author": "@honitec",
+      "author_desc": "很多企业AI落地后ROI惨淡，不是模型不行，而是「人机协作」没重构。 一家物流公司把路线规划Agent直接接入TMS系统",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/honitec/status/2063448646536810904",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@honitec"
+      ],
+      "preview": "很多企业AI落地后ROI惨淡，不是模型不行，而是「人机协作」没重构。 一家物流公司把路线规划Agent直接接入TMS系统，司机准点率从71%提到93%，油耗降15%。 他们没买更大模型，而是把决策边界和异常处理规则写死了。 AI商业化从来不是技术问题，而是组织流程问题。",
+      "raw": "13:43:10 · 文字\n\n> 很多企业AI落地后ROI惨淡，不是模型不行，而是「人机协作」没重构。 一家物流公司把路线规划Agent直接接入TMS系统，司机准点率从71%提到93%，油耗降15%。 他们没买更大模型，而是把决策边界和异常处理规则写死了。 AI商业化从来不是技术问题，而是组织流程问题。\n\n来源: [@honitec: 很多企业AI落地后ROI惨淡，不是模型不行，而是「人机协作」没重构。 一家物流公司把路线规划Agent直接接入TMS系统…](https://x.com/honitec/status/2063448646536810904)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T13:43:10+08:00"
+    },
+    {
+      "id": "2026-06-07_003",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "13:41:40",
+      "type": "文字",
+      "title": "物理AI时代，日本制造业的强项不会自动变成胜势。 强项如果被开放、重组、系统化，就会变成新优势。 强项如果被固守、神圣化、经验权威化，就会变成最大的阻力。",
+      "quote": "物理AI时代，日本制造业的强项不会自动变成胜势。 强项如果被开放、重组、系统化，就会变成新优势。 强项如果被固守、神圣化、经验权威化，就会变成最大的阻力。",
+      "images": [],
+      "has_image": false,
+      "author": "@cindychoi_26",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/cindychoi_26/status/2063491177903685795",
+      "all_urls": [
+        "https://x.com/cindychoi_26/status/2063491177903685795"
+      ],
+      "tags": [
+        "文字",
+        "@cindychoi_26"
+      ],
+      "preview": "物理AI时代，日本制造业的强项不会自动变成胜势。 强项如果被开放、重组、系统化，就会变成新优势。 强项如果被固守、神圣化、经验权威化，就会变成最大的阻力。",
+      "raw": "13:41:40 · 文字\n\n> 物理AI时代，日本制造业的强项不会自动变成胜势。 强项如果被开放、重组、系统化，就会变成新优势。 强项如果被固守、神圣化、经验权威化，就会变成最大的阻力。\n\n来源: [@cindychoi_26](https://x.com/cindychoi_26/status/2063491177903685795)",
+      "datetime": "2026-06-07T13:41:40+08:00"
+    },
+    {
+      "id": "2026-06-07_002",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "13:41:26",
+      "type": "文字",
+      "title": "本制造业的未来，不取决于它有没有好技术。 它真正的分水岭在于： 能不能把现场经验转化成数据； 能不能把零部件优势转化成系统能力； 能不能把人口危机转化成少人化解",
+      "quote": "本制造业的未来，不取决于它有没有好技术。 它真正的分水岭在于： 能不能把现场经验转化成数据； 能不能把零部件优势转化成系统能力； 能不能把人口危机转化成少人化解决方案； 能不能让年轻人的技术理解进入企业决策层； 能不能从“我干了40年，所以我懂”转向“我干了40年，所以我更应该把经验系统化”。",
+      "images": [],
+      "has_image": false,
+      "author": "@cindychoi_26",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/cindychoi_26/status/2063491177903685795",
+      "all_urls": [
+        "https://x.com/cindychoi_26/status/2063491177903685795"
+      ],
+      "tags": [
+        "文字",
+        "@cindychoi_26"
+      ],
+      "preview": "本制造业的未来，不取决于它有没有好技术。 它真正的分水岭在于： 能不能把现场经验转化成数据； 能不能把零部件优势转化成系统能力； 能不能把人口危机转化成少人化解决方案； 能不能让年轻人的技术理解进入企业决策层； 能不能从“我干了40年，所以我懂”转向“我干了40年，所以我更应该把经验系统化”。",
+      "raw": "13:41:26 · 文字\n\n> 本制造业的未来，不取决于它有没有好技术。 它真正的分水岭在于： 能不能把现场经验转化成数据； 能不能把零部件优势转化成系统能力； 能不能把人口危机转化成少人化解决方案； 能不能让年轻人的技术理解进入企业决策层； 能不能从“我干了40年，所以我懂”转向“我干了40年，所以我更应该把经验系统化”。\n\n来源: [@cindychoi_26](https://x.com/cindychoi_26/status/2063491177903685795)",
+      "datetime": "2026-06-07T13:41:26+08:00"
+    },
+    {
+      "id": "2026-06-07_001",
+      "file": "2026-06-07.md",
+      "date": "2026-06-07",
+      "time": "13:40:17",
+      "type": "文字",
+      "title": "我会让 AI 按这几个维度拆： ① 原文章的核心判断是什么？ ② 读者最可能共鸣的痛点是什么？ ③ 有没有反常识观点？ ④ 哪些部分适合删掉？ ⑤ 哪里需要补背",
+      "quote": "我会让 AI 按这几个维度拆： ① 原文章的核心判断是什么？ ② 读者最可能共鸣的痛点是什么？ ③ 有没有反常识观点？ ④ 哪些部分适合删掉？ ⑤ 哪里需要补背景、补案例、补数据？ ⑥ 改成 280字/1500字/5000字，结构分别怎么变？  二创不是把长文压短，而是重新组织信息。",
+      "images": [],
+      "has_image": false,
+      "author": "@yyk201906",
+      "author_desc": "6/12 第二步：让 AI 拆文章，不是总结文章。 帮我总结一下——这用法太浅了。 我会让 AI 按这几个维度拆： ①",
+      "source": "X(Twitter)",
+      "source_page": "(4) AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/yyk201906/status/2063495549521904059",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@yyk201906"
+      ],
+      "preview": "我会让 AI 按这几个维度拆： ① 原文章的核心判断是什么？ ② 读者最可能共鸣的痛点是什么？ ③ 有没有反常识观点？ ④ 哪些部分适合删掉？ ⑤ 哪里需要补背景、补案例、补数据？ ⑥ 改成 280字/1500字/5000字，结构分别怎么变？  二创不是把长文压短，而是重新组织信息。",
+      "raw": "13:40:17 · 文字\n\n> 我会让 AI 按这几个维度拆： ① 原文章的核心判断是什么？ ② 读者最可能共鸣的痛点是什么？ ③ 有没有反常识观点？ ④ 哪些部分适合删掉？ ⑤ 哪里需要补背景、补案例、补数据？ ⑥ 改成 280字/1500字/5000字，结构分别怎么变？  二创不是把长文压短，而是重新组织信息。\n\n来源: [@yyk201906: 6/12 第二步：让 AI 拆文章，不是总结文章。 帮我总结一下——这用法太浅了。 我会让 AI 按这几个维度拆： ① …](https://x.com/yyk201906/status/2063495549521904059)\n所在页面: [(4) AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-07T13:40:17+08:00"
+    },
     {
       "id": "2026-06-01_001",
       "file": "2026-06-01.md",
