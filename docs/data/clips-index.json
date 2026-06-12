@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-11T10:13:25.259073+08:00",
+  "generated_at": "2026-06-12T10:09:19.695371+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 15,
-  "total_clips": 156,
-  "total_with_images": 25,
+  "total_files": 16,
+  "total_clips": 158,
+  "total_with_images": 26,
   "types": {
-    "文字": 128,
-    "图片": 25,
+    "文字": 129,
+    "图片": 26,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      142
+      144
     ],
     [
       "微信公众号",
@@ -40,6 +40,10 @@
     [
       "@Zhm20220917",
       3
+    ],
+    [
+      "@SunNeverSetsX",
+      2
     ],
     [
       "@cindychoi_26",
@@ -76,13 +80,13 @@
     [
       "@ReyJudgementOS",
       2
-    ],
-    [
-      "@yucheng",
-      2
     ]
   ],
   "files": [
+    [
+      "2026-06-11.md",
+      2
+    ],
     [
       "2026-06-07.md",
       14
@@ -145,6 +149,65 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-11_002",
+      "file": "2026-06-11.md",
+      "date": "2026-06-11",
+      "time": "22:37:03",
+      "type": "文字",
+      "title": "真正的 Loop Engineering 关注的是：我怎么设计一个系统，让模型下一次比这一次更好。",
+      "quote": "真正的 Loop Engineering 关注的是：我怎么设计一个系统，让模型下一次比这一次更好。",
+      "images": [],
+      "has_image": false,
+      "author": "@SunNeverSetsX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/SunNeverSetsX/status/2065068083090465187",
+      "all_urls": [
+        "https://x.com/SunNeverSetsX/status/2065068083090465187"
+      ],
+      "tags": [
+        "文字",
+        "@SunNeverSetsX"
+      ],
+      "preview": "真正的 Loop Engineering 关注的是：我怎么设计一个系统，让模型下一次比这一次更好。",
+      "raw": "22:37:03 · 文字\n\n> 真正的 Loop Engineering 关注的是：我怎么设计一个系统，让模型下一次比这一次更好。\n\n来源: [@SunNeverSetsX](https://x.com/SunNeverSetsX/status/2065068083090465187)",
+      "datetime": "2026-06-11T22:37:03+08:00"
+    },
+    {
+      "id": "2026-06-11_001",
+      "file": "2026-06-11.md",
+      "date": "2026-06-11",
+      "time": "22:36:35",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HKiXPBqbgAA_9zi?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@SunNeverSetsX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HKiXPBqbgAA_9zi?format=jpg&name=900x900",
+        "https://x.com/SunNeverSetsX/status/2065068083090465187",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@SunNeverSetsX"
+      ],
+      "preview": "[图片] ",
+      "raw": "22:36:35 · 图片\n\n![image](https://pbs.twimg.com/media/HKiXPBqbgAA_9zi?format=jpg&name=900x900)\n\n来源: [@SunNeverSetsX](https://x.com/SunNeverSetsX/status/2065068083090465187)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-11T22:36:35+08:00"
+    },
     {
       "id": "2026-06-07_014",
       "file": "2026-06-07.md",
