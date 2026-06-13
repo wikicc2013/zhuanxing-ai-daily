@@ -1,7 +1,54 @@
 # 行业产品批 · 2026-06-13
 
-**信源覆盖**：31/40  
-**完成时间**：2026-06-13 04:38 BJT
+**信源覆盖**：36/40  
+**完成时间**：2026-06-13 06:32 BJT（第二轮补充，增补 5 条 06:00 后突发）
+
+---
+
+## 🔴 突发补充（06:00 后更新，5 篇）
+
+### [B1] 美国政府紧急叫停 Claude Fable 5 & Mythos 5：出口管控封禁触发企业危机
+- **来源** ｜ TechCrunch ｜ 2026-06-12 ｜ **质量分** ｜ 10/10 ｜ **链接** ｜ https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/
+
+美国政府以国家安全和出口管控为由，命令 Anthropic 立即停用 Claude Fable 5 和 Claude Mythos 5 两款最先进模型——Fable 5 上线仅三天即遭禁。政府声称发现可绕过生化安全限制的"越狱"漏洞；Anthropic 反驳该漏洞为"极窄范围"且竞品（GPT-5.5）已有同类能力，若按此标准将"实质上叫停行业所有新模型部署"。对企业客户影响立竿见影：已完成 Fable 5 集成的工作流须立即回退至旧版本；Anthropic IPO 路演（S-1 备案于 6 月 1 日）受到直接冲击。AWS Bedrock 上 Fable 5 服务同步暂停。
+
+📌 **这意味着**：所有已采购或评估 Claude Fable 5 的企业须立即启动回退预案，切换至 Claude Opus 4.8 或 GPT-5.5；此事件表明"监管风险"已成为大模型供应商评级的一级指标，建议在 AI 采购 SLA 中加入模型可用性担保条款。
+
+---
+
+### [B2] Amazon CEO 向美国政府举报 Anthropic 模型安全漏洞，直接触发封禁
+- **来源** ｜ TechCrunch ｜ 2026-06-13 ｜ **质量分** ｜ 9/10 ｜ **链接** ｜ https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/
+
+亚马逊 CEO Andy Jassy 据报道在政府行动前已向美国财政部长 Bessent 等官员示警，指 Claude Fable 5 存在可辅助规划网络攻击的漏洞。前白宫 AI 沙皇 David Sacks 称 Anthropic CEO Dario Amodei 拒绝修复这一"越狱"问题。事件高度复杂：Amazon 既是 Anthropic 的主要投资方，又通过 AWS Bedrock 销售其模型——此次举报行为直接导致 AWS 合作伙伴的产品遭禁，引发业界对投资方与被投公司之间信息边界的广泛质疑；AWS 上 Bedrock 服务亦因模型限制而受牵连。
+
+📌 **这意味着**：企业 AI 治理框架应新增"供应商上游博弈风险"评估维度；依赖单一 AWS+Claude 组合的团队应建立多供应商冗余，Vertex AI 的 Claude 渠道当前不受影响（待确认）。
+
+---
+
+### [B3] OpenAI 遭多州检察长联合调查，纽约已发传票
+- **来源** ｜ TechCrunch ｜ 2026-06-13 ｜ **质量分** ｜ 9/10 ｜ **链接** ｜ https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/
+
+纽约州检察长于上周五正式向 OpenAI 发出传票，要求提交广告实践、用户参与度数据、健康信息处理、未成年人及老年用户保护等全套文件，多个州已加入联合调查。OpenAI 表示将"建设性配合"并强调其未成年人保障机制。这叠加在已有的版权侵权诉讼、用户心理伤害指控和佛罗里达州安全预警忽视诉讼之上，形成多维法律围攻态势，时机恰在 OpenAI IPO 筹备关键期。
+
+📌 **这意味着**：企业 ChatGPT Enterprise 客户需核查与 OpenAI 的 DPA（数据处理协议）是否覆盖州级 HIPAA 扩展要求；将 ChatGPT 用于健康相关场景的组织应立即启动合规审查。
+
+---
+
+### [B4] Mistral 拟融资 €30 亿，估值至 €200 亿——欧洲 AI 主权旗舰估值翻倍
+- **来源** ｜ TechCrunch ｜ 2026-06-12 ｜ **质量分** ｜ 8/10 ｜ **链接** ｜ https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/
+
+欧洲 AI 龙头 Mistral 正与投资者洽谈约 €30 亿（约 35 亿美元）新融资，较 2025 年 9 月 Series C 后 €117 亿估值近乎翻倍，本轮若成功将使其总融资超 40 亿美元。Mistral 主打开权重+闭源双轨、欧洲数据主权定位，是 EU AI Act 合规场景下美国大厂之外最具可行性的替代方案。尽管估值快速增长，其规模仍远低于 OpenAI（1860 亿美元）和 Anthropic（1612 亿美元），差距反映欧美 AI 资本密度结构性不对等。
+
+📌 **这意味着**：关注数据出境合规的欧洲及跨国企业，应将 Mistral 纳入下一轮 AI 供应商多元化评估；本轮融资若落地，Mistral 将有资本加速 GPU 算力扩张和企业销售投入。
+
+---
+
+### [B5] Jeff Bezos「Prometheus」完成 120 亿美元融资，打造「物理世界通用工程 AI」
+- **来源** ｜ TechCrunch ｜ 2026-06-11 ｜ **质量分** ｜ 8/10 ｜ **链接** ｜ https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/
+
+贝索斯旗下 Prometheus 完成 120 亿美元融资，总融资额达 410 亿美元，目标是构建专注制造、建筑、能源等物理场景的「人工通用工程师」（AGE），将 LLM 推理能力与机器人感知-执行闭环深度结合，而非通用对话 AI。410 亿美元总融资规模使 Prometheus 跻身 AI 领域融资规模最大的初创公司序列，意味着大规模实体试验正在提速。
+
+📌 **这意味着**：工业制造、能源、建筑行业 CIO 应尽早跟踪 Prometheus 产品路线图，物理 AI 赛道的资本集中将加速自动化替代；供应链和人力资源战略需前置调整预案。
 
 ---
 
@@ -210,7 +257,8 @@ IEEE Spectrum 6 月号聚焦"AI 零问题"与 2026 年中全景：OpenAI 和 Ant
 ---
 
 ## ━━━ 审计区 ━━━
-- **Tier 2 命中**：9/22（TechCrunch ×3, VentureBeat ×3, SiliconANGLE ×1, Wired 间接, ZDNet 间接）
+- **Tier 2 命中**：12/22（TechCrunch ×8 含突发批、VentureBeat ×3, SiliconANGLE ×1, Wired 间接, ZDNet 间接）
 - **Tier 3 命中**：15/12 超额（Anthropic ×3, OpenAI ×2, Google DeepMind ×2, Microsoft ×3, Meta ×1, AWS ×1, NVIDIA ×2, SAP ×2, IBM ×1）
 - **Tier 4b 命中**：3/5（InfoQ ×1, IEEE Spectrum ×1, Hugging Face 间接）
+- **突发补充**：5 篇（B1–B5，均为 TechCrunch 原文链接，06:32 轮次新增）
 - **失败源**：[The Verge 直连 403, VentureBeat 首页 403, Anthropic Blog 403, Ars Technica 无 June 13 特定结果, Adobe/Workday/ServiceNow/Oracle 本期无重大发布信号]
