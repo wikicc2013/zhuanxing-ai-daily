@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-15T10:16:03.885407+08:00",
+  "generated_at": "2026-06-16T10:30:40.369953+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 16,
-  "total_clips": 158,
-  "total_with_images": 26,
+  "total_files": 18,
+  "total_clips": 187,
+  "total_with_images": 31,
   "types": {
-    "文字": 129,
-    "图片": 26,
+    "文字": 153,
+    "图片": 31,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      144
+      173
     ],
     [
       "微信公众号",
@@ -30,6 +30,14 @@
       7
     ],
     [
+      "@GeekCatX",
+      6
+    ],
+    [
+      "@hongming731",
+      4
+    ],
+    [
       "@xiaogaifun",
       4
     ],
@@ -40,6 +48,18 @@
     [
       "@Zhm20220917",
       3
+    ],
+    [
+      "@jimmyood",
+      2
+    ],
+    [
+      "@satyanadella",
+      2
+    ],
+    [
+      "@frxiaobei",
+      2
     ],
     [
       "@SunNeverSetsX",
@@ -60,29 +80,17 @@
     [
       "@zeyu_kap",
       2
-    ],
-    [
-      "@eric17258",
-      2
-    ],
-    [
-      "@AYi_AInotes",
-      2
-    ],
-    [
-      "@ddny09",
-      2
-    ],
-    [
-      "@skyrain888",
-      2
-    ],
-    [
-      "@ReyJudgementOS",
-      2
     ]
   ],
   "files": [
+    [
+      "2026-06-16.md",
+      17
+    ],
+    [
+      "2026-06-15.md",
+      12
+    ],
     [
       "2026-06-11.md",
       2
@@ -149,6 +157,806 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-16_017",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "09:27:05",
+      "type": "文字",
+      "title": "90%的人用AI还在穷忙，因为把自己活成了「AI工具之间的翻译官」。  我把 Claude Code 接到 YouMind，让两个AI互相配合替我干活：一个会写",
+      "quote": "90%的人用AI还在穷忙，因为把自己活成了「AI工具之间的翻译官」。  我把 Claude Code 接到 YouMind，让两个AI互相配合替我干活：一个会写，一个会管，我只拍板。",
+      "images": [],
+      "has_image": false,
+      "author": "@alinalinzi",
+      "author_desc": "90%的人用AI还在穷忙，因为把自己活成了「AI工具之间的翻译官」。 我把 Claude Code 接到 YouMind",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/alinalinzi/status/2066295382276239559",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@alinalinzi"
+      ],
+      "preview": "90%的人用AI还在穷忙，因为把自己活成了「AI工具之间的翻译官」。  我把 Claude Code 接到 YouMind，让两个AI互相配合替我干活：一个会写，一个会管，我只拍板。",
+      "raw": "09:27:05 · 文字\n\n> 90%的人用AI还在穷忙，因为把自己活成了「AI工具之间的翻译官」。  我把 Claude Code 接到 YouMind，让两个AI互相配合替我干活：一个会写，一个会管，我只拍板。\n\n来源: [@alinalinzi: 90%的人用AI还在穷忙，因为把自己活成了「AI工具之间的翻译官」。 我把 Claude Code 接到 YouMind…](https://x.com/alinalinzi/status/2066295382276239559)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T09:27:05+08:00"
+    },
+    {
+      "id": "2026-06-16_016",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "09:06:23",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HK0R7vva4AATcKw?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@starzq",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HK0R7vva4AATcKw?format=jpg&name=900x900",
+        "https://x.com/starzq/status/2066327602747658614",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@starzq"
+      ],
+      "preview": "[图片] ",
+      "raw": "09:06:23 · 图片\n\n![image](https://pbs.twimg.com/media/HK0R7vva4AATcKw?format=jpg&name=900x900)\n\n来源: [@starzq](https://x.com/starzq/status/2066327602747658614)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T09:06:23+08:00"
+    },
+    {
+      "id": "2026-06-16_015",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "09:03:03",
+      "type": "文字",
+      "title": "AI 时代的企业竞争，本质上已经变成了‘员工含 AI 量’的竞争。谁能最快让自己的员工用上最顶级的 AI 生产力工具，谁就能在效率上降维打击对手。‘Superh",
+      "quote": "AI 时代的企业竞争，本质上已经变成了‘员工含 AI 量’的竞争。谁能最快让自己的员工用上最顶级的 AI 生产力工具，谁就能在效率上降维打击对手。‘Superhuman Race’ 表面上是科技巨头的军备竞赛，切到微观层面上，其实是企业组织架构和个人工作范式的全面重塑。",
+      "images": [],
+      "has_image": false,
+      "author": "@logan77coin",
+      "author_desc": "AI 时代的企业竞争，本质上已经变成了‘员工含 AI 量’的竞争。谁能最快让自己的员工用上最顶级的 AI 生产力工具，谁",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/logan77coin/status/2066386321732710400",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@logan77coin"
+      ],
+      "preview": "AI 时代的企业竞争，本质上已经变成了‘员工含 AI 量’的竞争。谁能最快让自己的员工用上最顶级的 AI 生产力工具，谁就能在效率上降维打击对手。‘Superhuman Race’ 表面上是科技巨头的军备竞赛，切到微观层面上，其实是企业组织架构和个人工作范式的全面重塑。",
+      "raw": "09:03:03 · 文字\n\n> AI 时代的企业竞争，本质上已经变成了‘员工含 AI 量’的竞争。谁能最快让自己的员工用上最顶级的 AI 生产力工具，谁就能在效率上降维打击对手。‘Superhuman Race’ 表面上是科技巨头的军备竞赛，切到微观层面上，其实是企业组织架构和个人工作范式的全面重塑。\n\n来源: [@logan77coin: AI 时代的企业竞争，本质上已经变成了‘员工含 AI 量’的竞争。谁能最快让自己的员工用上最顶级的 AI 生产力工具，谁…](https://x.com/logan77coin/status/2066386321732710400)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T09:03:03+08:00"
+    },
+    {
+      "id": "2026-06-16_014",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:59:11",
+      "type": "文字",
+      "title": "硅谷 PayPal 黑帮大佬 Peter Thiel 认为，AI 正在终结过去 200 年来以数学能力为中心的精英体系。在工程和量化等领域，“数学型人才”的逻辑",
+      "quote": "硅谷 PayPal 黑帮大佬 Peter Thiel 认为，AI 正在终结过去 200 年来以数学能力为中心的精英体系。在工程和量化等领域，“数学型人才”的逻辑优势正在迅速被取代。",
+      "images": [],
+      "has_image": false,
+      "author": "@cyliu7",
+      "author_desc": "“未来真正的竞争力，在于叙事、社交语境理解，以及把AI嵌入社会系统的语言型人才，这才是人类独特优势”。能不能理解为当脑力",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/cyliu7/status/2066417621730578711",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@cyliu7"
+      ],
+      "preview": "硅谷 PayPal 黑帮大佬 Peter Thiel 认为，AI 正在终结过去 200 年来以数学能力为中心的精英体系。在工程和量化等领域，“数学型人才”的逻辑优势正在迅速被取代。",
+      "raw": "08:59:11 · 文字\n\n> 硅谷 PayPal 黑帮大佬 Peter Thiel 认为，AI 正在终结过去 200 年来以数学能力为中心的精英体系。在工程和量化等领域，“数学型人才”的逻辑优势正在迅速被取代。\n\n来源: [@cyliu7: “未来真正的竞争力，在于叙事、社交语境理解，以及把AI嵌入社会系统的语言型人才，这才是人类独特优势”。能不能理解为当脑力…](https://x.com/cyliu7/status/2066417621730578711)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T08:59:11+08:00"
+    },
+    {
+      "id": "2026-06-16_013",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:58:49",
+      "type": "文字",
+      "title": "当下最常见的 AI 公司营销话术  1.我们不是 AI 公司，我们是 AI native 公司  2.我们不做工具，我们重构生产关系  3.我们不是 to B ",
+      "quote": "当下最常见的 AI 公司营销话术  1.我们不是 AI 公司，我们是 AI native 公司  2.我们不做工具，我们重构生产关系  3.我们不是 to B 也不是 to C，我们是 to AI  4.我们不追求 PMF，我们定义 PMF  5.我们的护城河是认知  6.我们不是套壳，我们是在大模型之上做工程化沉淀  7.我们是 AI-first 组织  8.我们要做 AGI 时代的水电煤  9.大模型是底座，我们做的是 last mile  10.我们不和大厂竞争，我们和大厂共生",
+      "images": [],
+      "has_image": false,
+      "author": "@HoodyLiu",
+      "author_desc": "当下最常见的 AI 公司营销话术1.我们不是 AI 公司，我们是 AI native 公司2.我们不做工具，我们重构生产",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/HoodyLiu/status/2066426984880865352",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@HoodyLiu"
+      ],
+      "preview": "当下最常见的 AI 公司营销话术  1.我们不是 AI 公司，我们是 AI native 公司  2.我们不做工具，我们重构生产关系  3.我们不是 to B 也不是 to C，我们是 to AI  4.我们不追求 PMF，我们定义 PMF  5.我们的护城河是认知  6.我们不是套壳，我们是在大模型之上做工程化沉淀  7.我们是 AI-first 组织  8.我们要做 AGI 时代的水电煤  9.大模型是底座，我们做的是 last mile  10.我们不和大厂竞争，我们和...",
+      "raw": "08:58:49 · 文字\n\n> 当下最常见的 AI 公司营销话术  1.我们不是 AI 公司，我们是 AI native 公司  2.我们不做工具，我们重构生产关系  3.我们不是 to B 也不是 to C，我们是 to AI  4.我们不追求 PMF，我们定义 PMF  5.我们的护城河是认知  6.我们不是套壳，我们是在大模型之上做工程化沉淀  7.我们是 AI-first 组织  8.我们要做 AGI 时代的水电煤  9.大模型是底座，我们做的是 last mile  10.我们不和大厂竞争，我们和大厂共生\n\n来源: [@HoodyLiu: 当下最常见的 AI 公司营销话术1.我们不是 AI 公司，我们是 AI native 公司2.我们不做工具，我们重构生产…](https://x.com/HoodyLiu/status/2066426984880865352)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T08:58:49+08:00"
+    },
+    {
+      "id": "2026-06-16_012",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:56:43",
+      "type": "文字",
+      "title": "探讨使用 NocoBase 作为基础设施，引入 AI 能力，在 SAP 等已有的传统软件之上重塑供应链的某些环节。比如，高效地识别、结构化处理大量来自不同国家的",
+      "quote": "探讨使用 NocoBase 作为基础设施，引入 AI 能力，在 SAP 等已有的传统软件之上重塑供应链的某些环节。比如，高效地识别、结构化处理大量来自不同国家的传真、纸质、手写、网站下单等渠道的订单，根据库房位置和收货地址批量规划运输，并根据付款方式的不同高效处理应收账款和账单、发票流程。",
+      "images": [],
+      "has_image": false,
+      "author": "@estheryoyoyo",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/estheryoyoyo/status/2066445140022235186",
+      "all_urls": [
+        "https://x.com/estheryoyoyo/status/2066445140022235186"
+      ],
+      "tags": [
+        "文字",
+        "@estheryoyoyo"
+      ],
+      "preview": "探讨使用 NocoBase 作为基础设施，引入 AI 能力，在 SAP 等已有的传统软件之上重塑供应链的某些环节。比如，高效地识别、结构化处理大量来自不同国家的传真、纸质、手写、网站下单等渠道的订单，根据库房位置和收货地址批量规划运输，并根据付款方式的不同高效处理应收账款和账单、发票流程。",
+      "raw": "08:56:43 · 文字\n\n> 探讨使用 NocoBase 作为基础设施，引入 AI 能力，在 SAP 等已有的传统软件之上重塑供应链的某些环节。比如，高效地识别、结构化处理大量来自不同国家的传真、纸质、手写、网站下单等渠道的订单，根据库房位置和收货地址批量规划运输，并根据付款方式的不同高效处理应收账款和账单、发票流程。\n\n来源: [@estheryoyoyo](https://x.com/estheryoyoyo/status/2066445140022235186)",
+      "datetime": "2026-06-16T08:56:43+08:00"
+    },
+    {
+      "id": "2026-06-16_011",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:45:47",
+      "type": "文字",
+      "title": "写代码的能力，AI 正在快速抹平；但把一件事讲清楚、把信息结构组织好的能力，反而越来越值钱——因为这正是上下文工程的核心。你不需要会 Python，你需要会把\"",
+      "quote": "写代码的能力，AI 正在快速抹平；但把一件事讲清楚、把信息结构组织好的能力，反而越来越值钱——因为这正是上下文工程的核心。你不需要会 Python，你需要会把\"我要什么、按什么规则、参考哪些材料\"写成 AI 能稳定读懂的结构。",
+      "images": [],
+      "has_image": false,
+      "author": "@jimmyood",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/jimmyood/status/2066586939562803425",
+      "all_urls": [
+        "https://x.com/jimmyood/status/2066586939562803425"
+      ],
+      "tags": [
+        "文字",
+        "@jimmyood"
+      ],
+      "preview": "写代码的能力，AI 正在快速抹平；但把一件事讲清楚、把信息结构组织好的能力，反而越来越值钱——因为这正是上下文工程的核心。你不需要会 Python，你需要会把\"我要什么、按什么规则、参考哪些材料\"写成 AI 能稳定读懂的结构。",
+      "raw": "08:45:47 · 文字\n\n> 写代码的能力，AI 正在快速抹平；但把一件事讲清楚、把信息结构组织好的能力，反而越来越值钱——因为这正是上下文工程的核心。你不需要会 Python，你需要会把\"我要什么、按什么规则、参考哪些材料\"写成 AI 能稳定读懂的结构。\n\n**备注:** claude code课程\n\n来源: [@jimmyood](https://x.com/jimmyood/status/2066586939562803425)",
+      "datetime": "2026-06-16T08:45:47+08:00"
+    },
+    {
+      "id": "2026-06-16_010",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:45:19",
+      "type": "文字",
+      "title": "LangChain 的 Lance Martin 把这件事拆成了一套可操作的框架，我把它翻译成\"人话\"，并配上我自己系统里的对应做法： 写（Write）：把定位",
+      "quote": "LangChain 的 Lance Martin 把这件事拆成了一套可操作的框架，我把它翻译成\"人话\"，并配上我自己系统里的对应做法： 写（Write）：把定位、人设、规则写成稳定的文档，让 agent 每次都读。我的做法是一份「内容档案」+「写作指南」——不读它，AI 写出来就是一股通用 AI 味，毫无意义。 选（Select）：只挑当下相关的那部分塞进窗口，不是一股脑全给。我按\"今天写哪条\"去取对应的选题，而不是把整个库倒给它。 压（Compress）：把长内容压成要点。一段视频转写，我让它先变成\"3 条学习笔记 + 一句启发\"，留信号、去噪声、省 token。 隔（Isolate）：把不相关的上下文隔开。我有两个号，X 和小红书各读各的档案——不隔离，X 的内容就会串进小红书的味道。",
+      "images": [],
+      "has_image": false,
+      "author": "@jimmyood",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/jimmyood/status/2066586939562803425",
+      "all_urls": [
+        "https://x.com/jimmyood/status/2066586939562803425"
+      ],
+      "tags": [
+        "文字",
+        "@jimmyood"
+      ],
+      "preview": "LangChain 的 Lance Martin 把这件事拆成了一套可操作的框架，我把它翻译成\"人话\"，并配上我自己系统里的对应做法： 写（Write）：把定位、人设、规则写成稳定的文档，让 agent 每次都读。我的做法是一份「内容档案」+「写作指南」——不读它，AI 写出来就是一股通用 AI 味，毫无意义。 选（Select）：只挑当下相关的那部分塞进窗口，不是一股脑全给。我按\"今天写哪条\"去取对应的选题，而不是把整个库倒给它。 压（Compress）：把长内容压成要点。...",
+      "raw": "08:45:19 · 文字\n\n> LangChain 的 Lance Martin 把这件事拆成了一套可操作的框架，我把它翻译成\"人话\"，并配上我自己系统里的对应做法： 写（Write）：把定位、人设、规则写成稳定的文档，让 agent 每次都读。我的做法是一份「内容档案」+「写作指南」——不读它，AI 写出来就是一股通用 AI 味，毫无意义。 选（Select）：只挑当下相关的那部分塞进窗口，不是一股脑全给。我按\"今天写哪条\"去取对应的选题，而不是把整个库倒给它。 压（Compress）：把长内容压成要点。一段视频转写，我让它先变成\"3 条学习笔记 + 一句启发\"，留信号、去噪声、省 token。 隔（Isolate）：把不相关的上下文隔开。我有两个号，X 和小红书各读各的档案——不隔离，X 的内容就会串进小红书的味道。\n\n来源: [@jimmyood](https://x.com/jimmyood/status/2066586939562803425)",
+      "datetime": "2026-06-16T08:45:19+08:00"
+    },
+    {
+      "id": "2026-06-16_009",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:41:09",
+      "type": "文字",
+      "title": "自己明明没问多少问题，账单怎么会这么高？这篇文章给出的答案是：你打的那句话，在每次请求里可能连 1% 都不到，真正的成本大头藏在系统自动帮你带上的那一大坨东西里",
+      "quote": "自己明明没问多少问题，账单怎么会这么高？这篇文章给出的答案是：你打的那句话，在每次请求里可能连 1% 都不到，真正的成本大头藏在系统自动帮你带上的那一大坨东西里——系统提示词、项目说明文档、Skill 定义、工具 / MCP 定义、历史会话、代码文件，这些加起来通常远远超过用户那句话本身。文章给出一个近似公式：总成本 ≈ 固定前缀 + 会话历史 + 运行时检索 + 工具往返 + 模型输出，用户的提问只是触发任务的\"点火器\"，不是成本主体。",
+      "images": [],
+      "has_image": false,
+      "author": "@hongming731",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/hongming731/status/2066671557230145914",
+      "all_urls": [
+        "https://x.com/hongming731/status/2066671557230145914"
+      ],
+      "tags": [
+        "文字",
+        "@hongming731"
+      ],
+      "preview": "自己明明没问多少问题，账单怎么会这么高？这篇文章给出的答案是：你打的那句话，在每次请求里可能连 1% 都不到，真正的成本大头藏在系统自动帮你带上的那一大坨东西里——系统提示词、项目说明文档、Skill 定义、工具 / MCP 定义、历史会话、代码文件，这些加起来通常远远超过用户那句话本身。文章给出一个近似公式：总成本 ≈ 固定前缀 + 会话历史 + 运行时检索 + 工具往返 + 模型输出，用户的提问只是触发任务的\"点火器\"，不是成本主体。",
+      "raw": "08:41:09 · 文字\n\n> 自己明明没问多少问题，账单怎么会这么高？这篇文章给出的答案是：你打的那句话，在每次请求里可能连 1% 都不到，真正的成本大头藏在系统自动帮你带上的那一大坨东西里——系统提示词、项目说明文档、Skill 定义、工具 / MCP 定义、历史会话、代码文件，这些加起来通常远远超过用户那句话本身。文章给出一个近似公式：总成本 ≈ 固定前缀 + 会话历史 + 运行时检索 + 工具往返 + 模型输出，用户的提问只是触发任务的\"点火器\"，不是成本主体。\n\n来源: [@hongming731](https://x.com/hongming731/status/2066671557230145914)",
+      "datetime": "2026-06-16T08:41:09+08:00"
+    },
+    {
+      "id": "2026-06-16_008",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:38:00",
+      "type": "文字",
+      "title": "它给出了一个更实际的判断框架：循环值不值得搭，取决于任务是否真的会反复出现、流程是否相对稳定、结果是否可以被自动检查，以及关键判断是否还掌握在人手里。同时它也很",
+      "quote": "它给出了一个更实际的判断框架：循环值不值得搭，取决于任务是否真的会反复出现、流程是否相对稳定、结果是否可以被自动检查，以及关键判断是否还掌握在人手里。同时它也很直接地提醒，循环工程有个前提——Token 预算要够。循环会反复读上下文、反复重试、四处探索，不管最后有没有产出，Token 都在燃烧。对于月付固定额度的普通用户，循环跑两天就可能撞到周限额。一次性的任务，一句好提示词又快又便宜；只有重复出现、且能自动验证的任务，才值得为它搭一套循环。",
+      "images": [],
+      "has_image": false,
+      "author": "@hongming731",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/hongming731/status/2066671557230145914",
+      "all_urls": [
+        "https://x.com/hongming731/status/2066671557230145914"
+      ],
+      "tags": [
+        "文字",
+        "@hongming731"
+      ],
+      "preview": "它给出了一个更实际的判断框架：循环值不值得搭，取决于任务是否真的会反复出现、流程是否相对稳定、结果是否可以被自动检查，以及关键判断是否还掌握在人手里。同时它也很直接地提醒，循环工程有个前提——Token 预算要够。循环会反复读上下文、反复重试、四处探索，不管最后有没有产出，Token 都在燃烧。对于月付固定额度的普通用户，循环跑两天就可能撞到周限额。一次性的任务，一句好提示词又快又便宜；只有重复出现、且能自动验证的任务，才值得为它搭一套循环。",
+      "raw": "08:38:00 · 文字\n\n> 它给出了一个更实际的判断框架：循环值不值得搭，取决于任务是否真的会反复出现、流程是否相对稳定、结果是否可以被自动检查，以及关键判断是否还掌握在人手里。同时它也很直接地提醒，循环工程有个前提——Token 预算要够。循环会反复读上下文、反复重试、四处探索，不管最后有没有产出，Token 都在燃烧。对于月付固定额度的普通用户，循环跑两天就可能撞到周限额。一次性的任务，一句好提示词又快又便宜；只有重复出现、且能自动验证的任务，才值得为它搭一套循环。\n\n来源: [@hongming731](https://x.com/hongming731/status/2066671557230145914)",
+      "datetime": "2026-06-16T08:38:00+08:00"
+    },
+    {
+      "id": "2026-06-16_007",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:36:31",
+      "type": "文字",
+      "title": "今天大家重新讨论 Loop，是因为模型终于能把这个循环连续跑下去了——当 Agent 可以连续工作几十分钟、几个小时甚至跨天完成任务时，人和 AI 协作的最小单",
+      "quote": "今天大家重新讨论 Loop，是因为模型终于能把这个循环连续跑下去了——当 Agent 可以连续工作几十分钟、几个小时甚至跨天完成任务时，人和 AI 协作的最小单位，从一次对话变成了一个完整的回路。",
+      "images": [],
+      "has_image": false,
+      "author": "@hongming731",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/hongming731/status/2066671557230145914",
+      "all_urls": [
+        "https://x.com/hongming731/status/2066671557230145914"
+      ],
+      "tags": [
+        "文字",
+        "@hongming731"
+      ],
+      "preview": "今天大家重新讨论 Loop，是因为模型终于能把这个循环连续跑下去了——当 Agent 可以连续工作几十分钟、几个小时甚至跨天完成任务时，人和 AI 协作的最小单位，从一次对话变成了一个完整的回路。",
+      "raw": "08:36:31 · 文字\n\n> 今天大家重新讨论 Loop，是因为模型终于能把这个循环连续跑下去了——当 Agent 可以连续工作几十分钟、几个小时甚至跨天完成任务时，人和 AI 协作的最小单位，从一次对话变成了一个完整的回路。\n\n来源: [@hongming731](https://x.com/hongming731/status/2066671557230145914)",
+      "datetime": "2026-06-16T08:36:31+08:00"
+    },
+    {
+      "id": "2026-06-16_006",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:35:01",
+      "type": "文字",
+      "title": "企业的学习和组织能力增长要基于人力资本和token capital协同。持续增强学习的收益要沉淀在企业的生态里而不是外部的模型里。benchmark是企业的业务",
+      "quote": "企业的学习和组织能力增长要基于人力资本和token capital协同。持续增强学习的收益要沉淀在企业的生态里而不是外部的模型里。benchmark是企业的业务目标。这也解决了姚顺雨在下半场中提到的评估标准问题。这让微软的Office和BackOffice家族产品在AI时代再次成为核心。正如Satya在Cloud时代所做的一样。",
+      "images": [],
+      "has_image": false,
+      "author": "@markintouch",
+      "author_desc": "企业的学习和组织能力增长要基于人力资本和token capital协同。持续增强学习的收益要沉淀在企业的生态里而不是外部",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/markintouch/status/2066672961143427427",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@markintouch"
+      ],
+      "preview": "企业的学习和组织能力增长要基于人力资本和token capital协同。持续增强学习的收益要沉淀在企业的生态里而不是外部的模型里。benchmark是企业的业务目标。这也解决了姚顺雨在下半场中提到的评估标准问题。这让微软的Office和BackOffice家族产品在AI时代再次成为核心。正如Satya在Cloud时代所做的一样。",
+      "raw": "08:35:01 · 文字\n\n> 企业的学习和组织能力增长要基于人力资本和token capital协同。持续增强学习的收益要沉淀在企业的生态里而不是外部的模型里。benchmark是企业的业务目标。这也解决了姚顺雨在下半场中提到的评估标准问题。这让微软的Office和BackOffice家族产品在AI时代再次成为核心。正如Satya在Cloud时代所做的一样。\n\n来源: [@markintouch: 企业的学习和组织能力增长要基于人力资本和token capital协同。持续增强学习的收益要沉淀在企业的生态里而不是外部…](https://x.com/markintouch/status/2066672961143427427)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T08:35:01+08:00"
+    },
+    {
+      "id": "2026-06-16_005",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:34:47",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HK5MZvpaEAA83lP?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@gorkeek",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HK5MZvpaEAA83lP?format=jpg&name=900x900",
+        "https://x.com/gorkeek/status/2066674999621280091",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@gorkeek"
+      ],
+      "preview": "[图片] ",
+      "raw": "08:34:47 · 图片\n\n![image](https://pbs.twimg.com/media/HK5MZvpaEAA83lP?format=jpg&name=900x900)\n\n来源: [@gorkeek](https://x.com/gorkeek/status/2066674999621280091)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T08:34:47+08:00"
+    },
+    {
+      "id": "2026-06-16_004",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:26:57",
+      "type": "文字",
+      "title": "Honen 是面向企业的 AI 原生教学与学习基础设施，可把团队的知识资产（文档、流程、工具使用方式等）快速组织成由 AI 主导的互动课程，包含自适应教学、情境",
+      "quote": "Honen 是面向企业的 AI 原生教学与学习基础设施，可把团队的知识资产（文档、流程、工具使用方式等）快速组织成由 AI 主导的互动课程，包含自适应教学、情境演练与学习洞察。它把培训当作随业务变化持续演进的系统，而不是一次性的课程制作项目。   评估分析 AI 原生应用现代化评分：86/100 AI 在系统中承担了内容编排、个性化路径与训练内容的持续更新，能够显著降低培训维护成本并减少知识过期带来的偏差。若要进一步提升现代化成熟度，需要在企业级治理与可控性上更清晰，例如变更追踪、质量评估机制与更深的业务系统集成。",
+      "images": [],
+      "has_image": false,
+      "author": "@AINativeF_zh",
+      "author_desc": "Honen Product Hunt 数据 排名：3 点赞：538 产品概览 Honen 是面向企业的 AI 原生教学与",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/AINativeF_zh/status/2066460777314140484",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@AINativeF_zh"
+      ],
+      "preview": "Honen 是面向企业的 AI 原生教学与学习基础设施，可把团队的知识资产（文档、流程、工具使用方式等）快速组织成由 AI 主导的互动课程，包含自适应教学、情境演练与学习洞察。它把培训当作随业务变化持续演进的系统，而不是一次性的课程制作项目。   评估分析 AI 原生应用现代化评分：86/100 AI 在系统中承担了内容编排、个性化路径与训练内容的持续更新，能够显著降低培训维护成本并减少知识过期带来的偏差。若要进一步提升现代化成熟度，需要在企业级治理与可控性上更清晰，例如变更...",
+      "raw": "08:26:57 · 文字\n\n> Honen 是面向企业的 AI 原生教学与学习基础设施，可把团队的知识资产（文档、流程、工具使用方式等）快速组织成由 AI 主导的互动课程，包含自适应教学、情境演练与学习洞察。它把培训当作随业务变化持续演进的系统，而不是一次性的课程制作项目。   评估分析 AI 原生应用现代化评分：86/100 AI 在系统中承担了内容编排、个性化路径与训练内容的持续更新，能够显著降低培训维护成本并减少知识过期带来的偏差。若要进一步提升现代化成熟度，需要在企业级治理与可控性上更清晰，例如变更追踪、质量评估机制与更深的业务系统集成。\n\n**备注:** 创业系统\n\n来源: [@AINativeF_zh: Honen Product Hunt 数据 排名：3 点赞：538 产品概览 Honen 是面向企业的 AI 原生教学与…](https://x.com/AINativeF_zh/status/2066460777314140484)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T08:26:57+08:00"
+    },
+    {
+      "id": "2026-06-16_003",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:25:54",
+      "type": "文字",
+      "title": "Anthropic 首席执行官 Dario Amodei 呼吁政府对人工智能公司征税，以资助全民基本收入（UBI）。  他表示，如果 AI 导致大规模失业并永久",
+      "quote": "Anthropic 首席执行官 Dario Amodei 呼吁政府对人工智能公司征税，以资助全民基本收入（UBI）。  他表示，如果 AI 导致大规模失业并永久性地减少劳动力需求，可能就需要全民基本收入，x.com/0xCheshire/sta…",
+      "images": [],
+      "has_image": false,
+      "author": "@epr510",
+      "author_desc": "I support AI companies funding the establishment of a univer",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/epr510/status/2066478122736967983",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@epr510"
+      ],
+      "preview": "Anthropic 首席执行官 Dario Amodei 呼吁政府对人工智能公司征税，以资助全民基本收入（UBI）。  他表示，如果 AI 导致大规模失业并永久性地减少劳动力需求，可能就需要全民基本收入，x.com/0xCheshire/sta…",
+      "raw": "08:25:54 · 文字\n\n> Anthropic 首席执行官 Dario Amodei 呼吁政府对人工智能公司征税，以资助全民基本收入（UBI）。  他表示，如果 AI 导致大规模失业并永久性地减少劳动力需求，可能就需要全民基本收入，x.com/0xCheshire/sta…\n\n来源: [@epr510: I support AI companies funding the establishment of a univer…](https://x.com/epr510/status/2066478122736967983)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T08:25:54+08:00"
+    },
+    {
+      "id": "2026-06-16_002",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:23:18",
+      "type": "文字",
+      "title": "问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异",
+      "quote": "问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异化优势并蓬勃发展。",
+      "images": [],
+      "has_image": false,
+      "author": "@satyanadella",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/satyanadella/status/2066182223213293753",
+      "all_urls": [
+        "https://x.com/satyanadella/status/2066182223213293753"
+      ],
+      "tags": [
+        "文字",
+        "@satyanadella"
+      ],
+      "preview": "问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异化优势并蓬勃发展。",
+      "raw": "08:23:18 · 文字\n\n> 问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异化优势并蓬勃发展。\n\n来源: [@satyanadella](https://x.com/satyanadella/status/2066182223213293753)",
+      "datetime": "2026-06-16T08:23:18+08:00"
+    },
+    {
+      "id": "2026-06-16_001",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "08:21:12",
+      "type": "文字",
+      "title": "问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异",
+      "quote": "问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异化优势并蓬勃发展。",
+      "images": [],
+      "has_image": false,
+      "author": "@satyanadella",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/satyanadella/status/2066182223213293753",
+      "all_urls": [
+        "https://x.com/satyanadella/status/2066182223213293753"
+      ],
+      "tags": [
+        "文字",
+        "@satyanadella"
+      ],
+      "preview": "问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异化优势并蓬勃发展。",
+      "raw": "08:21:12 · 文字\n\n> 问题的关键不在于某种数字化工具或系统的使用，而在于：在一个 AI 模型能够不断吸收并商品化人类与组织专业知识的世界里，组织该如何持续学习、积累知识产权、建立差异化优势并蓬勃发展。\n\n来源: [@satyanadella](https://x.com/satyanadella/status/2066182223213293753)",
+      "datetime": "2026-06-16T08:21:12+08:00"
+    },
+    {
+      "id": "2026-06-15_012",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "07:32:39",
+      "type": "文字",
+      "title": "Github 本身正在成为一个 A2A（Agent-to-Agent）平台。  这周我经历了一些特别超现实的事情： 1. 我把一个 Github 链接丢给 Co",
+      "quote": "Github 本身正在成为一个 A2A（Agent-to-Agent）平台。  这周我经历了一些特别超现实的事情： 1. 我把一个 Github 链接丢给 Codex，并让它帮我部署。 2. 使用一段时间后，我发现了一个疑似 bug 的地方。我让 Codex 去检查一下，然后它",
+      "images": [],
+      "has_image": false,
+      "author": "@frxiaobei",
+      "author_desc": "The future has already arrived: A GitHub issue, from bug dis",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/frxiaobei/status/2066503527627956618",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@frxiaobei"
+      ],
+      "preview": "Github 本身正在成为一个 A2A（Agent-to-Agent）平台。  这周我经历了一些特别超现实的事情： 1. 我把一个 Github 链接丢给 Codex，并让它帮我部署。 2. 使用一段时间后，我发现了一个疑似 bug 的地方。我让 Codex 去检查一下，然后它",
+      "raw": "07:32:39 · 文字\n\n> Github 本身正在成为一个 A2A（Agent-to-Agent）平台。  这周我经历了一些特别超现实的事情： 1. 我把一个 Github 链接丢给 Codex，并让它帮我部署。 2. 使用一段时间后，我发现了一个疑似 bug 的地方。我让 Codex 去检查一下，然后它\n\n来源: [@frxiaobei: The future has already arrived: A GitHub issue, from bug dis…](https://x.com/frxiaobei/status/2066503527627956618)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T07:32:39+08:00"
+    },
+    {
+      "id": "2026-06-15_011",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "07:01:45",
+      "type": "文字",
+      "title": "AI native 公司的核心机会，不是重新定义每一个领域，而是在能用 AI 显著改变任务结构、责任分配、成本曲线的场景，逐步重构工作的组织方式",
+      "quote": "AI native 公司的核心机会，不是重新定义每一个领域，而是在能用 AI 显著改变任务结构、责任分配、成本曲线的场景，逐步重构工作的组织方式",
+      "images": [],
+      "has_image": false,
+      "author": "@10x_Creators",
+      "author_desc": "AI native 公司的核心机会，不是重新定义每一个领域，而是在能用 AI 显著改变任务结构、责任分配、成本曲线的场景",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/10x_Creators/status/2066519666663834053",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@10x_Creators"
+      ],
+      "preview": "AI native 公司的核心机会，不是重新定义每一个领域，而是在能用 AI 显著改变任务结构、责任分配、成本曲线的场景，逐步重构工作的组织方式",
+      "raw": "07:01:45 · 文字\n\n> AI native 公司的核心机会，不是重新定义每一个领域，而是在能用 AI 显著改变任务结构、责任分配、成本曲线的场景，逐步重构工作的组织方式\n\n来源: [@10x_Creators: AI native 公司的核心机会，不是重新定义每一个领域，而是在能用 AI 显著改变任务结构、责任分配、成本曲线的场景…](https://x.com/10x_Creators/status/2066519666663834053)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T07:01:45+08:00"
+    },
+    {
+      "id": "2026-06-15_010",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "07:01:14",
+      "type": "文字",
+      "title": "未来企业最重要的资产，不是 AI 模型本身，而是企业持续积累和强化的学习循环（Learning Loop）。  模型会不断进步，能力会逐渐趋同。  真正难以复制",
+      "quote": "未来企业最重要的资产，不是 AI 模型本身，而是企业持续积累和强化的学习循环（Learning Loop）。  模型会不断进步，能力会逐渐趋同。  真正难以复制的，是组织长期沉淀的知识、经验、判断力、协作能力以及持续学习能力。  企业之间最终竞争的，不是单一工具，而是谁拥有更强大的价值积累循环。",
+      "images": [],
+      "has_image": false,
+      "author": "@JackliuBitcoin",
+      "author_desc": "PiBank Protocol：从学习循环到价值循环 Satya Nadella 提出了一个值得深思的观点： 未来企业最",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/JackliuBitcoin/status/2066520962506625136",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@JackliuBitcoin"
+      ],
+      "preview": "未来企业最重要的资产，不是 AI 模型本身，而是企业持续积累和强化的学习循环（Learning Loop）。  模型会不断进步，能力会逐渐趋同。  真正难以复制的，是组织长期沉淀的知识、经验、判断力、协作能力以及持续学习能力。  企业之间最终竞争的，不是单一工具，而是谁拥有更强大的价值积累循环。",
+      "raw": "07:01:14 · 文字\n\n> 未来企业最重要的资产，不是 AI 模型本身，而是企业持续积累和强化的学习循环（Learning Loop）。  模型会不断进步，能力会逐渐趋同。  真正难以复制的，是组织长期沉淀的知识、经验、判断力、协作能力以及持续学习能力。  企业之间最终竞争的，不是单一工具，而是谁拥有更强大的价值积累循环。\n\n来源: [@JackliuBitcoin: PiBank Protocol：从学习循环到价值循环 Satya Nadella 提出了一个值得深思的观点： 未来企业最…](https://x.com/JackliuBitcoin/status/2066520962506625136)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T07:01:14+08:00"
+    },
+    {
+      "id": "2026-06-15_009",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:47:26",
+      "type": "文字",
+      "title": "好 Skill 的 10 条原则 综合 Codex 文档、Agent Skills 规范、Anthropic Skill 指南和相关最佳实践，优秀 Skill ",
+      "quote": "好 Skill 的 10 条原则 综合 Codex 文档、Agent Skills 规范、Anthropic Skill 指南和相关最佳实践，优秀 Skill 通常遵守下面 10 条原则。 1. 从真实任务中提炼，不要凭空生成 不要只说“帮我生成一个数据分析 Skill”。 更好的做法是：先完成一次真实数据分析，把成功步骤、失败修正、输入输出和边界情况记录下来，再提炼 Skill。 好的 Skill 应该来自真实专业上下文，例如内部文档、运行手册、代码审查记录、Issue、版本修改历史和真实故障案例，而不是只依赖模型的通用知识。 2. 一个 Skill 只做一类事 不要写一个“万能办公 Skill”，它会太宽。 可以拆成： plaintext 纯文本 meeting-summary weekly-report email-rewrite customer-feedback-analysis proposal-review 每个 Skill 最好聚焦一个任务，并优先用明确输入输出的命令式步骤来描述。 3. description 决定是否能被正确调用 description 不是简介，而是触发器。 差的写法： yaml description: Helps with writing. 好的写法： yaml description: Use this skill when the user wants to turn rough notes, meeting transcripts, or project updates into a structured weekly report with progress, risks, blockers, and next actions. Do not use for casual rewriting. description 应该清楚说明 Skill 做什么、什么时候使用、什么时候不使用，并加入具体关键词，帮助 Agent 判断相关任务。 4. 少讲常识，多写 Agent 不知道的东西 不要在 Skill 里解释“什么是 Markdown”“什么是 API”“什么是总结”。这些模型本来就知道。 你要写的是那些没有这个 Skill 时，Agent 容易做错的规则： plaintext 纯文本 我们的报告必须先写结论再写证据。 所有风险必须按高/中/低分级。 客户名称不能出现在公开版本中。 代码审查必须先跑测试再给建议。 换句话说：只写会改变执行结果的内容。如果 Agent 本来就能做好，就删掉。 5. 给默认方案，不要给一堆菜单 差的写法： plaintext 纯文本 你可以用 A，也可以用 B，也可以用 C，看情况选择。 好的写法： plaintext 纯文本 默认使用 A。 只有当输入是扫描 PDF 时，才切换到 B。 如果 A 和 B 都失败，说明失败原因并请求人工确认。 给 Agent 默认路径，比给它一堆并列选项更可靠。复杂到难以一次写对的命令，应该移入脚本。 6. 加 Gotchas，而不是只写原则 很多 Skill 最有价值的部分，不是流程，而是“坑”。 例如： markdown ## Gotchas - 我们的用户 ID 在数据库叫 user_id，在支付系统叫 accountId。 - 生成日报时不要把“计划”写成“已完成”。 - 如果用户没有提供数据来源，不能编造数据。 - 对外文案不要使用“绝对领先”“唯一”等不可验证词。 当 Agent 反复犯同一个错，就把它加入 Gotchas。 7. 输出模板要具体 不要说“输出清晰一点”。 直接给模板： markdown # [标题]  ## 一句话结论 ...  ## 关键发现 1. ... 2. ... 3. ...  ## 风险与不确定性 - ...  ## 下一步行动 - [ ] ... Agent 对具体结构的模仿能力，通常比对抽象描述的执行更稳定。 8. 必须有失败处理 一个 Skill 没有失败处理，就不可靠。 至少写清楚： plaintext 纯文本 信息不足时怎么办？ 输入格式错误时怎么办？ 任务不适合 Skill 时怎么办？ 涉及高风险判断时怎么办？ 输出无法验证时怎么办？ 工具失败时怎么办？ 好的 Skill 不只规定“成功时怎么做”，也规定“不确定时如何不乱做”。 9. 用 evals 测试 Skill，而不是凭感觉 不要因为跑通一次就认为 Skill 好用。 至少准备 3 类测试： plaintext 纯文本 正常场景：它应该触发，并输出正确结果。 边缘场景：输入混乱、缺字段、格式不标准。 反向场景：它不应该触发。 测试的目标不是证明 Skill 能用，而是找出它什么时候会误触发、漏触发，或者输出不稳定。 10. 复杂逻辑交给脚本 如果某一步必须稳定、可重复、可验证，不要只靠自然语言。 例如： plaintext 纯文本 校验 JSON 统计字段 转换文件 跑测试 格式化代码 检查链接 计算指标 这些都适合放进 scripts/。脚本应自包含、说明依赖、提供有用错误信息，并优雅处理边界情况。只要命令复杂到容易写错，测试过的脚本通常比自然语言指令更可靠。",
+      "images": [],
+      "has_image": false,
+      "author": "@GeekCatX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/GeekCatX/status/2066550371724730721",
+      "all_urls": [
+        "https://x.com/GeekCatX/status/2066550371724730721"
+      ],
+      "tags": [
+        "文字",
+        "@GeekCatX"
+      ],
+      "preview": "好 Skill 的 10 条原则 综合 Codex 文档、Agent Skills 规范、Anthropic Skill 指南和相关最佳实践，优秀 Skill 通常遵守下面 10 条原则。 1. 从真实任务中提炼，不要凭空生成 不要只说“帮我生成一个数据分析 Skill”。 更好的做法是：先完成一次真实数据分析，把成功步骤、失败修正、输入输出和边界情况记录下来，再提炼 Skill。 好的 Skill 应该来自真实专业上下文，例如内部文档、运行手册、代码审查记录、Issue、版...",
+      "raw": "06:47:26 · 文字\n\n> 好 Skill 的 10 条原则 综合 Codex 文档、Agent Skills 规范、Anthropic Skill 指南和相关最佳实践，优秀 Skill 通常遵守下面 10 条原则。 1. 从真实任务中提炼，不要凭空生成 不要只说“帮我生成一个数据分析 Skill”。 更好的做法是：先完成一次真实数据分析，把成功步骤、失败修正、输入输出和边界情况记录下来，再提炼 Skill。 好的 Skill 应该来自真实专业上下文，例如内部文档、运行手册、代码审查记录、Issue、版本修改历史和真实故障案例，而不是只依赖模型的通用知识。 2. 一个 Skill 只做一类事 不要写一个“万能办公 Skill”，它会太宽。 可以拆成： plaintext 纯文本 meeting-summary weekly-report email-rewrite customer-feedback-analysis proposal-review 每个 Skill 最好聚焦一个任务，并优先用明确输入输出的命令式步骤来描述。 3. description 决定是否能被正确调用 description 不是简介，而是触发器。 差的写法： yaml description: Helps with writing. 好的写法： yaml description: Use this skill when the user wants to turn rough notes, meeting transcripts, or project updates into a structured weekly report with progress, risks, blockers, and next actions. Do not use for casual rewriting. description 应该清楚说明 Skill 做什么、什么时候使用、什么时候不使用，并加入具体关键词，帮助 Agent 判断相关任务。 4. 少讲常识，多写 Agent 不知道的东西 不要在 Skill 里解释“什么是 Markdown”“什么是 API”“什么是总结”。这些模型本来就知道。 你要写的是那些没有这个 Skill 时，Agent 容易做错的规则： plaintext 纯文本 我们的报告必须先写结论再写证据。 所有风险必须按高/中/低分级。 客户名称不能出现在公开版本中。 代码审查必须先跑测试再给建议。 换句话说：只写会改变执行结果的内容。如果 Agent 本来就能做好，就删掉。 5. 给默认方案，不要给一堆菜单 差的写法： plaintext 纯文本 你可以用 A，也可以用 B，也可以用 C，看情况选择。 好的写法： plaintext 纯文本 默认使用 A。 只有当输入是扫描 PDF 时，才切换到 B。 如果 A 和 B 都失败，说明失败原因并请求人工确认。 给 Agent 默认路径，比给它一堆并列选项更可靠。复杂到难以一次写对的命令，应该移入脚本。 6. 加 Gotchas，而不是只写原则 很多 Skill 最有价值的部分，不是流程，而是“坑”。 例如： markdown ## Gotchas - 我们的用户 ID 在数据库叫 user_id，在支付系统叫 accountId。 - 生成日报时不要把“计划”写成“已完成”。 - 如果用户没有提供数据来源，不能编造数据。 - 对外文案不要使用“绝对领先”“唯一”等不可验证词。 当 Agent 反复犯同一个错，就把它加入 Gotchas。 7. 输出模板要具体 不要说“输出清晰一点”。 直接给模板： markdown # [标题]  ## 一句话结论 ...  ## 关键发现 1. ... 2. ... 3. ...  ## 风险与不确定性 - ...  ## 下一步行动 - [ ] ... Agent 对具体结构的模仿能力，通常比对抽象描述的执行更稳定。 8. 必须有失败处理 一个 Skill 没有失败处理，就不可靠。 至少写清楚： plaintext 纯文本 信息不足时怎么办？ 输入格式错误时怎么办？ 任务不适合 Skill 时怎么办？ 涉及高风险判断时怎么办？ 输出无法验证时怎么办？ 工具失败时怎么办？ 好的 Skill 不只规定“成功时怎么做”，也规定“不确定时如何不乱做”。 9. 用 evals 测试 Skill，而不是凭感觉 不要因为跑通一次就认为 Skill 好用。 至少准备 3 类测试： plaintext 纯文本 正常场景：它应该触发，并输出正确结果。 边缘场景：输入混乱、缺字段、格式不标准。 反向场景：它不应该触发。 测试的目标不是证明 Skill 能用，而是找出它什么时候会误触发、漏触发，或者输出不稳定。 10. 复杂逻辑交给脚本 如果某一步必须稳定、可重复、可验证，不要只靠自然语言。 例如： plaintext 纯文本 校验 JSON 统计字段 转换文件 跑测试 格式化代码 检查链接 计算指标 这些都适合放进 scripts/。脚本应自包含、说明依赖、提供有用错误信息，并优雅处理边界情况。只要命令复杂到容易写错，测试过的脚本通常比自然语言指令更可靠。\n\n来源: [@GeekCatX](https://x.com/GeekCatX/status/2066550371724730721)",
+      "datetime": "2026-06-15T06:47:26+08:00"
+    },
+    {
+      "id": "2026-06-15_008",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:40:05",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HK3Ylf-aUAAKJy-?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@GeekCatX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/GeekCatX/status/2066550371724730721",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HK3Ylf-aUAAKJy-?format=jpg&name=900x900",
+        "https://x.com/GeekCatX/status/2066550371724730721"
+      ],
+      "tags": [
+        "图片",
+        "@GeekCatX"
+      ],
+      "preview": "[图片] ",
+      "raw": "06:40:05 · 图片\n\n![image](https://pbs.twimg.com/media/HK3Ylf-aUAAKJy-?format=jpg&name=900x900)\n\n来源: [@GeekCatX](https://x.com/GeekCatX/status/2066550371724730721)",
+      "datetime": "2026-06-15T06:40:05+08:00"
+    },
+    {
+      "id": "2026-06-15_007",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:39:46",
+      "type": "文字",
+      "title": "第一层，你把内容变成 Skill。第二层，你把“把内容变成 Skill 的方法”也变成 Skill。第三层，你让这个 Skill 读取真实使用反馈，再自动改进自",
+      "quote": "第一层，你把内容变成 Skill。第二层，你把“把内容变成 Skill 的方法”也变成 Skill。第三层，你让这个 Skill 读取真实使用反馈，再自动改进自己。第四层，你让它把多个小 Skill 组合成 Workflow。第五层，你让 Workflow 变成 Agent 的操作系统。",
+      "images": [],
+      "has_image": false,
+      "author": "@GeekCatX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/GeekCatX/status/2066550371724730721",
+      "all_urls": [
+        "https://x.com/GeekCatX/status/2066550371724730721"
+      ],
+      "tags": [
+        "文字",
+        "@GeekCatX"
+      ],
+      "preview": "第一层，你把内容变成 Skill。第二层，你把“把内容变成 Skill 的方法”也变成 Skill。第三层，你让这个 Skill 读取真实使用反馈，再自动改进自己。第四层，你让它把多个小 Skill 组合成 Workflow。第五层，你让 Workflow 变成 Agent 的操作系统。",
+      "raw": "06:39:46 · 文字\n\n> 第一层，你把内容变成 Skill。第二层，你把“把内容变成 Skill 的方法”也变成 Skill。第三层，你让这个 Skill 读取真实使用反馈，再自动改进自己。第四层，你让它把多个小 Skill 组合成 Workflow。第五层，你让 Workflow 变成 Agent 的操作系统。\n\n来源: [@GeekCatX](https://x.com/GeekCatX/status/2066550371724730721)",
+      "datetime": "2026-06-15T06:39:46+08:00"
+    },
+    {
+      "id": "2026-06-15_006",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:38:09",
+      "type": "文字",
+      "title": "提示词解决一次问题，Skill 解决一类问题；Workflow 解决一条流程，Agent 解决一个目标系统。",
+      "quote": "提示词解决一次问题，Skill 解决一类问题；Workflow 解决一条流程，Agent 解决一个目标系统。",
+      "images": [],
+      "has_image": false,
+      "author": "@GeekCatX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/GeekCatX/status/2066550371724730721",
+      "all_urls": [
+        "https://x.com/GeekCatX/status/2066550371724730721"
+      ],
+      "tags": [
+        "文字",
+        "@GeekCatX"
+      ],
+      "preview": "提示词解决一次问题，Skill 解决一类问题；Workflow 解决一条流程，Agent 解决一个目标系统。",
+      "raw": "06:38:09 · 文字\n\n> 提示词解决一次问题，Skill 解决一类问题；Workflow 解决一条流程，Agent 解决一个目标系统。\n\n来源: [@GeekCatX](https://x.com/GeekCatX/status/2066550371724730721)",
+      "datetime": "2026-06-15T06:38:09+08:00"
+    },
+    {
+      "id": "2026-06-15_005",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:30:59",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HK3bMzbbYAA4vPD?format=jpg&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "@GeekCatX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/GeekCatX/status/2066550371724730721",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HK3bMzbbYAA4vPD?format=jpg&name=small",
+        "https://x.com/GeekCatX/status/2066550371724730721"
+      ],
+      "tags": [
+        "图片",
+        "@GeekCatX"
+      ],
+      "preview": "[图片] ",
+      "raw": "06:30:59 · 图片\n\n![image](https://pbs.twimg.com/media/HK3bMzbbYAA4vPD?format=jpg&name=small)\n\n**备注:** 万物皆可skill\n\n来源: [@GeekCatX](https://x.com/GeekCatX/status/2066550371724730721)",
+      "datetime": "2026-06-15T06:30:59+08:00"
+    },
+    {
+      "id": "2026-06-15_004",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:30:11",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HK3bMzbbYAA4vPD?format=jpg&name=small"
+        }
+      ],
+      "has_image": true,
+      "author": "@GeekCatX",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HK3bMzbbYAA4vPD?format=jpg&name=small",
+        "https://x.com/GeekCatX/status/2066550371724730721",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@GeekCatX"
+      ],
+      "preview": "[图片] ",
+      "raw": "06:30:11 · 图片\n\n![image](https://pbs.twimg.com/media/HK3bMzbbYAA4vPD?format=jpg&name=small)\n\n来源: [@GeekCatX](https://x.com/GeekCatX/status/2066550371724730721)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T06:30:11+08:00"
+    },
+    {
+      "id": "2026-06-15_003",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:30:05",
+      "type": "文字",
+      "title": "Google 最近进行了一项非常有趣的实验。  Assembling retired phones into a computing cluster. 将退役手",
+      "quote": "Google 最近进行了一项非常有趣的实验。  Assembling retired phones into a computing cluster. 将退役手机组装成计算集群。  What they initially wanted to solve was actually the carbon emissions problem. When many phones are phased out, the chips, memory, and storage can still work normally. Instead of producing new servers, it's better to continue utilizing the devices that already exist. 他们最初想要解决的实际上是碳排放问题。当许多手机被淘汰时，其芯片、内存和存储空间仍能正常工作。与其制造新的服务器，不如继续利用这些已经存在的设备。  Seeing Google's project reminded me of two old stories. 看到 Google 的这个项目让我想起了两个旧故事。  The first one is SETI@home from many years ago. 第一个是多年前的 SETI@home。  Back then, many people would install a small program on their computers, and whenever the computer was idle, it would contribute computing power to help NASA and astronomers analyze radio signals. Even when you were sleeping, the computer's fan would still be spinning, and you knew it was participating in the search for some distant galaxy. This felt way more honorable than just leaving QQ running in the sun. 那时候，很多人会在电脑上安装一个小程序，每当电脑空闲时，它就会贡献算力，帮助 NASA 和天文学家分析无线电信号。即便在你睡觉时，电脑的风扇依然在转动，而你知道它正在参与搜寻某个遥远的星系。这感觉比单纯为了挂 QQ 等级晒太阳要体面得多。",
+      "images": [],
+      "has_image": false,
+      "author": "@frxiaobei",
+      "author_desc": "Google recently conducted a very interesting experiment.Goog",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/frxiaobei/status/2066560090371695041",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@frxiaobei"
+      ],
+      "preview": "Google 最近进行了一项非常有趣的实验。  Assembling retired phones into a computing cluster. 将退役手机组装成计算集群。  What they initially wanted to solve was actually the carbon emissions problem. When many phones are phased out, the chips, memory, and storage can st...",
+      "raw": "06:30:05 · 文字\n\n> Google 最近进行了一项非常有趣的实验。  Assembling retired phones into a computing cluster. 将退役手机组装成计算集群。  What they initially wanted to solve was actually the carbon emissions problem. When many phones are phased out, the chips, memory, and storage can still work normally. Instead of producing new servers, it's better to continue utilizing the devices that already exist. 他们最初想要解决的实际上是碳排放问题。当许多手机被淘汰时，其芯片、内存和存储空间仍能正常工作。与其制造新的服务器，不如继续利用这些已经存在的设备。  Seeing Google's project reminded me of two old stories. 看到 Google 的这个项目让我想起了两个旧故事。  The first one is SETI@home from many years ago. 第一个是多年前的 SETI@home。  Back then, many people would install a small program on their computers, and whenever the computer was idle, it would contribute computing power to help NASA and astronomers analyze radio signals. Even when you were sleeping, the computer's fan would still be spinning, and you knew it was participating in the search for some distant galaxy. This felt way more honorable than just leaving QQ running in the sun. 那时候，很多人会在电脑上安装一个小程序，每当电脑空闲时，它就会贡献算力，帮助 NASA 和天文学家分析无线电信号。即便在你睡觉时，电脑的风扇依然在转动，而你知道它正在参与搜寻某个遥远的星系。这感觉比单纯为了挂 QQ 等级晒太阳要体面得多。\n\n来源: [@frxiaobei: Google recently conducted a very interesting experiment.Goog…](https://x.com/frxiaobei/status/2066560090371695041)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T06:30:05+08:00"
+    },
+    {
+      "id": "2026-06-15_002",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:26:32",
+      "type": "文字",
+      "title": "1. Salesforce 将以约 36 亿美元收购 AI 客服公司 Fin，企业级 AI Agent 并购继续升温。",
+      "quote": "1. Salesforce 将以约 36 亿美元收购 AI 客服公司 Fin，企业级 AI Agent 并购继续升温。",
+      "images": [],
+      "has_image": false,
+      "author": "@AStockLink",
+      "author_desc": "hcjsj. AI 日报 · 20260615国内科技1. 华为发布 HarmonyOS 7 开发者 beta，集成 H",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/AStockLink/status/2066578689534673043",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@AStockLink"
+      ],
+      "preview": "1. Salesforce 将以约 36 亿美元收购 AI 客服公司 Fin，企业级 AI Agent 并购继续升温。",
+      "raw": "06:26:32 · 文字\n\n> 1. Salesforce 将以约 36 亿美元收购 AI 客服公司 Fin，企业级 AI Agent 并购继续升温。\n\n来源: [@AStockLink: hcjsj. AI 日报 · 20260615国内科技1. 华为发布 HarmonyOS 7 开发者 beta，集成 H…](https://x.com/AStockLink/status/2066578689534673043)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T06:26:32+08:00"
+    },
+    {
+      "id": "2026-06-15_001",
+      "file": "2026-06-15.md",
+      "date": "2026-06-15",
+      "time": "06:25:28",
+      "type": "文字",
+      "title": "AI 不仅仅是代码，不仅仅是聊天机器人，也不仅仅是生产力工具——它正在成为文明的基础设施。",
+      "quote": "AI 不仅仅是代码，不仅仅是聊天机器人，也不仅仅是生产力工具——它正在成为文明的基础设施。",
+      "images": [],
+      "has_image": false,
+      "author": "@vivilinsv",
+      "author_desc": "This in-depth analysis article on the cancellation of Fable5",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/vivilinsv/status/2066630023243780512",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@vivilinsv"
+      ],
+      "preview": "AI 不仅仅是代码，不仅仅是聊天机器人，也不仅仅是生产力工具——它正在成为文明的基础设施。",
+      "raw": "06:25:28 · 文字\n\n> AI 不仅仅是代码，不仅仅是聊天机器人，也不仅仅是生产力工具——它正在成为文明的基础设施。\n\n来源: [@vivilinsv: This in-depth analysis article on the cancellation of Fable5…](https://x.com/vivilinsv/status/2066630023243780512)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-15T06:25:28+08:00"
+    },
     {
       "id": "2026-06-11_002",
       "file": "2026-06-11.md",
