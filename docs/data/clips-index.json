@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-16T10:30:40.369953+08:00",
+  "generated_at": "2026-06-17T10:15:40.278007+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
   "total_files": 18,
-  "total_clips": 187,
-  "total_with_images": 31,
+  "total_clips": 196,
+  "total_with_images": 32,
   "types": {
-    "文字": 153,
-    "图片": 31,
+    "文字": 161,
+    "图片": 32,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      173
+      182
     ],
     [
       "微信公众号",
@@ -46,8 +46,16 @@
       4
     ],
     [
+      "@PandaTalk8",
+      3
+    ],
+    [
       "@Zhm20220917",
       3
+    ],
+    [
+      "@alinalinzi",
+      2
     ],
     [
       "@jimmyood",
@@ -72,20 +80,12 @@
     [
       "@ponyodong",
       2
-    ],
-    [
-      "@shao__meng",
-      2
-    ],
-    [
-      "@zeyu_kap",
-      2
     ]
   ],
   "files": [
     [
       "2026-06-16.md",
-      17
+      26
     ],
     [
       "2026-06-15.md",
@@ -157,6 +157,251 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-16_026",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "12:39:16",
+      "type": "文字",
+      "title": "OpenAI 继续推课程和企业应用，不是小新闻 这说明 AI 正在从「炫技」进入「培训和组织改造」 我越来越相信 未来很多人不是输在不会用 AI 而是输在公司、",
+      "quote": "OpenAI 继续推课程和企业应用，不是小新闻 这说明 AI 正在从「炫技」进入「培训和组织改造」 我越来越相信 未来很多人不是输在不会用 AI 而是输在公司、家庭、个人流程里没有给 AI 留位置 工具会越来越多 真正稀缺的是使用秩序",
+      "images": [],
+      "has_image": false,
+      "author": "@iamyifeic",
+      "author_desc": "OpenAI 继续推课程和企业应用，不是小新闻 这说明 AI 正在从「炫技」进入「培训和组织改造」 我越来越相信 未来很",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/iamyifeic/status/2066025338304663665",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@iamyifeic"
+      ],
+      "preview": "OpenAI 继续推课程和企业应用，不是小新闻 这说明 AI 正在从「炫技」进入「培训和组织改造」 我越来越相信 未来很多人不是输在不会用 AI 而是输在公司、家庭、个人流程里没有给 AI 留位置 工具会越来越多 真正稀缺的是使用秩序",
+      "raw": "12:39:16 · 文字\n\n> OpenAI 继续推课程和企业应用，不是小新闻 这说明 AI 正在从「炫技」进入「培训和组织改造」 我越来越相信 未来很多人不是输在不会用 AI 而是输在公司、家庭、个人流程里没有给 AI 留位置 工具会越来越多 真正稀缺的是使用秩序\n\n来源: [@iamyifeic: OpenAI 继续推课程和企业应用，不是小新闻 这说明 AI 正在从「炫技」进入「培训和组织改造」 我越来越相信 未来很…](https://x.com/iamyifeic/status/2066025338304663665)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T12:39:16+08:00"
+    },
+    {
+      "id": "2026-06-16_025",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "12:19:58",
+      "type": "文字",
+      "title": "“Show me, don't tell me”的时代",
+      "quote": "“Show me, don't tell me”的时代",
+      "images": [],
+      "has_image": false,
+      "author": "@PandaTalk8",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/PandaTalk8/status/2066086228047618456",
+      "all_urls": [
+        "https://x.com/PandaTalk8/status/2066086228047618456"
+      ],
+      "tags": [
+        "文字",
+        "@PandaTalk8"
+      ],
+      "preview": "“Show me, don't tell me”的时代",
+      "raw": "12:19:58 · 文字\n\n> “Show me, don't tell me”的时代\n\n来源: [@PandaTalk8](https://x.com/PandaTalk8/status/2066086228047618456)",
+      "datetime": "2026-06-16T12:19:58+08:00"
+    },
+    {
+      "id": "2026-06-16_024",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "12:18:59",
+      "type": "文字",
+      "title": "这就是你正处的时间尺度。变化不再按年发生，而是按周、按天。 而你花二十年爬的那条梯子，底下有人在拆。不是某一根横杆松了——是整个梯子在往下倒。稳定的工作、学历的",
+      "quote": "这就是你正处的时间尺度。变化不再按年发生，而是按周、按天。 而你花二十年爬的那条梯子，底下有人在拆。不是某一根横杆松了——是整个梯子在往下倒。稳定的工作、学历的溢价、房子只涨不跌、铁饭碗永远铁，你从小被灌的那套人生公式，每一个环节都在同一时间出问题。 托马斯·库恩在《科学革命的结构》里讲过：范式转换从来不是修修补补，旧范式不会慢慢改良，它会突然坍塌，然后被一个全新的世界观取代。",
+      "images": [],
+      "has_image": false,
+      "author": "@PandaTalk8",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/PandaTalk8/status/2066086228047618456",
+      "all_urls": [
+        "https://x.com/PandaTalk8/status/2066086228047618456"
+      ],
+      "tags": [
+        "文字",
+        "@PandaTalk8"
+      ],
+      "preview": "这就是你正处的时间尺度。变化不再按年发生，而是按周、按天。 而你花二十年爬的那条梯子，底下有人在拆。不是某一根横杆松了——是整个梯子在往下倒。稳定的工作、学历的溢价、房子只涨不跌、铁饭碗永远铁，你从小被灌的那套人生公式，每一个环节都在同一时间出问题。 托马斯·库恩在《科学革命的结构》里讲过：范式转换从来不是修修补补，旧范式不会慢慢改良，它会突然坍塌，然后被一个全新的世界观取代。",
+      "raw": "12:18:59 · 文字\n\n> 这就是你正处的时间尺度。变化不再按年发生，而是按周、按天。 而你花二十年爬的那条梯子，底下有人在拆。不是某一根横杆松了——是整个梯子在往下倒。稳定的工作、学历的溢价、房子只涨不跌、铁饭碗永远铁，你从小被灌的那套人生公式，每一个环节都在同一时间出问题。 托马斯·库恩在《科学革命的结构》里讲过：范式转换从来不是修修补补，旧范式不会慢慢改良，它会突然坍塌，然后被一个全新的世界观取代。\n\n来源: [@PandaTalk8](https://x.com/PandaTalk8/status/2066086228047618456)",
+      "datetime": "2026-06-16T12:18:59+08:00"
+    },
+    {
+      "id": "2026-06-16_023",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "12:18:44",
+      "type": "文字",
+      "title": "正处的时间尺度。变化不再按年发生，而是按周、按天",
+      "quote": "正处的时间尺度。变化不再按年发生，而是按周、按天",
+      "images": [],
+      "has_image": false,
+      "author": "@PandaTalk8",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/PandaTalk8/status/2066086228047618456",
+      "all_urls": [
+        "https://x.com/PandaTalk8/status/2066086228047618456"
+      ],
+      "tags": [
+        "文字",
+        "@PandaTalk8"
+      ],
+      "preview": "正处的时间尺度。变化不再按年发生，而是按周、按天",
+      "raw": "12:18:44 · 文字\n\n> 正处的时间尺度。变化不再按年发生，而是按周、按天\n\n来源: [@PandaTalk8](https://x.com/PandaTalk8/status/2066086228047618456)",
+      "datetime": "2026-06-16T12:18:44+08:00"
+    },
+    {
+      "id": "2026-06-16_022",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "12:03:26",
+      "type": "文字",
+      "title": "Anthropic 最近发布了一个名为 claude-code-setup 的官方插件，它的功能非常简单：扫描你的项目结构和依赖项，然后推荐你应该配置的内容。 ",
+      "quote": "Anthropic 最近发布了一个名为 claude-code-setup 的官方插件，它的功能非常简单：扫描你的项目结构和依赖项，然后推荐你应该配置的内容。  Specifically, it will suggest installing: - MCP servers suited to your project - Reusable skills - Automatically triggered hooks - Subagents for splitting tasks - Commonly used slash commands 具体来说，它会建议安装： - 适合你项目的 MCP 服务器 - 可复用的技能 - 自动触发的钩子 (Hooks) - 用于拆分任务的子代理 (Subagents) - 常用的斜杠命令 (Slash commands)  It's like it helps turn Claude Code from a tool that's \"capable of anything but requires you to arrange everything yourself\" into a customized AI development environment tailored to your specific project 这就像是它帮助 Claude Code 从一个“无所不能但需要你亲力亲为”的工具，转变成了一个为你的特定项目量身定制的 AI 开发环境。",
+      "images": [],
+      "has_image": false,
+      "author": "@VincentLogic",
+      "author_desc": "Most people using Claude Code are basically running it naked",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/VincentLogic/status/2066086591018226000",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@VincentLogic"
+      ],
+      "preview": "Anthropic 最近发布了一个名为 claude-code-setup 的官方插件，它的功能非常简单：扫描你的项目结构和依赖项，然后推荐你应该配置的内容。  Specifically, it will suggest installing: - MCP servers suited to your project - Reusable skills - Automatically triggered hooks - Subagents for splitting task...",
+      "raw": "12:03:26 · 文字\n\n> Anthropic 最近发布了一个名为 claude-code-setup 的官方插件，它的功能非常简单：扫描你的项目结构和依赖项，然后推荐你应该配置的内容。  Specifically, it will suggest installing: - MCP servers suited to your project - Reusable skills - Automatically triggered hooks - Subagents for splitting tasks - Commonly used slash commands 具体来说，它会建议安装： - 适合你项目的 MCP 服务器 - 可复用的技能 - 自动触发的钩子 (Hooks) - 用于拆分任务的子代理 (Subagents) - 常用的斜杠命令 (Slash commands)  It's like it helps turn Claude Code from a tool that's \"capable of anything but requires you to arrange everything yourself\" into a customized AI development environment tailored to your specific project 这就像是它帮助 Claude Code 从一个“无所不能但需要你亲力亲为”的工具，转变成了一个为你的特定项目量身定制的 AI 开发环境。\n\n来源: [@VincentLogic: Most people using Claude Code are basically running it naked…](https://x.com/VincentLogic/status/2066086591018226000)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T12:03:26+08:00"
+    },
+    {
+      "id": "2026-06-16_021",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "12:00:05",
+      "type": "文字",
+      "title": "人不可能真正空。 你带着经验、偏见、控制欲、路径依赖，也带着过去做成和做砸的东西。 AI 也不可能真正空。 它带着训练语料、默认套路、工具偏好和模型自己的组织方",
+      "quote": "人不可能真正空。 你带着经验、偏见、控制欲、路径依赖，也带着过去做成和做砸的东西。 AI 也不可能真正空。 它带着训练语料、默认套路、工具偏好和模型自己的组织方式。 所以，“空白启动”不是一种纯净状态。 它更像一种刻意的工作策略： 先不把旧知识库、旧提示词、旧目录、旧身份全部压上去。",
+      "images": [],
+      "has_image": false,
+      "author": "@zackzwei",
+      "author_desc": "我是 AI 知识库的重度使用者。 现在主要用 Codex + Obsidian 做协作，把项目资料、长期上下文和工作流程",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/zackzwei/status/2066092809841705131",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@zackzwei"
+      ],
+      "preview": "人不可能真正空。 你带着经验、偏见、控制欲、路径依赖，也带着过去做成和做砸的东西。 AI 也不可能真正空。 它带着训练语料、默认套路、工具偏好和模型自己的组织方式。 所以，“空白启动”不是一种纯净状态。 它更像一种刻意的工作策略： 先不把旧知识库、旧提示词、旧目录、旧身份全部压上去。",
+      "raw": "12:00:05 · 文字\n\n> 人不可能真正空。 你带着经验、偏见、控制欲、路径依赖，也带着过去做成和做砸的东西。 AI 也不可能真正空。 它带着训练语料、默认套路、工具偏好和模型自己的组织方式。 所以，“空白启动”不是一种纯净状态。 它更像一种刻意的工作策略： 先不把旧知识库、旧提示词、旧目录、旧身份全部压上去。\n\n来源: [@zackzwei: 我是 AI 知识库的重度使用者。 现在主要用 Codex + Obsidian 做协作，把项目资料、长期上下文和工作流程…](https://x.com/zackzwei/status/2066092809841705131)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T12:00:05+08:00"
+    },
+    {
+      "id": "2026-06-16_020",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "11:42:20",
+      "type": "文字",
+      "title": "智谱 GLM 5.2 正式发布，带来三大核心变化：1M 上下文窗口、增强的长任务自主完成能力，并继续作为编程模型 CodeGeeX 的核心引擎。",
+      "quote": "智谱 GLM 5.2 正式发布，带来三大核心变化：1M 上下文窗口、增强的长任务自主完成能力，并继续作为编程模型 CodeGeeX 的核心引擎。",
+      "images": [],
+      "has_image": false,
+      "author": "@sitinme",
+      "author_desc": "Zhipu GLM 5.2 has been released, with three core changes: 1M",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/sitinme/status/2066100525700182203",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@sitinme"
+      ],
+      "preview": "智谱 GLM 5.2 正式发布，带来三大核心变化：1M 上下文窗口、增强的长任务自主完成能力，并继续作为编程模型 CodeGeeX 的核心引擎。",
+      "raw": "11:42:20 · 文字\n\n> 智谱 GLM 5.2 正式发布，带来三大核心变化：1M 上下文窗口、增强的长任务自主完成能力，并继续作为编程模型 CodeGeeX 的核心引擎。\n\n来源: [@sitinme: Zhipu GLM 5.2 has been released, with three core changes: 1M…](https://x.com/sitinme/status/2066100525700182203)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T11:42:20+08:00"
+    },
+    {
+      "id": "2026-06-16_019",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "11:42:08",
+      "type": "文字",
+      "title": "Google Research 今天发了篇有意思的 blog：用退役手机搭建低碳计算平台  全球有 20 亿台旧手机躺在抽屉里。Google 的做法：把它们组织",
+      "quote": "Google Research 今天发了篇有意思的 blog：用退役手机搭建低碳计算平台  全球有 20 亿台旧手机躺在抽屉里。Google 的做法：把它们组织起来做分布式推理和轻量 ML 任务。",
+      "images": [],
+      "has_image": false,
+      "author": "@lindecai",
+      "author_desc": "Google Research 今天发了篇有意思的 blog：用退役手机搭建低碳计算平台 全球有 20 亿台旧手机躺在抽",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/lindecai/status/2066100731086868619",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@lindecai"
+      ],
+      "preview": "Google Research 今天发了篇有意思的 blog：用退役手机搭建低碳计算平台  全球有 20 亿台旧手机躺在抽屉里。Google 的做法：把它们组织起来做分布式推理和轻量 ML 任务。",
+      "raw": "11:42:08 · 文字\n\n> Google Research 今天发了篇有意思的 blog：用退役手机搭建低碳计算平台  全球有 20 亿台旧手机躺在抽屉里。Google 的做法：把它们组织起来做分布式推理和轻量 ML 任务。\n\n来源: [@lindecai: Google Research 今天发了篇有意思的 blog：用退役手机搭建低碳计算平台 全球有 20 亿台旧手机躺在抽…](https://x.com/lindecai/status/2066100731086868619)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-16T11:42:08+08:00"
+    },
+    {
+      "id": "2026-06-16_018",
+      "file": "2026-06-16.md",
+      "date": "2026-06-16",
+      "time": "11:38:44",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HKxRduwbkAAG1gG?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@alinalinzi",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/alinalinzi/status/2066116026589462760",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HKxRduwbkAAG1gG?format=jpg&name=900x900",
+        "https://x.com/alinalinzi/status/2066116026589462760"
+      ],
+      "tags": [
+        "图片",
+        "@alinalinzi"
+      ],
+      "preview": "[图片] ",
+      "raw": "11:38:44 · 图片\n\n![image](https://pbs.twimg.com/media/HKxRduwbkAAG1gG?format=jpg&name=900x900)\n\n来源: [@alinalinzi](https://x.com/alinalinzi/status/2066116026589462760)",
+      "datetime": "2026-06-16T11:38:44+08:00"
+    },
     {
       "id": "2026-06-16_017",
       "file": "2026-06-16.md",
