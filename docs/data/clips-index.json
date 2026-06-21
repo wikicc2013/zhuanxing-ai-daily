@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-20T10:02:32.579408+08:00",
+  "generated_at": "2026-06-21T10:14:48.692921+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 19,
-  "total_clips": 212,
+  "total_files": 20,
+  "total_clips": 214,
   "total_with_images": 33,
   "types": {
-    "文字": 176,
+    "文字": 178,
     "图片": 33,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      198
+      200
     ],
     [
       "微信公众号",
@@ -83,6 +83,10 @@
     ]
   ],
   "files": [
+    [
+      "2026-06-20.md",
+      2
+    ],
     [
       "2026-06-18.md",
       16
@@ -161,6 +165,59 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-20_002",
+      "file": "2026-06-20.md",
+      "date": "2026-06-20",
+      "time": "15:49:22",
+      "type": "文字",
+      "title": "885 年, 电力第一次进工厂。所有人以为生产力要爆炸。  结果 5 年后, 只有 5% 的工厂有显著提升。经济学家给这段历史起了个名字 — productiv",
+      "quote": "885 年, 电力第一次进工厂。所有人以为生产力要爆炸。  结果 5 年后, 只有 5% 的工厂有显著提升。经济学家给这段历史起了个名字 — productivity paradox。  原因很具体: 工厂只是把蒸汽机换成了电动机, 整个 floor 的布局没动。机器还是围着一个 powerpoint 排的 — 因为蒸汽机时代, 每台机器必须紧靠动力源, 否则传动损耗太大。  电力真正的优势是: 可以接到任何地方。机器不必再围着一个 powerpoint。工人、流程、物料动线都可以重新设计。  但大多数工厂没重建 floor。他们只换了动力源。  真正的 productivity 复利, 等到工厂重新设计 floor 拓扑才开始。整个过程花了 30 年。",
+      "images": [],
+      "has_image": false,
+      "author": "@xiucat",
+      "author_desc": "SCULPT 频道今天一个 21 分钟访谈, Kieran Flanagan, HubSpot SVP of Agent",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/xiucat/status/2068194547889312082",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@xiucat"
+      ],
+      "preview": "885 年, 电力第一次进工厂。所有人以为生产力要爆炸。  结果 5 年后, 只有 5% 的工厂有显著提升。经济学家给这段历史起了个名字 — productivity paradox。  原因很具体: 工厂只是把蒸汽机换成了电动机, 整个 floor 的布局没动。机器还是围着一个 powerpoint 排的 — 因为蒸汽机时代, 每台机器必须紧靠动力源, 否则传动损耗太大。  电力真正的优势是: 可以接到任何地方。机器不必再围着一个 powerpoint。工人、流程、物料动线...",
+      "raw": "15:49:22 · 文字\n\n> 885 年, 电力第一次进工厂。所有人以为生产力要爆炸。  结果 5 年后, 只有 5% 的工厂有显著提升。经济学家给这段历史起了个名字 — productivity paradox。  原因很具体: 工厂只是把蒸汽机换成了电动机, 整个 floor 的布局没动。机器还是围着一个 powerpoint 排的 — 因为蒸汽机时代, 每台机器必须紧靠动力源, 否则传动损耗太大。  电力真正的优势是: 可以接到任何地方。机器不必再围着一个 powerpoint。工人、流程、物料动线都可以重新设计。  但大多数工厂没重建 floor。他们只换了动力源。  真正的 productivity 复利, 等到工厂重新设计 floor 拓扑才开始。整个过程花了 30 年。\n\n**备注:** 故事\n\n来源: [@xiucat: SCULPT 频道今天一个 21 分钟访谈, Kieran Flanagan, HubSpot SVP of Agent…](https://x.com/xiucat/status/2068194547889312082)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-20T15:49:22+08:00"
+    },
+    {
+      "id": "2026-06-20_001",
+      "file": "2026-06-20.md",
+      "date": "2026-06-20",
+      "time": "15:47:28",
+      "type": "文字",
+      "title": "X 上关于“循环工程”的讨论升温，开发者将 AI 编程代理从一次性提示工具转向可持续运行、自我改进的编码伙伴。",
+      "quote": "X 上关于“循环工程”的讨论升温，开发者将 AI 编程代理从一次性提示工具转向可持续运行、自我改进的编码伙伴。",
+      "images": [],
+      "has_image": false,
+      "author": "@paramiao",
+      "author_desc": "2026-06-20 AI日更 | 端侧模型逼近实用拐点，AI Agent 转向循环式工作流 > 今天的核心信号集中在端",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/paramiao/status/2068214866943578602",
+      "all_urls": [
+        "https://x.com/paramiao/status/2068214866943578602"
+      ],
+      "tags": [
+        "文字",
+        "@paramiao"
+      ],
+      "preview": "X 上关于“循环工程”的讨论升温，开发者将 AI 编程代理从一次性提示工具转向可持续运行、自我改进的编码伙伴。",
+      "raw": "15:47:28 · 文字\n\n> X 上关于“循环工程”的讨论升温，开发者将 AI 编程代理从一次性提示工具转向可持续运行、自我改进的编码伙伴。\n\n来源: [@paramiao: 2026-06-20 AI日更 | 端侧模型逼近实用拐点，AI Agent 转向循环式工作流 > 今天的核心信号集中在端…](https://x.com/paramiao/status/2068214866943578602)",
+      "datetime": "2026-06-20T15:47:28+08:00"
+    },
     {
       "id": "2026-06-18_016",
       "file": "2026-06-18.md",
