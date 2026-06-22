@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-21T10:14:48.692921+08:00",
+  "generated_at": "2026-06-22T10:29:38.138486+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
-  "total_files": 20,
-  "total_clips": 214,
+  "total_files": 21,
+  "total_clips": 217,
   "total_with_images": 33,
   "types": {
-    "文字": 178,
+    "文字": 181,
     "图片": 33,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      200
+      203
     ],
     [
       "微信公众号",
@@ -62,6 +62,10 @@
       3
     ],
     [
+      "@paramiao",
+      2
+    ],
+    [
       "@xingzhanAI",
       2
     ],
@@ -76,13 +80,13 @@
     [
       "@jimmyood",
       2
-    ],
-    [
-      "@satyanadella",
-      2
     ]
   ],
   "files": [
+    [
+      "2026-06-22.md",
+      3
+    ],
     [
       "2026-06-20.md",
       2
@@ -165,6 +169,88 @@
     ]
   ],
   "clips": [
+    {
+      "id": "2026-06-22_003",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "10:16:48",
+      "type": "文字",
+      "title": "文章给出了一点点小建议： http://1.企业倒过来要向员工学习、赢得他们的信任。 2.别“惩罚”效率的提升。比如小A 把5天的活用 AI 变成了4天，别给他",
+      "quote": "文章给出了一点点小建议： http://1.企业倒过来要向员工学习、赢得他们的信任。 2.别“惩罚”效率的提升。比如小A 把5天的活用 AI 变成了4天，别给他加活。 3.奖励这种对他人、公司有帮助的成员，设立这种机制。 4. 别把披露个人 AI 方法论当做义务，把它们视为额外贡献。意思也是别给额外太多负担，而且还要给出名誉奖励，甚至 “荣誉 prompt 署名权”。  我的个人感受：虽然 OPC 这种浪潮是典型的伪概念，但个人主义叙事一定程度上是加强了。我之前就说过“AI 如镜子”，如果你是50分，AI 上限就50分。你100它也100。所以，超级个体未必开 OPC，但在大型企业内部，超级个体一定是越来越强，按幂律分布去走的。  那么试问一个100分的人，干嘛要把自己100分的 skill 分享给那些50分的、抢自己饭碗？这是人性。这种个体主义，在大企业中必然发生，也强化了组织文化层面的重要性。  说到底，知识工作者其实是很难被管理的，因为主观努力是个黑箱。黑箱你是逼不开的，只能让他自己愿意打开。  context not control 这句话含金量还在上升。不论有没有 AI。",
+      "images": [],
+      "has_image": false,
+      "author": "@complicatedoge",
+      "author_desc": "HBR 发了篇讲 AI组织的文叫《员工为什么不愿透明地分享自己的 AI 用法》。他们发现不少企业的员工已经在私下摸索出很",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "http://1.企业倒过来要向员工学习、赢得他们的信任。",
+        "https://x.com/complicatedoge/status/2068715480593125718",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@complicatedoge"
+      ],
+      "preview": "文章给出了一点点小建议： http://1.企业倒过来要向员工学习、赢得他们的信任。 2.别“惩罚”效率的提升。比如小A 把5天的活用 AI 变成了4天，别给他加活。 3.奖励这种对他人、公司有帮助的成员，设立这种机制。 4. 别把披露个人 AI 方法论当做义务，把它们视为额外贡献。意思也是别给额外太多负担，而且还要给出名誉奖励，甚至 “荣誉 prompt 署名权”。  我的个人感受：虽然 OPC 这种浪潮是典型的伪概念，但个人主义叙事一定程度上是加强了。我之前就说过“AI ...",
+      "raw": "10:16:48 · 文字\n\n> 文章给出了一点点小建议： http://1.企业倒过来要向员工学习、赢得他们的信任。 2.别“惩罚”效率的提升。比如小A 把5天的活用 AI 变成了4天，别给他加活。 3.奖励这种对他人、公司有帮助的成员，设立这种机制。 4. 别把披露个人 AI 方法论当做义务，把它们视为额外贡献。意思也是别给额外太多负担，而且还要给出名誉奖励，甚至 “荣誉 prompt 署名权”。  我的个人感受：虽然 OPC 这种浪潮是典型的伪概念，但个人主义叙事一定程度上是加强了。我之前就说过“AI 如镜子”，如果你是50分，AI 上限就50分。你100它也100。所以，超级个体未必开 OPC，但在大型企业内部，超级个体一定是越来越强，按幂律分布去走的。  那么试问一个100分的人，干嘛要把自己100分的 skill 分享给那些50分的、抢自己饭碗？这是人性。这种个体主义，在大企业中必然发生，也强化了组织文化层面的重要性。  说到底，知识工作者其实是很难被管理的，因为主观努力是个黑箱。黑箱你是逼不开的，只能让他自己愿意打开。  context not control 这句话含金量还在上升。不论有没有 AI。\n\n来源: [@complicatedoge: HBR 发了篇讲 AI组织的文叫《员工为什么不愿透明地分享自己的 AI 用法》。他们发现不少企业的员工已经在私下摸索出很…](https://x.com/complicatedoge/status/2068715480593125718)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T10:16:48+08:00"
+    },
+    {
+      "id": "2026-06-22_002",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "10:14:11",
+      "type": "文字",
+      "title": "三星大规模部署 ChatGPT Enterprise 和 Codex，显示 AI 正深入研发、制造与职能流程",
+      "quote": "三星大规模部署 ChatGPT Enterprise 和 Codex，显示 AI 正深入研发、制造与职能流程",
+      "images": [],
+      "has_image": false,
+      "author": "@paramiao",
+      "author_desc": "2026-06-22 AI日更 | 三星全员级部署 ChatGPT，企业 AI 进入流程深水区 > 今日主线是企业级 A",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/paramiao/status/2068840391043174652",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@paramiao"
+      ],
+      "preview": "三星大规模部署 ChatGPT Enterprise 和 Codex，显示 AI 正深入研发、制造与职能流程",
+      "raw": "10:14:11 · 文字\n\n> 三星大规模部署 ChatGPT Enterprise 和 Codex，显示 AI 正深入研发、制造与职能流程\n\n来源: [@paramiao: 2026-06-22 AI日更 | 三星全员级部署 ChatGPT，企业 AI 进入流程深水区 > 今日主线是企业级 A…](https://x.com/paramiao/status/2068840391043174652)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T10:14:11+08:00"
+    },
+    {
+      "id": "2026-06-22_001",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "09:54:36",
+      "type": "文字",
+      "title": "企业场景更关心长期信任、可靠关系和真实生产力",
+      "quote": "企业场景更关心长期信任、可靠关系和真实生产力",
+      "images": [],
+      "has_image": false,
+      "author": "@Gracker_Gao",
+      "author_desc": "这是一场把 Anthropic 的世界观摊开的长访谈：Dario Amodei 反复强调，AI 不是普通软件迭代，而是指",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Gracker_Gao/status/2068872189538173281",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Gracker_Gao"
+      ],
+      "preview": "企业场景更关心长期信任、可靠关系和真实生产力",
+      "raw": "09:54:36 · 文字\n\n> 企业场景更关心长期信任、可靠关系和真实生产力\n\n来源: [@Gracker_Gao: 这是一场把 Anthropic 的世界观摊开的长访谈：Dario Amodei 反复强调，AI 不是普通软件迭代，而是指…](https://x.com/Gracker_Gao/status/2068872189538173281)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T09:54:36+08:00"
+    },
     {
       "id": "2026-06-20_002",
       "file": "2026-06-20.md",
