@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-22T10:29:38.138486+08:00",
+  "generated_at": "2026-06-23T09:56:38.500780+08:00",
   "source_repo": "wikicc2013/my-clips",
   "source_path": "my-clips/clips",
   "total_files": 21,
-  "total_clips": 217,
-  "total_with_images": 33,
+  "total_clips": 225,
+  "total_with_images": 35,
   "types": {
-    "文字": 181,
-    "图片": 33,
+    "文字": 187,
+    "图片": 35,
     "其他": 3
   },
   "top_sources": [
     [
       "X(Twitter)",
-      203
+      210
     ],
     [
       "微信公众号",
@@ -62,7 +62,15 @@
       3
     ],
     [
+      "@vivilinsv",
+      2
+    ],
+    [
       "@paramiao",
+      2
+    ],
+    [
+      "@TsewangBTC",
       2
     ],
     [
@@ -72,20 +80,12 @@
     [
       "@quzhiai",
       2
-    ],
-    [
-      "@alinalinzi",
-      2
-    ],
-    [
-      "@jimmyood",
-      2
     ]
   ],
   "files": [
     [
       "2026-06-22.md",
-      3
+      11
     ],
     [
       "2026-06-20.md",
@@ -170,6 +170,203 @@
   ],
   "clips": [
     {
+      "id": "2026-06-22_010",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "12:07:58",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/card_img/2068855878132834305/cneVdu9W?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@wfyrs333",
+      "author_desc": "「Claude Codeで開発できます」より、 「既存サイトの表示崩れを1箇所直し、修正差分と確認手順を翌日までに渡しま",
+      "source": "X(Twitter)",
+      "source_page": "claude code - Search / X",
+      "source_url": "https://x.com/search?q=claude%20code&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/card_img/2068855878132834305/cneVdu9W?format=jpg&name=900x900",
+        "https://x.com/wfyrs333/status/2068905135984513353",
+        "https://x.com/search?q=claude%20code&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@wfyrs333"
+      ],
+      "preview": "「Claude Codeで開発できます」より、 「既存サイトの表示崩れを1箇所直し、修正差分と確認手順を翌日までに渡しま [含图]",
+      "raw": "12:07:58 · 图片\n\n![image](https://pbs.twimg.com/card_img/2068855878132834305/cneVdu9W?format=jpg&name=900x900)\n\n来源: [@wfyrs333: 「Claude Codeで開発できます」より、 「既存サイトの表示崩れを1箇所直し、修正差分と確認手順を翌日までに渡しま…](https://x.com/wfyrs333/status/2068905135984513353)\n所在页面: [claude code - Search / X](https://x.com/search?q=claude%20code&src=typed_query&f=live)",
+      "datetime": "2026-06-22T12:07:58+08:00"
+    },
+    {
+      "id": "2026-06-22_009",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "12:04:30",
+      "type": "文字",
+      "title": "Goal × Loop搭配指南",
+      "quote": "Goal × Loop搭配指南",
+      "images": [],
+      "has_image": false,
+      "author": "@KimYx0207",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/KimYx0207/status/2067545375305789935",
+      "all_urls": [
+        "https://x.com/KimYx0207/status/2067545375305789935"
+      ],
+      "tags": [
+        "文字",
+        "@KimYx0207"
+      ],
+      "preview": "Goal × Loop搭配指南",
+      "raw": "12:04:30 · 文字\n\n> Goal × Loop搭配指南\n\n来源: [@KimYx0207](https://x.com/KimYx0207/status/2067545375305789935)",
+      "datetime": "2026-06-22T12:04:30+08:00"
+    },
+    {
+      "id": "2026-06-22_008",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "11:59:44",
+      "type": "文字",
+      "title": "上下文图（context graphs）将成为企业启用和部署代理 harness 的最佳方式。企业中存在大量跨工具的上下文碎片化问题，而一种能自我改进、自我组织",
+      "quote": "上下文图（context graphs）将成为企业启用和部署代理 harness 的最佳方式。企业中存在大量跨工具的上下文碎片化问题，而一种能自我改进、自我组织的上帝模式全景视图，正是捕捉隐性知识（tacit knowledge）的关键。  不过，上帝模式需要治理。真正成功的版本不是无所不知，而是一个活的、基于权限的图，它从执行轨迹自动更新，持续自我改进。  为什么这很重要  大多数企业 AI 的失败不是模型问题，而是上下文问题。数据往往分散在文档、Slack、CRM、审批流程、异常历史和业内知识中，单一工具无法有效整合。上下文图通过连接实体、流程、先例、责任和政策，让代理能基于如何和为何推理，而不是只看到做了什么。  根据 Gartner 的预测，到 2028 年，超过 50% 的 AI 代理系统将采用上下文图作为核心基础设施。这标志着上下文管理正从辅助工具转变为企业 AI 的必需基础设施。  为什么它是代理式的  一个有用的上下文图不只是存储信息，它还要承担以下关键功能  提供共享记忆层：让所有代理访问同一份组织记忆，避免信息孤岛 执行基于范围的权限：确保不同代理只能访问其权限范围内的数据 检测冲突：在多个代理同时操作时识别并解决数据冲突 复用过往判断：让代理基于历史决策行动，而非每次重新发现  每一次成功行动都可成为下一次行动的先例，形成持续累积的学习循环。这种机制让代理系统随着时间推移越来越聪明，而非每次从零开始。  产品层面的论证  如果企业希望代理 harness 在大规模上有效，真正的产品不是代理 UI，而是底层的上下文基础。一个强有力的说法是：上下文图成为企业决策记录系统，而代理是这一决策记忆的消费者与生产者。  这对隐性知识仍存在于人头或分散 SaaS 孤岛的组织尤其有吸引力。传统上，这些知识只能通过长期师徒关系或面对面交流传递。上下文图通过结构化记录决策轨迹，使隐性知识得以数字化保存和复用。  Jedify 等公司指出，语义层原本是为 BI 仪表盘构建的，但上下文图为 AI 代理增加了决策轨迹和部落知识——这正是代理系统真正需要的。  更精准的说法  你可以这样重述你的核心观点，使其更具说服力和可执行性  企业需要上下文图，因为代理无法可靠地基于碎片化的工具数据行动；它们需要一个受治理、可自我改进的记忆层，来捕捉组织的先例、流程与隐性知识。  这比上帝模式更精准，也明确了治理要求。它强调了三个核心要素 1. 受治理：权限控制和安全边界 2. 可自我改进：从执行轨迹持续学习 3. 记忆层：统一的企业级共享记忆",
+      "images": [],
+      "has_image": false,
+      "author": "@Zen_EVOLVE",
+      "author_desc": "上下文图：企业部署代理 harness 的核心基础设施 引言 你的说法很有力：上下文图（context graphs）将",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/Zen_EVOLVE/status/2067794616251027527",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@Zen_EVOLVE"
+      ],
+      "preview": "上下文图（context graphs）将成为企业启用和部署代理 harness 的最佳方式。企业中存在大量跨工具的上下文碎片化问题，而一种能自我改进、自我组织的上帝模式全景视图，正是捕捉隐性知识（tacit knowledge）的关键。  不过，上帝模式需要治理。真正成功的版本不是无所不知，而是一个活的、基于权限的图，它从执行轨迹自动更新，持续自我改进。  为什么这很重要  大多数企业 AI 的失败不是模型问题，而是上下文问题。数据往往分散在文档、Slack、CRM、审批流...",
+      "raw": "11:59:44 · 文字\n\n> 上下文图（context graphs）将成为企业启用和部署代理 harness 的最佳方式。企业中存在大量跨工具的上下文碎片化问题，而一种能自我改进、自我组织的上帝模式全景视图，正是捕捉隐性知识（tacit knowledge）的关键。  不过，上帝模式需要治理。真正成功的版本不是无所不知，而是一个活的、基于权限的图，它从执行轨迹自动更新，持续自我改进。  为什么这很重要  大多数企业 AI 的失败不是模型问题，而是上下文问题。数据往往分散在文档、Slack、CRM、审批流程、异常历史和业内知识中，单一工具无法有效整合。上下文图通过连接实体、流程、先例、责任和政策，让代理能基于如何和为何推理，而不是只看到做了什么。  根据 Gartner 的预测，到 2028 年，超过 50% 的 AI 代理系统将采用上下文图作为核心基础设施。这标志着上下文管理正从辅助工具转变为企业 AI 的必需基础设施。  为什么它是代理式的  一个有用的上下文图不只是存储信息，它还要承担以下关键功能  提供共享记忆层：让所有代理访问同一份组织记忆，避免信息孤岛 执行基于范围的权限：确保不同代理只能访问其权限范围内的数据 检测冲突：在多个代理同时操作时识别并解决数据冲突 复用过往判断：让代理基于历史决策行动，而非每次重新发现  每一次成功行动都可成为下一次行动的先例，形成持续累积的学习循环。这种机制让代理系统随着时间推移越来越聪明，而非每次从零开始。  产品层面的论证  如果企业希望代理 harness 在大规模上有效，真正的产品不是代理 UI，而是底层的上下文基础。一个强有力的说法是：上下文图成为企业决策记录系统，而代理是这一决策记忆的消费者与生产者。  这对隐性知识仍存在于人头或分散 SaaS 孤岛的组织尤其有吸引力。传统上，这些知识只能通过长期师徒关系或面对面交流传递。上下文图通过结构化记录决策轨迹，使隐性知识得以数字化保存和复用。  Jedify 等公司指出，语义层原本是为 BI 仪表盘构建的，但上下文图为 AI 代理增加了决策轨迹和部落知识——这正是代理系统真正需要的。  更精准的说法  你可以这样重述你的核心观点，使其更具说服力和可执行性  企业需要上下文图，因为代理无法可靠地基于碎片化的工具数据行动；它们需要一个受治理、可自我改进的记忆层，来捕捉组织的先例、流程与隐性知识。  这比上帝模式更精准，也明确了治理要求。它强调了三个核心要素 1. 受治理：权限控制和安全边界 2. 可自我改进：从执行轨迹持续学习 3. 记忆层：统一的企业级共享记忆\n\n来源: [@Zen_EVOLVE: 上下文图：企业部署代理 harness 的核心基础设施 引言 你的说法很有力：上下文图（context graphs）将…](https://x.com/Zen_EVOLVE/status/2067794616251027527)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T11:59:44+08:00"
+    },
+    {
+      "id": "2026-06-22_007",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "11:40:33",
+      "type": "文字",
+      "title": "AI面向企业自动化（Enterprise Automation）的市场正在经历从传统的“基于规则的自动化（RPA）”向“基于认知与决策的智能自动化（Agenti",
+      "quote": "AI面向企业自动化（Enterprise Automation）的市场正在经历从传统的“基于规则的自动化（RPA）”向“基于认知与决策的智能自动化（Agentic Automation）”的范式转变。",
+      "images": [],
+      "has_image": false,
+      "author": "@fan007c",
+      "author_desc": "",
+      "source": "X(Twitter)",
+      "source_page": "",
+      "source_url": "https://x.com/fan007c/status/2068516610198098008",
+      "all_urls": [
+        "https://x.com/fan007c/status/2068516610198098008"
+      ],
+      "tags": [
+        "文字",
+        "@fan007c"
+      ],
+      "preview": "AI面向企业自动化（Enterprise Automation）的市场正在经历从传统的“基于规则的自动化（RPA）”向“基于认知与决策的智能自动化（Agentic Automation）”的范式转变。",
+      "raw": "11:40:33 · 文字\n\n> AI面向企业自动化（Enterprise Automation）的市场正在经历从传统的“基于规则的自动化（RPA）”向“基于认知与决策的智能自动化（Agentic Automation）”的范式转变。\n\n来源: [@fan007c](https://x.com/fan007c/status/2068516610198098008)",
+      "datetime": "2026-06-22T11:40:33+08:00"
+    },
+    {
+      "id": "2026-06-22_006",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "11:27:20",
+      "type": "图片",
+      "title": "image",
+      "quote": "",
+      "images": [
+        {
+          "alt": "image",
+          "url": "https://pbs.twimg.com/media/HLTtzRbakAATJlg?format=jpg&name=900x900"
+        }
+      ],
+      "has_image": true,
+      "author": "@LukeBitMarathon",
+      "author_desc": "China's first-generation AI investor Wang Jie has a notewort",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://pbs.twimg.com/media/HLTtzRbakAATJlg?format=jpg&name=900x900",
+        "https://x.com/LukeBitMarathon/status/2068539610955911323",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "图片",
+        "@LukeBitMarathon"
+      ],
+      "preview": "China's first-generation AI investor Wang Jie has a notewort [含图]",
+      "raw": "11:27:20 · 图片\n\n![image](https://pbs.twimg.com/media/HLTtzRbakAATJlg?format=jpg&name=900x900)\n\n来源: [@LukeBitMarathon: China's first-generation AI investor Wang Jie has a notewort…](https://x.com/LukeBitMarathon/status/2068539610955911323)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T11:27:20+08:00"
+    },
+    {
+      "id": "2026-06-22_005",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "11:26:02",
+      "type": "文字",
+      "title": "当写代码的速度提升 10 倍甚至 100 倍，代码周围的一切都会显得慢：产品、设计、营销、法务、合规、用户反馈和决策流程。",
+      "quote": "当写代码的速度提升 10 倍甚至 100 倍，代码周围的一切都会显得慢：产品、设计、营销、法务、合规、用户反馈和决策流程。",
+      "images": [],
+      "has_image": false,
+      "author": "@vivilinsv",
+      "author_desc": "Agentic AI 时代，真正的瓶颈是什么？吴恩达 @AndrewYNg 给了一个很清晰的判断：不是写代码能力。吴恩达",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/vivilinsv/status/2068560067797123315",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@vivilinsv"
+      ],
+      "preview": "当写代码的速度提升 10 倍甚至 100 倍，代码周围的一切都会显得慢：产品、设计、营销、法务、合规、用户反馈和决策流程。",
+      "raw": "11:26:02 · 文字\n\n> 当写代码的速度提升 10 倍甚至 100 倍，代码周围的一切都会显得慢：产品、设计、营销、法务、合规、用户反馈和决策流程。\n\n来源: [@vivilinsv: Agentic AI 时代，真正的瓶颈是什么？吴恩达 @AndrewYNg 给了一个很清晰的判断：不是写代码能力。吴恩达…](https://x.com/vivilinsv/status/2068560067797123315)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T11:26:02+08:00"
+    },
+    {
+      "id": "2026-06-22_004",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "10:44:26",
+      "type": "文字",
+      "title": "三星将 ChatGPT Enterprise 和 Codex 推向韩国全员及全球 DX 员工，这是 OpenAI 最大规模企业部署之一，值得关注其如何把智能体能",
+      "quote": "三星将 ChatGPT Enterprise 和 Codex 推向韩国全员及全球 DX 员工，这是 OpenAI 最大规模企业部署之一，值得关注其如何把智能体能力嵌入研发、制造、营销与职能流程。与此同时，网络安全评估方法论也在成熟：从沙盒目标、任务难度输入、工具配置到评分器设计，开始形成可复用模式。建议工程与安全团队一起阅读：前者看组织级采用路径，后者看如何为高风险场景建立可靠评测闭环。",
+      "images": [],
+      "has_image": false,
+      "author": "",
+      "author_desc": "",
+      "source": "",
+      "source_page": "",
+      "source_url": "https://www.miaok.ong/ai-daily/ai-daily-2026-06-22/",
+      "all_urls": [
+        "https://www.miaok.ong/ai-daily/ai-daily-2026-06-22/"
+      ],
+      "tags": [
+        "文字"
+      ],
+      "preview": "三星将 ChatGPT Enterprise 和 Codex 推向韩国全员及全球 DX 员工，这是 OpenAI 最大规模企业部署之一，值得关注其如何把智能体能力嵌入研发、制造、营销与职能流程。与此同时，网络安全评估方法论也在成熟：从沙盒目标、任务难度输入、工具配置到评分器设计，开始形成可复用模式。建议工程与安全团队一起阅读：前者看组织级采用路径，后者看如何为高风险场景建立可靠评测闭环。",
+      "raw": "10:44:26 · 文字\n\n> 三星将 ChatGPT Enterprise 和 Codex 推向韩国全员及全球 DX 员工，这是 OpenAI 最大规模企业部署之一，值得关注其如何把智能体能力嵌入研发、制造、营销与职能流程。与此同时，网络安全评估方法论也在成熟：从沙盒目标、任务难度输入、工具配置到评分器设计，开始形成可复用模式。建议工程与安全团队一起阅读：前者看组织级采用路径，后者看如何为高风险场景建立可靠评测闭环。\n\n来源: [2026-06-22 AI日更 | 三星全员级部署 ChatGPT，企业 AI 进入流程深水区 · Miao Kong](https://www.miaok.ong/ai-daily/ai-daily-2026-06-22/)",
+      "datetime": "2026-06-22T10:44:26+08:00"
+    },
+    {
       "id": "2026-06-22_003",
       "file": "2026-06-22.md",
       "date": "2026-06-22",
@@ -250,6 +447,33 @@
       "preview": "企业场景更关心长期信任、可靠关系和真实生产力",
       "raw": "09:54:36 · 文字\n\n> 企业场景更关心长期信任、可靠关系和真实生产力\n\n来源: [@Gracker_Gao: 这是一场把 Anthropic 的世界观摊开的长访谈：Dario Amodei 反复强调，AI 不是普通软件迭代，而是指…](https://x.com/Gracker_Gao/status/2068872189538173281)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
       "datetime": "2026-06-22T09:54:36+08:00"
+    },
+    {
+      "id": "2026-06-22_011",
+      "file": "2026-06-22.md",
+      "date": "2026-06-22",
+      "time": "07:49:19",
+      "type": "文字",
+      "title": "第一次工业革命前的公司只有一家上市公司活到现在——哈德逊湾公司 (Hudson's Bay Company - HBC)，而现在是第一次AI革命的开端。    ",
+      "quote": "第一次工业革命前的公司只有一家上市公司活到现在——哈德逊湾公司 (Hudson's Bay Company - HBC)，而现在是第一次AI革命的开端。    第一次工业革命中：传统手工作坊，100%淘汰；特许股份公司，淘汰95%。前AI时代的企业如果无法从组织架构上100%的杀死原来的自己，是无法生存下去的。",
+      "images": [],
+      "has_image": false,
+      "author": "@TsewangBTC",
+      "author_desc": "第一次工业革命前的公司只有一家上市公司活到现在——哈德逊湾公司 (Hudson's Bay Company - HBC)",
+      "source": "X(Twitter)",
+      "source_page": "AI 组织 - Search / X",
+      "source_url": "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live",
+      "all_urls": [
+        "https://x.com/TsewangBTC/status/2069155805824471284",
+        "https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live"
+      ],
+      "tags": [
+        "文字",
+        "@TsewangBTC"
+      ],
+      "preview": "第一次工业革命前的公司只有一家上市公司活到现在——哈德逊湾公司 (Hudson's Bay Company - HBC)，而现在是第一次AI革命的开端。    第一次工业革命中：传统手工作坊，100%淘汰；特许股份公司，淘汰95%。前AI时代的企业如果无法从组织架构上100%的杀死原来的自己，是无法生存下去的。",
+      "raw": "07:49:19 · 文字\n\n> 第一次工业革命前的公司只有一家上市公司活到现在——哈德逊湾公司 (Hudson's Bay Company - HBC)，而现在是第一次AI革命的开端。    第一次工业革命中：传统手工作坊，100%淘汰；特许股份公司，淘汰95%。前AI时代的企业如果无法从组织架构上100%的杀死原来的自己，是无法生存下去的。\n\n来源: [@TsewangBTC: 第一次工业革命前的公司只有一家上市公司活到现在——哈德逊湾公司 (Hudson's Bay Company - HBC)…](https://x.com/TsewangBTC/status/2069155805824471284)\n所在页面: [AI 组织 - Search / X](https://x.com/search?q=AI%20%20%E7%BB%84%E7%BB%87&src=typed_query&f=live)",
+      "datetime": "2026-06-22T07:49:19+08:00"
     },
     {
       "id": "2026-06-20_002",
