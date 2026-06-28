@@ -1,11 +1,12 @@
 {
   "_meta": {
-    "version": "v5.0",
-    "lastUpdate": "2026-05-13",
-    "totalSources": 181,
+    "version": "v5.3",
+    "lastUpdate": "2026-06-28",
+    "totalSources": 196,
     "executionMode": "claude.ai-single-run",
-    "philosophy": "v5 全量纳入 Karpathy 92 信源(2026 年 1 月推荐,2025 HN 最受欢迎博客)+ v4 企业 AI 视角 64 源 + 用户指定扩展 30 源。但物理纳入 ≠ 全部必抓。每次跑早报时,Claude 按 Tier 优先级 + 维度配额 + 企业 AI 视角过滤,Karpathy 92 中纯个人随笔/复古计算/Linux 内核类的源即使在 24h 内有更新也不收录到早报里(除非内容罕见地与企业 AI 强相关)。",
-    "notes": "Tier 0 是 Karpathy 92 源里和企业 AI 强相关的精选(必抓);Tier 1-2 是 v4 企业 AI 核心(必抓);Tier 3-4 是分析师 + 国内中文 + 大厂(常规抓);Tier 5 是 Karpathy 92 剩余源(兜底);Tier 6 是聚合(兜底)。"
+    "philosophy": "v5 全量纳入 Karpathy 92 信源(2026 年 1 月推荐,2025 HN 最受欢迎博客)+ v4 企业 AI 视角 64 源 + 用户指定扩展 30 源。但物理纳入 ≠ 全部必抓。每次跑早报时,Claude 按 Tier 优先级 + 维度配额 + 企业 AI 视角过滤,Karpathy 92 中纯个人随笔/复古计算/Linux 内核类的源即使在 24h 内有更新也不收录到早报里(除非内容罕见地与企业 AI 强相关)。v5.3 针对『中国源全是科技/财经媒体、清一色报道大模型厂商(乙方)动态』的结构性缺口,新增 Tier 4D 中国产业落地 & 甲方视角 15 源(产业智库/制造业数字化/行业垂类/政策官方)。",
+    "notes": "Tier 0 是 Karpathy 92 源里和企业 AI 强相关的精选(必抓);Tier 1-2 是 v4 企业 AI 核心(必抓);Tier 3-4 是分析师 + 国内中文 + 大厂(常规抓);Tier 4D 是中国甲方/产业落地视角(v5.3 新增,常规抓,多为公众号需 search 兜底);Tier 5 是 Karpathy 92 剩余源(兜底);Tier 6 是聚合(兜底)。",
+    "changelog_v53": "① 新增 Tier 4D『中国产业落地 & 甲方视角』15 源,刻意区别于 Tier 4 的乙方媒体视角,主攻企业落地/制造/行业/政策。② 配合 SKILL v5.3 的『第 4 层跨天去重』:routine 每次跑必须先读过去 2-3 天已发早报,对已报道事件去重,仅在有实质新进展时保留并标注『📈 较昨日新增』。"
   },
 
   "tier0_karpathy_enterprise_picks": {
@@ -283,6 +284,33 @@
       {"id": "sequoia-china", "name": "红杉中国 / Sequoia China", "url": "https://www.sequoiacap.com/china/", "authority": "tier1", "primaryDimensions": ["商业", "国内 VC"], "_v5_new": true},
       {"id": "hsg-wechat", "name": "红杉资本 公众号 (HSGCN)", "url": "https://mp.weixin.qq.com/", "authority": "tier2-cn", "primaryDimensions": ["商业", "国内 VC"], "_v5_new": true, "_note": "微信公众号,需 search 兜底"},
       {"id": "yc-news", "name": "Y Combinator (W26/S26)", "url": "https://www.ycombinator.com/blog", "authority": "tier1", "primaryDimensions": ["创业", "VC"], "_v5_new": true}
+    ]
+  },
+
+  "tier4d_china_industry_demand_side": {
+    "_description": "Tier 4D · 中国产业落地 & 甲方视角(v5.3 新增,15 个)。专门弥补 Tier 4 全是 AI 科技/财经媒体、清一色报道大模型厂商(乙方)动态的结构性缺口。本层聚焦『企业怎么用 AI / 制造业落地 / 行业实践 / 政策环境』——即甲方/需求侧视角。多数为微信公众号或反爬中文站,默认 search 兜底:`web_search \"[源名] [关键词] 2026\"`。",
+    "产业智库与甲方研究": [
+      {"id": "jiazi-guangnian", "name": "甲子光年", "url": "https://www.jazzyear.com", "authority": "tier1-cn-demand", "primaryDimensions": ["产业研究", "甲方落地", "案例"], "_v53_new": true, "_note": "产业 AI 研究第一梯队,强甲方/落地视角,亦发智库报告"},
+      {"id": "equalocean", "name": "亿欧 EqualOcean", "url": "https://www.iyiou.com", "authority": "tier1-cn-demand", "primaryDimensions": ["产业互联网", "企业数字化", "案例"], "_v53_new": true},
+      {"id": "shuzhi-qianxian", "name": "数智前线 (公众号)", "url": "https://mp.weixin.qq.com/", "authority": "tier2-cn-demand", "primaryDimensions": ["企业数字化转型", "案例"], "_v53_new": true, "_note": "微信公众号,search 兜底。企业数字化一线"},
+      {"id": "leiphone-aigold", "name": "AI 掘金志 (雷峰网产业组)", "url": "https://www.leiphone.com/special/custom/AITopic", "authority": "tier2-cn-demand", "primaryDimensions": ["行业 AI 落地", "医疗/金融/制造"], "_v53_new": true},
+      {"id": "36kr-tob", "name": "36氪 To B / 数字时氪", "url": "https://36kr.com/motif/327686804226", "authority": "tier2-cn-demand", "primaryDimensions": ["企业服务", "ToB 落地"], "_v53_new": true, "_note": "甲方采购/企业服务视角,与已有 36氪 AI 频道互补"}
+    ],
+    "制造业数字化": [
+      {"id": "eworks", "name": "e-works 数字化企业网", "url": "https://www.e-works.net.cn", "authority": "tier1-cn-demand", "primaryDimensions": ["制造业数字化", "智能制造"], "_v53_new": true, "_note": "中国制造业信息化/数字化老牌门户,甲方 CIO 视角"},
+      {"id": "gg-robot", "name": "高工机器人 (GGII)", "url": "https://www.gg-robot.com", "authority": "tier2-cn-demand", "primaryDimensions": ["工业机器人", "智能制造"], "_v53_new": true},
+      {"id": "cinn", "name": "中国工业新闻网", "url": "https://www.cinn.cn", "authority": "tier2-cn-demand", "primaryDimensions": ["工业政策", "制造业"], "_v53_new": true, "_note": "工信部主管,工业互联网/制造业 AI 政策与实践"},
+      {"id": "c114-aimfg", "name": "工业互联网/智能制造 (search 聚合)", "url": "https://mp.weixin.qq.com/", "authority": "tier2-cn-demand", "primaryDimensions": ["智能制造", "工业 AI"], "_v53_new": true, "_note": "无单一首页,以 search \"智能制造 AI 落地 2026\" 形式覆盖"}
+    ],
+    "行业垂类落地": [
+      {"id": "vcbeat", "name": "动脉网 (医疗 AI)", "url": "https://www.vcbeat.top", "authority": "tier2-cn-demand", "primaryDimensions": ["医疗 AI", "案例"], "_v53_new": true},
+      {"id": "gasgoo-ai", "name": "盖世汽车 (汽车 AI)", "url": "https://auto.gasgoo.com", "authority": "tier2-cn-demand", "primaryDimensions": ["汽车 AI", "智能驾驶"], "_v53_new": true},
+      {"id": "lingshou-laoban", "name": "零售老板内参 (公众号)", "url": "https://mp.weixin.qq.com/", "authority": "tier2-cn-demand", "primaryDimensions": ["零售 AI", "消费"], "_v53_new": true, "_note": "微信公众号,search 兜底"},
+      {"id": "digital-finance", "name": "数字金融 AI 落地 (search 聚合)", "url": "https://mp.weixin.qq.com/", "authority": "tier2-cn-demand", "primaryDimensions": ["金融 AI", "银行/保险"], "_v53_new": true, "_note": "以 search \"银行 保险 AI Agent 落地 2026\" 形式覆盖"}
+    ],
+    "政策与官方": [
+      {"id": "miit", "name": "工业和信息化部", "url": "https://www.miit.gov.cn", "authority": "tier1-cn-gov", "primaryDimensions": ["产业政策", "制造业"], "_v53_new": true, "_note": "AI+/智能制造/数据要素政策原始出处"},
+      {"id": "ccid", "name": "赛迪研究院 / 赛迪顾问", "url": "https://www.ccidgroup.com", "authority": "tier1-cn-gov", "primaryDimensions": ["产业研究报告", "政策"], "_v53_new": true, "_note": "工信部直属智库,产业白皮书/排行榜"}
     ]
   },
 

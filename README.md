@@ -11,7 +11,7 @@
 
 1. 从 GitHub clone 这个 repo
 2. 读 `SKILL.md` 规范 + `sources.json` 信源清单
-3. 用 web_fetch + web_search 抓取过去 24h 全球 181 个企业 AI 信源
+3. 用 web_fetch + web_search 抓取过去 24h 全球 196 个企业 AI 信源
 4. 生成中文 Markdown 早报 → `reports/YYYY-MM-DD.md`
 5. 更新目录 `reports/index.md`
 6. Git commit + push 到 `main`
@@ -114,7 +114,7 @@ git push -u origin main
 zhuanxing-ai-daily/
 ├── README.md                          ← 你在读的这个文件
 ├── SKILL.md                           ← v5.1 完整规范（参考资产）
-├── sources.json                       ← 181 信源清单
+├── sources.json                       ← 196 信源清单
 ├── .gitignore
 ├── .claude/
 │   └── routines/
@@ -250,7 +250,7 @@ Max 计划每日 15 次 routine，你可以并行加：
 - [Claude Code Routines 官方文档](https://code.claude.com/docs/en/routines)
 - [Routines 限额说明](https://claude.ai/settings/usage)
 - [SKILL v5.1 完整规范](./SKILL.md)
-- [181 信源清单](./sources.json)
+- [196 信源清单](./sources.json)
 - [飞书机器人配置](./docs/feishu-setup.md)
 
 ---
