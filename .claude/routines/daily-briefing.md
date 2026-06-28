@@ -18,7 +18,13 @@
 ## 执行流程（按顺序）
 
 ### Step 0: 准备
-1. 用 `bash date '+%Y-%m-%d %H:%M:%S %Z'` 锚定当前北京时间
+1. **锚定北京时间（⚠️ 时区硬要求）**：云端运行环境通常是 **UTC**。本 Routine 在**北京凌晨 4:00 触发 = UTC 前一日 20:00**，已跨过 UTC 日界。**所有 date 命令必须显式加 `TZ='Asia/Shanghai'`**，否则会算成昨天 → 早报命名错位、跨天去重读错文件。先定义统一日期锚点，后续全部引用：
+   ```bash
+   TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z'        # 打印确认是北京时间
+   TODAY=$(TZ='Asia/Shanghai' date '+%Y-%m-%d')           # 今天（早报文件名用它）
+   YESTERDAY=$(TZ='Asia/Shanghai' date -d '1 day ago' '+%Y-%m-%d')
+   DBEFORE=$(TZ='Asia/Shanghai' date -d '2 days ago' '+%Y-%m-%d')
+   ```
 2. 计算时间窗口：过去 24h（Tier 1-6）+ 过去 7 天（Tier 0）
 3. 读 `SKILL.md` 整个文件，理解最新规范（特别是第 10 节 14、15 条禁令——**早报正文严格禁止开发噪音**）
 
@@ -30,8 +36,8 @@ cat reports/index.md       # 看目录
 
 **然后必须读昨天和前天的早报正文**，建立「已报道事件清单」：
 ```bash
-cat reports/$(date -d '1 day ago' '+%Y-%m-%d').md   # 昨天
-cat reports/$(date -d '2 days ago' '+%Y-%m-%d').md   # 前天
+cat reports/$YESTERDAY.md   # 昨天（Step 0 已用北京时区定义）
+cat reports/$DBEFORE.md     # 前天
 ```
 - 提取这两天所有标题 + Top 5 + 咨询报告名，作为本次的「去重黑名单」
 - **今天的候选只要命中黑名单且无实质新进展，一律不写进早报**（详见 Step 3 跨天去重规则）
@@ -71,7 +77,7 @@ cat reports/$(date -d '2 days ago' '+%Y-%m-%d').md   # 前天
 ### Step 5: Commit + Push
 ```bash
 git add reports/
-git commit -m "daily-briefing: $(date '+%Y-%m-%d')"
+git commit -m "daily-briefing: $TODAY"
 git push origin main
 ```
 
