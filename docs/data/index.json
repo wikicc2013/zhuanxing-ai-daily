@@ -1,14 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T21:39:02.751771+00:00",
-    "total_reports": 40,
-    "total_articles": 2677,
+    "generated_at": "2026-06-29T22:20:53.439723+00:00",
+    "total_reports": 41,
+    "total_articles": 2682,
     "date_range": [
       "2026-05-14",
-      "2026-06-29"
+      "2026-06-30"
     ]
   },
   "reports": [
+    {
+      "date": "2026-06-30",
+      "weekday": "周二",
+      "signal_strength": "medium",
+      "main_count": 0,
+      "tier0_count": 0,
+      "summary": "🇨🇳 [中国] 字节豆包大模型 2.1 发布：MaaS 市占 49.5% 夺冠，日均调用突破 180 万亿",
+      "url": "reports/2026-06-30.md",
+      "article_count": 5
+    },
     {
       "date": "2026-06-29",
       "weekday": "周一",
@@ -411,6 +421,93 @@
     }
   ],
   "articles": [
+    {
+      "id": "20260630-T01",
+      "date": "2026-06-30",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "🇨🇳 [中国] 字节豆包大模型 2.1 发布：MaaS 市占 49.5% 夺冠，日均调用突破 180 万亿",
+      "summary": "字节跳动在火山引擎 FORCE 大会上发布豆包大模型 2.1（Pro + Turbo），Pro 版在通用 Agent 能力、Coding 端到端交付和多模态理解三大核心维度实现\"生产级质变\"。截至 2026 年 6 月，日均 Token 调用量突破 180 万亿，过去一年增长超 10 倍；超 110 万企业和个人接入，年调用超 1 万亿的企业达 200 家（半年翻倍）。按 Token 份额计算，火山引擎在中国公有云 MaaS 服务市占达 49.5%，位居第一。定价 6 元/百万输入 Token，约为 Claude Opus 4.6 成本的 20%。\n🔗 来源：36 氪",
+      "meaning": "：火山引擎已从探索期进入规模化收割期，价格战叠加能力升级，国内 MaaS 格局短期难以撼动。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "字节",
+        "豆包"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260630-T02",
+      "date": "2026-06-30",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐ [双源] 韩国三星 + SK 海力士承诺超 9000 亿美元，正面应对\"RAMageddon\"AI 内存危机",
+      "summary": "韩国总统主导：三星 + SK 海力士在西南部建 4 座新晶圆厂（5180 亿美元）、HBM 封装中心（520 亿美元）、AI 数据中心（3560 亿美元），合计承诺超 9000 亿美元，将韩国打造为\"不可替代\"内存强国，回应 AI 算力扩张导致的全球内存芯片严重短缺危机。新厂通常需数年投产，届时需求曲线可能已变。\n🔗 主源：TechCrunch（batch-1） + TechCrunch（batch-2，细节补充）",
+      "meaning": "：AI 算力军备竞赛已从 GPU 蔓延至存储基础设施，HBM 交付周期将成新供应链瓶颈，规模超过美国任何单一 AI 基建承诺。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "TechCrunch"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260630-T03",
+      "date": "2026-06-30",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "OpenAI 发布 GPT-5.6 三件套：Sol / Terra / Luna，GPT-5.5 级能力价格减半",
+      "summary": "OpenAI 6 月 26 日宣布 GPT-5.6 系列：旗舰版 Sol、均衡版 Terra（性能持平 GPT-5.5 但价格减半）、轻量版 Luna（低成本快速）。定价：Luna 输入/输出 $1/$6，Sol $5/$30。重大更新：引入显式断点的 Prompt 缓存机制，最短缓存有效期 30 分钟，写入成本 1.25x、读取享 90% 折扣。目前邀请制向受信合作伙伴开放预览，数周内全面上线。Simon Willison 评价该定价结构体现出 OpenAI 向\"宽泛可及\"的明确战略倾斜。\n🔗 来源：Simon Willison's Weblog（Tier 0）",
+      "meaning": "：GPT-5.5 级能力触手可及、价格减半，API 生态门槛再度下探，中小开发者议价能力显著提升。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "OpenAI",
+        "Simon Willison"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260630-T04",
+      "date": "2026-06-30",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "⭐ [双源] Anthropic 与加州州长 Newsom 签约：Claude 半价向全州政府机构开放",
+      "summary": "Anthropic 与加州州长 Newsom 达成协议，加州所有州级机构及地方政府可以半价订阅 Claude，并配套培训与技术支持。背景耐人寻味：五角大楼以\"供应链风险\"为由将 Anthropic 排除在国防部 AI 合同之外、选择 OpenAI；加州此举代表与联邦政策的战略背离，覆盖文件起草、数据分析等政务效率提升场景。Newsom 将协议定性为\"负责任 AI 治理\"示范。\n🔗 主源：TechCrunch（batch-1） + TechCrunch（batch-2，政策背景补充）",
+      "meaning": "：政府级 AI 采购格局正碎片化——联邦偏向 OpenAI，州/地方政府为 Anthropic 打开规模化入口；企业 SaaS 供应商须评估与大模型厂商的捆绑风险。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "TechCrunch"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "20260630-T05",
+      "date": "2026-06-30",
+      "is_top5": true,
+      "is_tier0": false,
+      "dimension": "🌟 Top 5",
+      "title": "🇨🇳 [中国监管] 网信办《智能体规范应用与创新发展实施意见》正式建立 + 生成式 AI 备案今日截止",
+      "summary": "网信办、发改委、工信部三部门联合印发《智能体规范应用与创新发展实施意见》——中国首个专门针对 Agent 的监管框架，按应用场景和风险分级管理：敏感/重点行业备案+检测+召回，生活娱乐等低风险领域行业自律。同时，国内所有面向公众的生成式 AI 服务算法备案今日（6 月 30 日）截止，未完成备案者将面临合规风险。\n🔗 来源：国家网信办官网 + AI 合规媒体",
+      "meaning": "：中国 Agent 监管框架正式建立，分级路径清晰；今日为备案关键节点，未合规平台须立即处理。",
+      "source": "",
+      "quality_score": 8,
+      "url": "",
+      "companies": [],
+      "keywords": []
+    },
     {
       "id": "20260629-T01",
       "date": "2026-06-29",
@@ -46677,14 +46774,14 @@
       "💰 商业": 284,
       "⚙️ 基础设施": 223,
       "🧠 Tier 0": 215,
+      "🌟 Top 5": 205,
       "🏢 案例": 203,
-      "🌟 Top 5": 200,
       "⚖️ 监管": 184,
       "👥 组织": 175
     },
     "companies": {
-      "Anthropic": 413,
-      "OpenAI": 341,
+      "Anthropic": 414,
+      "OpenAI": 343,
       "Google": 259,
       "DeepSeek": 151,
       "AWS": 147,
@@ -46692,11 +46789,11 @@
       "NVIDIA": 135,
       "Amazon": 111,
       "MIT": 103,
-      "TechCrunch": 95,
+      "TechCrunch": 97,
       "Microsoft": 92,
       "腾讯": 86,
       "Bedrock": 83,
-      "Simon Willison": 80,
+      "Simon Willison": 81,
       "智谱": 78,
       "Meta": 71,
       "Kimi": 71,
@@ -46707,9 +46804,9 @@
       "华为": 61,
       "xAI": 59,
       "Gary Marcus": 57,
-      "字节": 55,
+      "字节": 56,
+      "豆包": 53,
       "Bloomberg": 53,
-      "豆包": 52,
       "PwC": 52,
       "Karpathy": 52,
       "Stratechery": 49,
@@ -46735,15 +46832,11 @@
       "Bain": 20
     },
     "signal_days": {
-      "medium": 40
+      "medium": 41
     }
   },
   "trends": {
     "timeline_30d": [
-      {
-        "date": "2026-05-31",
-        "count": 70
-      },
       {
         "date": "2026-06-01",
         "count": 67
@@ -46859,10 +46952,15 @@
       {
         "date": "2026-06-29",
         "count": 59
+      },
+      {
+        "date": "2026-06-30",
+        "count": 0
       }
     ],
     "top_companies_timeline": {
       "Anthropic": {
+        "2026-06-30": 1,
         "2026-06-29": 12,
         "2026-06-28": 13,
         "2026-06-27": 13,
@@ -46905,6 +47003,7 @@
         "2026-05-14": 14
       },
       "OpenAI": {
+        "2026-06-30": 2,
         "2026-06-29": 5,
         "2026-06-28": 21,
         "2026-06-27": 10,
@@ -47227,6 +47326,7 @@
         "2026-05-14": 2
       },
       "TechCrunch": {
+        "2026-06-30": 2,
         "2026-06-29": 4,
         "2026-06-28": 7,
         "2026-06-27": 2,
